@@ -1,2 +1,0 @@
-9	TARGETSCAN	http://www.targetscan.org/cgi-bin/mirgene.cgi?mirg=<?>
-10	MIRANDA	http://microrna.sanger.ac.uk/cgi-bin/targets/v5/hit_list.pl?genome_id=native&mirna_id=<?>
