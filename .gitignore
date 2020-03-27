@@ -68,10 +68,10 @@ vignettes/*.pdf
 *.odt
 *.docx
 
-array.*
-Literature.*
+array*
+Literature*
 miRBase.*
-Data.*
-stats.*
-resMap.*
+Data*
+stats*
+resMap*
 QC*
