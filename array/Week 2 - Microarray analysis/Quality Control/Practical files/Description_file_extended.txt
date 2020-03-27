@@ -1,0 +1,17 @@
+ArrayDataFile	SourceName	FactorValue	Time	Treatment	Name
+GSM189437.CEL	6.5hr_nostressin_biological_rep_1	no65	t65	no	no65_1
+GSM189444.CEL	18hr_erstressin_unstimulated_biological_rep_2	er18u	t18	er_u	er18u_2
+GSM189440.CEL	18hr_erstressin_biological_rep_2	er18	t18	er	er18_2
+GSM189436.CEL	6.5hr_erstressin_biological_rep_2	er65	t65	er	er65_2
+GSM189433.CEL	30min_nostressin_biological_rep_1	no30	t30	no	no30_1
+GSM189434.CEL	30min_nostressin_biological_rep_2	no30	t30	no	no30_2
+GSM189438.CEL	6.5hr_nostressin_biological_rep_2	no65	t65	no	no65_2
+GSM189432.CEL	30min_erstressin_biological_rep_2	er30	t30	er	er30_2
+GSM189439.CEL	18hr_erstressin_biological_rep_1	er18	t18	er	er18_1
+GSM189441.CEL	18hr_nostressin_biological_rep_1	no18	t18	no	no18_1
+GSM189446.CEL	6.5hr_vehicle_control_biological_rep_2	c65	t65	c	c65_2
+GSM189445.CEL	6.5hr_vehicle_control_biological_rep_1	c65	t65	c	c65_1
+GSM189443.CEL	18hr_erstressin_unstimulated_biological_rep_1	er18u	t18	er_u	er18u_1
+GSM189435.CEL	6.5hr_erstressin_biological_rep_1	er65	t65	er	er65_1
+GSM189431.CEL	30min_erstressin_biological_rep_1	er30	t30	er	er30_1
+GSM189442.CEL	18hr_nostressin_biological_rep_2	no18	t18	no	no18_2

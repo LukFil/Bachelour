@@ -1,0 +1,94 @@
+##gff-version 3
+##date 2018-3-5
+#
+# Chromosomal coordinates of Ixodes scapularis microRNAs
+# microRNAs:               miRBase v22
+# genome-build-id:         Iscaw1
+#
+# Hairpin precursor sequences have type "miRNA_primary_transcript". 
+# Note, these sequences do not represent the full primary transcript, 
+# rather a predicted stem-loop portion that includes the precursor 
+# miRNA. Mature sequences have type "miRNA".
+#
+DS612599	.	miRNA_primary_transcript	38772	38872	.	-	.	ID=MI0012259;Alias=MI0012259;Name=isc-bantam
+DS612599	.	miRNA	38790	38812	.	-	.	ID=MIMAT0012679;Alias=MIMAT0012679;Name=isc-bantam;Derives_from=MI0012259
+DS616556	.	miRNA_primary_transcript	1178	1278	.	-	.	ID=MI0012259_2;Alias=MI0012259;Name=isc-bantam
+DS616556	.	miRNA	1196	1218	.	-	.	ID=MIMAT0012679_1;Alias=MIMAT0012679;Name=isc-bantam;Derives_from=MI0012259
+DS629750	.	miRNA_primary_transcript	8358	8437	.	-	.	ID=MI0012282;Alias=MI0012282;Name=isc-mir-7
+DS629750	.	miRNA	8401	8423	.	-	.	ID=MIMAT0012702;Alias=MIMAT0012702;Name=isc-miR-7;Derives_from=MI0012282
+DS633978	.	miRNA_primary_transcript	93542	93641	.	+	.	ID=MI0012272;Alias=MI0012272;Name=isc-mir-263a
+DS633978	.	miRNA	93562	93582	.	+	.	ID=MIMAT0012692;Alias=MIMAT0012692;Name=isc-miR-263a;Derives_from=MI0012272
+DS633978	.	miRNA_primary_transcript	113205	113305	.	+	.	ID=MI0012288;Alias=MI0012288;Name=isc-mir-96
+DS633978	.	miRNA	113225	113246	.	+	.	ID=MIMAT0012708;Alias=MIMAT0012708;Name=isc-miR-96;Derives_from=MI0012288
+DS649088	.	miRNA_primary_transcript	485358	485467	.	-	.	ID=MI0018490;Alias=MI0018490;Name=isc-mir-5310
+DS649088	.	miRNA	485383	485403	.	-	.	ID=MIMAT0021381;Alias=MIMAT0021381;Name=isc-miR-5310;Derives_from=MI0018490
+DS658596	.	miRNA_primary_transcript	21107	21207	.	-	.	ID=MI0012270;Alias=MI0012270;Name=isc-mir-219
+DS658596	.	miRNA	21166	21187	.	-	.	ID=MIMAT0012690;Alias=MIMAT0012690;Name=isc-miR-219;Derives_from=MI0012270
+DS696092	.	miRNA_primary_transcript	157384	157487	.	+	.	ID=MI0018484;Alias=MI0018484;Name=isc-mir-5305
+DS696092	.	miRNA	157443	157464	.	+	.	ID=MIMAT0021375;Alias=MIMAT0021375;Name=isc-miR-5305;Derives_from=MI0018484
+DS708614	.	miRNA_primary_transcript	70265	70374	.	-	.	ID=MI0018491;Alias=MI0018491;Name=isc-mir-5311
+DS708614	.	miRNA	70290	70311	.	-	.	ID=MIMAT0021382;Alias=MIMAT0021382;Name=isc-miR-5311;Derives_from=MI0018491
+DS711462	.	miRNA_primary_transcript	57333	57433	.	+	.	ID=MI0012278;Alias=MI0012278;Name=isc-mir-315
+DS711462	.	miRNA	57353	57374	.	+	.	ID=MIMAT0012698;Alias=MIMAT0012698;Name=isc-miR-315;Derives_from=MI0012278
+DS717196	.	miRNA_primary_transcript	247001	247110	.	+	.	ID=MI0018485;Alias=MI0018485;Name=isc-mir-5306
+DS717196	.	miRNA	247066	247087	.	+	.	ID=MIMAT0021376;Alias=MIMAT0021376;Name=isc-miR-5306;Derives_from=MI0018485
+DS734036	.	miRNA_primary_transcript	1283486	1283588	.	+	.	ID=MI0018495;Alias=MI0018495;Name=isc-mir-5315
+DS734036	.	miRNA	1283508	1283529	.	+	.	ID=MIMAT0021386;Alias=MIMAT0021386;Name=isc-miR-5315;Derives_from=MI0018495
+DS745599	.	miRNA_primary_transcript	24786	24895	.	-	.	ID=MI0018488;Alias=MI0018488;Name=isc-mir-5309
+DS745599	.	miRNA	24809	24830	.	-	.	ID=MIMAT0021379;Alias=MIMAT0021379;Name=isc-miR-5309;Derives_from=MI0018488
+DS755496	.	miRNA_primary_transcript	12152	12245	.	-	.	ID=MI0012286;Alias=MI0012286;Name=isc-mir-8
+DS755496	.	miRNA	12166	12188	.	-	.	ID=MIMAT0012706;Alias=MIMAT0012706;Name=isc-miR-8;Derives_from=MI0012286
+DS758004	.	miRNA_primary_transcript	38911	38988	.	-	.	ID=MI0010250;Alias=MI0010250;Name=isc-mir-2001
+DS758004	.	miRNA	38955	38977	.	-	.	ID=MIMAT0009721;Alias=MIMAT0009721;Name=isc-miR-2001;Derives_from=MI0010250
+DS763086	.	miRNA_primary_transcript	296440	296544	.	-	.	ID=MI0018489;Alias=MI0018489;Name=isc-mir-3931
+DS763086	.	miRNA	296464	296486	.	-	.	ID=MIMAT0021380;Alias=MIMAT0021380;Name=isc-miR-3931;Derives_from=MI0018489
+DS799611	.	miRNA_primary_transcript	45157	45257	.	-	.	ID=MI0012276;Alias=MI0012276;Name=isc-mir-2a
+DS799611	.	miRNA	45175	45197	.	-	.	ID=MIMAT0012696;Alias=MIMAT0012696;Name=isc-miR-2a;Derives_from=MI0012276
+DS799611	.	miRNA_primary_transcript	45547	45647	.	-	.	ID=MI0012277;Alias=MI0012277;Name=isc-mir-2b
+DS799611	.	miRNA	45565	45587	.	-	.	ID=MIMAT0012697;Alias=MIMAT0012697;Name=isc-miR-2b;Derives_from=MI0012277
+DS799611	.	miRNA_primary_transcript	45689	45789	.	-	.	ID=MI0012283;Alias=MI0012283;Name=isc-mir-71
+DS799611	.	miRNA	45746	45768	.	-	.	ID=MIMAT0012703;Alias=MIMAT0012703;Name=isc-miR-71;Derives_from=MI0012283
+DS803854	.	miRNA_primary_transcript	570	670	.	-	.	ID=MI0012269;Alias=MI0012269;Name=isc-mir-184
+DS803854	.	miRNA	589	610	.	-	.	ID=MIMAT0012689;Alias=MIMAT0012689;Name=isc-miR-184;Derives_from=MI0012269
+DS811420	.	miRNA_primary_transcript	416289	416380	.	+	.	ID=MI0012261;Alias=MI0012261;Name=isc-mir-1
+DS811420	.	miRNA	416344	416365	.	+	.	ID=MIMAT0012681;Alias=MIMAT0012681;Name=isc-miR-1;Derives_from=MI0012261
+DS840700	.	miRNA_primary_transcript	85144	85244	.	+	.	ID=MI0012265;Alias=MI0012265;Name=isc-mir-124
+DS840700	.	miRNA	85204	85226	.	+	.	ID=MIMAT0012685;Alias=MIMAT0012685;Name=isc-miR-124;Derives_from=MI0012265
+DS841188	.	miRNA_primary_transcript	7191	7293	.	+	.	ID=MI0015941;Alias=MI0015941;Name=isc-mir-278
+DS841188	.	miRNA	7258	7279	.	+	.	ID=MIMAT0016930;Alias=MIMAT0016930;Name=isc-miR-278;Derives_from=MI0015941
+DS848078	.	miRNA_primary_transcript	34710	34809	.	-	.	ID=MI0016443;Alias=MI0016443;Name=isc-mir-276
+DS848078	.	miRNA	34729	34749	.	-	.	ID=MIMAT0018919;Alias=MIMAT0018919;Name=isc-miR-276;Derives_from=MI0016443
+DS862055	.	miRNA_primary_transcript	102	182	.	+	.	ID=MI0015940;Alias=MI0015940;Name=isc-mir-1993
+DS862055	.	miRNA	153	173	.	+	.	ID=MIMAT0016929;Alias=MIMAT0016929;Name=isc-miR-1993;Derives_from=MI0015940
+DS874548	.	miRNA_primary_transcript	52964	53064	.	-	.	ID=MI0012284;Alias=MI0012284;Name=isc-mir-750
+DS874548	.	miRNA	52982	53004	.	-	.	ID=MIMAT0012704;Alias=MIMAT0012704;Name=isc-miR-750;Derives_from=MI0012284
+DS885551	.	miRNA_primary_transcript	436490	436590	.	+	.	ID=MI0012285;Alias=MI0012285;Name=isc-mir-79
+DS885551	.	miRNA	436550	436572	.	+	.	ID=MIMAT0012705;Alias=MIMAT0012705;Name=isc-miR-79;Derives_from=MI0012285
+DS891538	.	miRNA_primary_transcript	57423	57523	.	-	.	ID=MI0012279;Alias=MI0012279;Name=isc-mir-317
+DS891538	.	miRNA	57439	57463	.	-	.	ID=MIMAT0012699;Alias=MIMAT0012699;Name=isc-miR-317;Derives_from=MI0012279
+DS891538	.	miRNA_primary_transcript	3285820	3285911	.	-	.	ID=MI0012289;Alias=MI0012289;Name=isc-mir-993
+DS891538	.	miRNA	3285829	3285851	.	-	.	ID=MIMAT0012709;Alias=MIMAT0012709;Name=isc-miR-993;Derives_from=MI0012289
+DS900645	.	miRNA_primary_transcript	19149	19254	.	+	.	ID=MI0018492;Alias=MI0018492;Name=isc-mir-5312
+DS900645	.	miRNA	19172	19192	.	+	.	ID=MIMAT0021383;Alias=MIMAT0021383;Name=isc-miR-5312;Derives_from=MI0018492
+DS911299	.	miRNA_primary_transcript	1700291	1700391	.	-	.	ID=MI0012281;Alias=MI0012281;Name=isc-mir-307
+DS911299	.	miRNA	1700312	1700331	.	-	.	ID=MIMAT0012701;Alias=MIMAT0012701;Name=isc-miR-307;Derives_from=MI0012281
+DS911923	.	miRNA_primary_transcript	134615	134719	.	-	.	ID=MI0018487;Alias=MI0018487;Name=isc-mir-5308
+DS911923	.	miRNA	134673	134695	.	-	.	ID=MIMAT0021378;Alias=MIMAT0021378;Name=isc-miR-5308;Derives_from=MI0018487
+DS929532	.	miRNA_primary_transcript	41471	41571	.	-	.	ID=MI0012287;Alias=MI0012287;Name=isc-mir-87
+DS929532	.	miRNA	41491	41511	.	-	.	ID=MIMAT0012707;Alias=MIMAT0012707;Name=isc-miR-87;Derives_from=MI0012287
+DS942119	.	miRNA_primary_transcript	45739	45839	.	-	.	ID=MI0012264;Alias=MI0012264;Name=isc-mir-12
+DS942119	.	miRNA	45797	45819	.	-	.	ID=MIMAT0012684;Alias=MIMAT0012684;Name=isc-miR-12;Derives_from=MI0012264
+DS942119	.	miRNA_primary_transcript	46308	46417	.	-	.	ID=MI0018486;Alias=MI0018486;Name=isc-mir-5307
+DS942119	.	miRNA	46372	46394	.	-	.	ID=MIMAT0021377;Alias=MIMAT0021377;Name=isc-miR-5307;Derives_from=MI0018486
+DS945001	.	miRNA_primary_transcript	228261	228350	.	-	.	ID=MI0016444;Alias=MI0016444;Name=isc-mir-305
+DS945001	.	miRNA	228316	228337	.	-	.	ID=MIMAT0018920;Alias=MIMAT0018920;Name=isc-miR-305;Derives_from=MI0016444
+DS945001	.	miRNA_primary_transcript	243239	243339	.	-	.	ID=MI0012273;Alias=MI0012273;Name=isc-mir-275
+DS945001	.	miRNA	243257	243279	.	-	.	ID=MIMAT0012693;Alias=MIMAT0012693;Name=isc-miR-275;Derives_from=MI0012273
+DS954809	.	miRNA_primary_transcript	999151	999253	.	-	.	ID=MI0018494;Alias=MI0018494;Name=isc-mir-5314
+DS954809	.	miRNA	999173	999195	.	-	.	ID=MIMAT0021385;Alias=MIMAT0021385;Name=isc-miR-5314;Derives_from=MI0018494
+DS966815	.	miRNA_primary_transcript	32746	32846	.	-	.	ID=MI0012280;Alias=MI0012280;Name=isc-mir-375
+DS966815	.	miRNA	32765	32786	.	-	.	ID=MIMAT0012700;Alias=MIMAT0012700;Name=isc-miR-375;Derives_from=MI0012280
+DS968311	.	miRNA_primary_transcript	1340	1449	.	-	.	ID=MI0018493;Alias=MI0018493;Name=isc-mir-5313
+DS968311	.	miRNA	1343	1369	.	-	.	ID=MIMAT0021384;Alias=MIMAT0021384;Name=isc-miR-5313;Derives_from=MI0018493
+DS978597	.	miRNA_primary_transcript	252465	252565	.	-	.	ID=MI0012263;Alias=MI0012263;Name=isc-mir-100
+DS978597	.	miRNA	252523	252545	.	-	.	ID=MIMAT0012683;Alias=MIMAT0012683;Name=isc-miR-100;Derives_from=MI0012263

@@ -1,0 +1,201 @@
+591	11679671	"An abundant class of tiny RNAs with probable regulatory roles in Caenorhabditis elegans"	Lau NC, Lim LP, Weinstein EG, Bartel DP	Science. 294:858-862(2001).
+592	12672692	"The microRNAs of Caenorhabditis elegans"	Lim LP, Lau NC, Weinstein EG, Abdelhakim A, Yekta S, Rhoades MW, Burge CB, Bartel DP	Genes Dev. 17:991-1008(2003).
+593	12747828	"MicroRNAs and other tiny endogenous RNAs in C. elegans"	Ambros V, Lee RC, Lavanway A, Williams PT, Jewell D	Curr Biol. 13:807-818(2003).
+594	12769849	"Computational and experimental identification of C. elegans microRNAs"	Grad Y, Aach J, Hayes GD, Reinhart BJ, Church GM, Ruvkun G, Kim J	Mol Cell. 11:1253-1263(2003).
+595	17174894	"Large-scale sequencing reveals 21U-RNAs and additional microRNAs and endogenous siRNAs in C. elegans"	Ruby JG, Jan C, Player C, Axtell MJ, Lee W, Nusbaum C, Ge H, Bartel DP	Cell. 127:1193-1207(2006).
+596	10642801	"The lin-4 regulatory RNA controls developmental timing in Caenorhabditis elegans by blocking LIN-14 protein synthesis after the initiation of translation"	Olsen PH, Ambros V	Dev Biol. 216:671-680(1999).
+597	11679672	"An extensive class of small RNAs in Caenorhabditis elegans"	Lee RC, Ambros V	Science. 294:862-864(2001).
+598	11679670	"Identification of novel genes coding for small expressed RNAs"	Lagos-Quintana M, Rauhut R, Lendeckel W, Tuschl T	Science. 294:853-858(2001).
+599	17589500	"Intronic microRNA precursors that bypass Drosha processing"	Ruby JG, Jan CH, Bartel DP	Nature. 448:83-86(2007).
+600	15183728	"Human embryonic stem cells express a unique set of microRNAs"	Suh MR, Lee Y, Kim JY, Kim SK, Moon SH, Lee JY, Cha KY, Chung HM, Yoon HS, Moon SY, Kim VN, Kim KS	Dev Biol. 270:488-498(2004).
+601	12554860	"Numerous microRNPs in neuronal cells containing novel microRNAs"	Dostie J, Mourelatos Z, Yang M, Sharma A, Dreyfuss G	RNA. 9:180-186(2003).
+602	14573789	"Reduced accumulation of specific microRNAs in colorectal neoplasia"	Michael MZ, O' Connor SM, van Holst Pellekaan NG, Young GP, James RJ	Mol Cancer Res. 1:882-891(2003).
+603	15325244	"Altered expression profiles of microRNAs during TPA-induced differentiation of HL-60 cells"	Kasashima K, Nakamura Y, Kozu T	Biochem Biophys Res Commun. 322:403-410(2004).
+604	17604727	"A mammalian microRNA expression atlas based on small RNA library sequencing"	Landgraf P, Rusu M, Sheridan R, Sewer A, Iovino N, Aravin A, Pfeffer S, Rice A, Kamphorst AO, Landthaler M, Lin C, Socci ND, Hermida L, Fulci V, Chiaretti S, Foa R, Schliwka J, Fuchs U, Novosel A, Muller RU, Schermer B, Bissels U, Inman J, Phan Q, Chien M	Cell. 129:1401-1414(2007).
+605	17616659	"Patterns of known and novel small RNAs in human cervical cancer"	Lui WO, Pourmand N, Patterson BK, Fire A	Cancer Res. 67:6031-6043(2007).
+606	17989717	"Small RNAs analysis in CLL reveals a deregulation of miRNA expression and novel miRNA candidates of putative relevance in CLL pathogenesis"	Marton S, Garcia MR, Robello C, Persson H, Trajtenberg F, Pritsch O, Rovira C, Naya H, Dighiero G, Cayota A	Leukemia. 22:330-338(2008).
+607	12434020	"Frequent deletions and down-regulation of micro- RNA genes miR15 and miR16 at 13q14 in chronic lymphocytic leukemia"	Calin GA, Dumitru CD, Shimizu M, Bichi R, Zupo S, Noch E, Aldler H, Rattan S, Keating M, Rai K, Rassenti L, Kipps T, Negrini M, Bullrich F, Croce CM	Proc Natl Acad Sci U S A. 99:15524-15529(2002).
+608	11914277	"miRNPs: a novel class of ribonucleoproteins containing numerous microRNAs"	Mourelatos Z, Dostie J, Paushkin S, Sharma A, Charroux B, Abel L, Rappsilber J, Mann M, Dreyfuss G	Genes Dev. 16:720-728(2002).
+609	12624257	"Vertebrate microRNA genes"	Lim LP, Glasner ME, Yekta S, Burge CB, Bartel DP	Science. 299:1540(2003).
+610	15978578	"Identification of human fetal liver miRNAs by a novel method"	Fu H, Tie Y, Xu C, Zhang Z, Zhu J, Shi Y, Jiang H, Sun Z, Zheng X	FEBS Lett. 579:3849-3854(2005).
+611	12808467	"Hes1 is a target of microRNA-23 during retinoic-acid-induced neuronal differentiation of NT2 cells"	Kawasaki H, Taira K	Nature. 423:838-842(2003).
+612	12554859	"New microRNAs from mouse and human"	Lagos-Quintana M, Rauhut R, Meyer J, Borkhardt A, Tuschl T	RNA. 9:175-179(2003).
+613	18230126	"New miRNAs cloned from neuroblastoma"	Afanasyeva EA, Hotz-Wagenblatt A, Glatting KH, Westermann F	BMC Genomics. 9:52(2008).
+614	12919684	"Embryonic stem cell-specific MicroRNAs"	Houbaviy HB, Murray MF, Sharp PA	Dev Cell. 5:351-358(2003).
+615	12812784	"Temporal regulation of microRNA expression in Drosophila melanogaster mediated by hormonal signals and broad-Complex gene activity"	Sempere LF, Sokol NS, Dubrovsky EB, Berger EM, Ambros V	Dev Biol. 259:9-18(2003).
+616	12919683	"The small RNA profile during Drosophila melanogaster development"	Aravin AA, Lagos-Quintana M, Yalcin A, Zavolan M, Marks D, Snyder B, Gaasterland T, Meyer J, Tuschl T	Dev Cell. 5:337-350(2003).
+617	17989254	"Evolution, biogenesis, expression, and target predictions of a substantially expanded set of Drosophila microRNAs"	Ruby JG, Stark A, Johnston WK, Kellis M, Bartel DP, Lai EC	Genome Res. 17:1850-1864(2007).
+618	17989255	"Systematic discovery and characterization of fly microRNAs using 12 Drosophila genomes"	Stark A, Kheradpour P, Parts L, Brennecke J, Hodges E, Hannon GJ, Kellis M	Genome Res. 17:1865-1879(2007).
+619	14691535	"Identification of Drosophila MicroRNA targets"	Stark A, Brennecke J, Russell RB, Cohen SM	PLoS Biol. 1:E60(2003).
+620	12725740	"The Drosophila microRNA Mir-14 suppresses cell death and is required for normal fat metabolism"	Xu P, Vernooy SY, Guo M, Hay BA	Curr Biol. 13:790-795(2003).
+621	12007417	"Identification of tissue-specific microRNAs from mouse"	Lagos-Quintana M, Rauhut R, Yalcin A, Meyer J, Lendeckel W, Tuschl T	Curr Biol. 12:735-739(2002).
+622	15538371	"A pancreatic islet-specific microRNA regulates insulin secretion"	Poy MN, Eliasson L, Krutzfeldt J, Kuwajima S, Ma X, Macdonald PE, Pfeffer S, Tuschl T, Rajewsky N, Rorsman P, Stoffel M	Nature. 432:226-230(2004).
+623	16766679	"Identification and characterization of two novel classes of small RNAs in the mouse germline: retrotransposon-derived siRNAs in oocytes and germline small RNAs in testes"	Watanabe T, Takeda A, Tsukiyama T, Mise K, Okuno T, Sasaki H, Minami N, Imai H	Genes Dev. 20:1732-1743(2006).
+624	15634332	"New human and mouse microRNA genes found by homology search"	Weber MJ	FEBS J. 272:59-73(2005).
+625	15854907	"RNAi-mediated allelic trans-interaction at the imprinted Rtl1/Peg11 locus"	Davis E, Caiment F, Tordoir X, Cavaille J, Ferguson-Smith A, Cockett N, Georges M, Charlier C	Curr Biol. 15:743-749(2005).
+626	16582102	"The expression profile of microRNAs in mouse embryos"	Mineno J, Okamoto S, Ando T, Sato M, Chono H, Izu H, Takayama M, Asada K, Mirochnitchenko O, Inouye M, Kato I	Nucleic Acids Res. 34:1765-1771(2006).
+627	15310658	"A large imprinted microRNA gene cluster at the mouse Dlk1-Gtl2 domain"	Seitz H, Royo H, Bortolin ML, Lin SP, Ferguson-Smith AC, Cavaille J	Genome Res. 14:1741-1748(2004).
+628	14691248	"Identification of many microRNAs that copurify with polyribosomes in mammalian neurons"	Kim J, Krichevsky A, Grad Y, Hayes GD, Kosik KS, Church GM, Ruvkun G	Proc Natl Acad Sci U S A. 101:360-365(2004).
+629	16738409	"Post-transcriptional regulation of microRNA expression"	Obernosterer G, Leuschner PJ, Alenius M, Martinez J	RNA. 12:1161-1167(2006).
+630	12101121	"MicroRNAs in plants"	Reinhart BJ, Weinstein EG, Rhoades MW, Bartel B, Bartel DP	Genes Dev. 16:1616-1626(2002).
+631	12202040	"Prediction of plant microRNA targets"	Rhoades MW, Reinhart BJ, Lim LP, Burge CB, Bartel B, Bartel DP	Cell. 110:513-520(2002).
+632	16040653	"Expression of Arabidopsis MIRNA genes"	Xie Z, Allen E, Fahlgren N, Calamar A, Givan SA, Carrington JC	Plant Physiol. 138:2145-2154(2005).
+633	16954541	"MicroRNAs and other small RNAs enriched in the Arabidopsis RNA-dependent RNA polymerase-2 mutant"	Lu C, Kulkarni K, Souret FF, MuthuValliappan R, Tej SS, Poethig RS, Henderson IR, Jacobsen SE, Wang W, Green PJ, Meyers BC	Genome Res. 16:1276-1288(2006).
+634	17182867	"A diverse and evolutionarily fluid set of microRNAs in Arabidopsis thaliana"	Rajagopalan R, Vaucheret H, Trejo J, Bartel DP	Genes Dev. 20:3407-3425(2006).
+635	12226481	"Short RNAs can identify new candidate transposable element families in Arabidopsis"	Mette MF, van der Winden J, Matzke M, Matzke AJ	Plant Physiol. 130:6-9(2002).
+636	18542052	"Global identification of microRNA-target RNA pairs by parallel analysis of RNA ends"	German MA, Pillay M, Jeong DH, Hetawal A, Luo S, Janardhanan P, Kannan V, Rymarquis LA, Nobuta K, German R, De Paoli E, Lu C, Schroth G, Meyers BC, Green PJ	Nat Biotechnol. 26:941-946(2008).
+637	12225663	"CARPEL FACTORY, a Dicer homolog, and HEN1, a novel protein, act in microRNA metabolism in Arabidopsis thaliana"	Park W, Li J, Song R, Messing J, Chen X	Curr Biol. 12:1484-1495(2002).
+638	15345049	"Prediction and identification of Arabidopsis thaliana microRNAs and their mRNA targets"	Wang XJ, Reyes JL, Chua NH, Gaasterland T	Genome Biol. 5:R65(2004).
+639	15105502	"MicroRNA-directed cleavage of HOXB8 mRNA"	Yekta S, Shih IH, Bartel DP	Science. 304:594-596(2004).
+640	15800047	"Kaposi's sarcoma-associated herpesvirus expresses an array of viral microRNAs in latently infected cells"	Cai X, Lu S, Zhang Z, Gonzalez CM, Damania B, Cullen BR	Proc Natl Acad Sci U S A. 102:5570-5575(2005).
+641	17622355	"MicroRNAs: novel regulators involved in the pathogenesis of Psoriasis?"	Sonkoly E, Wei T, Janson PC, Saaf A, Lundeberg L, Tengvall-Linder M, Norstedt G, Alenius H, Homey B, Scheynius A, Stahle M, Pivarcsi A	PLoS ONE. 2:e610(2007).
+642	15891114	"Clustering and conservation patterns of human microRNAs"	Altuvia Y, Landgraf P, Lithwick G, Elefant N, Pfeffer S, Aravin A, Brownstein MJ, Tuschl T, Margalit H	Nucleic Acids Res. 33:2697-2706(2005).
+643	15317971	"Patterns of flanking sequence conservation and a characteristic upstream motif for microRNA gene identification"	Ohler U, Yekta S, Lim LP, Bartel DP, Burge CB	RNA. 10:1309-1322(2004).
+644	12844358	"Computational identification of Drosophila microRNA genes"	Lai EC, Tomancak P, Williams RW, Rubin GM	Genome Biol. 4:R42(2003).
+645	12679032	"bantam encodes a developmentally regulated microRNA that controls cell proliferation and regulates the proapoptotic gene hid in Drosophila"	Brennecke J, Hipfner DR, Stark A, Russell RB, Cohen SM	Cell. 113:25-36(2003).
+646	12946623	"Big things from a little RNA"	Moberg KH, Hariharan IK	Trends Cell Biol. 13:455-457(2003).
+647	11504843	"The evolution of controlled multitasked gene networks: the role of introns and other noncoding RNAs in the development of complex organisms"	Mattick JS, Gagen MJ	Mol Biol Evol. 18:1611-1630(2001).
+648	15722555	"Depletion of human micro-RNA miR-125b reveals that it is critical for the proliferation of differentiated cells but not for the down-regulation of putative targets during differentiation"	Lee YS, Kim HK, Chung S, Kim KS, Dutta A	J Biol Chem. 280:16635-16641(2005).
+649	12931144	"Control of leaf morphogenesis by microRNAs"	Palatnik JF, Allen E, Wu X, Schommer C, Schwab R, Carrington JC, Weigel D	Nature. 425:257-263(2003).
+650	17687032	"Competing interactions between micro-RNAs determine neural progenitor survival and proliferation after ethanol exposure: evidence from an ex vivo model of the fetal cerebral cortical neuroepithelium"	Sathyan P, Golden HB, Miranda RC	J Neurosci. 27:8546-8557(2007).
+651	15345052	"Microarray analysis of microRNA expression in the developing mammalian brain"	Miska EA, Alvarez-Saavedra E, Townsend M, Yoshii A, Sestan N, Rakic P, Constantine-Paton M, Horvitz HR	Genome Biol. 5:R68(2004).
+652	17805466	"Cloning and identification of novel microRNAs from rat hippocampus"	He X, Zhang Q, Liu Y, Pan X	Acta Biochim Biophys Sin (Shanghai). 39:708-714(2007).
+653	18312648	"Identification of novel and candidate miRNAs in rice by high throughput sequencing"	Sunkar R, Zhou X, Zheng Y, Zhang W, Zhu JK	BMC Plant Biol. 8:25(2008).
+654	15738415	"Accumulation of miR-155 and BIC RNA in human B cell lymphomas"	Eis PS, Tam W, Sun L, Chadburn A, Li Z, Gomez MF, Lund E, Dahlberg JE	Proc Natl Acad Sci U S A. 102:3627-3632(2005).
+655	15965474	"Identification of hundreds of conserved and nonconserved human microRNAs"	Bentwich I, Avniel A, Karov Y, Aharonov R, Gilad S, Barad O, Barzilai A, Einat P, Einav U, Meiri E, Sharon E, Spector Y, Bentwich Z	Nat Genet. 37:766-770(2005).
+656	16274478	"Identification of clustered microRNAs using an ab initio prediction method"	Sewer A, Paul N, Landgraf P, Aravin A, Pfeffer S, Brownstein MJ, Tuschl T, van Nimwegen E, Zavolan M	BMC Bioinformatics. 6:267(2005).
+657	15735639	"Systematic discovery of regulatory motifs in human promoters and 3' UTRs by comparison of several mammals"	Xie X, Lu J, Kulbokas EJ, Golub TR, Mootha V, Lindblad-Toh K, Lander ES, Kellis M	Nature. 434:338-345(2005).
+658	17322061	"Redirection of silencing targets by adenosine-to-inosine editing of miRNAs"	Kawahara Y, Zinshteyn B, Sethupathy P, Iizasa H, Hatzigeorgiou AG, Nishikura K	Science. 315:1137-1140(2007).
+659	14685240	"A microRNA controlling left/right neuronal asymmetry in Caenorhabditis elegans"	Johnston RJ, Hobert O	Nature. 426:845-849(2003).
+660	16471176	"Assessment of the microRNA system in salt-sensitive hypertension"	Naraba H, Iwai N	Hypertens Res. 28:819-826(2005).
+661	15200956	"Computational identification of plant microRNAs and their targets, including a stress-induced miRNA"	Jones-Rhoades MW, Bartel DP	Mol Cell. 14:787-799(2004).
+662	15258262	"Novel and stress-regulated microRNAs and other small RNAs from Arabidopsis"	Sunkar R, Zhu JK	Plant Cell. 16:2001-2019(2004).
+663	15608278	"ASRP: the Arabidopsis Small RNA Project Database"	Gustafson AM, Allen E, Givan S, Smith D, Carrington JC, Kasschau KD	Nucleic Acids Res. 33:D637-D640(2005).
+664	15632092	"Computational prediction of miRNAs in Arabidopsis thaliana"	Adai A, Johnson C, Mlotshwa S, Archer-Evans S, Manocha V, Vance V, Sundaresan V	Genome Res. 15:78-91(2005).
+665	16117853	"Molecular evolution of the rice miR395 gene family"	Guddeti S, Zhang DC, Li AL, Leseberg CH, Kang H, Li XG, Zhai WX, Johns MA, Mao L	Cell Res. 15:631-638(2005).
+666	15118162	"Identification of virus-encoded microRNAs"	Pfeffer S, Zavolan M, Grasser FA, Chien M, Russo JJ, Ju J, John B, Enright AJ, Marks D, Sander C, Tuschl T	Science. 304:734-736(2004).
+667	16557291	"Epstein-Barr virus microRNAs are evolutionarily conserved and differentially expressed"	Cai X, Schafer A, Lu S, Bilello JP, Desrosiers RC, Edwards R, Raab-Traub N, Cullen BR	PLoS Pathog. 2:e23(2006).
+668	15685364	"Computational identification of novel family members of microRNA genes in Arabidopsis thaliana and Oryza sativa"	Li Y, Li W, Jin YX	Acta Biochim Biophys Sin (Shanghai). 37:75-87(2005).
+669	16566924	"Identification of new central nervous system specific mouse microRNAs"	Wheeler G, Ntounia-Fousara S, Granda B, Rathjen T, Dalmay T	FEBS Lett. 580:2195-2200(2006).
+670	15592404	"Sequence and comparative analysis of the chicken genome provide unique perspectives on vertebrate evolution"	International Chicken Genome Sequencing Consortium	Nature. 432:695-716(2004).
+671	18256158	"MicroRNA profile of Marek's disease virus-transformed T-cell line MSB-1: predominance of virus-encoded microRNAs"	Yao Y, Zhao Y, Xu H, Smith LP, Lawrie CH, Watson M, Nair V	J Virol. 82:4007-4015(2008).
+672	\N		McBride D, Carre W, Law A, Clinton M	Unpublished.
+673	18463306	"Conservation of small RNA pathways in platypus"	Murchison EP, Kheradpour P, Sachidanandam R, Smith C, Hodges E, Xuan Z, Kellis M, Grutzner F, Stark A, Hannon GJ	Genome Res. 18:995-1004(2008).
+674	18511220	"Identification of novel chicken microRNAs and analysis of their genomic organization"	Shao P, Zhou H, Xiao ZD, He JH, Huang MB, Chen YQ, Qu LH	Gene. 418:34-40(2008).
+675	16750530	"Identification of microRNAs from different tissues of chicken embryo and adult chicken"	Xu H, Wang X, Du Z, Li N	FEBS Lett. 580:3610-3616(2006).
+676	18469162	"A microRNA catalog of the developing chicken embryo identified by a deep sequencing approach"	Glazov EA, Cottee PA, Barris WC, Moore RJ, Dalrymple BP, Tizard ML	Genome Res. 18:957-964(2008).
+677	15937218	"The developmental miRNA profiles of zebrafish as determined by small RNA cloning"	Chen PY, Manninga H, Slanchev K, Chien M, Russo JJ, Ju J, Sheridan R, John B, Marks DS, Gaidatzis D, Sander C, Zavolan M, Tuschl T	Genes Dev. 19:1288-1293(2005).
+678	16736008	"The zebrafish hoxDb cluster has been reduced to a single microRNA"	Woltering JM, Durston AJ	Nat Genet. 38:601-602(2006).
+679	15919954	"MicroRNA expression in zebrafish embryonic development"	Wienholds E, Kloosterman WP, Miska E, Alvarez-Saavedra E, Berezikov E, de Bruijn E, Horvitz HR, Kauppinen S, Plasterk RH	Science. 309:310-311(2005).
+680	16669754	"MicroRNAS and their regulatory roles in plants"	Jones-Rhoades MW, Bartel DP, Bartel B	Annu Rev Plant Biol. 57:19-53(2006).
+681	15642338	"Stage-specific expression of microRNAs during Xenopus development"	Watanabe T, Takeda A, Mise K, Okuno T, Suzuki T, Minami N, Imai H	FEBS Lett. 579:318-324(2005).
+682	\N	"Identifying microRNAs in plant genomes"	Maher C, Timmermans M, Stein L, Ware D	Proc IEEE CSB :718-723(2004).
+683	15916721	"Identification and characterization of new plant microRNAs using EST analysis"	Zhang BH, Pan XP, Wang QL, Cobb GP, Anderson TA	Cell Res. 15:336-360(2005).
+684	14999285	"microRNA-mediated repression of rolled leaf1 specifies maize leaf polarity"	Juarez MT, Kui JS, Thomas J, Heller BA, Timmermans MC	Nature. 428:84-88(2004).
+685	15660154	"Sorghum genome sequencing by methylation filtration"	Bedell JA, Budiman MA, Nunberg A, Citek RW, Robbins D, Jones J, Flick E, Rholfing T, Fries J, Bradford K, McMenamy J, Smith M, Holeman H, Roe BA, Wiley G, Korf IF, Rabinowicz PD, Lakey N, McCombie WR, Jeddeloh JA, Martienssen RA	PLoS Biol. 3:e13(2005).
+686	15590942	"Transcriptome analysis for the chicken based on 19,626 finished cDNA sequences and 485,337 expressed sequence tags"	Hubbard SJ, Grafham DV, Beattie KJ, Overton IM, McLaren SR, Croning MD, Boardman PE, Bonfield JK, Burnside J, Davies RM, Farrell ER, Francis MD, Griffiths-Jones S, Humphray SJ, Hyland C, Scott CE, Tang H, Taylor RG, Tickle C, Brown WR, Birney E, Rogers J,	Genome Res. 15:174-183(2005).
+687	15944709	"c-Myc-regulated microRNAs modulate E2F1 expression"	O'Donnell KA, Wentzel EA, Zeller KI, Dang CV, Mendell JT	Nature. 435:839-843(2005).
+688	15774722	"MicroRNAs regulate brain morphogenesis in zebrafish"	Giraldez AJ, Cinalli RM, Glasner ME, Enright AJ, Thomson JM, Baskerville S, Hammond SM, Bartel DP, Schier AF	Science. 308:833-838(2005).
+689	\N	"Conservation and divergence of microRNA families in plants"	Dezulian T, Palatnik JF, Huson DH, Weigel D	http://genomebiology.com/2005/6/11/p13 (2005).
+690	17543122	"Computational and transcriptional evidence for microRNAs in the honey bee genome"	Weaver DB, Anzola JM, Evans JD, Reid JG, Reese JT, Childs KL, Zdobnov EM, Samanta MP, Miller J, Elsik CG	Genome Biol. 8:R97(2007).
+691	17933784	"Anopheles gambiae miRNAs as actors of defence reaction against Plasmodium invasion"	Winter F, Edaye S, Huttenhofer A, Brunel C	Nucleic Acids Res. 35:6953-6962(2007).
+692	18500992	"Cloning, characterization, and expression of microRNAs from the Asian malaria mosquito, Anopheles stephensi"	Mead EA, Tu Z	BMC Genomics. 9:244(2008).
+693	15782219	"Identification of microRNAs of the herpesvirus family"	Pfeffer S, Sewer A, Lagos-Quintana M, Sheridan R, Sander C, Grasser FA, van Dyk LF, Ho CK, Shuman S, Chien M, Russo JJ, Ju J, Randall G, Lindenbach BD, Rice CM, Simon V, Ho DD, Zavolan M, Tuschl T	Nat Methods. 2:269-276(2005).
+694	16207254	"Human cytomegalovirus expresses novel microRNAs during productive viral infection"	Dunn W, Trang P, Zhong Q, Yang E, van Belle C, Liu F	Cell Microbiol. 7:1684-1695(2005).
+695	16140786	"Identification and characterization of human cytomegalovirus-encoded microRNAs"	Grey F, Antoniewicz A, Allen E, Saugstad J, McShea A, Carrington JC, Nelson J	J Virol. 79:12095-12099(2005).
+696	15805478	"Cloning and characterization of microRNAs from rice"	Sunkar R, Girke T, Jain PK, Zhu JK	Plant Cell. 17:1397-1411(2005).
+697	18353984	"Genome-wide analysis for discovery of rice microRNAs reveals natural antisense microRNAs (nat-miRNAs)"	Lu C, Jeong DH, Kulkarni K, Pillay M, Nobuta K, German R, Thatcher SR, Maher C, Zhang L, Ware D, Liu B, Cao X, Meyers BC, Green PJ	Proc Natl Acad Sci U S A. 105:4951-4956(2008).
+698	18402695	"Novel and nodulation-regulated microRNAs in soybean roots"	Subramanian S, Fu Y, Sunkar R, Barbazuk WB, Zhu JK, Yu O	BMC Genomics. 9:160(2008).
+699	15652478	"Phylogenetic shadowing and computational identification of human microRNA genes"	Berezikov E, Guryev V, van de Belt J, Wienholds E, Plasterk RH, Cuppen E	Cell. 120:21-24(2005).
+700	16973872	"The genome of black cottonwood, Populus trichocarpa (Torr. & Gray)"	Tuskan GA, Difazio S, Jansson S, Bohlmann J, Grigoriev I, Hellsten U, Putnam N, Ralph S, Rombauts S, Salamov A, Schein J, Sterck L, Aerts A, Bhalerao RR, Bhalerao RP, Blaudez D, Boerjan W, Brun A, Brunner A, Busov V, Campbell M, Carlson J, Chalot M, Chapm	Science. 313:1596-1604(2006).
+701	15994906	"Novel and mechanical stress-responsive MicroRNAs in Populus trichocarpa that are absent from Arabidopsis"	Lu S, Sun YH, Shi R, Clark C, Li L, Chiang VL	Plant Cell. 17:2186-2203(2005).
+702	18363789	"Stress-responsive microRNAs in Populus"	Lu S, Sun YH, Chiang VL	Plant J. 55:131-151(2008).
+703	15901636	"MicroRNA Mirn122a reduces expression of the posttranscriptionally regulated germ cell transition protein 2 (Tnp2) messenger RNA (mRNA) by mRNA cleavage"	Yu Z, Raabe T, Hecht NB	Biol Reprod. 73:427-433(2005).
+704	15851028	"microRNA-directed phasing during trans-acting siRNA biogenesis in plants"	Allen E, Xie Z, Gustafson AM, Carrington JC	Cell. 121:207-221(2005).
+705	15885146	"Pigs in sequence space: a 0.66X coverage pig genome survey based on shotgun sequencing"	Wernersson R, Schierup MH, Jorgensen FG, Gorodkin J, Panitz F, Staerfeldt HH, Christensen OF, Mailund T, Hornshoj H, Klein A, Wang J, Liu B, Hu S, Dong W, Li W, Wong GK, Yu J, Wang J, Bendixen C, Fredholm M, Brunak S, Yang H, Bolund L	BMC Genomics. 6:70(2005).
+706	18548309	"Identification and characterization of new microRNAs from pig"	Kim J, Cho IS, Hong JS, Choi YK, Kim H, Lee YS	Mamm Genome. [Epub prior to print](2008).
+707	15994824	"Cloning and identification of a microRNA cluster within the latency-associated region of Kaposi's sarcoma-associated herpesvirus"	Samols MA, Hu J, Skalsky RL, Renne R	J Virol. 79:9301-9305(2005).
+708	16474131	"Transcriptional origin of Kaposi's sarcoma-associated herpesvirus microRNAs"	Cai X, Cullen BR	J Virol. 80:2234-2242(2006).
+709	17573847	"Analysis of gene expression in normal and neoplastic human testis: new roles of RNA"	Novotny GW, Nielsen JE, Sonne SB, Skakkebaek NE, Rajpert-De Meyts E, Leffers H	Int J Androl. 30:316-326(2007).
+710	16126864	"Loss of function of OsDCL1 affects microRNA accumulation and causes developmental defects in rice"	Liu B, Li P, Li X, Liu C, Cao S, Chu C, Cao X	Plant Physiol. 139:296-305(2005).
+711	\N	"PCR-based expression analysis and identification of microRNAs"	Lu DP, Read RL, Humphreys DT, Battah FM, Martin DIK, Rasko JEJ	RNAi and Gene Silencing 1:44-49(2005).
+712	16973894	"Mouse microRNA profiles determined with a new and sensitive cloning method"	Takada S, Berezikov E, Yamashita Y, Lagos-Quintana M, Kloosterman WP, Enomoto M, Hatanaka H, Fujiwara S, Watanabe H, Soda M, Choi YL, Plasterk RH, Cuppen E, Mano H	Nucleic Acids Res. 34:e115(2006).
+713	16698962	"Cloning and expression of new microRNAs from zebrafish"	Kloosterman WP, Steiner FA, Berezikov E, de Bruijn E, van de Belt J, Verheul M, Cuppen E, Plasterk RH	Nucleic Acids Res. 34:2558-2569(2006).
+714	16146523	"Cloning and characterization of micro-RNAs from moss"	Arazi T, Talmor-Neiman M, Stav R, Riese M, Huijser P, Baulcombe DC	Plant J. 43:837-848(2005).
+715	17359535	"Evidence for the rapid expansion of microRNA-mediated regulation in early land plant evolution"	Fattash I, Voss B, Reski R, Hess WR, Frank W	BMC Plant Biol. 7:13(2007).
+716	17601824	"Common functions for diverse small RNAs of land plants"	Axtell MJ, Snyder JA, Bartel DP	Plant Cell. 19:1750-1769(2007).
+717	16505370	"The colorectal microRNAome"	Cummins JM, He Y, Leary RJ, Pagliarini R, Diaz LA Jr, Sjoblom T, Barad O, Bentwich Z, Szafranska AE, Labourier E, Raymond CK, Roberts BS, Juhl H, Kinzler KW, Vogelstein B, Velculescu VE	Proc Natl Acad Sci U S A. 103:3687-3692(2006).
+718	15931223	"SV40-encoded microRNAs regulate viral gene expression and reduce susceptibility to cytotoxic T cells"	Sullivan CS, Grundhoff AT, Tevethia S, Pipas JM, Ganem D	Nature. 435:682-686(2005).
+719	16540699	"A combined computational and microarray-based approach identifies novel microRNAs encoded by human gamma-herpesviruses"	Grundhoff A, Sullivan CS, Ganem D	RNA. 12:733-750(2006).
+720	16954537	"Many novel mammalian microRNA candidates identified by extensive cloning and RAKE analysis"	Berezikov E, van Tetering G, Verheul M, van de Belt J, van Laake L, Vos J, Verloop R, van de Wetering M, Guryev V, Takada S, van Zonneveld AJ, Mano H, Plasterk R, Cuppen E	Genome Res. 16:1289-1298(2006).
+721	18285502	"Application of massively parallel sequencing to microRNA profiling and discovery in human embryonic stem cells"	Morin RD, O'Connor MD, Griffith M, Kuchenbauer F, Delaney A, Prabhu AL, Zhao Y, McDonald H, Zeng T, Hirst M, Eaves CJ, Marra MA	Genome Res. 18:610-621(2008).
+722	17964270	"Mammalian mirtron genes"	Berezikov E, Chung WJ, Willis J, Cuppen E, Lai EC	Mol Cell. 28:328-336(2007).
+723	18392026	"Discovering microRNAs from deep sequencing data using miRDeep"	Friedlander MR, Chen W, Adamidi C, Maaskola J, Einspanier R, Knespel S, Rajewsky N	Nat Biotechnol. 26:407-415(2008).
+724	18402656	"Hidden layers of human small RNAs"	Kawaji H, Nakamura M, Takahashi Y, Sandelin A, Katayama S, Fukuda S, Daub CO, Kai C, Kawai J, Yasuda J, Carninci P, Hayashizaki Y	BMC Genomics. 9:157(2008).
+725	17922033	"MicroRNA expression signature of human sarcomas"	Subramanian S, Lui WO, Lee CH, Espinosa I, Nielsen TO, Heinrich MC, Corless CL, Fire AZ, van de Rijn M	Oncogene. 27:2015-2026(2008).
+726	17989215	"RNA sequence analysis defines Dicer's role in mouse embryonic stem cells"	Calabrese JM, Seila AC, Yeo GW, Sharp PA	Proc Natl Acad Sci U S A. 104:18097-18102(2007).
+727	16824179	"Novel micro-RNAs and intermediates of micro-RNA biogenesis from moss"	Talmor-Neiman M, Stav R, Frank W, Voss B, Arazi T	Plant J. 47:25-37(2006).
+728	16699030	"Prediction and identification of herpes simplex virus 1-encoded microRNAs"	Cui C, Griffiths A, Li G, Silva LM, Kramer MF, Gaasterland T, Wang XJ, Coen DM	J Virol. 80:5499-5508(2006).
+729	17105755	"Discovery and profiling of bovine microRNAs from immune-related and embryonic tissues"	Coutinho LL, Matukumalli LK, Sonstegard TS, Van Tassell CP, Gasbarre LC, Capuco AV, Smith TP	Physiol Genomics. 29:35-43(2007).
+730	17306260	"Identification and characterization of microRNAs from the bovine adipose tissue and mammary gland"	Gu Z, Eleswarapu S, Jiang H	FEBS Lett. 581:981-988(2007).
+731	18032731	"Xenopus microRNA genes are predominantly located within introns and are differentially expressed in adult frog tissues via post-transcriptional regulation"	Tang GQ, Maxwell ES	Genome Res. 18:104-112(2008).
+732	16972323	"Computational prediction of microRNA genes in silkworm genome"	Tong CZ, Jin YF, Zhang YZ	J Zhejiang Univ Sci B. 7:806-816(2006).
+733	17651473	"Characterization and expression patterns of let-7 microRNA in the silkworm (Bombyx mori)"	Liu S, Xia Q, Zhao P, Cheng T, Hong K, Xiang Z	BMC Dev Biol. 7:88(2007).
+734	18507836	"Identification and characteristics of microRNAs from Bombyx mori"	He PA, Nie Z, Chen J, Chen J, Lv Z, Sheng Q, Zhou S, Gao X, Kong L, Wu X, Jin Y, Zhang Y	BMC Genomics. 9:248(2008).
+735	18714353	"The silkworm (Bombyx mori) microRNAs and their expressions in multiple developmental stages"	Yu X, Zhou Q, Li SC, Luo Q, Cai Y, Lin WC, Chen H, Yang Y, Hu S, Yu J	PLoS ONE. 3:e2997(2008).
+736	16912324	"Marek's disease virus encodes MicroRNAs that map to meq and the latency-associated transcript"	Burnside J, Bernberg E, Anderson A, Lu C, Meyers BC, Green PJ, Jain N, Isaacs G, Morgan RW	J Virol. 80:8778-8786(2006).
+737	18430245	"Deep sequencing of chicken microRNAs"	Burnside J, Ouyang M, Anderson A, Bernberg E, Lu C, Meyers BC, Green PJ, Markis M, Isaacs G, Huang E, Morgan RW	BMC Genomics. 9:185(2008).
+738	17299599	"High-throughput sequencing of Arabidopsis microRNAs: evidence for frequent birth and death of MIRNA genes"	Fahlgren N, Howell MD, Kasschau KD, Chapman EJ, Sullivan CM, Cumbie JS, Givan SA, Law TF, Grant SR, Dangl JL, Carrington JC	PLoS ONE. 2:e219(2007).
+739	16849698	"MicroRNAs from the Planarian Schmidtea mediterranea: a model system for stem cell biology"	Palakodeti D, Smielewska M, Graveley BR	RNA. 12:1640-1649(2006).
+740	16959252	"Rice embryogenic calli express a unique set of microRNAs, suggesting regulatory roles of microRNAs in plant post-embryogenic development"	Luo YC, Zhou H, Li Y, Chen JY, Yang JH, Chen YQ, Qu LH	FEBS Lett. 580:5111-5116(2006).
+741	17965199	"In vitro and in silico annotation of conserved and nonconserved microRNAs in the genome of the marsupial Monodelphis domestica"	Devor EJ, Samollow PB	J Hered. 99:66-72(2008).
+742	17704216	"MicroRNA-mediated regulation of stomatal development in Arabidopsis"	Kutter C, Schob H, Stadler M, Meins F Jr, Si-Ammour A	Plant Cell. 19:2417-2429(2007).
+743	17189346	"A family of microRNAs present in plants and animals"	Arteaga-Vazquez M, Caballero-Perez J, Vielle-Calzada JP	Plant Cell. 18:3355-3369(2006).
+744	17237358	"The imprinted H19 noncoding RNA is a primary microRNA precursor"	Cai X, Cullen BR	RNA. 13:313-316(2007).
+745	18603441	"Identification of micro-RNAs in cotton"	Khan Barozai MY, Irfan M, Yousaf R, Ali I, Qaisar U, Maqbool A, Zahoor M, Rashid B, Hussnain T, Riazuddin S	Plant Physiol Biochem. 46:739-751(2008).
+746	\N		Younas M	Unpublished.
+747	17470535	"A complex system of small RNAs in the unicellular green alga Chlamydomonas reinhardtii"	Zhao T, Li G, Mi S, Li S, Hannon GJ, Wang XJ, Qi Y	Genes Dev. 21:1190-1203(2007).
+748	17538623	"miRNAs control gene expression in the single-cell alga Chlamydomonas reinhardtii"	Molnar A, Schwach F, Studholme DJ, Thuenemann EC, Baulcombe DC	Nature. 447:1126-1129(2007).
+749	17451774	"Cloning and analysis of microRNAs encoded by the primate gamma-herpesvirus rhesus monkey rhadinovirus"	Schafer A, Cai X, Bilello JP, Desrosiers RC, Cullen BR	Virology. 364:21-27(2007).
+750	17570552	"Initial identification of low temperature and culture stage induction of miRNA expression in suspension CHO-K1 cells"	Gammell P, Barron N, Kumar N, Clynes M	J Biotechnol. 130:213-218(2007).
+751	17367786	"Computational identification of novel microRNAs and targets in Brassica napus"	Xie FL, Huang SQ, Guo K, Xiang AL, Zhu YY, Nie L, Yang ZM	FEBS Lett. 581:1464-1474(2007).
+752	17659282	"Cloning and characterization of microRNAs from Brassica napus"	Wang L, Wang MB, Tu JX, Helliwell CA, Waterhouse PM, Dennis ES, Fu TD, Fan YL	FEBS Lett. 581:3848-3856(2007).
+753	17322031	"Suppression of microRNA-silencing pathway by HIV-1 during virus replication"	Triboulet R, Mari B, Lin YL, Chable-Bessia C, Bennasser Y, Lebrigand K, Cardinaud B, Maurin T, Barbry P, Baillat V, Reynes J, Corbeau P, Jeang KT, Benkirane M	Science. 315:1579-1582(2007).
+754	17635765	"MicroRNAs in loblolly pine (Pinus taeda L.) and their association with fusiform rust gall development"	Lu S, Sun YH, Amerson H, Chiang VL	Plant J. 51:1077-1098(2007).
+755	18323537	"Comparative analysis of the small RNA transcriptomes of Pinus contorta and Oryza sativa"	Morin RD, Aksay G, Dolgosheina E, Ebhardt HA, Magrini V, Mardis ER, Sahinalp SC, Unrau PJ	Genome Res. 18:571-584(2008).
+756	18687877	"A diverse set of microRNAs and microRNA-like small RNAs in developing rice grains"	Zhu QH, Spriggs A, Matthew L, Fan L, Kennedy G, Gubler F, Helliwell C	Genome Res. [Epub prior to print](2008).
+757	18172160	"A single Hox locus in Drosophila produces functional microRNAs from opposite DNA strands"	Stark A, Bushati N, Jan CH, Kheradpour P, Hodges E, Brennecke J, Bartel DP, Cohen SM, Kellis M	Genes Dev. 22:8-13(2008).
+758	18042455	"Systematic identification of C. elegans miRISC proteins, miRNAs, and mRNA targets by their interactions with GW182 proteins AIN-1 and AIN-2"	Zhang L, Ding L, Cheung TH, Dong MQ, Chen J, Sewell AK, Liu X, Yates JR 3rd, Han M	Mol Cell. 28:598-613(2007).
+759	17459919	"Marek's disease virus type 2 (MDV-2)-encoded microRNAs show no sequence conservation with those encoded by MDV-1"	Yao Y, Zhao Y, Xu H, Smith LP, Lawrie CH, Sewer A, Zavolan M, Nair V	J Virol. 81:7164-7170(2007).
+760	17652138	"Distinct ribonucleoprotein reservoirs for microRNA and siRNA populations in C. elegans"	Gu SG, Pak J, Barberan-Soler S, Ali M, Fire A, Zahler AM	RNA. 13:1492-1504(2007).
+761	15601474	"HIV-1 nef suppression by virally encoded microRNA"	Omoto S, Ito M, Tsutsumi Y, Ichikawa Y, Okuyama H, Brisibe EA, Saksena NK, Fujii YR	Retrovirology. 1:44(2004).
+762	15722536	"Regulation of human immunodeficiency virus 1 transcription by nef microRNA"	Omoto S, Fujii YR	J Gen Virol. 86:751-755(2005).
+763	17855543	"Analysis of the interaction of primate retroviruses with the human RNA interference machinery"	Lin J, Cullen BR	J Virol. 81:12218-12226(2007).
+764	\N	"Evidence and nature of a novel miRNA encoded by HIV-1"	Kaul D, Khanna A and Suman	Proc Indian Natn Sci Acad. 72:91-95(2006).
+765	17543110	"Cloning and characterization of microRNAs from wheat (Triticum aestivum L.)"	Yao Y, Guo G, Ni Z, Sunkar R, Du J, Zhu JK, Sun Q	Genome Biol. 8:R96(2007).
+766	17916577	"The small RNA repertoire of Dictyostelium discoideum and its regulation by components of the RNAi pathway"	Hinas A, Reimegard J, Wagner EG, Nellen W, Ambros VR, Soderbom F	Nucleic Acids Res. 35:6714-6726(2007).
+767	17942535	"Mouse cytomegalovirus microRNAs dominate the cellular small RNA profile during lytic infection and show features of posttranscriptional regulation"	Dolken L, Perot J, Cognat V, Alioua A, John M, Soutschek J, Ruzsics Z, Koszinowski U, Voinnet O, Pfeffer S	J Virol. 81:13771-13782(2007).
+768	17928340	"Discrete clusters of virus-encoded micrornas are associated with complementary strands of the genome and the 7.2-kilobase stable intron in murine cytomegalovirus"	Buck AH, Santoyo-Lopez J, Robertson KA, Kumar DS, Reczko M, Ghazal P	J Virol. 81:13761-13770(2007).
+769	\N	"Differentially expressed and new non-protein-coding genes from a Carica papaya root transcriptome survey"	Porter BW, Aizawa KS, Zhu YJ, Christopher DA	Plant Sci. 174(1):38-50(2008)
+770	17989710	"MicroRNA expression profiles of human leukemias"	Takada S, Yamashita Y, Berezikov E, Hatanaka H, Fujiwara SI, Kurashina K, Watanabe H, Enomoto M, Soda M, Choi YL, Mano H	Leukemia. 22:1274-1278(2008).
+771	18314482	"The identification of microRNAs in a genomically unstable region of human chromosome 8q24"	Huppi K, Volfovsky N, Runfola T, Jones TL, Mackiewicz M, Martin SE, Mushinski JF, Stephens R, Caplen NJ	Mol Cancer Res. 6:212-221(2008).
+772	17721507	"The grapevine genome sequence suggests ancestral hexaploidization in major angiosperm phyla"	Jaillon O, Aury JM, Noel B, Policriti A, Clepet C, Casagrande A, Choisne N, Aubourg S, Vitulo N, Jubin C, Vezzi A, Legeai F, Hugueney P, Dasilva C, Horner D, Mica E, Jublot D, Poulain J, Bruyere C, Billault A, Segurens B, Gouyvenoux M, Ugarte E, Cattonaro	Nature. 449:463-467(2007).
+773	17416744	"Rapid evolution of an X-linked microRNA cluster in primates"	Zhang R, Peng Y, Wang W, Su B	Genome Res. 17:612-617(2007).
+774	\N		Burnside et al	 in press ().
+775	18299284	"Identification of functional microRNAs released through asymmetrical processing of HIV-1 TAR element"	Ouellet DL, Plante I, Landry P, Barat C, Janelle ME, Flamand L, Tremblay MJ, Provost P	Nucleic Acids Res. 36:2353-2365(2008).
+776	\N		Podolska A, Cirera S	Unpublished.
+777	18339653	"Altered miRNA repertoire in the simplified chordate, Oikopleura dioica"	Fu X, Adamski M, Thompson EM	Mol Biol Evol. 25:1067-1080(2008).
+778	18047675	"Computational prediction and experimental validation of Ciona intestinalis microRNA genes"	Norden-Krichmar TM, Holtz J, Pasquinelli AE, Gaasterland T	BMC Genomics. 8:445(2007).
+779	18524951	"Characterization of endogenous human Argonautes and their miRNA partners in RNA silencing"	Azuma-Mukai A, Oguri H, Mituyama T, Qian ZR, Asai K, Siomi H, Siomi MC	Proc Natl Acad Sci U S A. 105:7964-7969(2008).
+780	18186931	"Identification of novel homologous microRNA genes in the rhesus macaque genome"	Yue J, Sheng Y, Orwig KE	BMC Genomics. 9:8(2008).
+781	18492288	"MicroRNA-encoding long non-coding RNAs"	He S, Su H, Liu C, Skogerbo G, He H, He D, Zhu X, Liu T, Zhao Y, Chen R	BMC Genomics. 9:236(2008).
+782	18583537	"MicroRNA Discovery and Profiling in Human Embryonic Stem Cells by Deep Sequencing of Small RNA Libraries"	Bar M, Wyman SK, Fritz BR, Qi J, Garg KS, Parkin RK, Kroh EM, Bendoraite A, Mitchell PS, Nelson AM, Ruzzo WL, Ware C, Radich JP, Gentleman R, Ruohola-Baker H, Tewari M	Stem Cells. [Epub prior to print](2008).
+783	18653800	"Deep sequencing of tomato short RNAs identifies microRNAs targeting genes involved in fruit ripening"	Moxon S, Jing R, Szittya G, Schwach F, Rusholme Pilcher RL, Moulton V, Dalmay T	Genome Res. [Epub prior to print](2008).
+784	18602455	"Identification of conserved microRNAs and their targets from Solanum lycopersicum Mill"	Zhang J, Zeng R, Chen J, Liu X, Liao Q	Gene. [Epub prior to print](2008).
+785	\N	"Computational identification of novel microRNA homologs in the chimpanzee genome"	Baev V, Daskalova E, Minkov I	Comp Biol Chem (in press) (2008).
+786	18651924	"In silico prediction and characterization of microRNAs from red flour beetle (Tribolium castaneum)"	Singh J, Nagaraju J	Insect Mol Biol. 17:427-436(2008).
+787	18392875	"Analysis of the Tribolium homeotic complex: insights into mechanisms constraining insect Hox clusters"	Shippy TD, Ronshaugen M, Cande J, He J, Beeman RW, Levine M, Brown SJ, Denell RE	Dev Genes Evol. 218:127-139(2008).
+788	18571123	"Genome-wide mapping of conserved microRNAs and their host transcripts in Tribolium castaneum"	Luo Q, Zhou Q, Yu X, Lin H, Hu S, Yu J	J Genet Genomics. 35:349-355(2008).
+789	18596690	"MicroRNAs expressed by herpes simplex virus 1 during latent infection regulate viral mRNAs"	Umbach JL, Kramer MF, Jurak I, Karnowski HW, Coen DM, Cullen BR	Nature. 454:780-783(2008).
+790	17994087	"Evolution of genes and genomes on the Drosophila phylogeny"	Clark AG, Eisen MB, Smith DR, Bergman CM, Oliver B, Markow TA, Kaufman TC, Kellis M, Gelbart W, Iyer VN, Pollard DA, Sackton TB, Larracuente AM, Singh ND, Abad JP, Abt DN, Adryan B, Aguade M, Akashi H, Anderson WW, Aquadro CF, Ardell DH, Arguello R, Artie	Nature. 450:203-218(2007).
+791	18684810	"Evolutionary conserved function of a viral microRNA"	Seo GJ, Fink L, O'Hara B, Atwood WJ, Sullivan CS	J Virol. [Epub prior to print](2008).

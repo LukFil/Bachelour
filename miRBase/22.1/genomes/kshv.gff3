@@ -1,0 +1,48 @@
+##gff-version 3
+##date 2018-3-5
+#
+# Chromosomal coordinates of Kaposi sarcoma-associated herpesvirus microRNAs
+# microRNAs:               miRBase v22
+# genome-build-id:         EMBL:U75698.1
+#
+# Hairpin precursor sequences have type "miRNA_primary_transcript". 
+# Note, these sequences do not represent the full primary transcript, 
+# rather a predicted stem-loop portion that includes the precursor 
+# miRNA. Mature sequences have type "miRNA".
+#
+KSU75698	.	miRNA_primary_transcript	117674	117771	.	-	.	ID=MI0004987;Alias=MI0004987;Name=kshv-mir-K12-12
+KSU75698	.	miRNA	117729	117751	.	-	.	ID=MIMAT0003712;Alias=MIMAT0003712;Name=kshv-miR-K12-12-5p;Derives_from=MI0004987
+KSU75698	.	miRNA	117692	117713	.	-	.	ID=MIMAT0015238;Alias=MIMAT0015238;Name=kshv-miR-K12-12-3p;Derives_from=MI0004987
+KSU75698	.	miRNA_primary_transcript	117967	118036	.	-	.	ID=MI0002472;Alias=MI0002472;Name=kshv-mir-K12-10a
+KSU75698	.	miRNA	118010	118031	.	-	.	ID=MIMAT0015212;Alias=MIMAT0015212;Name=kshv-miR-K12-10a-5p;Derives_from=MI0002472
+KSU75698	.	miRNA	117970	117991	.	-	.	ID=MIMAT0002179;Alias=MIMAT0002179;Name=kshv-miR-K12-10a-3p;Derives_from=MI0002472
+KSU75698	.	miRNA_primary_transcript	119300	119365	.	-	.	ID=MI0002477;Alias=MI0002477;Name=kshv-mir-K12-9
+KSU75698	.	miRNA	119338	119359	.	-	.	ID=MIMAT0002184;Alias=MIMAT0002184;Name=kshv-miR-K12-9-5p;Derives_from=MI0002477
+KSU75698	.	miRNA	119304	119325	.	-	.	ID=MIMAT0002185;Alias=MIMAT0002185;Name=kshv-miR-K12-9-3p;Derives_from=MI0002477
+KSU75698	.	miRNA_primary_transcript	119943	120012	.	-	.	ID=MI0002478;Alias=MI0002478;Name=kshv-mir-K12-8
+KSU75698	.	miRNA	119986	120007	.	-	.	ID=MIMAT0015216;Alias=MIMAT0015216;Name=kshv-miR-K12-8-5p;Derives_from=MI0002478
+KSU75698	.	miRNA	119947	119967	.	-	.	ID=MIMAT0002186;Alias=MIMAT0002186;Name=kshv-miR-K12-8-3p;Derives_from=MI0002478
+KSU75698	.	miRNA_primary_transcript	120355	120426	.	-	.	ID=MI0002479;Alias=MI0002479;Name=kshv-mir-K12-7
+KSU75698	.	miRNA	120397	120420	.	-	.	ID=MIMAT0015217;Alias=MIMAT0015217;Name=kshv-miR-K12-7-5p;Derives_from=MI0002479
+KSU75698	.	miRNA	120361	120380	.	-	.	ID=MIMAT0002187;Alias=MIMAT0002187;Name=kshv-miR-K12-7-3p;Derives_from=MI0002479
+KSU75698	.	miRNA_primary_transcript	120576	120646	.	-	.	ID=MI0002474;Alias=MI0002474;Name=kshv-mir-K12-11
+KSU75698	.	miRNA	120617	120640	.	-	.	ID=MIMAT0015213;Alias=MIMAT0015213;Name=kshv-miR-K12-11-5p;Derives_from=MI0002474
+KSU75698	.	miRNA	120580	120601	.	-	.	ID=MIMAT0002181;Alias=MIMAT0002181;Name=kshv-miR-K12-11-3p;Derives_from=MI0002474
+KSU75698	.	miRNA_primary_transcript	120761	120822	.	-	.	ID=MI0002480;Alias=MI0002480;Name=kshv-mir-K12-6
+KSU75698	.	miRNA	120796	120817	.	-	.	ID=MIMAT0002188;Alias=MIMAT0002188;Name=kshv-miR-K12-6-5p;Derives_from=MI0002480
+KSU75698	.	miRNA	120765	120786	.	-	.	ID=MIMAT0002189;Alias=MIMAT0002189;Name=kshv-miR-K12-6-3p;Derives_from=MI0002480
+KSU75698	.	miRNA_primary_transcript	121263	121332	.	-	.	ID=MI0002481;Alias=MI0002481;Name=kshv-mir-K12-5
+KSU75698	.	miRNA	121304	121326	.	-	.	ID=MIMAT0015218;Alias=MIMAT0015218;Name=kshv-miR-K12-5-5p;Derives_from=MI0002481
+KSU75698	.	miRNA	121265	121287	.	-	.	ID=MIMAT0002190;Alias=MIMAT0002190;Name=kshv-miR-K12-5-3p;Derives_from=MI0002481
+KSU75698	.	miRNA_primary_transcript	121413	121482	.	-	.	ID=MI0002482;Alias=MI0002482;Name=kshv-mir-K12-4
+KSU75698	.	miRNA	121455	121476	.	-	.	ID=MIMAT0002191;Alias=MIMAT0002191;Name=kshv-miR-K12-4-5p;Derives_from=MI0002482
+KSU75698	.	miRNA	121417	121438	.	-	.	ID=MIMAT0002192;Alias=MIMAT0002192;Name=kshv-miR-K12-4-3p;Derives_from=MI0002482
+KSU75698	.	miRNA_primary_transcript	121544	121613	.	-	.	ID=MI0002483;Alias=MI0002483;Name=kshv-mir-K12-3
+KSU75698	.	miRNA	121586	121608	.	-	.	ID=MIMAT0002193;Alias=MIMAT0002193;Name=kshv-miR-K12-3-5p;Derives_from=MI0002483
+KSU75698	.	miRNA	121546	121566	.	-	.	ID=MIMAT0002194;Alias=MIMAT0002194;Name=kshv-miR-K12-3-3p;Derives_from=MI0002483
+KSU75698	.	miRNA_primary_transcript	121674	121764	.	-	.	ID=MI0002476;Alias=MI0002476;Name=kshv-miR-K12-2
+KSU75698	.	miRNA	121729	121750	.	-	.	ID=MIMAT0002183;Alias=MIMAT0002183;Name=kshv-miR-K12-2-5p;Derives_from=MI0002476
+KSU75698	.	miRNA	121687	121707	.	-	.	ID=MIMAT0015215;Alias=MIMAT0015215;Name=kshv-miR-K12-2-3p;Derives_from=MI0002476
+KSU75698	.	miRNA_primary_transcript	121847	121913	.	-	.	ID=MI0002475;Alias=MI0002475;Name=kshv-mir-K12-1
+KSU75698	.	miRNA	121889	121911	.	-	.	ID=MIMAT0002182;Alias=MIMAT0002182;Name=kshv-miR-K12-1-5p;Derives_from=MI0002475
+KSU75698	.	miRNA	121852	121873	.	-	.	ID=MIMAT0015214;Alias=MIMAT0015214;Name=kshv-miR-K12-1-3p;Derives_from=MI0002475

@@ -1,0 +1,34 @@
+##gff-version 2
+##date 2008-08-30
+#
+# Chromosomal coordinates of Ciona savignyi microRNAs
+# miRNA data:       miRBase Sequence (version 12.0)
+# Genome assembly:  CSAV2.0
+#
+reftig_0	.	miRNA	1439035	1439136	.	+	.	ACC="MI0007188"; ID="csa-mir-34";
+reftig_1	.	miRNA	133886	134023	.	-	.	ACC="MI0007198"; ID="csa-mir-155";
+reftig_1	.	miRNA	1335375	1335474	.	+	.	ACC="MI0007190"; ID="csa-mir-92b";
+reftig_1	.	miRNA	1335536	1335626	.	+	.	ACC="MI0007191"; ID="csa-mir-92c";
+reftig_1	.	miRNA	1336385	1336487	.	+	.	ACC="MI0007189"; ID="csa-mir-92a";
+reftig_16	.	miRNA	3924783	3924863	.	+	.	ACC="MI0007202"; ID="csa-mir-216b";
+reftig_16	.	miRNA	3925105	3925187	.	+	.	ACC="MI0007201"; ID="csa-mir-216a";
+reftig_16	.	miRNA	3925235	3925336	.	+	.	ACC="MI0007203"; ID="csa-mir-217";
+reftig_262	.	miRNA	49392	49494	.	+	.	ACC="MI0007192"; ID="csa-mir-124-1";
+reftig_262	.	miRNA	49519	49620	.	+	.	ACC="MI0007193"; ID="csa-mir-124-2";
+reftig_27	.	miRNA	688926	689026	.	-	.	ACC="MI0007194"; ID="csa-mir-126";
+reftig_30	.	miRNA	3091327	3091429	.	+	.	ACC="MI0007186"; ID="csa-mir-7";
+reftig_41	.	miRNA	1114139	1114239	.	+	.	ACC="MI0007183"; ID="csa-let-7c-1";
+reftig_41	.	miRNA	1115604	1115705	.	+	.	ACC="MI0007182"; ID="csa-let-7b";
+reftig_41	.	miRNA	1116068	1116169	.	+	.	ACC="MI0007181"; ID="csa-let-7a";
+reftig_41	.	miRNA	1117496	1117597	.	+	.	ACC="MI0007184"; ID="csa-let-7c-2";
+reftig_44	.	miRNA	256366	256466	.	+	.	ACC="MI0007131"; ID="csa-mir-1473";
+reftig_44	.	miRNA	256943	257044	.	+	.	ACC="MI0007185"; ID="csa-let-7d";
+reftig_48	.	miRNA	895318	895399	.	-	.	ACC="MI0007187"; ID="csa-mir-31";
+reftig_48	.	miRNA	1818292	1818394	.	-	.	ACC="MI0007199"; ID="csa-mir-183";
+reftig_48	.	miRNA	2357835	2357936	.	-	.	ACC="MI0007197"; ID="csa-mir-153";
+reftig_55	.	miRNA	1053106	1053208	.	-	.	ACC="MI0007132"; ID="csa-mir-1497";
+reftig_613	.	miRNA	31353	31432	.	+	.	ACC="MI0007200"; ID="csa-mir-200";
+reftig_613	.	miRNA	31866	31949	.	+	.	ACC="MI0007196"; ID="csa-mir-141";
+reftig_62	.	miRNA	225568	225668	.	-	.	ACC="MI0007195"; ID="csa-mir-133";
+reftig_67	.	miRNA	317190	317291	.	+	.	ACC="MI0007204"; ID="csa-mir-219";
+reftig_67	.	miRNA	861516	861617	.	+	.	ACC="MI0007205"; ID="csa-mir-281";

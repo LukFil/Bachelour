@@ -1,0 +1,27 @@
+##gff-version 3
+##date 2018-3-5
+#
+# Chromosomal coordinates of Bovine leukemia virus microRNAs
+# microRNAs:               miRBase v22
+# genome-build-id:         K02120.1
+#
+# Hairpin precursor sequences have type "miRNA_primary_transcript". 
+# Note, these sequences do not represent the full primary transcript, 
+# rather a predicted stem-loop portion that includes the precursor 
+# miRNA. Mature sequences have type "miRNA".
+#
+K02120.1	.	miRNA_primary_transcript	6393	6448	.	+	.	ID=MI0022561;Alias=MI0022561;Name=blv-mir-B1
+K02120.1	.	miRNA	6426	6448	.	+	.	ID=MIMAT0025859;Alias=MIMAT0025859;Name=blv-miR-B1-3p;Derives_from=MI0022561
+K02120.1	.	miRNA	6393	6415	.	+	.	ID=MIMAT0027346;Alias=MIMAT0027346;Name=blv-miR-B1-5p;Derives_from=MI0022561
+K02120.1	.	miRNA_primary_transcript	6504	6558	.	+	.	ID=MI0022562;Alias=MI0022562;Name=blv-mir-B2
+K02120.1	.	miRNA	6504	6525	.	+	.	ID=MIMAT0025860;Alias=MIMAT0025860;Name=blv-miR-B2-5p;Derives_from=MI0022562
+K02120.1	.	miRNA	6538	6558	.	+	.	ID=MIMAT0025861;Alias=MIMAT0025861;Name=blv-miR-B2-3p;Derives_from=MI0022562
+K02120.1	.	miRNA_primary_transcript	6632	6688	.	+	.	ID=MI0022563;Alias=MI0022563;Name=blv-mir-B3
+K02120.1	.	miRNA	6632	6652	.	+	.	ID=MIMAT0025862;Alias=MIMAT0025862;Name=blv-miR-B3-5p;Derives_from=MI0022563
+K02120.1	.	miRNA	6666	6688	.	+	.	ID=MIMAT0025863;Alias=MIMAT0025863;Name=blv-miR-B3-3p;Derives_from=MI0022563
+K02120.1	.	miRNA_primary_transcript	6702	6762	.	+	.	ID=MI0022564;Alias=MI0022564;Name=blv-mir-B4
+K02120.1	.	miRNA	6739	6762	.	+	.	ID=MIMAT0025864;Alias=MIMAT0025864;Name=blv-miR-B4-3p;Derives_from=MI0022564
+K02120.1	.	miRNA	6702	6721	.	+	.	ID=MIMAT0027347;Alias=MIMAT0027347;Name=blv-miR-B4-5p;Derives_from=MI0022564
+K02120.1	.	miRNA_primary_transcript	6854	6906	.	+	.	ID=MI0022565;Alias=MI0022565;Name=blv-mir-B5
+K02120.1	.	miRNA	6854	6875	.	+	.	ID=MIMAT0025865;Alias=MIMAT0025865;Name=blv-miR-B5-5p;Derives_from=MI0022565
+K02120.1	.	miRNA	6884	6906	.	+	.	ID=MIMAT0025866;Alias=MIMAT0025866;Name=blv-miR-B5-3p;Derives_from=MI0022565

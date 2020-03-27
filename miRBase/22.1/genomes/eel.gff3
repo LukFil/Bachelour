@@ -1,0 +1,65 @@
+##gff-version 3
+##date 2018-3-5
+#
+# Chromosomal coordinates of Electrophorus electricus microRNAs
+# microRNAs:               miRBase v22
+# genome-build-id:         MSU_v1.0
+#
+# Hairpin precursor sequences have type "miRNA_primary_transcript". 
+# Note, these sequences do not represent the full primary transcript, 
+# rather a predicted stem-loop portion that includes the precursor 
+# miRNA. Mature sequences have type "miRNA".
+#
+scaffold10274	.	miRNA_primary_transcript	117735	117816	.	+	.	ID=MI0035722;Alias=MI0035722;Name=eel-mir-7132
+scaffold10274	.	miRNA	117753	117774	.	+	.	ID=MIMAT0043676;Alias=MIMAT0043676;Name=eel-miR-7132-5p;Derives_from=MI0035722
+scaffold10274	.	miRNA	117791	117811	.	+	.	ID=MIMAT0043677;Alias=MIMAT0043677;Name=eel-miR-7132-3p;Derives_from=MI0035722
+scaffold11027	.	miRNA_primary_transcript	105543	105626	.	+	.	ID=MI0035727;Alias=MI0035727;Name=eel-mir-11060
+scaffold11027	.	miRNA	105562	105584	.	+	.	ID=MIMAT0043685;Alias=MIMAT0043685;Name=eel-miR-11060-5p;Derives_from=MI0035727
+scaffold11027	.	miRNA	105600	105621	.	+	.	ID=MIMAT0043686;Alias=MIMAT0043686;Name=eel-miR-11060-3p;Derives_from=MI0035727
+scaffold12574	.	miRNA_primary_transcript	2584	2665	.	-	.	ID=MI0035728;Alias=MI0035728;Name=eel-mir-11061
+scaffold12574	.	miRNA	2587	2608	.	-	.	ID=MIMAT0043687;Alias=MIMAT0043687;Name=eel-miR-11061-3p;Derives_from=MI0035728
+scaffold1530	.	miRNA_primary_transcript	57803	57882	.	-	.	ID=MI0035733;Alias=MI0035733;Name=eel-mir-7552-2
+scaffold1530	.	miRNA	57856	57877	.	-	.	ID=MIMAT0043693;Alias=MIMAT0043693;Name=eel-miR-7552-5p;Derives_from=MI0035733
+scaffold1530	.	miRNA	57818	57839	.	-	.	ID=MIMAT0043695;Alias=MIMAT0043695;Name=eel-miR-7552-2-3p;Derives_from=MI0035733
+scaffold23590	.	miRNA_primary_transcript	76349	76428	.	-	.	ID=MI0035718;Alias=MI0035718;Name=eel-mir-11053
+scaffold23590	.	miRNA	76385	76406	.	-	.	ID=MIMAT0043668;Alias=MIMAT0043668;Name=eel-miR-11053-5p;Derives_from=MI0035718
+scaffold23590	.	miRNA	76351	76371	.	-	.	ID=MIMAT0043669;Alias=MIMAT0043669;Name=eel-miR-11053-3p;Derives_from=MI0035718
+scaffold24570	.	miRNA_primary_transcript	23698	23777	.	-	.	ID=MI0035734;Alias=MI0035734;Name=eel-mir-11065
+scaffold24570	.	miRNA	23738	23759	.	-	.	ID=MIMAT0043696;Alias=MIMAT0043696;Name=eel-miR-11065-5p;Derives_from=MI0035734
+scaffold24570	.	miRNA	23701	23722	.	-	.	ID=MIMAT0043697;Alias=MIMAT0043697;Name=eel-miR-11065-3p;Derives_from=MI0035734
+scaffold4083	.	miRNA_primary_transcript	167284	167363	.	+	.	ID=MI0035730;Alias=MI0035730;Name=eel-mir-11063
+scaffold4083	.	miRNA	167304	167325	.	+	.	ID=MIMAT0043690;Alias=MIMAT0043690;Name=eel-miR-11063-5p;Derives_from=MI0035730
+scaffold4083	.	miRNA	167339	167360	.	+	.	ID=MIMAT0043691;Alias=MIMAT0043691;Name=eel-miR-11063-3p;Derives_from=MI0035730
+scaffold4451	.	miRNA_primary_transcript	85578	85659	.	-	.	ID=MI0035724;Alias=MI0035724;Name=eel-mir-11057
+scaffold4451	.	miRNA	85618	85639	.	-	.	ID=MIMAT0043680;Alias=MIMAT0043680;Name=eel-miR-11057-5p;Derives_from=MI0035724
+scaffold4451	.	miRNA	85582	85603	.	-	.	ID=MIMAT0043681;Alias=MIMAT0043681;Name=eel-miR-11057-3p;Derives_from=MI0035724
+scaffold4539	.	miRNA_primary_transcript	93215	93294	.	-	.	ID=MI0035716;Alias=MI0035716;Name=eel-mir-11051
+scaffold4539	.	miRNA	93268	93288	.	-	.	ID=MIMAT0043666;Alias=MIMAT0043666;Name=eel-miR-11051-5p;Derives_from=MI0035716
+scaffold5041	.	miRNA_primary_transcript	27199	27278	.	-	.	ID=MI0035720;Alias=MI0035720;Name=eel-mir-11054
+scaffold5041	.	miRNA	27236	27257	.	-	.	ID=MIMAT0043672;Alias=MIMAT0043672;Name=eel-miR-11054-5p;Derives_from=MI0035720
+scaffold5041	.	miRNA	27201	27223	.	-	.	ID=MIMAT0043673;Alias=MIMAT0043673;Name=eel-miR-11054-3p;Derives_from=MI0035720
+scaffold586	.	miRNA_primary_transcript	418045	418126	.	+	.	ID=MI0035726;Alias=MI0035726;Name=eel-mir-11059
+scaffold586	.	miRNA	418065	418085	.	+	.	ID=MIMAT0043683;Alias=MIMAT0043683;Name=eel-miR-11059-5p;Derives_from=MI0035726
+scaffold586	.	miRNA	418101	418122	.	+	.	ID=MIMAT0043684;Alias=MIMAT0043684;Name=eel-miR-11059-3p;Derives_from=MI0035726
+scaffold6123	.	miRNA_primary_transcript	22567	22646	.	+	.	ID=MI0035719;Alias=MI0035719;Name=eel-mir-8160
+scaffold6123	.	miRNA	22572	22593	.	+	.	ID=MIMAT0043670;Alias=MIMAT0043670;Name=eel-miR-8160-5p;Derives_from=MI0035719
+scaffold6123	.	miRNA	22609	22629	.	+	.	ID=MIMAT0043671;Alias=MIMAT0043671;Name=eel-miR-8160-3p;Derives_from=MI0035719
+scaffold674	.	miRNA_primary_transcript	73113	73196	.	+	.	ID=MI0035723;Alias=MI0035723;Name=eel-mir-11056
+scaffold674	.	miRNA	73127	73148	.	+	.	ID=MIMAT0043678;Alias=MIMAT0043678;Name=eel-miR-11056-5p;Derives_from=MI0035723
+scaffold674	.	miRNA	73171	73191	.	+	.	ID=MIMAT0043679;Alias=MIMAT0043679;Name=eel-miR-11056-3p;Derives_from=MI0035723
+scaffold674	.	miRNA_primary_transcript	152180	152263	.	-	.	ID=MI0035721;Alias=MI0035721;Name=eel-mir-11055
+scaffold674	.	miRNA	152236	152258	.	-	.	ID=MIMAT0043674;Alias=MIMAT0043674;Name=eel-miR-11055-5p;Derives_from=MI0035721
+scaffold674	.	miRNA	152197	152217	.	-	.	ID=MIMAT0043675;Alias=MIMAT0043675;Name=eel-miR-11055-3p;Derives_from=MI0035721
+scaffold7041	.	miRNA_primary_transcript	23184	23263	.	+	.	ID=MI0035732;Alias=MI0035732;Name=eel-mir-7552-1
+scaffold7041	.	miRNA	23189	23210	.	+	.	ID=MIMAT0043693_1;Alias=MIMAT0043693;Name=eel-miR-7552-5p;Derives_from=MI0035732
+scaffold7041	.	miRNA	23232	23253	.	+	.	ID=MIMAT0043694;Alias=MIMAT0043694;Name=eel-miR-7552-3p;Derives_from=MI0035732
+scaffold7846	.	miRNA_primary_transcript	136511	136588	.	+	.	ID=MI0035717;Alias=MI0035717;Name=eel-mir-11052
+scaffold7846	.	miRNA	136567	136587	.	+	.	ID=MIMAT0043667;Alias=MIMAT0043667;Name=eel-miR-11052-3p;Derives_from=MI0035717
+scaffold859	.	miRNA_primary_transcript	110930	111013	.	+	.	ID=MI0035729;Alias=MI0035729;Name=eel-mir-11062
+scaffold859	.	miRNA	110934	110955	.	+	.	ID=MIMAT0043688;Alias=MIMAT0043688;Name=eel-miR-11062-5p;Derives_from=MI0035729
+scaffold859	.	miRNA	110976	110997	.	+	.	ID=MIMAT0043689;Alias=MIMAT0043689;Name=eel-miR-11062-3p;Derives_from=MI0035729
+scaffold9098	.	miRNA_primary_transcript	78872	78951	.	+	.	ID=MI0035715;Alias=MI0035715;Name=eel-mir-11050
+scaffold9098	.	miRNA	78880	78900	.	+	.	ID=MIMAT0043664;Alias=MIMAT0043664;Name=eel-miR-11050-5p;Derives_from=MI0035715
+scaffold9098	.	miRNA	78924	78945	.	+	.	ID=MIMAT0043665;Alias=MIMAT0043665;Name=eel-miR-11050-3p;Derives_from=MI0035715
+scaffold9849	.	miRNA_primary_transcript	28000	28083	.	+	.	ID=MI0035725;Alias=MI0035725;Name=eel-mir-11058
+scaffold9849	.	miRNA	28005	28026	.	+	.	ID=MIMAT0043682;Alias=MIMAT0043682;Name=eel-miR-11058-5p;Derives_from=MI0035725

@@ -1,0 +1,16 @@
+##gff-version 2
+##date 2008-08-31
+#
+# Chromosomal coordinates of Mouse gammaherpesvirus 68 microRNAs
+# miRNA data:       miRBase Sequence (version 12.0)
+# Genome assembly:  EMBL:U97553.1
+#
+U97553	.	miRNA	196	260	.	+	.	ACC="MI0001669"; ID="mghv-mir-M1-1";
+U97553	.	miRNA	562	627	.	+	.	ACC="MI0001670"; ID="mghv-mir-M1-2";
+U97553	.	miRNA	638	698	.	+	.	ACC="MI0001671"; ID="mghv-mir-M1-3";
+U97553	.	miRNA	956	1049	.	+	.	ACC="MI0001672"; ID="mghv-mir-M1-4";
+U97553	.	miRNA	1255	1314	.	+	.	ACC="MI0001673"; ID="mghv-mir-M1-5";
+U97553	.	miRNA	1320	1381	.	+	.	ACC="MI0001674"; ID="mghv-mir-M1-6";
+U97553	.	miRNA	1660	1719	.	+	.	ACC="MI0001675"; ID="mghv-mir-M1-7";
+U97553	.	miRNA	3806	3876	.	+	.	ACC="MI0001676"; ID="mghv-mir-M1-8";
+U97553	.	miRNA	5525	5584	.	+	.	ACC="MI0001677"; ID="mghv-mir-M1-9";

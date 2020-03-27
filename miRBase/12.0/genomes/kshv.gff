@@ -1,0 +1,19 @@
+##gff-version 2
+##date 2008-08-31
+#
+# Chromosomal coordinates of Kaposi sarcoma-associated herpesvirus microRNAs
+# miRNA data:       miRBase Sequence (version 12.0)
+# Genome assembly:  EMBL:U75698.1
+#
+KSU75698	.	miRNA	117674	117771	.	-	.	ACC="MI0004987"; ID="kshv-mir-K12-12";
+KSU75698	.	miRNA	117967	118036	.	-	.	ACC="MI0002472"; ID="kshv-mir-K12-10a";
+KSU75698	.	miRNA	119300	119365	.	-	.	ACC="MI0002477"; ID="kshv-mir-K12-9";
+KSU75698	.	miRNA	119943	120012	.	-	.	ACC="MI0002478"; ID="kshv-mir-K12-8";
+KSU75698	.	miRNA	120355	120426	.	-	.	ACC="MI0002479"; ID="kshv-mir-K12-7";
+KSU75698	.	miRNA	120576	120646	.	-	.	ACC="MI0002474"; ID="kshv-mir-K12-11";
+KSU75698	.	miRNA	120761	120822	.	-	.	ACC="MI0002480"; ID="kshv-mir-K12-6";
+KSU75698	.	miRNA	121263	121332	.	-	.	ACC="MI0002481"; ID="kshv-mir-K12-5";
+KSU75698	.	miRNA	121413	121482	.	-	.	ACC="MI0002482"; ID="kshv-mir-K12-4";
+KSU75698	.	miRNA	121544	121613	.	-	.	ACC="MI0002483"; ID="kshv-mir-K12-3";
+KSU75698	.	miRNA	121674	121764	.	-	.	ACC="MI0002476"; ID="kshv-miR-K12-2";
+KSU75698	.	miRNA	121847	121913	.	-	.	ACC="MI0002475"; ID="kshv-mir-K12-1";

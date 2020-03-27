@@ -1,0 +1,248 @@
+@import url( "/geo/css/nav.css" );
+
+#geo_nav_bar li ul li a
+{	
+	*width: auto;
+}
+
+BODY {
+scrollbar-3dlight-color:#6295C8;
+scrollbar-arrow-color:white;
+scrollbar-base-color:#CEE5E5;
+scrollbar-track-color:#EAF3F7;
+scrollbar-face-color:#CEE5E5;
+scrollbar-shadow-color:#6295C8;
+scrollbar-highlight-color:white;
+scrollbar-darkshadow-color:white;
+	margin-bottom: 100px; 
+}
+
+.tabletext {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; text-decoration: none; color: #666666}
+
+.tableHeading {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; font-variant: normal; color: #996666}
+
+.tableText2 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #FFFFFF}
+
+.tableText3 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; font-variant: normal; color: #333333}
+
+.table4black {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; font-variant: normal; color: #333333}
+
+.bordercolor {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; font-weight: normal; font-variant: normal; color: #333333;  background : #E0EEEE; }
+
+
+
+OPTION
+{
+	background-color : #ececec;
+	border-width : 0px;
+	border-style : groove;
+	font-size : 9pt;
+	font-family : Verdana, Arial, Sans-serif;
+	color : black;
+	border-color : #000000;
+}
+
+.geo_checkbox
+{
+	font-size : 9pt;
+	font-family : Verdana, Arial, Sans-serif;
+	border : 0px ;
+	border-style : none;
+	background : grey;
+	color : #ffffcc;
+	}
+
+SELECT
+{
+	background-color : #ececec;
+	font-size : 9pt;
+	font-family : Verdana, Arial, Sans-serif;
+	color : black;
+	border-color : #000000;
+}
+
+TEXTAREA
+{
+	background-color : #ececec;
+	border-style : groove;
+	font-size : 10pt;
+	font-family : Verdana, Arial, Sans-serif;
+	color : black;
+	border-color : #000000;
+}
+
+INPUT
+{
+        background-color : #ececec;
+       border-width : 1px;
+        border-style : groove;
+        font-size : 10pt;
+        font-family : Verdana, Arial, Sans-serif;
+        color : black;
+        border-color : black;
+}
+
+.nav_inputbox
+{
+        background-color : #ececec;
+        border-width : 1px;
+        border-style : groove;
+        font-size : 10pt;
+        font-family : Verdana, Arial, Sans-serif;
+        color : #3182A6;
+        border-color : black;
+}
+
+.inputform
+{
+	background-color : #FFFFFF;
+	border-width : 1pt;
+	border-style : groove;
+	font-size : 9pt;
+	font-family : Arial;
+	color : black;
+	border-color : #336699;
+}
+
+.entrez {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #666666; vertical-align: text-top}
+
+.homepageLink {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; font-variant: normal; color: #666666; text-decoration: none}
+A.homepageLink:link {text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 11px; color: #666666; }
+A.homepageLink:hover {text-decoration: underline; font-family: Verdana, Arial, Sans-serif; font-size: 11px; color:#336699; }
+
+.HELPBAR  
+{
+	text-decoration: none;
+	font-size: 8.1pt;
+	color: #999999;  
+}
+
+.HELPBAR A {text-decoration: none;font-size: 8pt;color: #587DA1;  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; }
+
+.HELPBAR A:hover {text-decoration: none;color: #D9E3EE;background-color: #4185B1;  }
+
+A.MainTopMenu:link { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 12px; color:#336699; }
+A.MainTopMenu:visited { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 12px;  color:#336699; }
+A.MainTopMenu:active { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 12px;  color:#336699; }
+A.MainTopMenu:hover { text-decoration: none; color:black;  font-family: Verdana, Arial, Sans-serif; font-size: 12px; color:#001A4F;}
+
+A.MainSideMenu:link { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 12px; color:#F9D903; }
+A.MainSideMenu:visited { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 12px;  color:#F9D903; }
+A.MainSideMenu:active { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 12px;  color:#336699; }
+A.MainSideMenu:hover { text-decoration: none; color:black;  font-family: Verdana, Arial, Sans-serif; font-size: 12px; color:white;}
+
+.MainSideMenu { text-decoration: none; font-family: Arial, Sans-serif; font-size: 12px; color:#F9D903; } 
+
+A.Top_Navigation:link { text-decoration: none; font-family: Arial, Sans-serif; font-size: 11px; color:#2F6E87; }
+A.Top_Navigation:visited { text-decoration: none; font-family: Arial, Sans-serif; font-size: 11px;  color:#2F6E87; }
+A.Top_Navigation:active { text-decoration: none; font-family: Arial, Sans-serif; font-size: 11px;  color:#336699; }
+A.Top_Navigation:hover { text-decoration: none; color:black;  font-family: Arial, Sans-serif; font-size: 11px; color:#1F4468;}
+
+.Top_Navigation_arrow { text-decoration: none; font-family: Arial, Sans-serif; font-size: 10px; color:#F9D903; } 
+.Top_Navigation_text { text-decoration: none; font-family: Arial, Sans-serif; font-size: 11px; color:#2F6E87; }
+
+
+A.MainSideSubMenu:link { text-decoration: none; font-family: Arial, Sans-serif; font-size: 12px; color:#C3E1E7; }
+A.MainSideSubMenu:visited { text-decoration: none; font-family: Arial, Sans-serif; font-size: 12px;  color:#9DBFC5; }
+A.MainSideSubMenu:active { text-decoration: none; font-family: Arial, Sans-serif; font-size: 12px;  color:#336699; }
+A.MainSideSubMenu:hover { text-decoration: none; color:black;  font-family: Arial, Sans-serif; font-size: 12px; color:#E0D797;}
+
+A.TopExtraLinks:link { text-decoration: none; font-family: Helvetica, Arial, Sans-serif; font-size: 11px; color:#002BA5; }
+A.TopExtraLinks:visited { text-decoration: none; font-family: Helvetica, Arial, Sans-serif; font-size: 11px;  color:#002BA5; }
+A.TopExtraLinks:active { text-decoration: none; font-family: Helvetica, Arial, Sans-serif; font-size: 11px;  color:#336699; }
+A.TopExtraLinks:hover { text-decoration: none; color:black;  font-family: Helvetica, Arial, Sans-serif; font-size: 11px; color:#038383;}
+
+A.TopProjectInfoLinks:link { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 10px; color:#C9C9C9; }
+A.TopProjectInfoLinks:visited { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 10px;  color:#C9C9C9; }
+A.TopProjectInfoLinks:active { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 10px;  color:#336699; }
+A.TopProjectInfoLinks:hover { text-decoration: none; color:black;  font-family: Verdana, Arial, Sans-serif; font-size: 10px; color:white; }
+
+.TopProjectInfoLinksSep { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 10px; color:#C9C9C9; }
+
+UL.toc {font-family:sans-serif; font-size: 8pt;}UL.toc LI {list-style-type: square;}UL.toc .close {list-style-image:url(close.gif)}UL.toc .open {list-style-image:url(open.gif)}UL.toc UL LI {list-style-image: none; list-style: none}UL.toc UL, UL.toc UL UL {display:none}UL.toc .expanded {display:block}
+
+
+.DataSetHeader { text-decoration: none; font-family: Arial, Sans-serif; font-size: 12px; color:#5f5f5f; }
+A.DataSetHeader:link { text-decoration: none; font-family: Arial, Sans-serif; font-size: 12px; color:#5f5f5f; }
+A.DataSetHeader:visited { text-decoration: none; font-family:Arial, Sans-serif; font-size: 12px;  color:#5f5f5f; }
+A.DataSetHeader:active { text-decoration: none; font-family: Arial, Sans-serif; font-size: 12px;  color:#5f5f5f; }
+A.DataSetHeader:hover { text-decoration: underline; font-family: Arial, Sans-serif; font-size: 12px; color:#315981;}
+
+.DataSetDetailed { text-decoration: none; font-family: Arial, Sans-serif; font-size: 11px; color:#183A5D; }
+A.DataSetDetailed:link { text-decoration: none; font-family: Arial, Sans-serif; font-size: 11px; color:#0056CC; }
+A.DataSetDetailed:visited { text-decoration: none; font-family:Arial, Sans-serif; font-size: 11px;  color:#0056CC; }
+A.DataSetDetailed:active { text-decoration: none; font-family: Arial, Sans-serif; font-size: 11px;  color:#0056CC; }
+A.DataSetDetailed:hover { text-decoration: underline; font-family: Arial, Sans-serif; font-size: 11px; color:#057279;}
+
+
+A:link { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 12px; color:#0056CC; }
+A:visited { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 12px;  color:#00948F; }
+A:active { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 12px;  color:#00994E; }
+A:hover { text-decoration: underline; font-family: Verdana, Arial, Sans-serif; font-size: 12px; color:#057279;}
+
+P.justify { font-family: Verdana, Arial, Sans-serif; margin-top:0;text-align:justify ; text-decoration: none; color:black; } 
+
+P { font-family: Verdana, Arial, Sans-serif; margin-top:0; text-decoration: none; color:black; } 
+
+.SMALL2 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size:10pt; }
+
+P		{ FONT-SIZE: 12px; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; }
+TD		{ FONT-SIZE: 12px; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; }
+TR		{ FONT-SIZE: 12px; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; }
+
+
+TEXTAREA.topquery
+{
+	background-color : #C9D0D6;
+	border-style : groove;
+	font-size : 10pt;
+	font-family : Verdana, Arial, Sans-serif;
+	color : black;
+	border-color : #000000;
+}
+
+INPUT.topquery
+{
+        background-color : #BBD8E3;
+        border-style : groove;
+        font-size : 8pt;
+        font-family : Verdana, Arial, Sans-serif;
+        color : black;
+        border-color : #000000;
+}
+
+.topquery { text-decoration: none; font-family: Verdana, Arial, Sans-serif; font-size: 13px; color:white; }
+
+.MessageBox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #006699 ;
+}
+
+.Title1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	color: white ;
+}
+
+.PubmedCitation ul 	
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.PubmedCitation li 
+{
+    margin-bottom: 4px;
+    background-color: #FFF;
+}
+
+.PubmedCitation .source 
+{
+    font-style: italic;
+}

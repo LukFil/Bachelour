@@ -1,0 +1,286 @@
+1	aqu	AQU	Amphimedon queenslandica	400682	Metazoa;Porifera;			
+2	nve	NVE	Nematostella vectensis	45351	Metazoa;Cnidaria;	JGI1.0		
+3	hma	HMA	Hydra magnipapillata	6085	Metazoa;Cnidaria;			
+4	sko	SKO	Saccoglossus kowalevskii	10224	Metazoa;Bilateria;Deuterostoma;Hemichordata;	Skow_1.1	NCBI_Assembly:GCA_000003605.1	
+5	spu	SPU	Strongylocentrotus purpuratus	7668	Metazoa;Bilateria;Deuterostoma;Echinodermata;	Spur_4.2	NCBI_Assembly:GCA_000002235.3	
+6	cin	CIN	Ciona intestinalis	7719	Metazoa;Bilateria;Deuterostoma;Chordata;Urochordata;	JGI2		
+7	csa	CSA	Ciona savignyi	51511	Metazoa;Bilateria;Deuterostoma;Chordata;Urochordata;	CSAV2.0		
+8	odi	ODI	Oikopleura dioica	34765	Metazoa;Bilateria;Deuterostoma;Chordata;Urochordata;			
+9	bfl	BFL	Branchiostoma floridae	7739	Metazoa;Bilateria;Deuterostoma;Chordata;Cephalochordata;	JGI2	NCBI_Assembly:GCF_000003815.1	
+10	xla	XLA	Xenopus laevis	8355	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Amphibia;	JGIv8.0		
+11	xtr	XTR	Xenopus tropicalis	8364	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Amphibia;	Xenopus_tropicalis_v9.1	NCBI_Assembly:GCA_000004195.3	
+12	gga	GGA	Gallus gallus	9031	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Aves;	Gallus_gallus-5.0	NCBI_Assembly:GCA_000002315.3	
+13	cfa	CFA	Canis familiaris	9615	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Carnivora;	CanFam3.1	NCBI_Assembly:GCA_000002285.2	
+14	mdo	MDO	Monodelphis domestica	13616	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Metatheria;	MonDom5	NCBI_Assembly:GCF_000002295.2	
+15	age	AGE	Ateles geoffroyi	9509	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Atelidae;			
+16	lla	LLA	Lagothrix lagotricha	9519	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Atelidae;			
+17	sla	SLA	Saguinus labiatus	78454	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Cebidae;			
+18	mml	MML	Macaca mulatta	9544	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Cercopithecidae;	Mmul_8.0.1	NCBI_Assembly:GCA_000772875.3	
+19	mne	MNE	Macaca nemestrina	9545	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Cercopithecidae;			
+20	pbi	PBI	Pygathrix bieti	61621	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Cercopithecidae;			
+21	ggo	GGO	Gorilla gorilla	9593	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Hominidae;	GorGor4	NCBI_Assembly:GCA_000151905.3	
+22	hsa	HSA	Homo sapiens	9606	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Hominidae;	GRCh38	NCBI_Assembly:GCA_000001405.15	
+23	ppa	PPA	Pan paniscus	9597	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Hominidae;	panpan1.1	NCBI_Assembly:GCA_000258655.2	
+24	ppy	PPY	Pongo pygmaeus	9600	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Hominidae;	P_pygmaeus_2.0.2	NCBI_Assembly:GCF_000001545.4	
+25	ptr	PTR	Pan troglodytes	9598	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Hominidae;	Pan_tro3.0	NCBI_Assembly:GCA_000001515.5	
+26	ssy	SSY	Symphalangus syndactylus	9590	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Hominidae;			
+27	lca	LCA	Lemur catta	9447	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Lemuridae;			
+28	oan	OAN	Ornithorhynchus anatinus	9258	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Prototheria;	OANA5		
+29	cgr	CGR	Cricetulus griseus	10029	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Rodentia;	CriGri_1.0	NCBI_Assembly:GCA_000223135.1	
+30	mmu	MMU	Mus musculus	10090	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Rodentia;	GRCm38	NCBI_Assembly:GCA_000001635.2	
+31	rno	RNO	Rattus norvegicus	10116	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Rodentia;	Rnor_6.0	NCBI_Assembly:GCA_000001895.4	
+32	bta	BTA	Bos taurus	9913	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Ruminantia;	Btau_5.0.1	NCBI_Assembly:GCA_000003205.6	
+33	oar	OAR	Ovis aries	9940	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Ruminantia;	Oar_v4.0	NCBI_Assembly:GCA_000298735.2	
+34	ssc	SSC	Sus scrofa	9823	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Suina;	Sscrofa10.2	NCBI_Assembly:GCA_000003025.4	
+35	dre	DRE	Danio rerio	7955	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;	GRCz11	NCBI_Assembly:GCA_000002035.4	
+36	fru	FRU	Fugu rubripes	31033	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;	FUGU5	NCBI_Assembly:GCA_000180615.2	
+37	tni	TNI	Tetraodon nigroviridis	99883	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;	Tetraodon8		
+38	aga	AGA	Anopheles gambiae	7165	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	AgamP3	NCBI_Assembly:GCA_000005575.1	
+39	ame	AME	Apis mellifera	7460	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	AMEL4.5	NCBI_Assembly:GCA_000002195.1	
+40	bmo	BMO	Bombyx mori	7091	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	ASM15162v1	NCBI_Assembly:GCA_000151625.1	
+41	dan	DAN	Drosophila ananassae	7217	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	dana_r1.3_FB2010_03		
+42	der	DER	Drosophila erecta	7220	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	dere_r1.3_FB2010_02		
+43	dgr	DGR	Drosophila grimshawi	7222	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	dgri_r1.3_FB2010_02		
+44	dme	DME	Drosophila melanogaster	7227	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	Release_6	NCBI_Assembly:GCA_000001215.4	
+45	dmo	DMO	Drosophila mojavensis	7230	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	dmoj_r1.3_FB2010_02		
+46	dpe	DPE	Drosophila persimilis	7234	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	dper_r1.3_FB2010_02		
+47	dps	DPS	Drosophila pseudoobscura	7237	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	dpse_r2.26_FB2012_01		
+48	dse	DSE	Drosophila sechellia	7238	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	dsec_r1.3_FB2010_02		
+49	dsi	DSI	Drosophila simulans	7240	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	dsim_caf1	NCBI_Assembly:GCA_000259055.1	
+50	dvi	DVI	Drosophila virilis	7244	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	DroVir3		
+51	dwi	DWI	Drosophila willistoni	7260	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	dwil_r1.3_FB2010_02		
+52	dya	DYA	Drosophila yakuba	7245	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	dyak_caf1	NCBI_Assembly:GCA_000005975.1	
+53	lmi	LMI	Locusta migratoria	7004	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;			
+54	tca	TCA	Tribolium castaneum	7070	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	Tcas4.0		
+55	dpu	DPU	Daphnia pulex	6669	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Crustacea;	V1.0	NCBI_Assembly:GCA_000187875.1	
+56	isc	ISC	Ixodes scapularis	6945	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Chelicerata;	Iscaw1		
+57	cbr	CBR	Caenorhabditis briggsae	6238	Metazoa;Bilateria;Ecdysozoa;Nematoda;	CB4	NCBI_Assembly:GCA_000004555.3	
+58	cel	CEL	Caenorhabditis elegans	6239	Metazoa;Bilateria;Ecdysozoa;Nematoda;	WBcel235	NCBI_Assembly:GCA_000002985.3	
+59	sja	SJA	Schistosoma japonicum	6182	Metazoa;Bilateria;Lophotrochozoa;Platyhelminthes;	ASM15177v1	NCBI_Assembly:GCA_000151775.1	
+60	sma	SMA	Schistosoma mansoni	6183	Metazoa;Bilateria;Lophotrochozoa;Platyhelminthes;	WTSI5		
+61	sme	SME	Schmidtea mediterranea	79327	Metazoa;Bilateria;Lophotrochozoa;Platyhelminthes;	WUSTL3.1		
+62	cte	CTE	Capitella teleta	283909	Metazoa;Bilateria;Lophotrochozoa;Annelida;	Capca1	NCBI_Assembly:GCA_000328365.1	
+63	cla	CLA	Cerebratulus lacteus	6221	Metazoa;Bilateria;Lophotrochozoa;Nemertea;			
+64	hru	HRU	Haliotis rufescens	6454	Metazoa;Bilateria;Lophotrochozoa;Mollusca;			
+65	lgi	LGI	Lottia gigantea	225164	Metazoa;Bilateria;Lophotrochozoa;Mollusca;	Helro1	NCBI_Assembly:GCA_000327385.1	
+66	ddi	DDI	Dictyostelium discoideum	44689	Mycetozoa;	DictyBase2009		
+67	cre	CRE	Chlamydomonas reinhardtii	3055	Viridiplantae;Chlorophyta;	CHLRE3.1		
+68	pta	PTA	Pinus taeda	3352	Viridiplantae;Coniferophyta;			
+69	ppt	PPT	Physcomitrella patens	3218	Viridiplantae;Embryophyta;	v3.0		
+70	smo	SMO	Selaginella moellendorffii	88036	Viridiplantae;Embryophyta;			
+71	ath	ATH	Arabidopsis thaliana	3702	Viridiplantae;Magnoliophyta;eudicotyledons;Brassicaceae;	TAIR10	NCBI_Assembly:GCA_000001735.1	
+72	bna	BNA	Brassica napus	3708	Viridiplantae;Magnoliophyta;eudicotyledons;Brassicaceae;	BrassicaDB-20080411		
+73	bol	BOL	Brassica oleracea	3712	Viridiplantae;Magnoliophyta;eudicotyledons;Brassicaceae;			
+74	bra	BRA	Brassica rapa	3711	Viridiplantae;Magnoliophyta;eudicotyledons;Brassicaceae;	Brapa_1.1	NCBI_Assembly:GCA_000309985.1	
+75	cpa	CPA	Carica papaya	3649	Viridiplantae;Magnoliophyta;eudicotyledons;Caricaceae;			
+76	gma	GMA	Glycine max	3847	Viridiplantae;Magnoliophyta;eudicotyledons;Fabaceae;	Glycine_max_v2.0	NCBI_Assembly:GCA_000004515.3	
+77	lja	LJA	Lotus japonicus	34305	Viridiplantae;Magnoliophyta;eudicotyledons;Fabaceae;	lj2.5		
+78	mtr	MTR	Medicago truncatula	3880	Viridiplantae;Magnoliophyta;eudicotyledons;Fabaceae;	JCVI_Mt3.5.2		
+79	vun	VUN	Vigna unguiculata	3917	Viridiplantae;Magnoliophyta;eudicotyledons;Fabaceae;			
+80	ghb	GHB	Gossypium herbaceum	34274	Viridiplantae;Magnoliophyta;eudicotyledons;Malvaceae;			
+81	ghr	GHR	Gossypium hirsutum	3635	Viridiplantae;Magnoliophyta;eudicotyledons;Malvaceae;			
+82	gra	GRA	Gossypium raimondii	29730	Viridiplantae;Magnoliophyta;eudicotyledons;Malvaceae;	Graimondii2_0	NCBI_Assembly:GCA_000327365.1	
+83	ptc	PTC	Populus trichocarpa	3694	Viridiplantae;Magnoliophyta;eudicotyledons;Salicaceae;	Poptr2_0	NCBI_Assembly:GCA_000002775.2	
+84	sly	SLY	Solanum lycopersicum	4081	Viridiplantae;Magnoliophyta;eudicotyledons;Solanaceae;	SL2.50	NCBI_Assembly:GCA_000188115.2	
+85	vvi	VVI	Vitis vinifera	29760	Viridiplantae;Magnoliophyta;eudicotyledons;Vitaceae;	12X	NCBI_Assembly:GCA_000003745.2	
+86	osa	OSA	Oryza sativa	4530	Viridiplantae;Magnoliophyta;monocotyledons;	MSU7		
+87	sbi	SBI	Sorghum bicolor	4558	Viridiplantae;Magnoliophyta;monocotyledons;	Sorghum_bicolor_NCBIv3	NCBI_Assembly:GCA_000003195.3	
+88	sof	SOF	Saccharum officinarum	4547	Viridiplantae;Magnoliophyta;monocotyledons;			
+89	tae	TAE	Triticum aestivum	4565	Viridiplantae;Magnoliophyta;monocotyledons;			
+90	zma	ZMA	Zea mays	4577	Viridiplantae;Magnoliophyta;monocotyledons;	B73_RefGen_v4	NCBI_Assembly:GCA_000005005.6	
+91	bkv	VRL	BK polyomavirus	10629	Viruses;			
+92	ebv	VRL	Epstein Barr virus	10376	Viruses;	EMBL:AJ507799.2		
+93	hcmv	VRL	Human cytomegalovirus	10359	Viruses;	EMBL:X17403.1		
+94	hiv1	VRL	Human immunodeficiency virus 1	11676	Viruses;			
+95	hsv1	VRL	Herpes Simplex Virus 1	10298	Viruses;			
+96	jcv	VRL	JC polyomavirus	10632	Viruses;			
+97	kshv	VRL	Kaposi sarcoma-associated herpesvirus	37296	Viruses;	EMBL:U75698.1		
+98	mcmv	VRL	Mouse cytomegalovirus	10366	Viruses;			
+99	mcv	VRL	Merkel cell polyomavirus	\N	Viruses;			
+100	mdv1	VRL	Mareks disease virus type 1	10390	Viruses;	EMBL:AF243438.1		
+101	mdv2	VRL	Mareks disease virus type 2	36353	Viruses;			
+102	mghv	VRL	Mouse gammaherpesvirus 68	33708	Viruses;	EMBL:U97553.1		
+103	rlcv	VRL	Rhesus lymphocryptovirus	45455	Viruses;			
+104	rrv	VRL	Rhesus monkey rhadinovirus	703611	Viruses;	EMBL:AF210726.1		
+105	sv40	VRL	Simian virus 40	10633	Viruses;			
+106	hsv2	VRL	Herpes Simplex Virus 2	10310	Viruses;			
+107	pvu	PVU	Phaseolus vulgaris	3885	Viridiplantae;Magnoliophyta;eudicotyledons;Fabaceae;	PhaVulg1_0	NCBI_Assembly:GCA_000499845.1	
+108	mdm	MDM	Malus domestica	3750	Viridiplantae;Magnoliophyta;eudicotyledons;Rosaceae;			
+109	crm	CRM	Caenorhabditis remanei	31234	Metazoa;Bilateria;Ecdysozoa;Nematoda;	WS200		
+110	ppc	PPC	Pristionchus pacificus	54126	Metazoa;Bilateria;Ecdysozoa;Nematoda;	El_Paco	NCBI_Assembly:GCA_000180635.3	
+111	hbv	VRL	Herpes B virus	10325	Viruses;	Refseq:NC_004812		
+112	bdi	BDI	Brachypodium distachyon	15368	Viridiplantae;Magnoliophyta;monocotyledons;	Bd21	NCBI_Assembly:GCA_000005505.1	
+113	aqc	AQC	Aquilegia caerulea	218851	Viridiplantae;Magnoliophyta;eudicotyledons;Ranunculaceae;			
+114	iltv	VRL	Infectious laryngotracheitis virus	10386	Viruses;			
+115	hvt	VRL	Herpesvirus of turkeys	37108	Viruses;			
+116	peu	PEU	Populus euphratica	75702	Viridiplantae;Magnoliophyta;eudicotyledons;Salicaceae;			
+117	eca	ECA	Equus caballus	9796	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Laurasiatheria;	EquCab2.0	NCBI_Assembly:GCF_000002305.2	
+118	ola	OLA	Oryzias latipes	8090	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;	MEDAKA1		
+119	bhv1	VRL	Bovine herpesvirus 1	10320	Viruses;			
+120	csi	CSI	Citrus sinensis	2711	Viridiplantae;Magnoliophyta;eudicotyledons;Rutaceae;	Csi_valencia_1.0	NCBI_Assembly:GCA_000317415.1	
+121	ccl	CCL	Citrus clementina	85681	Viridiplantae;Magnoliophyta;eudicotyledons;Rutaceae;			
+122	crt	CRT	Citrus reticulata	85571	Viridiplantae;Magnoliophyta;eudicotyledons;Rutaceae;			
+123	ctr	CTR	Citrus trifoliata	37690	Viridiplantae;Magnoliophyta;eudicotyledons;Rutaceae;			
+124	bma	BMA	Brugia malayi	6279	Metazoa;Bilateria;Ecdysozoa;Nematoda;	PRJNA10729_WB240	NCBI_Assembly:GCA_000002995.2	
+125	api	API	Acyrthosiphon pisum	7029	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	Acyr_2.0	NCBI_Assembly:GCA_000142985.2	
+126	rco	RCO	Ricinus communis	3988	Viridiplantae;Magnoliophyta;eudicotyledons;Euphorbiaceae;	JCVI_RCG_1.1	NCBI_Assembly:JCVI_RCG_1.1	
+127	aae	AAE	Aedes aegypti	7159	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	AaegL1		
+128	gar	GAR	Gossypium arboreum	29729	Viridiplantae;Magnoliophyta;eudicotyledons;Malvaceae;			
+129	cqu	CQU	Culex quinquefasciatus	7176	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	CpipJ1		
+130	tgu	TGU	Taeniopygia guttata	59729	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Aves;	taeGlu3.2.4		
+131	aly	ALY	Arabidopsis lyrata	59689	Viridiplantae;Magnoliophyta;eudicotyledons;Brassicaceae;	v1.0	NCBI_Assembly:GCA_000004255.1	
+132	esi	ESI	Ectocarpus siliculosus	2880	Chromalveolata;Heterokontophyta;	EctsiV2		
+133	nvi	NVI	Nasonia vitripennis	7425	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	Nvit_2.1	NCBI_Assembly:GCA_000002325.2	
+134	ahy	AHY	Arachis hypogaea	3818	Viridiplantae;Magnoliophyta;eudicotyledons;Fabaceae;			
+135	gso	GSO	Glycine soja	3848	Viridiplantae;Magnoliophyta;eudicotyledons;Fabaceae;			
+136	pab	PAB	Picea abies	3329	Viridiplantae;Coniferophyta;			
+138	ttu	TTU	Triticum turgidum	4571	Viridiplantae;Magnoliophyta;monocotyledons;			
+139	ata	ATA	Aegilops tauschii	37682	Viridiplantae;Magnoliophyta;monocotyledons;	ASM34733v2	NCBI_Assembly:GCA_000347335.2	
+140	hvu	HVU	Hordeum vulgare	4513	Viridiplantae;Magnoliophyta;monocotyledons;	Hvul_cvHarunaNijo3HBAC01	NCBI_Assembly:GCA_000227425.1	
+142	far	FAR	Festuca arundinacea	4606	Viridiplantae;Magnoliophyta;monocotyledons;			
+143	ngi	NGI	Nasonia giraulti	7426	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;			
+144	nlo	NLO	Nasonia longicornis	7427	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;			
+145	smr	SMR	Strigamia maritima	126957	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Mandibulata;			
+150	pma	PMA	Petromyzon marinus	7757	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Agnathostomata;	Petromyzon_marinus-7.0	NCBI_Assembly:GCA_000148955.1	
+242	bpa	BPA	Brugia pahangi	6280	Metazoa;Bilateria;Ecdysozoa;Nematoda;			
+151	tcc	TCC	Theobroma cacao	3641	Viridiplantae;Magnoliophyta;eudicotyledons;Malvaceae;			
+152	xbo	XBO	Xenoturbella bocki	242395	Metazoa;Bilateria;Deuterostoma;			
+153	egr	EGR	Echinococcus granulosus	6210	Metazoa;Bilateria;Lophotrochozoa;Platyhelminthes;	ASM52419v1	NCBI_Assembly:GCA_000524195.1	
+154	emu	EMU	Echinococcus multilocularis	6211	Metazoa;Bilateria;Lophotrochozoa;Platyhelminthes;	WTSI3		
+155	hme	HME	Heliconius melpomene	34740	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	HelMel1.1		
+158	rgl	RGL	Rehmannia glutinosa	99300	Viridiplantae;Magnoliophyta;eudicotyledons;Lamiales;			
+161	bpcv2	VRL	Bandicoot papillomatosis carcinomatosis virus type 2	500654	Viruses;			
+160	bpcv1	VRL	Bandicoot papillomatosis carcinomatosis virus type 1	479058	Viruses;			
+162	ssp	SSP	Saccharum sp.	15819	Viridiplantae;Magnoliophyta;monocotyledons;			
+163	bgy	BGY	Bruguiera gymnorhiza	39984	Viridiplantae;Magnoliophyta;eudicotyledons;Rhizophoraceae;			
+164	bcy	BCY	Bruguiera cylindrica	106616	Viridiplantae;Magnoliophyta;eudicotyledons;Rhizophoraceae;			
+165	gpy	GPY	Glottidia pyramidata	34515	Metazoa;Bilateria;Lophotrochozoa;Brachiopoda;			
+166	tre	TRE	Terebratulina retusa	7580	Metazoa;Bilateria;Lophotrochozoa;Brachiopoda;			
+167	cme	CME	Cucumis melo	3656	Viridiplantae;Magnoliophyta;eudicotyledons;Cucurbitaceae;			
+168	rmi	RMI	Rhipicephalus microplus	6941	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Chelicerata;			
+169	asu	ASU	Ascaris suum	6253	Metazoa;Bilateria;Ecdysozoa;Nematoda;			
+170	aca	ACA	Anolis carolinensis	28377	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Sauria;	AnoCar2.0	NCBI_Assembly:GCA_000090745.2	
+171	amg	AMG	Acacia mangium	224085	Viridiplantae;Magnoliophyta;eudicotyledons;Fabaceae;			
+172	aau	AAU	Acacia auriculiformis	205027	Viridiplantae;Magnoliophyta;eudicotyledons;Fabaceae;			
+173	pti	PTI	Phaeodactylum tricornutum	2850	Chromalveolata;Heterokontophyta;	ASM15095v2	NCBI_Assembly:GCA_000150955.2	
+174	hvsa	VRL	Herpesvirus saimiri strain A11	570519	Viruses;			
+175	meu	MEU	Macropus eugenii	9315	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Metatheria;			
+176	ssl	SSL	Salvia sclarea	38869	Viridiplantae;Magnoliophyta;eudicotyledons;Lamiales;			
+177	sha	SHA	Sarcophilus harrisii	9305	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Metatheria;	DEVIL7_0		
+178	tur	TUR	Tetranychus urticae	32264	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Chelicerata;			
+179	hco	HCO	Haemonchus contortus	6289	Metazoa;Bilateria;Ecdysozoa;Nematoda;			
+180	hhv6b	VRL	Human herpesvirus 6B	32604	Viruses;			
+181	dpr	DPR	Digitalis purpurea	4164	Viridiplantae;Magnoliophyta;eudicotyledons;Lamiales;			
+182	nta	NTA	Nicotiana tabacum	4097	Viridiplantae;Magnoliophyta;eudicotyledons;Solanaceae;			
+183	stu	STU	Solanum tuberosum	4113	Viridiplantae;Magnoliophyta;eudicotyledons;Solanaceae;	SolTub3.0	NCBI_Assembly:GCA_000226075.1	
+184	egu	EGU	Elaeis guineensis	51953	Viridiplantae;Magnoliophyta;monocotyledons;			
+185	mes	MES	Manihot esculenta	3983	Viridiplantae;Magnoliophyta;eudicotyledons;Euphorbiaceae;	Cassava4		
+186	mse	MSE	Manduca sexta	7130	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	Msex1.0	NCBI_Assembly:GCA_000262585.1	
+187	cca	CCA	Cynara cardunculus	4265	Viridiplantae;Magnoliophyta;eudicotyledons;Asteraceae;			
+188	hbr	HBR	Hevea brasiliensis	3981	Viridiplantae;Magnoliophyta;eudicotyledons;Euphorbiaceae;	Hevbra_1.0	NCBI_Assembly:GCA_000340545.1	
+189	mja	MJA	Marsupenaeus japonicus	27405	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Crustacea;			
+190	prv	VRL	Pseudorabies virus	10345	Viruses;	NC_006151.1		
+191	pde	PDE	Pinus densata	190402	Viridiplantae;Coniferophyta;			
+192	pol	POL	Paralichthys olivaceus	8255	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;			
+193	han	HAN	Helianthus annuus	4232	Viridiplantae;Magnoliophyta;eudicotyledons;Asteraceae;			
+194	hci	HCI	Helianthus ciliaris	73280	Viridiplantae;Magnoliophyta;eudicotyledons;Asteraceae;			
+195	htu	HTU	Helianthus tuberosus	4233	Viridiplantae;Magnoliophyta;eudicotyledons;Asteraceae;			
+196	hex	HEX	Helianthus exilis	400408	Viridiplantae;Magnoliophyta;eudicotyledons;Asteraceae;			
+197	har	HAR	Helianthus argophyllus	73275	Viridiplantae;Magnoliophyta;eudicotyledons;Asteraceae;			
+198	hpe	HPE	Helianthus petiolaris	4234	Viridiplantae;Magnoliophyta;eudicotyledons;Asteraceae;			
+199	hpa	HPA	Helianthus paradoxus	73304	Viridiplantae;Magnoliophyta;eudicotyledons;Asteraceae;			
+200	hhi	HHI	Hippoglossus hippoglossus	8267	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;			
+201	blv	VRL	Bovine leukemia virus	11901	Viruses;	K02120.1		
+202	ccr	CCR	Cyprinus carpio	7962	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;			
+204	cln	CLN	Cunninghamia lanceolata	28977	Viridiplantae;Coniferophyta;			
+206	lus	LUS	Linum usitatissimum	4006	Viridiplantae;Magnoliophyta;eudicotyledons;Linaceae;			
+207	pgi	PGI	Panax ginseng	4054	Viridiplantae;Magnoliophyta;eudicotyledons;Araliaceae;			
+209	dev	VRL	Duck enteritis virus	104388	Viruses;			
+210	ppe	PPE	Prunus persica	3760	Viridiplantae;Magnoliophyta;eudicotyledons;Rosaceae;	Prunus_persica_NCBIv2	NCBI_Assembly:GCA_000346465.2	
+211	aja	AJA	Artibeus jamaicensis	9417	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Laurasiatheria;			
+212	ipu	IPU	Ictalurus punctatus	7998	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;			
+213	cbn	CBN	Caenorhabditis brenneri	135651	Metazoa;Bilateria;Ecdysozoa;Nematoda;	C_brenneri-6.0.1b	NCBI_Assembly:GCA_000143925.2	
+214	sci	SCI	Sycon ciliatum	27933	Metazoa;Porifera;			
+215	lco	LCO	Leucosolenia complicata	433461	Metazoa;Porifera;			
+216	prd	PRD	Panagrellus redivivus	6233	Metazoa;Bilateria;Ecdysozoa;Nematoda;	Pred3	NCBI_Assembly:GCA_000341325.1	
+219	ama	AMA	Avicennia marina	82927	Viridiplantae;Magnoliophyta;eudicotyledons;Lamiales;			
+222	bbe	BBE	Branchiostoma belcheri	7741	Metazoa;Bilateria;Deuterostoma;Chordata;Cephalochordata;			
+223	pmi	PMI	Patiria miniata	46514	Metazoa;Bilateria;Deuterostoma;Echinodermata;			
+224	lva	LVA	Lytechinus variegatus	7654	Metazoa;Bilateria;Deuterostoma;Echinodermata;			
+225	ssa	SSA	Salmo salar	8030	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;			
+226	str	STR	Strongyloides ratti	34506	Metazoa;Bilateria;Ecdysozoa;Nematoda;	WTSIv4		
+227	pxy	PXY	Plutella xylostella	51655	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	1.0		
+228	atr	ATR	Amborella trichopoda	13333	Viridiplantae;Magnoliophyta;	AmTr_v1.0		
+229	pin	PIN	Phytophthora infestans	4787	Chromalveolata;Heterokontophyta;			
+230	psj	PSJ	Phytophthora sojae	67593	Chromalveolata;Heterokontophyta;			
+231	pra	PRA	Phytophthora ramorum	164328	Chromalveolata;Heterokontophyta;			
+232	efu	EFU	Eptesicus fuscus	29078	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Laurasiatheria;	EptFus1.0	NCBI_Assembly:GCA_000308155.1	
+233	gsa	GSA	Gyrodactylus salaris	37629	Metazoa;Bilateria;Lophotrochozoa;Platyhelminthes;			
+234	bhv5	VRL	Bovine herpesvirus 5	35244	Viruses;			
+235	bfv	VRL	Bovine foamy virus	207343	Viruses;			
+236	chi	CHI	Capra hircus	9925	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Ruminantia;	CHIR_2.0	NCBI_Assembly:GCA_000317765.2	
+237	ocu	OCU	Oryctolagus cuniculus	9986	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Lagomorpha;	OryCun2.0	NCBI_Assembly:GCA_000003625.1	
+238	oha	OHA	Ophiophagus hannah	8665	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Sauria;	OphHan1.0	NCBI_Assembly:GCA_000516915.1	
+239	tch	TCH	Tupaia chinensis	246437	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Scandentia;	TupChi_1.0	NCBI_Assembly:GCA_000334495.1	
+240	mcpv	VRL	Merkel cell polyomavirus	493803	Viruses;			
+241	pso	PSO	Papaver somniferum	3469	Viridiplantae;Magnoliophyta;eudicotyledons;Papaveraceae;			
+243	pmu	PMU	Prunus mume	102107	Viridiplantae;Magnoliophyta;eudicotyledons;Rosaceae;			
+244	mde	MDE	Mayetiola destructor	39758	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;			
+245	ago	AGO	Aphis gossypii	80765	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;			
+246	cpi	CPI	Chrysemys picta	8479	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Sauria;	Chrysemys_picta_bellii-3.0.3	NCBI_Assembly:GCA_000241765.2	
+247	ami	AMI	Alligator mississippiensis	8496	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Sauria;	ASM28112v4	NCBI_Assembly:GCA_000281125.4	
+248	cli	CLI	Columba livia	8932	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Aves;	CLiv1.0	NCBI_Assembly:GCA_000337935.1	
+249	pbv	PBV	Python bivittatus	176946	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Sauria;	Python_molurus_bivittatus-5.0.2	NCBI_Assembly:GCA_000186305.2	
+250	cmi	CMI	Callorhinchus milii	7868	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Gnathostomata;			
+251	sit	SIT	Setaria italica	4555	Viridiplantae;Magnoliophyta;eudicotyledons;Poaceae;			
+252	cja	CJA	Callithrix jacchus	9483	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Cebidae;	Callithrix_jacchus-3.2	NCBI_Assembly:GCA_000004665.1	
+253	pal	PAL	Pteropus alecto	9402	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Laurasiatheria;	ASM32557v1	NCBI_Assembly:GCA_000325575.1	
+254	hpo	HPO	Heligmosomoides polygyrus	6339	Metazoa;Bilateria;Ecdysozoa;Nematoda;	nHp_1_0		
+255	sfv	VRL	Simian foamy virus	11642	Viruses;			
+256	ttv	VRL	Torque teno virus	68887	Viruses;			
+257	vca	VCA	Vriesea carinata	294102	Viridiplantae;Magnoliophyta;monocotyledons;			
+258	eun	EUN	Eugenia uniflora	119951	Viridiplantae;Magnoliophyta;eudicotyledons;Myrtaceae;			
+259	cau	CAU	Carassius auratus	7957	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;			
+260	omy	OMY	Oncorhynchus mykiss	8022	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;			
+261	tcf	TCF	Triops cancriformis	194544	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Crustacea;			
+262	sfr	SFR	Spodoptera frugiperda	7108	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	ASM75363v2	NCBI_Assembly:GCA_000753635.2	
+263	ptvpv2a	VRL	Pan troglodytes verus polyomavirus 2a	928212	Viruses;			
+264	gggpv1	VRL	Gorilla gorilla gorilla polyomavirus 1	928214	Viruses;			
+265	racpv	VRL	Raccoon polyomavirus	1219896	Viruses;			
+266	oni	ONI	Oreochromis niloticus	8128	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;			
+267	abu	ABU	Astatotilapia burtoni	8153	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;	AstBur1.0	NCBI_Assembly:GCA_000239415.1	
+268	mze	MZE	Metriaclima zebra	106582	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;	M_zebra_UMD1	NCBI_Assembly:GCA_000238955.3	
+269	nbr	NBR	Neolamprologus brichardi	32507	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;	NeoBri1.0	NCBI_Assembly:GCA_000239395.1	
+270	pny	PNY	Pundamilia nyererei	303518	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;	PunNye1.0	NCBI_Assembly:GCA_000239375.1	
+271	seu	SEU	Salicornia europaea	206448	Viridiplantae;Magnoliophyta;eudicotyledons;Amaranthaceae;			
+272	bbu	BBU	Bubalus bubalis	89462	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Laurasiatheria;			
+273	eel	EEL	Electrophorus electricus	8005	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;	MSU_v1.0		
+274	gmo	GMO	Gadus morhua	8049	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;	GadMor_May2010	NCBI_Assembly:GCA_000231765.1	
+275	fve	FVE	Fragaria vesca	101020	Viridiplantae;Magnoliophyta;eudicotyledons;Rosaceae;	v1.1		
+276	cst	CST	Cucumis sativus	3659	Viridiplantae;Magnoliophyta;eudicotyledons;Cucurbitaceae;	ASM407v2	NCBI_Assembly:GCA_000004075.2	
+277	fhe	FHE	Fasciola hepatica	6192	Metazoa;Bilateria;Lophotrochozoa;Platyhelminthes;	Fhepatica_v1	NCBI_Assembly:GCA_000947175.1	
+278	apl	APL	Anas platyrhynchos	8839	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Aves;	BGI_duck_1.0	NCBI_Assembly:GCA_000355885.1	
+279	bib	BIB	Biston betularia	82595	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;			
+280	cas	CAS	Camelina sativa	90675	Viridiplantae;Magnoliophyta;eudicotyledons;Brassicaceae;	Cs	NCBI_Assembly:GCA_000633955.1	
+281	bdo	BDO	Bactrocera dorsalis	27457	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;	ASM78921v2	NCBI_Assembly:GCA_000789215.2	
+282	pla	PLA	Paeonia lactiflora	35924	Viridiplantae;Magnoliophyta;eudicotyledons;Paeoniaceae;			
+283	dqu	DQU	Dinoponera quadriceps	609295	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;			
+284	pca	PCA	Polistes canadensis	91411	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Hexapoda;			
+285	mpo	MPO	Marchantia polymorpha	3197	Viridiplantae;Embryophyta;			
+286	pte	PTE	Parasteatoda tepidariorum	114398	Metazoa;Bilateria;Ecdysozoa;Arthropoda;Chelicerata;			
+287	mco	MCO	Mesocestoides corti	53468	Metazoa;Bilateria;Lophotrochozoa;Platyhelminthes;	M_corti_Specht_Voge	NCBI_Assembly:GCA_000951315.1	
+288	cpo	CPO	Cavia porcellus	10141	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Rodentia;	cavPor3	NCBI_Assembly:GCA_000151735.1	
+289	dno	DNO	Dasypus novemcinctus	9361	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Cingulata;	dasNov3.0	NCBI_Assembly:GCA_000208655.2	
+290	mle	MLE	Melibe leonina	76178	Metazoa;Bilateria;Lophotrochozoa;Mollusca;			
+291	ete	ETE	Echinops telfairi	9371	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Afrotheria;			
+292	smi	SMI	Salvia miltiorrhiza	226208	Viridiplantae;Magnoliophyta;eudicotyledons;Lamiales;			
+293	mmr	MMR	Microcebus murinus	30608	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Cheirogaleidae;	Mmur_3.0	NCBI_Assembly:GCA_000165445.3	
+294	dma	DMA	Daubentonia madagascariensis	31869	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Daubentoniidae;	DauMad_1.0	NCBI_Assembly:GCA_000241425.1	
+295	nle	NLE	Nomascus leucogenys	61853	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Hylobatidae;	Nleu_3.0	NCBI_Assembly:GCA_000146795.3	
+296	sbo	SBO	Saimiri boliviensis	39432	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Cebidae;	SaiBol1.0	NCBI_Assembly:GCA_000235385.1	
+297	oga	OGA	Otolemur garnettii	30611	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Galagidae;	OtoGar3	NCBI_Assembly:GCA_000181295.3	
+298	pha	PHA	Papio hamadryas	9557	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Mammalia;Primates;Cercopithecidae;			
+299	nfu	NFU	Nothobranchius furzeri	105023	Metazoa;Bilateria;Deuterostoma;Chordata;Vertebrata;Teleostei;			
+300	aof	AOF	Asparagus officinalis	4686	Viridiplantae;Magnoliophyta;monocotyledons;	Aspof.V1	NCBI_Assembly:GCA_001876935.1	
+301	apa	APA	Aiptasia pallida	1720309	Metazoa;Cnidaria;			
+302	smc	SMC	Symbiodinium microadriaticum	2951	Alveolata;	ASM193914v1	NCBI_Assembly:GCA_001939145.1	

@@ -1,0 +1,57 @@
+Comment[ArrayExpressAccession]	E-GEOD-34120
+Public Release Date	2012-06-01							
+Investigation Title	Differential microRNA profile in frontal cortex of suicide completers compared to control							
+Comment[Submitted Name]	Differential microRNA profile in frontal cortex of suicide completers compared to control
+Experiment Description	Background: TrkB-T1 is a BDNF receptor lacking a tyrosine kinase domain that is highly expressed in astrocytes and regulates BDNF-evoked calcium transients. Previous studies indicate that downregulation of TrkB-T1 in frontal cortex may be involved in neurobiological processes underlying suicide.  Methods: In a microarray screening study (N=8), we interrogated all known microRNA in the frontal cortex of suicide completers with low expression of TrkB-T1 and normal controls. These findings were validated and followed up in a larger sample of cases and controls (N=55) Functional analyses included microRNA silencing, microRNA overexpression and luciferase assays to investigate specificity and to validate interactions between differentially expressed microRNA and TrkB-T1   Results: microRNAs Hsa-miR-185* and Hsa-miR-491-3p were upregulated in suicide completers with low expression of TrkB.T1 (Pnominal: 9.10-5 and 1.8.10-4 respectively; FDR-corrected p=0.031). Bioinformatic analyses revealed five putative binding sites for the DiGeorge syndrome linked microRNA Hsa-miR-185*in the 3’UTR of TrkB-T1, but none for Hsa-miR-491-3P. The increase of Hsa-miR-185* in frontal cortex of suicide completers was validated then confirmed in a larger, randomly selected group of suicide completers, where an inverse correlation between Hsa-miR-185* and TrkB-T1 expression was observed ( R=-0.404; p=0.002). Silencing and overexpression studies performed in human cell lines confirmed the inverse relationship between hsa-mir-185* and trkB-T1 expression. Luciferase assays demonstrated that Hsa-miR-185* binds to sequences in the 3’UTR of TrkB-T1.  Conclusion: These results suggest that an increase of Hsa-miR-185* expression levels regulates, at least in part, the TrkB-T1 decrease observed in the frontal cortex of suicide completers and further implicate the 3MB 22q11 region in psychopathology. The microarray analysis consists in to compare the microRNA profile of four suicide completers with low TrkB-T1 expression level and four controls. Each RNA extract was labeled with Hy3 and hybridyzed with a reference sample labeled with Hy5. The reference sample was a pool of the eight RNA samples							
+Date of Experiment								
+Term Source Name	EFO
+Term Source Version								
+Term Source File	http://www.ebi.ac.uk/efo/efo.owl							
+Person Last Name	Maussion	Maussion	Yang	Yerko	Barker	Mechawar	Ernst	Turecki
+Person First Name	Gilles	Gilles	Jennie	Volodymyr	Philip	Naguib	Carl	Gustavo
+Person Mid Initials								
+Person Email	geo@ncbi.nlm.nih.gov							
+Person Affiliation	INSERM U675							
+Person Phone								
+Person Fax								
+Person Address	INSERM U675, 16 rue Henri Huchard, PARIS, France							
+Person Roles	submitter							
+Person Roles Term Source REF								
+Person Roles Term Accession Number								
+Normalization Type								
+Normalization Term Accession Number								
+Normalization Term Source REF								
+Replicate Type								
+Replicate Term Accession Number								
+Replicate Term Source REF								
+Experimental Design								
+Experimental Design Term Accession Number								
+Experimental Design Term Source REF								
+Quality Control Type								
+Quality Control Term Accession Number								
+Quality Control Term Source REF								
+Protocol Name	P-GSE34120-1	P-GSE34120-5	P-GSE34120-4	P-GSE34120-2	P-GSE34120-7	P-GSE34120-3	P-GSE34120-6	
+Protocol Description	ID_REF = <br>VALUE = Log2(Signal Mean Hy5/Signal Mean Hy3)	The miRCURY™ LNA array microarray slides were scanned using the Agilent G2565BA Microarray Scanner System (Agilent Technologies, Inc., USA) and the image analysis was carried out using the ImaGene 7.0 software (BioDiscovery, Inc., USA).	The hybridization was performed according to the miRCURY™ LNA array manual using a Tecan HS4800 hybridization station (Tecan, Austria). After hybridization the microarray slides were scanned and stored in an ozone free environment (ozone level below 2.0 ppb) in order to prevent potential bleaching of the fluorescent dyes.	RNA was extracted using miRNeasy kit (Qiagen Inc.,Mississauga,Canada) following procedures suggested by the manufacturer.	RNA was extracted using miRNeasy kit (Qiagen Inc.,Mississauga,Canada) following procedures suggested by the manufacturer	One �g total RNA from sample and reference were labeled with Hy3™ and Hy5™ fluorescent label, respectively, using the miRCURY™ LNA Array power labeling kit (Exiqon, Denmark) following the procedure described by the manufacturer. The Hy3™-labeled samples and a Hy5™-labeled reference RNA sample were mixed pair-wise and hybridized to the miRCURY™ LNA array version 10.0 (Exiqon, Denmark), which contains capture probes targeting all miRNAs for human, mouse and rat registered in the miRBASE version 11 at the Sanger Institute.	The quantified signals were normalized using the global Lowess (LOcally WEighted Scatterplot Smoothing) regression algorithm.	
+Protocol Software								
+Protocol Hardware								
+Protocol Contact								
+Protocol Type	bioassay_data_transformation	image_aquisition	hybridization	nucleic_acid_extraction	nucleic_acid_extraction	labeling	feature_extraction	
+Protocol Term Source REF								
+Protocol Term Accession Number								
+Experimental Factor Name	INDIVIDUAL							
+Experimental Factor Type	individual							
+Experimental Factor Term Source REF								
+Experimental Factor Term Accession Number								
+Publication Title								
+Publication Author List								
+PubMed ID								
+Publication DOI								
+Publication Status								
+Publication Status Term Source REF								
+Publication Status Term Accession Number								
+Comment[SecondaryAccession]	GSE34120							
+Comment[GEOLastUpdateDate]	2012-06-02
+Comment[AEExperimentType]	transcription profiling by array							
+Comment[GEOReleaseDate]	2012-05-31
+Comment[ArrayExpressSubmissionDate]	2011-12-02
+SDRF File	E-GEOD-34120.sdrf.txt

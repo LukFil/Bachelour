@@ -1,0 +1,3 @@
+miRTarBase_ID	miRNA	Species_miRNA	Target_Gene	Target_Gene_Entrez_ID	Species_Target_Gene	Experiments	Support_Type	References_PMID
+MIRT001063	ebv-miR-BART2-5p	Epstein_Barr_virus	BALF5	3783681	Epstein_Barr_virus	Nortern_blot	Functional_MTI_Weak	15118162
+MIRT001063	ebv-miR-BART2-5p	Epstein_Barr_virus	BALF5	3783681	Epstein_Barr_virus	Luciferase_reporter_assay-Western_blot-Northern_blot	Functional_MTI	18073197

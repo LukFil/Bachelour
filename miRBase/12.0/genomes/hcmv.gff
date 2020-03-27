@@ -1,0 +1,17 @@
+##gff-version 2
+##date 2008-08-30
+#
+# Chromosomal coordinates of Human cytomegalovirus microRNAs
+# miRNA data:       miRBase Sequence (version 12.0)
+# Genome assembly:  EMBL:X17403.1
+#
+HEHCMVCG	.	miRNA	27642	27709	.	+	.	ACC="MI0001678"; ID="hcmv-mir-UL22A";
+HEHCMVCG	.	miRNA	49493	49567	.	-	.	ACC="MI0001679"; ID="hcmv-mir-UL36";
+HEHCMVCG	.	miRNA	103087	103152	.	+	.	ACC="MI0003688"; ID="hcmv-mir-UL70";
+HEHCMVCG	.	miRNA	163187	163253	.	+	.	ACC="MI0001680"; ID="hcmv-mir-UL112";
+HEHCMVCG	.	miRNA	195149	195232	.	+	.	ACC="MI0003687"; ID="hcmv-mir-US4";
+HEHCMVCG	.	miRNA	196060	196125	.	+	.	ACC="MI0001682"; ID="hcmv-mir-US5-1";
+HEHCMVCG	.	miRNA	196189	196253	.	+	.	ACC="MI0001683"; ID="hcmv-mir-US5-2";
+HEHCMVCG	.	miRNA	215245	215314	.	-	.	ACC="MI0001684"; ID="hcmv-mir-US25-1";
+HEHCMVCG	.	miRNA	215447	215536	.	-	.	ACC="MI0001685"; ID="hcmv-mir-US25-2";
+HEHCMVCG	.	miRNA	220470	220539	.	-	.	ACC="MI0001686"; ID="hcmv-mir-US33";

@@ -1,0 +1,87 @@
+1	ath	ATH	Arabidopsis thaliana	Viridiplantae;Magnoliophyta;eudicotyledons;Brassicaceae;	REFSEQ	
+2	cbr	CBR	Caenorhabditis briggsae	Metazoa;Nematoda;	CB25.AGP8	
+3	cel	CEL	Caenorhabditis elegans	Metazoa;Nematoda;	WS190	caenorhabditis_elegans_core_50_190
+4	dme	DME	Drosophila melanogaster	Metazoa;Arthropoda;	BDGP5.0	drosophila_melanogaster_core_50_54a
+5	hsa	HSA	Homo sapiens	Metazoa;Vertebrata;Mammalia;Primates;Hominidae;	NCBI36	homo_sapiens_core_50_36l
+6	mmu	MMU	Mus musculus	Metazoa;Vertebrata;Mammalia;Rodentia;	NCBIM37	mus_musculus_core_50_37c
+7	osa	OSA	Oryza sativa	Viridiplantae;Magnoliophyta;monocotyledons;	TIGR4.0	
+8	rno	RNO	Rattus norvegicus	Metazoa;Vertebrata;Mammalia;Rodentia;	RGSC3.4	rattus_norvegicus_core_50_34t
+9	ebv	VRL	Epstein Barr virus	Viruses;	EMBL:AJ507799.2	
+10	gga	GGA	Gallus gallus	Metazoa;Vertebrata;Aves;	WASHUC2	gallus_gallus_core_50_2h
+11	dps	DPS	Drosophila pseudoobscura	Metazoa;Arthropoda;	DPSE2.0	
+12	dre	DRE	Danio rerio	Metazoa;Vertebrata;Pisces;	Zv7	danio_rerio_core_50_7d
+13	xla	XLA	Xenopus laevis	Metazoa;Vertebrata;Amphibia;		
+14	zma	ZMA	Zea mays	Viridiplantae;Magnoliophyta;monocotyledons;	AZM5	
+15	sbi	SBI	Sorghum bicolor	Viridiplantae;Magnoliophyta;monocotyledons;		
+16	kshv	VRL	Kaposi sarcoma-associated herpesvirus	Viruses;	EMBL:U75698.1	
+17	oar	OAR	Ovis aries	Metazoa;Vertebrata;Mammalia;Ruminantia;		
+18	ame	AME	Apis mellifera	Metazoa;Arthropoda;	AMEL4.0	
+19	aga	AGA	Anopheles gambiae	Metazoa;Arthropoda;	AGAMP3	anopheles_gambiae_core_50_3k
+20	cfa	CFA	Canis familiaris	Metazoa;Vertebrata;Mammalia;Carnivora;	CanFam2.0	canis_familiaris_core_50_2h
+21	mghv	VRL	Mouse gammaherpesvirus 68	Viruses;	EMBL:U97553.1	
+22	hcmv	VRL	Human cytomegalovirus	Viruses;	EMBL:X17403.1	
+23	mtr	MTR	Medicago truncatula	Viridiplantae;Magnoliophyta;eudicotyledons;Fabaceae;		
+24	sof	SOF	Saccharum officinarum	Viridiplantae;Magnoliophyta;monocotyledons;		
+25	gma	GMA	Glycine max	Viridiplantae;Magnoliophyta;eudicotyledons;Fabaceae;		
+26	ptc	PTC	Populus trichocarpa	Viridiplantae;Magnoliophyta;eudicotyledons;Salicaceae;	Poptr1.0	
+27	ssc	SSC	Sus scrofa	Metazoa;Vertebrata;Mammalia;Suina;		
+28	age	AGE	Ateles geoffroyi	Metazoa;Vertebrata;Mammalia;Primates;Atelidae;		
+29	ggo	GGO	Gorilla gorilla	Metazoa;Vertebrata;Mammalia;Primates;Hominidae;		
+30	lla	LLA	Lagothrix lagotricha	Metazoa;Vertebrata;Mammalia;Primates;Atelidae;		
+31	lca	LCA	Lemur catta	Metazoa;Vertebrata;Mammalia;Primates;Lemuridae;		
+32	mml	MML	Macaca mulatta	Metazoa;Vertebrata;Mammalia;Primates;Cercopithecidae;	MMUL1.0	macaca_mulatta_core_50_10i
+33	mne	MNE	Macaca nemestrina	Metazoa;Vertebrata;Mammalia;Primates;Cercopithecidae;		
+34	ppa	PPA	Pan paniscus	Metazoa;Vertebrata;Mammalia;Primates;Hominidae;		
+35	ppy	PPY	Pongo pygmaeus	Metazoa;Vertebrata;Mammalia;Primates;Hominidae;		pongo_pygmaeus_core_50_1a
+36	sla	SLA	Saguinus labiatus	Metazoa;Vertebrata;Mammalia;Primates;Cebidae;		
+37	ptr	PTR	Pan troglodytes	Metazoa;Vertebrata;Mammalia;Primates;Hominidae;	PanTro2.1	pan_troglodytes_core_50_21i
+38	fru	FRU	Fugu rubripes	Metazoa;Vertebrata;Pisces;	FUGU4	
+39	tni	TNI	Tetraodon nigroviridis	Metazoa;Vertebrata;Pisces;	TETRAODON7	tetraodon_nigroviridis_core_50_8
+40	ppt	PPT	Physcomitrella patens	Viridiplantae;Embryophyta;		
+41	sv40	VRL	Simian virus 40	Viruses;		
+42	rlcv	VRL	Rhesus lymphocryptovirus	Viruses;		
+43	xtr	XTR	Xenopus tropicalis	Metazoa;Vertebrata;Amphibia;	JGI4.1	xenopus_tropicalis_core_50_41j
+44	bta	BTA	Bos taurus	Metazoa;Vertebrata;Mammalia;Ruminantia;	BTAU4.0	bos_taurus_core_50_4
+45	hsv1	VRL	Herpes Simplex Virus 1	Viruses;		
+46	bmo	BMO	Bombyx mori	Metazoa;Arthropoda;	SILKDB2.0	
+47	sme	SME	Schmidtea mediterranea	Metazoa;Platyhelminthes;	WUSTL2.0	
+48	mdv1	VRL	Mareks disease virus	Viruses;	EMBL:AF243438.1	
+49	mdo	MDO	Monodelphis domestica	Metazoa;Vertebrata;Mammalia;Metatheria;	MONDOM5	monodelphis_domestica_core_50_5e
+50	ghr	GHR	Gossypium hirsutum	Viridiplantae;Magnoliophyta;eudicotyledons;Malvaceae;		
+51	gra	GRA	Gossypium rammindii	Viridiplantae;Magnoliophyta;eudicotyledons;Malvaceae;		
+52	ghb	GHB	Gossypium herbecium	Viridiplantae;Magnoliophyta;eudicotyledons;Malvaceae;		
+53	cre	CRE	Chlamydomonas reinhardtii	Protistae;	CHLRE3.1	
+54	rrv	VRL	Rhesus monkey rhadinovirus	Viruses;		
+55	cgr	CGR	Cricetulus griseus	Metazoa;Vertebrata;Mammalia;Rodentia;		
+56	mdv2	VRL	Mareks disease virus type 2	Viruses;		
+57	bna	BNA	Brassica napus	Viridiplantae;Magnoliophyta;eudicotyledons;Brassicaceae;	BrassicaDB-2008	
+58	pta	PTA	Pinus taeda	Viridiplantae;Coniferophyta;		
+59	smo	SMO	Selaginella moellendorffii	Viridiplantae;Embryophyta;		
+60	hiv1	VRL	Human immunodeficiency virus 1	Viruses;		
+61	tae	TAE	Triticum aestivum	Viridiplantae;Magnoliophyta;monocotyledons;	TIGR_tae2	
+62	tca	TCA	Tribolium castaneum	Metazoa;Arthropoda;		
+63	ddi	DDI	Dictyostelium discoideum	Mycetozoa;		
+64	mcmv	VRL	Mouse cytomegalovirus	Viruses;		
+65	cpa	CPA	Carica papaya	Viridiplantae;Magnoliophyta;eudicotyledons;Caricaceae;		
+66	pbi	PBI	Pygathrix bieti	Metazoa;Vertebrata;Mammalia;Primates;Cercopithecidae;		
+67	ssy	SSY	Symphalangus syndactylus	Metazoa;Vertebrata;Mammalia;Primates;Hominidae;		
+68	bol	BOL	Brassica oleracea	Viridiplantae;Magnoliophyta;eudicotyledons;Brassicaceae;		
+69	bra	BRA	Brassica rapa	Viridiplantae;Magnoliophyta;eudicotyledons;Brassicaceae;		
+70	vvi	VVI	Vitis vinifera	Viridiplantae;Magnoliophyta;eudicotyledons;Vitaceae;	Genoscope-20070	
+71	oan	OAN	Ornithorhynchus anatinus	Metazoa;Vertebrata;Mammalia;Prototheria;		ornithorhynchus_anatinus_core_50_1g
+72	csa	CSA	Ciona savignyi	Metazoa;Urochordata;	CSAV2.0	ciona_savignyi_core_50_2g
+73	odi	ODI	Oikopleura dioica	Metazoa;Urochordata;		
+74	cin	CIN	Ciona intestinalis	Metazoa;Urochordata;	JGI2.0	ciona_intestinalis_core_50_2j
+75	sly	SLY	Solanum lycopersicum	Viridiplantae;Magnoliophyta;eudicotyledons;Solanaceae;		
+76	dan	DAN	Drosophila ananassae	Metazoa;Arthropoda;		
+77	der	DER	Drosophila erecta	Metazoa;Arthropoda;		
+78	dgr	DGR	Drosophila grimshawi	Metazoa;Arthropoda;		
+79	dmo	DMO	Drosophila mojavensis	Metazoa;Arthropoda;		
+80	dpe	DPE	Drosophila persimilis	Metazoa;Arthropoda;		
+81	dse	DSE	Drosophila sechellia	Metazoa;Arthropoda;		
+82	dsi	DSI	Drosophila simulans	Metazoa;Arthropoda;		
+83	dvi	DVI	Drosophila virilis	Metazoa;Arthropoda;		
+84	dwi	DWI	Drosophila willistoni	Metazoa;Arthropoda;		
+85	dya	DYA	Drosophila yakuba	Metazoa;Arthropoda;		
+86	bkv	VRL	BK polyomavirus	Viruses;		
+87	jcv	VRL	JC polyomavirus	Viruses;		

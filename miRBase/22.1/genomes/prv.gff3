@@ -1,0 +1,42 @@
+##gff-version 3
+##date 2018-3-5
+#
+# Chromosomal coordinates of Pseudorabies virus microRNAs
+# microRNAs:               miRBase v22
+# genome-build-id:         NC_006151.1
+#
+# Hairpin precursor sequences have type "miRNA_primary_transcript". 
+# Note, these sequences do not represent the full primary transcript, 
+# rather a predicted stem-loop portion that includes the precursor 
+# miRNA. Mature sequences have type "miRNA".
+#
+NC_006151.1	.	miRNA_primary_transcript	97878	97959	.	+	.	ID=MI0022072;Alias=MI0022072;Name=prv-mir-LLT1
+NC_006151.1	.	miRNA	97929	97949	.	+	.	ID=MIMAT0025304;Alias=MIMAT0025304;Name=prv-miR-LLT1;Derives_from=MI0022072
+NC_006151.1	.	miRNA_primary_transcript	98376	98455	.	+	.	ID=MI0022073;Alias=MI0022073;Name=prv-mir-LLT2
+NC_006151.1	.	miRNA	98386	98405	.	+	.	ID=MIMAT0025305;Alias=MIMAT0025305;Name=prv-miR-LLT2;Derives_from=MI0022073
+NC_006151.1	.	miRNA_primary_transcript	98440	98516	.	+	.	ID=MI0022074;Alias=MI0022074;Name=prv-mir-LLT3
+NC_006151.1	.	miRNA	98485	98506	.	+	.	ID=MIMAT0025306;Alias=MIMAT0025306;Name=prv-miR-LLT3;Derives_from=MI0022074
+NC_006151.1	.	miRNA_primary_transcript	98752	98830	.	+	.	ID=MI0022075;Alias=MI0022075;Name=prv-mir-LLT4
+NC_006151.1	.	miRNA	98762	98783	.	+	.	ID=MIMAT0025307;Alias=MIMAT0025307;Name=prv-miR-LLT4;Derives_from=MI0022075
+NC_006151.1	.	miRNA_primary_transcript	99279	99385	.	+	.	ID=MI0022078;Alias=MI0022078;Name=prv-mir-LLT7
+NC_006151.1	.	miRNA	99302	99322	.	+	.	ID=MIMAT0025310;Alias=MIMAT0025310;Name=prv-miR-LLT7-5p;Derives_from=MI0022078
+NC_006151.1	.	miRNA	99342	99361	.	+	.	ID=MIMAT0037460;Alias=MIMAT0037460;Name=prv-miR-LLT7-3p;Derives_from=MI0022078
+NC_006151.1	.	miRNA_primary_transcript	99540	99624	.	+	.	ID=MI0022077;Alias=MI0022077;Name=prv-mir-LLT6
+NC_006151.1	.	miRNA	99550	99570	.	+	.	ID=MIMAT0025309;Alias=MIMAT0025309;Name=prv-miR-LLT6;Derives_from=MI0022077
+NC_006151.1	.	miRNA_primary_transcript	99861	99940	.	+	.	ID=MI0022076;Alias=MI0022076;Name=prv-mir-LLT5
+NC_006151.1	.	miRNA	99910	99931	.	+	.	ID=MIMAT0025308;Alias=MIMAT0025308;Name=prv-miR-LLT5;Derives_from=MI0022076
+NC_006151.1	.	miRNA_primary_transcript	100211	100297	.	+	.	ID=MI0022079;Alias=MI0022079;Name=prv-mir-LLT8
+NC_006151.1	.	miRNA	100221	100240	.	+	.	ID=MIMAT0025311;Alias=MIMAT0025311;Name=prv-miR-LLT8-5p;Derives_from=MI0022079
+NC_006151.1	.	miRNA	100267	100287	.	+	.	ID=MIMAT0037461;Alias=MIMAT0037461;Name=prv-miR-LLT8-3p;Derives_from=MI0022079
+NC_006151.1	.	miRNA_primary_transcript	100365	100444	.	+	.	ID=MI0022080;Alias=MI0022080;Name=prv-mir-LLT9
+NC_006151.1	.	miRNA	100375	100394	.	+	.	ID=MIMAT0025312;Alias=MIMAT0025312;Name=prv-miR-LLT9;Derives_from=MI0022080
+NC_006151.1	.	miRNA_primary_transcript	101789	101870	.	+	.	ID=MI0022081;Alias=MI0022081;Name=prv-mir-LLT10a
+NC_006151.1	.	miRNA	101838	101860	.	+	.	ID=MIMAT0025313;Alias=MIMAT0025313;Name=prv-miR-LLT10a;Derives_from=MI0022081
+NC_006151.1	.	miRNA_primary_transcript	101960	102048	.	+	.	ID=MI0022083;Alias=MI0022083;Name=prv-mir-LLT11a
+NC_006151.1	.	miRNA	101974	101996	.	+	.	ID=MIMAT0025315;Alias=MIMAT0025315;Name=prv-miR-LLT11a-5p;Derives_from=MI0022083
+NC_006151.1	.	miRNA	102016	102040	.	+	.	ID=MIMAT0037462;Alias=MIMAT0037462;Name=prv-miR-LLT11a-3p;Derives_from=MI0022083
+NC_006151.1	.	miRNA_primary_transcript	142554	142642	.	-	.	ID=MI0022084;Alias=MI0022084;Name=prv-mir-LLT11b
+NC_006151.1	.	miRNA	142606	142628	.	-	.	ID=MIMAT0025316;Alias=MIMAT0025316;Name=prv-miR-LLT11b-5p;Derives_from=MI0022084
+NC_006151.1	.	miRNA	142562	142586	.	-	.	ID=MIMAT0037463;Alias=MIMAT0037463;Name=prv-miR-LLT11b-3p;Derives_from=MI0022084
+NC_006151.1	.	miRNA_primary_transcript	142732	142813	.	-	.	ID=MI0022082;Alias=MI0022082;Name=prv-mir-LLT10b
+NC_006151.1	.	miRNA	142742	142764	.	-	.	ID=MIMAT0025314;Alias=MIMAT0025314;Name=prv-miR-LLT10b;Derives_from=MI0022082

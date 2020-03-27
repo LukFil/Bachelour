@@ -1,0 +1,32 @@
+##gff-version 2
+##date 2008-08-30
+#
+# Chromosomal coordinates of Ciona intestinalis microRNAs
+# miRNA data:       miRBase Sequence (version 12.0)
+# Genome assembly:  JGI2.0
+#
+10p	.	miRNA	1217625	1217725	.	-	.	ACC="MI0007153"; ID="cin-let-7d";
+10p	.	miRNA	1218098	1218177	.	-	.	ACC="MI0007129"; ID="cin-mir-1473";
+10q	.	miRNA	2152513	2152631	.	-	.	ACC="MI0007158"; ID="cin-mir-34";
+1p	.	miRNA	1774516	1774593	.	-	.	ACC="MI0007155"; ID="cin-mir-7";
+1p	.	miRNA	2635676	2635776	.	-	.	ACC="MI0007161"; ID="cin-mir-92b";
+1q	.	miRNA	1582551	1582631	.	+	.	ACC="MI0007166"; ID="cin-mir-126";
+1q	.	miRNA	5268510	5268610	.	-	.	ACC="MI0007167"; ID="cin-mir-133";
+3p	.	miRNA	1864426	1864526	.	+	.	ACC="MI0007160"; ID="cin-mir-92a";
+3p	.	miRNA	1865219	1865319	.	+	.	ACC="MI0007162"; ID="cin-mir-92c";
+3q	.	miRNA	1843689	1843802	.	+	.	ACC="MI0007171"; ID="cin-mir-181";
+4q	.	miRNA	2082260	2082369	.	+	.	ACC="MI0007149"; ID="cin-let-7a-1";
+4q	.	miRNA	2082788	2082896	.	+	.	ACC="MI0007151"; ID="cin-let-7b";
+4q	.	miRNA	2082979	2083088	.	+	.	ACC="MI0007152"; ID="cin-let-7c";
+4q	.	miRNA	2083177	2083286	.	+	.	ACC="MI0007150"; ID="cin-let-7a-2";
+4q	.	miRNA	2177777	2177877	.	-	.	ACC="MI0007170"; ID="cin-mir-155";
+5q	.	miRNA	1421653	1421754	.	+	.	ACC="MI0007169"; ID="cin-mir-153";
+5q	.	miRNA	2076043	2076144	.	+	.	ACC="MI0007156"; ID="cin-mir-31";
+7q	.	miRNA	5634284	5634385	.	+	.	ACC="MI0007178"; ID="cin-mir-219";
+7q	.	miRNA	6301475	6301551	.	+	.	ACC="MI0007164"; ID="cin-mir-124-1";
+7q	.	miRNA	6301598	6301696	.	+	.	ACC="MI0007165"; ID="cin-mir-124-2";
+9q	.	miRNA	3479361	3479464	.	+	.	ACC="MI0007130"; ID="cin-mir-1497";
+scaffold_36	.	miRNA	549852	549931	.	+	.	ACC="MI0007172"; ID="cin-mir-183";
+scaffold_64	.	miRNA	295962	296062	.	-	.	ACC="MI0007179"; ID="cin-mir-281";
+scaffold_71	.	miRNA	128174	128259	.	+	.	ACC="MI0007175"; ID="cin-mir-200";
+scaffold_71	.	miRNA	128547	128621	.	+	.	ACC="MI0007168"; ID="cin-mir-141";

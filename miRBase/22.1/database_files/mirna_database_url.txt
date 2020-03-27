@@ -1,0 +1,5 @@
+1	RNAcentral	http://rnacentral.org/rna/<?>
+2	Rfam	http://rfam.org/family/<?>
+3	HGNC	https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=HGNC:<?>
+4	MGI	http://www.informatics.jax.org/marker/MGI:<?>
+5	EntrezGene	https://www.ncbi.nlm.nih.gov/gene/<?>

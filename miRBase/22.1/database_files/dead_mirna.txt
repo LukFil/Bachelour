@@ -1,0 +1,898 @@
+MI0000092	hsa-mir-91 	hsa-mir-91-13 	MI0000071 	miR-91 is expressed from the 5' arm of the mir-17 precursor hairpin. 
+MI0000096	hsa-mir-93-2 	hsa-mir-93-7.2 	MI0000095 	Mourelatos et al. identified two copies of mir-93, but subsequent genome assemblies suggest they map to a single locus. 
+MI0000099	hsa-mir-97-6 		MI0000088 	miR-97 appears to be expressed from the same precursor sequence of the mir-30a precursor hairpin.  The sequence is renamed miR-30a-5p. 
+MI0000104	hsa-mir-101-9 		MI0000739 	Duplicate entry removed. 
+MI0000106	hsa-mir-29b-3 	hsa-mir-102-7.2 hsa-mir-102-3 	MI0000105 	Mourelatos et al. identified two copies of mir-102, which map to a single locus in subsequent genome assemblies.  mir-102 was later renamed to  mir-29b. 
+MI0000110	hsa-mir-104 	hsa-mir-104-17 	MI0000077 	The mir-104 precursor sequence reported by Mourelatos et al. is the exact reverse complement of mir-21 from Lagos-Quintana et al. 
+MI0000149	mmu-mir-123 		MI0000153 	Mouse miR-123 originates from the same precursor as miR-126. 
+MI0000219	ath-MIR180a 		MI0000215 	MIR180a is renamed MIR172a. 
+MI0000220	ath-MIR180b 		MI0000216 	MIR180b is renamed MIR172b. 
+MI0000258	mmu-mir-1b 		MI0000139 	The 3' end of miR-1b conflicts with the precursor sequences and genome assemblies.  miR-1b, 1c and 1d are merged into mir-1-1 and mir-1-2. 
+MI0000260	hsa-mir-124b 		MI0000716 	miR-124b is not found in either mouse or human genome assemblies so is removed. 
+MI0000278	hsa-mir-196-1 		MI0000238 	Remove duplicate entry. 
+MI0000280	hsa-mir-199a-1 		MI0000242 	Remove duplicate entry. 
+MI0000332	cel-mir-227 		MI0000051 	miR-227 appears to be expressed from the 5' arm of the mir-80 precursor hairpin. 
+MI0000372	dme-mir-263a 		MI0000343 	Remove duplicate entry. 
+MI0000396	mmu-mir-297-2 		MI0000395 	Remove low complexity duplicate entry. 
+MI0000435	hsa-mir-1b-1 		MI0000651 	The 3' end of miR-1b conflicts with the precursor sequences and genome assemblies.  miR-1b, 1c and 1d are merged into mir-1-1 and mir-1-2. 
+MI0000436	hsa-mir-1b-2 		MI0000651 	The 3' end of miR-1b conflicts with the precursor sequences and genome assemblies.  miR-1b, 1c and 1d are merged into mir-1-1 and mir-1-2. 
+MI0000485	hsa-mir-189 		MI0000080 	miR-189 appears to be expressed from the same precursor hairpin as miR-24.  Entries are merged. 
+MI0000506	cbr-mir-53 		MI0001399 	Low confidence in predicted C. briggsae homologue of miR-53.  Later reinstated as MI0001399. 
+MI0000516	cbr-mir-77 		MI0000515 	Remove duplicate entry. 
+MI0000529	cbr-mir-232 		MI0000528 	Remove duplicate entry. 
+MI0000574	mmu-mir-26a-2 		MI0000706 	Remove duplicate sequence.  Subsequent genome assemblies suggest two precursors so reinstated as MI0000706. 
+MI0000543	hsa-mir-321 		MI0000543 	miR-321 is a fragment of a Arg-tRNA.  
+MI0000705	mmu-mir-321 		MI0000705 	miR-321 is a fragment of a Arg-tRNA. 
+MI0000973	rno-mir-321 		MI0000973 	miR-321 is a fragment of a Arg-tRNA. 
+MI0001417	cbr-mir-37 		MI0001416 	Incorrectly named - duplicate of cbr-mir-36  
+MI0001399	cbr-mir-53 		MI0000505 	Incorrectly named - duplicate of cbr-mir-52  
+MI0001393	cbr-mir-65 		MI0001392 	Incorrectly named - duplicate of cbr-mir-64  
+MI0001081	ath-MIR407b 		MI0001079 	MIR407a and b map to the same locus in NC_003071.3. MIR407b has therefore been removed. 
+MI0001076	ath-MIR405c 		MI0001075 	MIR405b and c map to the same locus in NC_003076.4. MIR405c has therefore been removed. 
+MI0000686	mmu-mir-10a-2 		MI0000685 	Two mir-10a loci in previous mouse assemblies appear to have been collapsed in NCBIM33. 
+MI0001443	hsa-mir-422b 		MI0000786 	from same precursor as miR-378  
+MI0001484	zma-MIR166j 		MI0001480 	duplicate of MIR166a  
+MI0001432	hsa-mir-108 		MI0000769 	mir-108 is the reverse complement of mir-365  
+MI0001646	rno-mir-365-2 		MI0001656 	There is only one rat genomic locus for mir-365 in the RGCS 3.4 assembly 
+MI0001736	hsa-mir-329-1 		MI0001725 	duplicate entry 
+MI0001737	hsa-mir-329-2 		MI0001726 	duplicate entry 
+MI0001728	hsa-mir-453 		MI0001727 	duplicate entry 
+MI0001658	kshv-mir-K12-1a 		MI0002472 	The names of the KSHV entries in release 6.0 were incompatable with those published in Cai et al and Pfeffer et al.  
+MI0001659	kshv-mir-K12-1b 		MI0002473 	The names of the KSHV entries in release 6.0 were incompatable with those published in Cai et al and Pfeffer et al. 
+MI0001660	kshv-mir-K12-2 		MI0002477 	The names of the KSHV entries in release 6.0 were incompatable with those published in Cai et al and Pfeffer et al. 
+MI0001661	kshv-mir-K12-3 		MI0002478 	The names of the KSHV entries in release 6.0 were incompatable with those published in Cai et al and Pfeffer et al. 
+MI0001662	kshv-mir-K12-4 		MI0002479 	The names of the KSHV entries in release 6.0 were incompatable with those published in Cai et al and Pfeffer et al. 
+MI0001663	kshv-mir-K12-5 		MI0002474 	The names of the KSHV entries in release 6.0 were incompatable with those published in Cai et al and Pfeffer et al. 
+MI0001664	kshv-mir-K12-6 		MI0002480 	The names of the KSHV entries in release 6.0 were incompatable with those published in Cai et al and Pfeffer et al. 
+MI0001665	kshv-mir-K12-7 		MI0002481 	The names of the KSHV entries in release 6.0 were incompatable with those published in Cai et al and Pfeffer et al. 
+MI0001666	kshv-mir-K12-8 		MI0002482 	The names of the KSHV entries in release 6.0 were incompatable with those published in Cai et al and Pfeffer et al. 
+MI0001667	kshv-mir-K12-9 		MI0002483 	The names of the KSHV entries in release 6.0 were incompatable with those published in Cai et al and Pfeffer et al. 
+MI0001668	kshv-mir-K12-10 		MI0002475 	The names of the KSHV entries in release 6.0 were incompatable with those published in Cai et al and Pfeffer et al. 
+MI0000039	cel-mir-68 		MI0000039 	mir-68 has been reclassified as an siRNA (Lim et al. Genes Dev 2003 17:991-1008) 
+MI0000040	cel-mir-69 		MI0000040 	mir-69 has been reclassified as an siRNA (Lim et al. Genes Dev 2003 17:991-1008) 
+MI0001864	dre-let-7b-1 		MI0001865 	Only one copy of let-7b is found in the Zv5 genome assembly -- duplicate removed.  
+MI0003250	fru-mir-204b 		MI0003465 	Only one copy of mir-204 is found in the FUGU4 genome assembly -- mir-204b removed.  
+MI0004432	mmu-mir-P455* 		MI0004679 	Plasterk unpublished sequence identical to mir-455 
+MI0001039	osa-MIR395o 		MI0001038 	3 identical MIR395 hairpins map to just one locus in the TIGR 4.0 genome assembly, so entries merged  
+MI0001040	osa-MIR395r 		MI0001038 	3 identical MIR395 hairpins map to just one locus in the TIGR 4.0 genome assembly, so entries merged  
+MI0001153	osa-MIR395s 		MI0001044 	3 identical miR395 hairpin precursors map to only one locus in TIGR 4.0 genome assembly, so entries merged  
+MI0001045	osa-MIR395p 		MI0001044 	3 identical miR395 hairpin precursors map to only one locus in TIGR 4.0 genome assembly, so entries merged  
+MI0001949	dre-mir-30e-1 		MI0001950 	Genome assembly Zv6 contains only one mir-30e locus -- second removed 
+MI0002129	dre-mir-430a-20 		MI0002114 	Locus not present in Zv6 genome assembly -- removed from database 
+MI0002130	dre-mir-430a-21 		MI0002114 	Locus not present in Zv6 genome assembly -- removed from database  
+MI0002137	dre-mir-430a-28 		MI0002114 	Locus not present in Zv6 genome assembly -- removed from database  
+MI0002167	dre-mir-430b-27 		MI0002146 	Locus not present in Zv6 genome assembly -- removed from database 
+MI0002168	dre-mir-430b-28 		MI0002146 	Locus not present in Zv6 genome assembly -- removed from database  
+MI0002169	dre-mir-430b-29 		MI0002146 	Locus not present in Zv6 genome assembly -- removed from database  
+MI0002084	dre-mir-430c-7 		MI0002079 	Locus not present in Zv6 genome assembly -- removed from database 
+MI0002085	dre-mir-430c-8 		MI0002079 	Locus not present in Zv6 genome assembly -- removed from database  
+MI0002086	dre-mir-430c-9 		MI0002079 	Locus not present in Zv6 genome assembly -- removed from database  
+MI0001942	dre-mir-30b-2 		MI0001941 	Three identical zebrafish mir-30a precursor sequences map to just one locus in genome assembly Zv6 
+MI0001943	dre-mir-30b-3 		MI0001941 	Three identical zebrafish mir-30a precursor sequences map to just one locus in genome assembly Zv6  
+MI0001869	dre-let-7d-2 		MI0001868 	Two identical zebrafish let-7d precursor sequences map to just one locus in genome assembly Zv6 
+MI0002058	dre-mir-223-2 		MI0001389 	Two identical zebrafish mir-223 precursor sequences map to just one locus in genome assembly Zv6 
+MI0001999	dre-mir-135-4 		MI0001998 	Two identical zebrafish mir-135 precursor sequences map to just one locus in genome assembly Zv6 
+MI0001945	dre-mir-30c-2 		MI0001944 	Two identical zebrafish mir-30c precursor sequences map to just one locus in genome assembly Zv6 
+MI0002020	dre-mir-153b-2 		MI0002019 	Two identical zebrafish mir-153b precursor sequences map to just one locus in genome assembly Zv6 
+MI0002182	dre-mir-460-2 		MI0002181 	Two identical zebrafish mir-460 precursor sequences map to just one locus in genome assembly Zv6 
+MI0002075	dre-mir-454a-2 		MI0002074 	Two identical zebrafish mir-454a precursor sequences map to just one locus in genome assembly Zv6 
+MI0001914	dre-mir-23a-2 		MI0001913 	Two identical zebrafish mir-23a precursor sequences map to just one locus in genome assembly Zv6 
+MI0002018	dre-mir-152-2 		MI0002017 	Two identical zebrafish mir-152 precursor sequences map to just one locus in genome assembly Zv6 
+MI0001947	dre-mir-30d-2 		MI0001946 	Three identical zebrafish mir-30d precursor sequences map to just one locus in genome assembly Zv6 
+MI0001948	dre-mir-30d-3 		MI0001946 	Three identical zebrafish mir-30d precursor sequences map to just one locus in genome assembly Zv6  
+MI0001859	dre-let-7a-3 		MI0001858 	Two identical zebrafish let-7a precursor sequences map to just one locus in genome assembly Zv6 
+MI0001924	dre-mir-26a-2 		MI0001923 	Two identical zebrafish mir-26a precursor sequences map to just one locus in genome assembly Zv6 
+MI0002011	dre-mir-145-2 		MI0002010 	Two identical zebrafish mir-145 precursor sequences map to just one locus in genome assembly Zv6 
+MI0002025	dre-mir-181c-2 		MI0002024 	Two identical zebrafish mir-181c precursor sequences map to just one locus in genome assembly Zv6 
+MI0001990	dre-mir-132-2 		MI0001989 	Two identical zebrafish mir-132 precursor sequences map to just one locus in genome assembly Zv6 
+MI0001939	dre-mir-29a-2 		MI0001938 	Two identical zebrafish mir-29a precursor sequences map to just one locus in genome assembly Zv6 
+MI0002044	dre-mir-205-2 		MI0001378 	Two identical zebrafish mir-205 precursor sequences map to just one locus in genome assembly Zv6 
+MI0001935	dre-mir-29b-3 		MI0001934 	Two identical zebrafish mir-29b precursor sequences map to just one locus in genome assembly Zv6 
+MI0001937	dre-mir-29b-5 		MI0001936 	Two identical zebrafish mir-29b precursor sequences map to just one locus in genome assembly Zv6 
+MI0002055	dre-mir-219-4 		MI0001385 	Four identical zebrafish mir-219 precursor sequences map to just one locus in genome assembly Zv6 
+MI0002056	dre-mir-219-5 		MI0001385 	Four identical zebrafish mir-219 precursor sequences map to just one locus in genome assembly Zv6  
+MI0002057	dre-mir-219-6 		MI0001385 	Four identical zebrafish mir-219 precursor sequences map to just one locus in genome assembly Zv6  
+MI0001974	dre-mir-125a-3 		MI0001973 	Two identical zebrafish mir-125a precursor sequences map to just one locus in genome assembly Zv6 
+MI0002127	dre-mir-430a-18 		MI0002121 	8 identical zebrafish mir-430a precursor sequences map to 6 loci in genome assembly Zv6 
+MI0002128	dre-mir-430a-19 		MI0002121 	8 identical zebrafish mir-430a precursor sequences map to 6 loci in genome assembly Zv6 
+MI0002136	dre-mir-430a-25 		MI0001527 	Two identical zebrafish mir-430a precursor sequences map to just one locus in genome assembly Zv6 
+MI0002159	dre-mir-430b-19 		MI0002152 	16 identical zebrafish mir-430b precursor sequences map to 9 loci in genome assembly Zv6 
+MI0002160	dre-mir-430b-20 		MI0002152 	16 identical zebrafish mir-430b precursor sequences map to 9 loci in genome assembly Zv6  
+MI0002161	dre-mir-430b-21 		MI0002152 	16 identical zebrafish mir-430b precursor sequences map to 9 loci in genome assembly Zv6  
+MI0002162	dre-mir-430b-22 		MI0002152 	16 identical zebrafish mir-430b precursor sequences map to 9 loci in genome assembly Zv6  
+MI0002163	dre-mir-430b-23 		MI0002152 	16 identical zebrafish mir-430b precursor sequences map to 9 loci in genome assembly Zv6  
+MI0002164	dre-mir-430b-24 		MI0002152 	16 identical zebrafish mir-430b precursor sequences map to 9 loci in genome assembly Zv6  
+MI0002165	dre-mir-430b-25 		MI0002152 	16 identical zebrafish mir-430b precursor sequences map to 9 loci in genome assembly Zv6  
+MI0002145	dre-mir-430b-5 		MI0001528 	5 identical zebrafish mir-430b precursor sequences map to 4 loci in genome assembly Zv6 
+MI0002102	dre-mir-430c-22 		MI0002079 	28 identical zebrafish mir-430b precursor sequences map to only 19 loci in genome assembly Zv6 
+MI0002103	dre-mir-430c-23 		MI0002079 	28 identical zebrafish mir-430b precursor sequences map to only 19 loci in genome assembly Zv6  
+MI0002104	dre-mir-430c-24 		MI0002079 	28 identical zebrafish mir-430b precursor sequences map to only 19 loci in genome assembly Zv6  
+MI0002105	dre-mir-430c-25 		MI0002079 	28 identical zebrafish mir-430b precursor sequences map to only 19 loci in genome assembly Zv6  
+MI0002106	dre-mir-430c-26 		MI0002079 	28 identical zebrafish mir-430b precursor sequences map to only 19 loci in genome assembly Zv6  
+MI0002107	dre-mir-430c-27 		MI0002079 	28 identical zebrafish mir-430b precursor sequences map to only 19 loci in genome assembly Zv6  
+MI0002108	dre-mir-430c-28 		MI0002079 	28 identical zebrafish mir-430b precursor sequences map to only 19 loci in genome assembly Zv6  
+MI0002109	dre-mir-430c-29 		MI0002079 	28 identical zebrafish mir-430b precursor sequences map to only 19 loci in genome assembly Zv6  
+MI0002110	dre-mir-430c-30 		MI0002079 	28 identical zebrafish mir-430b precursor sequences map to only 19 loci in genome assembly Zv6  
+MI0001964	dre-mir-107-2 		MI0001963 	Two identical zebrafish mir-107 precursor sequences map to only one loci in genome assembly Zv6 
+MI0002078	dre-mir-455-2 		MI0002077 	Two identical zebrafish mir-455 precursor sequences map to only one locus in genome assembly Zv6 
+MI0001797	zma-MIR395c 		MI0001799 	mispredicted hairpin overlapped with MIR395a  
+MI0005208	mmu-mir-744 		MI0004124 	Duplicates sequence MI0004124 
+MI0003606	hsa-mir-594 		MI0003606 	miR-594 is a fragment of an annotated tRNA gene.  
+MI0001285	gga-mir-222b 		MI0001177 	Latest chicken genome assembly suggests that mir-222a and b are identical  
+MI0005001	gga-mir-757-3 		MI0004999 	3 predicted mir-757 loci collapse to 2 in latest chicken genome assembly  
+MI0001286	gga-mir-7b-2 		MI0001279 	2 mir-7b loci collapse to 1 in the latest chicken genome assembly  
+MI0005449	ath-MIR472 		MI0005102 	Arabidopsis MIR772 and MIR472 are the same  
+MI0005679	ppt-MIR535e 		MI0003504 	MIR535e and MIR535c map to the same genomic locus in JGI1.1  
+MI0005666	ppt-MIR390d 		MI0003494 	MIR390d and MIR390a map to the same genomic locus in JGI1.1 
+MI0005664	ppt-MIR319e 		MI0003496 	MIR319e and MIR319a map to the same genomic locus in JGI1.1 
+MI0005662	ppt-MIR171c 		MI0005689 	MIR171c and MIR171b map to the same locus in the JGI1.1 genome assembly 
+MI0005663	ppt-MIR171d 		MI0005688 	MIR171c and MIR171b map to the same locus in the JGI1.1 genome assembly 
+MI0000771	mmu-mir-366 		MI0006127 	mir-366 was never published. The same sequence was later published as mir-582.  
+MI0005931	ppt-MIR535e 		MI0003504 	MIR535e is identical to MIR535c  
+MI0004709	ppt-MIR1210 		MI0005672 	MIR1210 is expressed from the MIR477a hairpin precursor  
+MI0004712	ppt-MIR1213 		MI0005674 	MIR1213 is expressed from the MIR477g hairpin precursor  
+MI0005781	pta-MIR162 		MI0005781 	Submitted by Lu et al, but insufficient similarity to assign name without experiment  
+MI0006129	mmu-mir-368 		MI0003533 	miR-368 and miR-376c map to the same locus. miR-376c is retained.  
+MI0006139	rno-mir-368 		MI0003543 	miR-368 and miR-376c map to the same locus. miR-376c is retained.  
+MI0006109	hsa-mir-516b-2 		MI0003167 	Duplicate entry of previously named miR-516a-3, which is renamed to replace this.  
+MI0006110	hsa-mir-516b-1 		MI0003172 	Duplicate entry of previously named miR-516a-4, which is renamed to replace this.  
+MI0006111	hsa-mir-520c-2 		MI0003155 	miR-520c-2 is a duplicate of miR-520b.  
+MI0006108	hsa-mir-517a-2 		MI0003165 	miR-517a-2 is a duplicate of miR-517b.  
+MI0005486	mmu-mir-877-2 		MI0005553 	miR-877-1 and -2 map to the same locus in the mouse genome assembly. 
+MI0006138	rno-mir-344-2 		MI0000629 	miR-344-1 and -2 map to the same locus in the rat genome assembly. 
+MI0003571	hsa-mir-565 		MI0003571 	This sequence is likely a tRNA fragment, not a miRNA (Berezikov et al, Nat Gen 2006 38:S2-7).  
+MI0004108	hsa-mir-P683-5p 		MI0003938 	Duplicate of MI0003938  
+MI0003566	hsa-mir-560 		MI0003566 	mir-560 is likely a fragment of an rRNA transcript, not a miRNA (Landgraf et al, Cell. 2007 129(7):1401-14.)  
+MI0005522	hsa-mir-672 		MI0004258 	mir-672 was cloned from human, but is absent in the NCBI36 genome assembly. The previously displayed human hairpin was the mouse sequence. 
+MI0005535	hsa-mir-674 		MI0004611 	mir-674 was cloned from human, but is absent in the NCBI36 genome assembly. The previously displayed human hairpin was the mouse sequence. 
+MI0005526	hsa-mir-871 		MI0005471 	mir-871 was cloned from human, but is absent in the NCBI36 genome assembly. The previously displayed human hairpin was the mouse sequence. 
+MI0005558	hsa-mir-872 		MI0005549 	mir-872 was cloned from human, but is absent in the NCBI36 genome assembly. The previously displayed human hairpin was the mouse sequence. 
+MI0006651	hsa-mir-1321 		MI0006651 	Sequence withdrawn because of poor structure 
+MI0006655	hsa-mir-1324 		MI0006655 	Sequence withdrawn because of poor structure 
+MI0006851	oan-mir-186b 		MI0006741 	Probably not a real miRNA. Perhaps a sequence variant of miR-186 which happens to hit the genome. 
+MI0006817	oan-let-7a 		MI0006817 	Probably not a real miRNA. Perhaps a variant of another let-7 sequence which happens to hit the genome. 
+MI0007023	osa-MIR1439a 		MI0007023 	Withdrawn by author -- family maps to a transposon 
+MI0007026	osa-MIR1439b 		MI0007026 	Withdrawn by author -- family maps to a transposon 
+MI0007027	osa-MIR1439c 		MI0007027 	Withdrawn by author -- family maps to a transposon 
+MI0006958	oan-mir-1422k-2 		MI0006719 	Duplicate mir-1422k entries removed 
+MI0005202	hsa-mir-801 		MI0005202 	miR-801 appears to be a fragment of U11 spliceosomal RNA, so is removed 
+MI0005376	mmu-mir-801 		MI0005376 	miR-801 appears to be a fragment of U11 spliceosomal RNA, so is removed 
+MI0006105	hsv1-mir-LAT 		MI0006105 	The discovery of herpes miR-LAT was retracted by the authors in Nature 2008 451(7178):600. 
+MI0008053	cfa-mir-20-2 		MI0008052 	mir-20-1 and mir-20-2 map to a single locus in the dog genome assembly (CanFam2.0). -2 is removed. 
+MI0008236	osa-MIR1428a 		MI0006968 	Duplicate of MIR1428, removed 
+MI0005117	hsa-mir-768 		MI0005117 	mir-768 overlaps an annotated snoRNA, HBII-239. Phylogenetic analysis in all vertebrates supports the snoRNA annotation, with poor conservation of the reported mature miRNA sequence (Weber M, pers comm). It is therefore removed from the database. 
+MI0007912	mml-mir-768 		MI0007912 	mir-768 overlaps an annotated snoRNA, HBII-239. Phylogenetic analysis in all vertebrates supports the snoRNA annotation, with poor conservation of the reported mature miRNA sequence (Weber M, pers comm). It is therefore removed from the database. 
+MI0003759	hsa-mir-P993 		MI0006384 	Unpublished Berezikov candidate, superceded by new entry 
+MI0003770	hsa-mir-P1007 		MI0005756 	Unpublished Berezikov candidate, superceded by new entry 
+MI0003794	hsa-mir-P980 		MI0005757 	Unpublished Berezikov candidate, superceded by new entry 
+MI0003826	hsa-mir-P711 		MI0005767 	Unpublished Berezikov candidate, superceded by new entry 
+MI0000610	rno-mir-333 		MI0000610 	The described mir-333 precursor overlaps a strongly predicted tRNA  (tRNAscan-SE) and has over 15000 highly similar matches in the rat genome.  The mature sequence is therefore likely a mis-annotated  fragment of a tRNA-derived SINE. 
+MI0009915	mmu-let-7j 		MI0009915 	Retracted by the authors prior to publication 
+MI0009916	mmu-let-7k 		MI0009916 	Retracted by the authors prior to publication 
+MI0006456	bna-MIR171g 		MI0005771 	Duplicate entry removed 
+MI0008936	tca-mir-9a 		MI0008935 	Merged with duplicate entry 
+MI0005752	ame-mir-930 		MI0005752 	Apis miR-930 appears to be a misannotated fragment of the distal-less gene (Peterson K, pers. comm.), so is removed from the database. 
+MI0010002	bmo-mir-930 		MI0010002 	Bombyx miR-930 appears to be a misannotated fragment of a homeobox gene (Peterson K, pers. comm.), so is removed from the database. 
+MI0009999	bmo-mir-925 		MI0005746 	miR-925 appears to be a misannotated fragment HRNBP1 coding seqeunce (Peterson K, pers. comm.), so is removed from the database. 
+MI0005746	ame-mir-925 		MI0005746 	miR-925 appears to be a misannotated fragment HRNBP1 coding seqeunce (Peterson K, pers. comm.), so is removed from the database. 
+MI0009907	bta-mir-931 		MI0005753 	Apis miR-931 appears to be a misannotated fragment of nefrin coding seqeunce (Peterson K, pers. comm.), so is removed from the database. 
+MI0005753	ame-mir-931 		MI0005753 	Apis miR-931 appears to be a misannotated fragment of nefrin coding seqeunce (Peterson K, pers. comm.), so is removed from the database. 
+MI0005747	ame-mir-926 		MI0005747 	Apis miR-931 appears to be a misannotated fragment of glutamate receptor 1B gene (Peterson K, pers. comm.), so is removed from the database. 
+MI0008392	bmo-mir-1922 		MI0008392 	Bombyx miR-1922 appears to be a misannotated fragment of 28S rRNA (Peterson K, pers. comm.), so is removed from the database. 
+MI0008396	bmo-mir-1925 		MI0008396 	Bombyx miR-1925 appears to be a misannotated fragment of 5S rRNA (Peterson K, pers. comm.), so is removed from the database. 
+MI0008395	bmo-mir-1924 		MI0008395 	Bombyx miR-1924 appears to be a misannotated fragment of the spectrin mRNA (Peterson K, pers. comm.), so is removed from the database. 
+MI0010615	ame-mir-279-2 		MI0005734 	Second locus maps to Unplaced contig in the assembly, so removed for now 
+MI0010010	bfl-mir-9 		MI0010520 	Remove duplicate entry 
+MI0004785	dre-mir-739 		MI0004785 	mir-739 appears to be a fragment of rRNA, and so is removed from the database 
+MI0005715	hsa-mir-923 		MI0005715 	Human mir-923 appears to be a frgament of the 28S rRNA, so is removed from the database 
+MI0008878	ptr-mir-923 		MI0008878 	Human mir-923 appears to be a frgament of the 28S rRNA, so is removed from the database 
+MI0008207	gga-mir-739 		MI0008207 	mir-739 a appears to be a fragment of 28S rRNA, so is removed 
+MI0008387	xla-mir-739 		MI0008387 	mir-739 a appears to be a fragment of 28S rRNA, so is removed 
+MI0009890	bta-mir-739 		MI0009890 	mir-739 a appears to be a fragment of 28S rRNA, so is removed 
+MI0010440	cfa-mir-739 		MI0010440 	mir-739 a appears to be a fragment of 28S rRNA, so is removed 
+MI0004683	mmu-mir-699 		MI0004683 	mmu-mir-699 appears to be a fragment of RNase MRP RNA (Paul Gardner, pers comm), so is removed from miRBase 
+MI0010638	bfl-mir-103 		MI0010500 	Remove duplicate entry 
+MI0006483	bna-MIR1140b 		MI0006482 	Remove duplicate entry 
+MI0010364	cfa-mir-211-1 		MI0010373 	Remove duplicate entry 
+MI0003833	hsa-mir-675b 		MI0005416 	Remove duplicate entry 
+MI0010472	bta-mir-1300a 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0010482	bta-mir-1300b 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0008504	ptr-mir-1300b 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0008505	ptr-mir-1300a-3 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0008506	ptr-mir-1300a-4 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0008507	ptr-mir-1300a-1 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0008508	ptr-mir-1300a-5 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0008509	ptr-mir-1300a-6 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0008510	ptr-mir-1300a-7 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0008511	ptr-mir-1300a-8 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0008512	ptr-mir-1300a-9 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0008513	ptr-mir-1300a-10 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0008514	ptr-mir-1300a-11 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0008515	ptr-mir-1300a-2 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0008373	xla-mir-1300 		MI0006360 	mir-1300 appears to be a fragment of the EEF1A mRNA. The putative miRNA has been experimentally detected only in human. Annotation by homology finds many EEF hits and is therefore inappropriate. 
+MI0006360	hsa-mir-1300 		MI0006360 	The sequenced mature miR-1300 appears to be a fragment of the EEF1A mRNA, so is removed from the database. 
+MI0001559	sbi-MIR169e 		MI0001559 	This sequence is absent from the JGI sbi1 genome assembly, so is removed from the database 
+MI0001571	sbi-MIR172d 		MI0001571 	This sequence is absent from the JGI sbi1 genome assembly, so is removed from the database 
+MI0001562	sbi-MIR169h 		MI0001561 	MIR169g and MIR169h map to a single location in the JGI sbi1 genome assembly. The latter is removed here. 
+MI0001532	sbi-MIR394b 		MI0001531 	MIR394a and MIR394b map to a single location in the JGI sbi1 genome assembly. The latter is removed here. 
+MI0001535	sbi-MIR395c 		MI0001536 	MIR395c overlaps MIR395d and MIR395e, so is removed. 
+MI0010809	sme-mir-753c 		MI0010766 	Withdrawn by authors prior to publication. Not enough read evidence to distinguish from other mir-753 loci in poor quality genome assembly (Friedlaender, pers comm). 
+MI0010812	sme-mir-753d-1 		MI0010766 	Withdrawn by authors prior to publication. Not enough read evidence to distinguish from other mir-753 loci in poor quality genome assembly (Friedlaender, pers comm). 
+MI0010821	sme-mir-753d-2 		MI0010766 	Withdrawn by authors prior to publication. Not enough read evidence to distinguish from other mir-753 loci in poor quality genome assembly (Friedlaender, pers comm). 
+MI0010824	sme-mir-753f 		MI0010766 	Withdrawn by authors prior to publication. Not enough read evidence to distinguish from other mir-753 loci in poor quality genome assembly (Friedlaender, pers comm). 
+MI0010798	sme-mir-754b-2 		MI0010776 	Withdrawn by authors prior to publication. Not enough read evidence to distinguish from other mir-754 loci in poor quality genome assembly (Friedlaender, pers comm). 
+MI0010816	sme-mir-754e 		MI0010776 	Withdrawn by authors prior to publication. Not enough read evidence to distinguish from other mir-754 loci in poor quality genome assembly (Friedlaender, pers comm). 
+MI0010513	bfl-mir-2074 		MI0010513 	mir-2074 is a fragment of LSU rRNA and so is removed from the database (Peterson K, pers comm). 
+MI0007060	gga-mir-1455 		MI0007060 	mir-1455 appears to be a fragment of a tRNA, so is removed from the database 
+MI0012955	eca-mir-322 		MI0012963 	mir-322 and mir-424 from Zhou et al map to the same locus, so mir-322 is removed from the database. 
+MI0010756	mmu-mir-2143-1 		MI0010756 	miR-2143 is a fragment of 28S rRNA so is removed from the database. 
+MI0010757	mmu-mir-2143-2 		MI0010757 	miR-2143 is a fragment of 28S rRNA so is removed from the database. 
+MI0010758	mmu-mir-2143-3 		MI0010758 	miR-2143 is a fragment of 28S rRNA so is removed from the database. 
+MI0010759	mmu-mir-2144 		MI0010759 	miR-2144 is a fragment of 28S rRNA so is removed from the database. 
+MI0005422	cbr-mir-789a 		MI0005422 	cbr-mir-789a appears to be a fragment of a tRNA, so is removed. 
+MI0008201	cel-mir-1831 		MI0008201 	mir-1831 appears to be a fragment of a U1 snRNA, so is removed. 
+MI0005485	mmu-mir-197 		MI0005485 	Only two clones support the presence of mir-197 in mouse (Landgraf et al), but the sequence does not map in a stem-loop region of the genomic sequence or any any known mouse transcript sequence. It is therefore removed from miRBase. 
+MI0004649	mmu-mir-685 		MI0004649 	mir-685 is found to be a fragment of RNase P RNA, so is removed from the database. 
+MI0009888	bta-mir-685 		MI0009888 	mir-685 is found to be a fragment of RNase P RNA, so is removed from the database. 
+MI0012620	rno-mir-685 		MI0012620 	mir-685 is found to be a fragment of RNase P RNA, so is removed from the database. 
+MI0012660	eca-mir-685 		MI0012660 	mir-685 is found to be a fragment of RNase P RNA, so is removed from the database. 
+MI0013851	tgu-mir-204-5 		MI0013794 	tgu-mir-204-5 overlaps mir-204-4 in the genome sequence, so is removed. 
+MI0004226	mmu-mir-P1087 		MI0014099 	Same locus, different mature miRNAs validated by Chiang and Bartel (MI0014099). 
+MI0003813	hsa-mir-P847 		MI0014179 	Berezikov candidate validated by Stark et al. 
+MI0004063	hsa-mir-P864 		MI0014182 	Berezikov candidate validated by Stark et al. 
+MI0007555	gga-mir-1810 		MI0007555 	mir-1810 is a fragment of 28S rRNA, so is removed from the database. 
+MI0005204	mmu-mir-805 		MI0005204 	mir-805 maps to the Mt genome, and overlaps a Mt tRNA sequence so is removed. 
+MI0009984	hsa-mir-1974 		MI0009984 	mir-1974 maps to the Mt genome, and overlaps a Mt tRNA sequence so is removed. 
+MI0009987	hsa-mir-1977 		MI0009987 	mir-1977 maps to the Mt genome, and overlaps a Mt tRNA sequence so is removed. 
+MI0009988	hsa-mir-1978 		MI0009988 	mir-1978 maps to the Mt genome, and overlaps a Mt tRNA sequence so is removed. 
+MI0003842	hsa-mir-P501b 		MI0003842 	Berezikov candidate subsequently verified 
+MI0008390	bmo-mir-1920 		MI0008390 	The pattern of reads from high throughput sequencing experiments (Jagadeeswaran et al. BMC Genomics, 2010) overlapping this locus is not consistent with microRNA processing from a hairpin precursor. This sequence is therefore removed from the database. 
+MI0008391	bmo-mir-1921 		MI0008391 	The pattern of reads from high throughput sequencing experiments (Jagadeeswaran et al. BMC Genomics, 2010) overlapping this locus is not consistent with microRNA processing from a hairpin precursor. This sequence is therefore removed from the database. 
+MI0012383	bmo-mir-2815a-1 		MI0012383 	The mir-2815 family are misannotated fragments of tRNAs, so are removed from the database. 
+MI0012387	bmo-mir-2815a-7 		MI0012387 	The mir-2815 family are misannotated fragments of tRNAs, so are removed from the database. 
+MI0012397	bmo-mir-2815b-1 		MI0012397 	The mir-2815 family are misannotated fragments of tRNAs, so are removed from the database. 
+MI0012399	bmo-mir-2815a-2 		MI0012399 	The mir-2815 family are misannotated fragments of tRNAs, so are removed from the database. 
+MI0012412	bmo-mir-2815a-3 		MI0012412 	The mir-2815 family are misannotated fragments of tRNAs, so are removed from the database. 
+MI0012418	bmo-mir-2815b-2 		MI0012418 	The mir-2815 family are misannotated fragments of tRNAs, so are removed from the database. 
+MI0012431	bmo-mir-2815a-4 		MI0012431 	The mir-2815 family are misannotated fragments of tRNAs, so are removed from the database. 
+MI0012432	bmo-mir-2815b-3 		MI0012432 	The mir-2815 family are misannotated fragments of tRNAs, so are removed from the database. 
+MI0012443	bmo-mir-2815a-5 		MI0012443 	The mir-2815 family are misannotated fragments of tRNAs, so are removed from the database. 
+MI0012447	bmo-mir-2815a-6 		MI0012447 	The mir-2815 family are misannotated fragments of tRNAs, so are removed from the database. 
+MI0012459	bmo-mir-2815b-4 		MI0012459 	The mir-2815 family are misannotated fragments of tRNAs, so are removed from the database. 
+MI0012290	bmo-mir-216 		MI0012290 	The candidate bmo-mir-216 sequence does not adopt a miRNA-like hairpin, so is removed from the database. 
+MI0012189	bmo-mir-2740 		MI0012189 	This candidate Bombyx sequence does not adopt a miRNA-like hairpin, so is removed from the database. 
+MI0014295	bmo-mir-3240 		MI0014295 	This candidate Bombyx sequence does not adopt a miRNA-like hairpin, so is removed from the database. 
+MI0014437	bmo-mir-3376 		MI0014437 	This candidate Bombyx sequence does not adopt a miRNA-like hairpin, so is removed from the database. 
+MI0014441	bmo-mir-3380 		MI0014441 	This candidate Bombyx sequence does not adopt a miRNA-like hairpin, so is removed from the database. 
+MI0014451	bmo-mir-3390 		MI0014451 	This candidate Bombyx sequence does not adopt a miRNA-like hairpin, so is removed from the database. 
+MI0012184	bmo-mir-2735 		MI0012184 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0012194	bmo-mir-2743 		MI0012194 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0012330	bmo-mir-2773-1 		MI0012330 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0012343	bmo-mir-2773-2 		MI0012343 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0012342	bmo-mir-2773-3 		MI0012342 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0012378	bmo-mir-2802 		MI0012378 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0012392	bmo-mir-2811 		MI0012392 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0012417	bmo-mir-2823 		MI0012417 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0012425	bmo-mir-2829 		MI0012425 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0012458	bmo-mir-2844 		MI0012458 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0012470	bmo-mir-2850a-1 		MI0012470 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0012442	bmo-mir-2850a-2 		MI0012442 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0013004	bmo-mir-2850a-3 		MI0013004 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0013005	bmo-mir-2850a-4 		MI0013005 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0012354	bmo-mir-2850b 		MI0012354 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0013001	bmo-mir-2858 		MI0013001 	This candidate Bombyx sequence is a fragment of a predicted protein-coding exon, so is removed. 
+MI0012197	bmo-mir-2746 		MI0012197 	This candidate Bombyx sequence is a fragment of U1 RNA. 
+MI0012993	bmo-mir-2853 		MI0012993 	This candidate Bombyx sequence is a fragment of U2 RNA. 
+MI0012366	bmo-mir-2793 		MI0012366 	This candidate Bombyx sequence is a fragment of a tRNA. 
+MI0012172	bmo-mir-2725 		MI0012172 	This length of this candidate Bombyx mature sequences is outside the expected range. The entry is deleted. 
+MI0012173	bmo-mir-2726 		MI0012173 	This length of this candidate Bombyx mature sequences is outside the expected range. The entry is deleted. 
+MI0012174	bmo-mir-2727 		MI0012174 	This length of this candidate Bombyx mature sequences is outside the expected range. The entry is deleted. 
+MI0012176	bmo-mir-2728 		MI0012176 	This length of this candidate Bombyx mature sequences is outside the expected range. The entry is deleted. 
+MI0012181	bmo-mir-2732 		MI0012181 	This length of this candidate Bombyx mature sequences is outside the expected range. The entry is deleted. 
+MI0012191	bmo-mir-2741 		MI0012191 	This length of this candidate Bombyx mature sequences is outside the expected range. The entry is deleted. 
+MI0012198	bmo-mir-2747 		MI0012198 	This length of this candidate Bombyx mature sequences is outside the expected range. The entry is deleted. 
+MI0012200	bmo-mir-2749 		MI0012200 	This length of this candidate Bombyx mature sequences is outside the expected range. The entry is deleted. 
+MI0014371	bmo-mir-3304b 		MI0014371 	This candidate Bombyx sequence maps many times to the genome, and is lacking miR* evidence, so is deemed to be low confidence and is removed. 
+MI0012384	bmo-mir-2806-1 		MI0012384 	This candidate Bombyx sequence maps many times to the genome, and is lacking miR* evidence, so is deemed to be low confidence and is removed. 
+MI0012202	bmo-mir-2750 		MI0012202 	This candidate Bombyx sequence maps many times to the genome, and is lacking miR* evidence, so is deemed to be low confidence and is removed. 
+MI0012178	bmo-mir-2730 		MI0012178 	This candidate Bombyx sequence maps many times to the genome, and is lacking miR* evidence, so is deemed to be low confidence and is removed. 
+MI0014370	bmo-mir-3313 		MI0014370 	This candidate Bombyx sequence maps many times to the genome, and is lacking miR* evidence, so is deemed to be low confidence and is removed. 
+MI0014378	bmo-mir-3320 		MI0014378 	This candidate Bombyx sequence maps many times to the genome, and is lacking miR* evidence, so is deemed to be low confidence and is removed. 
+MI0014357	bmo-mir-3300 		MI0014357 	This candidate Bombyx sequence maps many times to the genome, and is lacking miR* evidence, so is deemed to be low confidence and is removed. 
+MI0014404	bmo-mir-3346 		MI0014404 	This candidate Bombyx sequence maps many times to the genome, and is lacking miR* evidence, so is deemed to be low confidence and is removed. 
+MI0014389	bmo-mir-3331 		MI0014389 	This candidate Bombyx sequence maps many times to the genome, and is lacking miR* evidence, so is deemed to be low confidence and is removed. 
+MI0014407	bmo-mir-3349 		MI0014407 	This candidate Bombyx sequence maps many times to the genome, and is lacking miR* evidence, so is deemed to be low confidence and is removed. 
+MI0012398	bmo-mir-2814-1 		MI0012398 	This candidate Bombyx sequence maps many times to the genome, and is lacking miR* evidence, so is deemed to be low confidence and is removed. 
+MI0014399	bmo-mir-3341 		MI0014399 	This candidate Bombyx sequence maps many times to the genome, and is lacking miR* evidence, so is deemed to be low confidence and is removed. 
+MI0010755	mmu-mir-2142 		MI0010755 	mir-2142 is a fragment of 5S rRNA (Cei Abreu-Goodger, pers. comm.), so is removed from the database. 
+MI0012251	dpu-mir-87 		MI0012251 	The Daphnia mir-87 hairpin reported in Wheeler et al. is Drosophila melanogaster sequence. The Daphnia entry is removed. 
+MI0012641	bta-mir-9-3 		MI0009912 	bta-mir-9-3 maps to the same location in the genome assembly as mir-9-1, so is removed. 
+MI0013251	zma-MIR160h 		MI0001468 	zma-MIR160h is a duplicate of zma-MIR160b, so is removed. 
+MI0012654	eca-mir-204a 		MI0012657 	eca-mir-204a is a duplicate of mir-211 and is removed. 
+MI0001253	gga-mir-124b-2 		MI0001252 	mir-124b maps to just one location in the WashU 2.0 assembly, so the entries are merged. 
+MI0006985	gga-mir-33-2 		MI0001170 	mir-33 maps to just one location in the WashU 2.0 genome assembly, so entries -1 and -2 are merged. 
+MI0001284	gga-mir-218-3 		MI0001212 	mir-218-3 maps to the same locus as mir-218-1, so is removed 
+MI0006500	vvi-MIR160e 		MI0006497 	vvi-MIR160e maps to the same genomic location as MIR160b, so is removed. 
+MI0007957	vvi-MIR397b 		MI0007956 	vvi-MIR397b maps to the same genomic location as MIR397a, so is removed. 
+MI0006582	vvi-MIR535c 		MI0006581 	This sequence maps to the same genomic location as MIR535b, so is removed. 
+MI0006584	vvi-MIR535e 		MI0006583 	This sequence maps to the same genomic location as MIR535d, so is removed. 
+MI0013754	tgu-mir-2990 		MI0013711 	tgu-mir-2990 is the miR* sequence from the mir-128-2 hairpin. The entries are merged. 
+MI0001890	dre-mir-10d-2 		MI0001889 	dre-mir-10d-1 and mir-10d-2 map to the same locus, so are merged. 
+MI0014218	hsa-mir-3180-4 		MI0014214 	mir-3180 maps to 3 loci in the GRCh37 genome assembly. The existing 6 entries are collapsed to 3. 
+MI0014219	hsa-mir-3180-5 		MI0014215 	mir-3180 maps to 3 loci in the GRCh37 genome assembly. The existing 6 entries are collapsed to 3. 
+MI0014220	hsa-mir-3180-6 		MI0014217 	mir-3180 maps to 3 loci in the GRCh37 genome assembly. The existing 6 entries are collapsed to 3. 
+MI0001727	hsa-mir-453 		MI0014206 	miR-453 is processed from the 5p arm of mir-323b. The entries are merged. 
+MI0010021	bfl-mir-79 		MI0010520 	bfl-miR-79 is processed from the 3p arm of the mir-9 hairpins. Entries merged. 
+MI0014708	aae-mir-309a-1 		MI0013477 	This entry is a duplicate of MI0013477, so is removed. 
+MI0013525	aae-mir-309a-2 		MI0013478 	This entry is a duplicate of MI0013478, so is removed. 
+MI0004114	hsa-mir-P989 		MI0016008 	Candidate Berezikov sequence validated by Witten et al. 
+MI0004629	mmu-mir-P989 		MI0016008 	Candidate Berezikov sequence validated by Witten et al. 
+MI0014149	hsa-mir-3130-3 		MI0014147 	mir-3130-3 is redundant with mir-3130-1, so is removed. 
+MI0014150	hsa-mir-3130-4 		MI0014148 	mir-3130-4 is redundant with mir-3130-2, so is removed. 
+MI0000297	hsa-mir-220a 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase. 
+MI0002887	mml-mir-220a 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0002888	ptr-mir-220a 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0005529	hsa-mir-220b 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0005536	hsa-mir-220c 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0007677	mml-mir-220b 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0007678	mml-mir-220c 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0007679	mml-mir-220d 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0008381	xla-mir-220c 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0008586	ptr-mir-220b 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0010380	cfa-mir-220b 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0010381	cfa-mir-220a 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0010442	bta-mir-220d 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0010448	bta-mir-220e 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0010449	bta-mir-220c-2 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0010450	bta-mir-220b 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0010451	bta-mir-220c-1 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0010461	bta-mir-220a 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0012588	rno-mir-220-1 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0012847	eca-mir-220b 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0012848	eca-mir-220b-2 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0014870	ppy-mir-220a 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0014871	ppy-mir-220b 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0014872	ppy-mir-220c 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0015967	rno-mir-220-2 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0001386	dre-mir-220 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0002889	ggo-mir-220 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0002890	mne-mir-220 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0002891	ppa-mir-220 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0005487	mmu-mir-220 		MI0001386 	mir-220 was predicted computationally by the Bartel group, and expression demonstrated in zebrafish (Lim et al, PMID:12624257). Expression of mir-220 has never been demonstrated in any other animal, but annotation was transferred to other vertebrates by similarity. Subsequent work strongly suggests that mir-220 is not a miRNA (Chiang et al, PMID:20413612), and it is therefore withdrawn by the authors and all mir-220 sequences are deleted from miRBase.  
+MI0006441	hsa-mir-1308 		MI0006441 	The mature miR-1308 is a fragment of a tRNA, and is therefore removed. 
+MI0013116	ssc-mir-1308 		MI0013116 	The mature miR-1308 is a fragment of a tRNA, and is therefore removed. 
+MI0012639	peu-MIR2915 		MI0012639 	The mature miR2915 is a fragment of a tRNA, and is therefore removed. 
+MI0014126	oar-mir-3114 		MI0014126 	The mature miR-3114 is a fragment of a tRNA, and is therefore removed. 
+MI0015942	bta-mir-3114 		MI0015942 	The mature miR-3114 is a fragment of a tRNA, and is therefore removed. 
+MI0007783	mml-mir-512-2 		MI0007782 	Previously annotated mir-512-1 and mir-512-2 map to same location in the MMUL1.0 genome assembly. 
+MI0001911	dre-mir-22a-2 		MI0001910 	Previously annotated mir-22a-1 and mir-22a-2 map to same location in the Zv8 genome assembly. 
+MI0002043	dre-mir-204-3 		MI0002042 	Previously annotated mir-204-2 and mir-204-3 map to same location in the Zv8 genome assembly. 
+MI0007781	mml-mir-511-2 		MI0007780 	Previously annotated mir-511-1 and mir-511-2 map to same location in the MMUL1.0 genome assembly. 
+MI0007784	mml-mir-514-2 		MI0006621 	Previously annotated mir-514-1 and mir-514-2 map to same location in the MMUL1.0 genome assembly. 
+MI0007788	mml-mir-517b 		MI0007787 	Previously annotated mir-517a and mir-517b map to same location in the MMUL1.0 genome assembly. 
+MI0007811	mml-mir-523c-1 		MI0007796 	Two annotated mir-523c sequences map to the location as mir-519b in the MMUL1.0 genome assembly. The mir-523c loci are removed. 
+MI0007812	mml-mir-523c-2 		MI0007796 	Two annotated mir-523c sequences map to the location as mir-519b in the MMUL1.0 genome assembly. The mir-523c loci are removed. 
+MI0007800	mml-mir-520b 		MI0007795 	Three annotated mir-520 sequences map to the location as mir-519a in the MMUL1.0 genome assembly. The mir-520 loci are removed. 
+MI0007801	mml-mir-520c 		MI0007795 	Three annotated mir-520 sequences map to the location as mir-519a in the MMUL1.0 genome assembly. The mir-520 loci are removed. 
+MI0007803	mml-mir-520e 		MI0007795 	Three annotated mir-520 sequences map to the location as mir-519a in the MMUL1.0 genome assembly. The mir-520 loci are removed. 
+MI0007804	mml-mir-520f 		MI0007795 	Three annotated mir-520 sequences map to the location as mir-519a in the MMUL1.0 genome assembly. The mir-520 loci are removed. 
+MI0007806	mml-mir-520h 		MI0007798 	mir-520h maps to the same location as mir-519d in the MMUL1.0 genome assembly. 
+MI0007808	mml-mir-522 		MI0007793 	mir-522 maps to the same location as mir-518e in the MMUL1.0 genome assembly. 
+MI0007802	mml-mir-520d 		MI0007789 	mir-520d maps to the same location as mir-518a in the MMUL1.0 genome assembly. 
+MI0007792	mml-mir-518d 		MI0007791 	mir-518d maps to the same location as mir-518c in the MMUL1.0 genome assembly. 
+MI0010738	mmu-mir-2133-1 		MI0010738 	The mature sequence annotated as miR-2133 is a fragment of SSU rRNA. 
+MI0010739	mmu-mir-2133-2 		MI0010739 	The mature sequence annotated as miR-2133 is a fragment of SSU rRNA. 
+MI0012638	peu-MIR2914 		MI0012638 	The mature sequence annotated as miR2914 is a fragment of SSU rRNA. 
+MI0013057	bta-mir-2884 		MI0013057 	The mature sequence annotated as miR-2884 is a fragment of SSU rRNA. 
+MI0012633	peu-MIR2910 		MI0012633 	The mature sequence annotated as miR2910 is a fragment of LSU rRNA. 
+MI0008194	hsa-mir-1826 		MI0008194 	The annotated mature sequence is a fragment of 5.8S rRNA. 
+MI0005527	hsa-mir-886 		MI0005527 	The annotated mature sequence is a fragment of Vault RNA (Stadler et al. PMID:19491402). 
+MI0007920	mml-mir-886 		MI0007920 	The annotated mature sequence is a fragment of Vault RNA (Stadler et al. PMID:19491402). 
+MI0008868	ptr-mir-886 		MI0008868 	The annotated mature sequence is a fragment of Vault RNA (Stadler et al. PMID:19491402). 
+MI0015156	ppy-mir-886 		MI0015156 	The annotated mature sequence is a fragment of Vault RNA (Stadler et al. PMID:19491402). 
+MI0009985	hsa-mir-1975 		MI0009985 	The annotated mature sequence is a fragment of Y RNA (Meiri et  al, PMID:20483914). 
+MI0006333	hsa-mir-1201 		MI0006333 	The miRNA overlaps an annotated snoRNA (SNORD126, Rfam 10.0, Infernal 1.0). The patterns of sequence conservation support the snoRNA annotation, so this sequence is likely not a miRNA. 
+MI0008423	ptr-mir-1201 		MI0008423 	The miRNA overlaps an annotated snoRNA (SNORD126, Rfam 10.0, Infernal 1.0). The patterns of sequence conservation support the snoRNA annotation, so this sequence is likely not a miRNA. 
+MI0015187	ppy-mir-1201 		MI0015187 	The miRNA overlaps an annotated snoRNA (SNORD126, Rfam 10.0, Infernal 1.0). The patterns of sequence conservation support the snoRNA annotation, so this sequence is likely not a miRNA. 
+MI0006393	hsa-mir-1259 		MI0006393 	The miRNA overlaps an annotated snoRNA (SNORD12, Rfam 10.0, Infernal 1.0). The patterns of sequence conservation support the snoRNA annotation, so this sequence is likely not a miRNA. 
+MI0008463	ptr-mir-1259 		MI0008463 	The miRNA overlaps an annotated snoRNA (SNORD12, Rfam 10.0, Infernal 1.0). The patterns of sequence conservation support the snoRNA annotation, so this sequence is likely not a miRNA. 
+MI0014203	hsa-mir-3172 		MI0014203 	The mature miR-3172 is a fragment of a predicted tRNA (Rfam 10.0, Infernal 1.0). 
+MI0009989	hsa-mir-1979 		MI0009989 	The mature miR-1979 is a fragment of a Y RNA (Meiri et al, PMID:20483914). 
+MI0010737	mmu-mir-2132 		MI0010737 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0010740	mmu-mir-2134-1 		MI0010740 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0010741	mmu-mir-2134-2 		MI0010741 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0010742	mmu-mir-2134-3 		MI0010742 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0010743	mmu-mir-2134-4 		MI0010743 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0010744	mmu-mir-2135-1 		MI0010744 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0010745	mmu-mir-2135-4 		MI0010745 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0010746	mmu-mir-2135-5 		MI0010746 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0010747	mmu-mir-2135-2 		MI0010747 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0010748	mmu-mir-2135-3 		MI0010748 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0010751	mmu-mir-2138 		MI0010751 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0013182	mmu-mir-2134-5 		MI0013182 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0013183	mmu-mir-2134-6 		MI0013183 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0010753	mmu-mir-2140 		MI0010753 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0010754	mmu-mir-2141 		MI0010754 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0010762	mmu-mir-2146 		MI0010762 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0004654	mmu-mir-689-1 		MI0004654 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0004655	mmu-mir-689-2 		MI0004655 	The annotated miRNA sequence is a fragment of rRNA (Chiang et al, PMID:20413612). 
+MI0015998	hsa-mir-3608 		MI0015998 	This sequence overlaps Vault RNA (Rfam 10.0, Infernal 1.0), therefore is likely not a miRNA. 
+MI0005680	ppt-MIR896 		MI0005680 	The annotated mature miR896 sequence is a fragment of a tRNA (Rfam 10.0, Infernal 1.0, tRNAscan-SE). 
+MI0015716	cin-mir-4161 		MI0015713 	cin-mir-4158 and cin-mir-4161 are alternative hairpins for the same mature miRNA. The latter is removed. 
+MI0012586	rno-mir-513 		MI0015460 	mir-3585 is a duplicate of mir-513. The entries are merged. 
+MI0014709	aae-mir-9c 		MI0013436 	aae-mir-9 and aae-mir-9c are duplicate entries, so are merged. 
+MI0002404	mmu-mir-469 		MI0002404 	The pattern of deep sequencing reads from this putative mir-469 locus is not consistent with miRNA processing -- many reads overlap the loop region, and are tiled across the whole hairpin (Chiang et al. Genes Dev. 2010). 
+MI0002399	mmu-mir-464 		MI0002399 	The pattern of deep sequencing reads from the putative mir-464 locus is not consistent with miRNA processing -- many reads overlap the loop region, and are tiled across the whole hairpin (Chiang et al. Genes Dev. 2010). 
+MI0009933	mmu-mir-1944 		MI0009933 	The pattern of deep sequencing reads from the putative mir-1944 locus is not consistent with miRNA processing -- many reads overlap the loop region, and are tiled across the whole hairpin (Chiang et al. Genes Dev. 2010). 
+MI0010760	mmu-mir-2145-1 		MI0010760 	The sequence annotated as mature miR-2145 is a fragment of 5S rRNA (Chiang et al. Genes Dev. 2010), so is removed from the database. 
+MI0010761	mmu-mir-2145-2 		MI0010761 	The sequence annotated as mature miR-2145 is a fragment of 5S rRNA (Chiang et al. Genes Dev. 2010), so is removed from the database. 
+MI0009928	mmu-mir-1939 		MI0009928 	The sequence annotated as mature miR-1939 is a fragment of mouse Gly-tRNA, and is therefore not a likely to be a bona fide miRNA. 
+MI0009956	mmu-mir-1959 		MI0009956 	The sequence annotated as mature miR-1959 is a fragment of tRNA, and is therefore not a likely to be a bona fide miRNA (Peterson K, pers. comm.). 
+MI0009926	mmu-mir-1937a 		MI0009926 	The sequence annotated as mature miR-1937 is a fragment of tRNA, and is therefore not a likely to be a bona fide miRNA (Peterson K, pers. comm.). 
+MI0009938	mmu-mir-1937b-1 		MI0009938 	The sequence annotated as mature miR-1937 is a fragment of tRNA, and is therefore not a likely to be a bona fide miRNA (Peterson K, pers. comm.). 
+MI0009953	mmu-mir-1937c 		MI0009953 	The sequence annotated as mature miR-1937 is a fragment of tRNA, and is therefore not a likely to be a bona fide miRNA (Peterson K, pers. comm.). 
+MI0014698	mmu-mir-1937b-2 		MI0014698 	The sequence annotated as mature miR-1937 is a fragment of tRNA, and is therefore not a likely to be a bona fide miRNA (Peterson K, pers. comm.). 
+MI0014700	mmu-mir-1937b-3 		MI0014700 	The sequence annotated as mature miR-1937 is a fragment of tRNA, and is therefore not a likely to be a bona fide miRNA (Peterson K, pers. comm.). 
+MI0014702	mmu-mir-1937b-4 		MI0014702 	The sequence annotated as mature miR-1937 is a fragment of tRNA, and is therefore not a likely to be a bona fide miRNA (Peterson K, pers. comm.). 
+MI0014703	mmu-mir-1937b-5 		MI0014703 	The sequence annotated as mature miR-1937 is a fragment of tRNA, and is therefore not a likely to be a bona fide miRNA (Peterson K, pers. comm.). 
+MI0004700	mmu-mir-715 		MI0004700 	The pattern of deep sequencing reads from the putative mir-715 locus is not consistent with miRNA processing -- many reads overlap the loop region, and are tiled across the whole hairpin (Chiang et al. Genes Dev. 2010). Calabrese et al. (2007) also challenge this annotation, suggesting that it derives from the pre-rRNA transcript. 
+MI0006410	hsa-mir-1274a 		MI0006410 	The putative mature miR-1274 sequence is a fragment of a Lys tRNA (Schopman et al. 2010, PMID:20818168). 
+MI0006427	hsa-mir-1274b 		MI0006427 	The putative mature miR-1274 sequence is a fragment of a Lys tRNA (Schopman et al. 2010, PMID:20818168). 
+MI0008475	ptr-mir-1274b 		MI0008475 	The putative mature miR-1274 sequence is a fragment of a Lys tRNA (Schopman et al. 2010, PMID:20818168). 
+MI0009969	mmu-mir-1274a 		MI0009969 	The putative mature miR-1274 sequence is a fragment of a Lys tRNA (Schopman et al. 2010, PMID:20818168). 
+MI0015231	ppy-mir-1274a 		MI0015231 	The putative mature miR-1274 sequence is a fragment of a Lys tRNA (Schopman et al. 2010, PMID:20818168). 
+MI0015232	ppy-mir-1274b 		MI0015232 	The putative mature miR-1274 sequence is a fragment of a Lys tRNA (Schopman et al. 2010, PMID:20818168). 
+MI0011563	bdi-MIR160 		MI0011563 	MIR160 does not map to the JGI 1.0 genome, so is removed. 
+MI0011569	bdi-MIR171d 		MI0011569 	MIR171d does not map to the JGI 1.0 genome, so is removed. 
+MI0011560	bdi-MIR408 		MI0011560 	MIR408 does not map to the JGI 1.0 genome, so is removed. 
+MI0011564	bdi-MIR169a 		MI0011564 	MIR169a does not map to the JGI 1.0 genome, so is removed. 
+MI0013365	ath-MIR2935 		MI0013365 	The pattern of reads from deep sequencing experiments does not support a miRNA annotation (Kozomara and Griffiths-Jones, NAR 2011 39:D152-D157) 
+MI0018198	ame-mir-375b 		MI0016245 	mir-750 and mir-375b identified by Chen et al. map to the same locus. The entries are therefore merged. 
+MI0004423	mmu-mir-P1130 		MI0019189 	Superceded by entry mmu-mir-5621 
+MI0012527	mdo-mir-739 		MI0012527 	mir-739 appears to be a fragment of rRNA, and so is removed from the database 
+MI0015970	dre-let-7e-2 		MI0001871 	Two annotated let-7e loci collapse to a single locus in the Zv9 assembly. 
+MI0001985	dre-mir-130a-2 		MI0001984 	Two annotated mir-130a loci collapse to a single locus in the Zv9 assembly. 
+MI0001998	dre-mir-135c-3 		MI0001997 	Three annotated mir-135c loci collapse to two loci in the Zv9 assembly. 
+MI0002014	dre-mir-146b-2 		MI0002013 	Two annotated mir-146b loci collapse to a single locus in the  Zv9 assembly. 
+MI0002031	dre-mir-193a-3 		MI0002030 	Three annotated mir-193a loci collapse to two in the Zv9 assembly. 
+MI0002047	dre-mir-216a-2 		MI0001382 	Two annotated mir-216a loci collapse to a single locus in the Zv9 assembly. 
+MI0002049	dre-mir-216b-2 		MI0002048 	Two annotated mir-216b loci collapse to a single locus in the Zv9 assembly. 
+MI0002050	dre-mir-217-2 		MI0001383 	Two annotated mir-217 loci collapse to a single locus in the Zv9 assembly. 
+MI0002066	dre-mir-338-4 		MI0002064 	Four annotated mir-338 loci collapse to two in the Zv9 assembly. 
+MI0002065	dre-mir-338-3 		MI0002063 	Four annotated mir-338 loci collapse to two in the Zv9 assembly. 
+MI0002071	dre-mir-365-4 		MI0002070 	Four annotated mir-365 loci collapse to three in the Zv9 assembly. 
+MI0002060	dre-mir-301a-2 		MI0002059 	Two annotated mir-301a loci collapse to one in the Zv9 assembly. 
+MI0003394	dre-mir-29a-2 		MI0001938 	Two annotated mir-29a loci collapse to one in the Zv9 assembly. 
+MI0001936	dre-mir-29b-3 		MI0001934 	Three annotated mir-29b loci collapse to two in the Zv9 assembly. 
+MI0002175	dre-mir-430j 		MI0002175 	mir-430j is absent from the Zv9 assembly 
+MI0002101	dre-mir-430c-21 		MI0001529 	A number of mir-430c loci are merged in the Zv9 assembly 
+MI0002100	dre-mir-430c-20 		MI0001529 	A number of mir-430c loci are merged in the Zv9 assembly 
+MI0002099	dre-mir-430c-19 		MI0001529 	A number of mir-430c loci are merged in the Zv9 assembly 
+MI0002172	dre-mir-430b-21 		MI0002149 	Some mir-430 entries collapse in the Zv9 genome assembly, so are merged. 
+MI0002173	dre-mir-430b-22 		MI0002158 	Some mir-430 entries collapse in the Zv9 genome assembly, so are merged. 
+MI0002174	dre-mir-430b-23 		MI0002170 	Some mir-430 entries collapse in the Zv9 genome assembly, so are merged. 
+MI0002138	dre-mir-430a-23 		MI0002131 	Some mir-430 entries collapse in the Zv9 genome assembly, so are merged. 
+MI0002135	dre-mir-430a-22 		MI0002120 	Some mir-430 entries collapse in the Zv9 genome assembly, so are merged. 
+MI0002134	dre-mir-430a-21 		MI0002111 	Some mir-430 entries collapse in the Zv9 genome assembly, so are merged. 
+MI0002133	dre-mir-430a-20 		MI0002111 	Some mir-430 entries collapse in the Zv9 genome assembly, so are merged. 
+MI0002132	dre-mir-430a-19 		MI0002126 	Some mir-430 entries collapse in the Zv9 genome assembly, so are merged. 
+MI0013245	osa-MIR2906a 		MI0013245 	The sequence annotated as miR2906 is a fragment of SRP RNA, so is removed. 
+MI0013246	osa-MIR2906b 		MI0013246 	The sequence annotated as miR2906 is a fragment of SRP RNA, so is removed. 
+MI0016047	hsa-mir-3647 		MI0016047 	mir-3647 is a fragment of a snoRNA (SNORD111B -- Langenberger et al, DOI:10.1007/978-3-642-22825-4_1), so is removed. 
+MI0017669	bfl-mir-4896 		MI0017669 	mir-4896 is a fragment of U2 RNA. 
+MI0016446	smr-mir-3931 		MI0018489 	mir-3931 is a chelicerate-specific miRNA that was not cloned frm Strigamia in Rota-Stabelli et al. (Peterson K, pers. comm.). 
+MI0005490	mmu-mir-297a-5 		MI0000397 	miR-297a maps many times to the mouse genome. Sequences without support for mature miRNAs from both arms by deep sequencing are deleted. 
+MI0005491	mmu-mir-297a-6 		MI0000397 	miR-297a maps many times to the mouse genome. Sequences without support for mature miRNAs from both arms by deep sequencing are deleted. 
+MI0011685	dps-mir-2517a-4 		MI0011725 	Merge duplicate loci. 
+MI0001707	osa-MIR442 		MI0001707 	The pattern of reads that map to the MIR442 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0001704	osa-MIR441a 		MI0001704 	The pattern of reads that map to the MIR441 loci from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0001705	osa-MIR441b 		MI0001705 	The pattern of reads that map to the MIR441 loci from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0001706	osa-MIR441c 		MI0001706 	The pattern of reads that map to the MIR441 loci from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0001718	osa-MIR446 		MI0001718 	The pattern of reads that map to the MIR446 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0010723	osa-MIR2125 		MI0010723 	The pattern of reads that map to the MIR2125 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0004678	mmu-mir-720 		MI0004678 	Schopman et al. show that the sequence annotated as miR-720 is likely to be a fragment of a tRNA, and so is removed from the database (RNA Biol. 2010 7:573-576). 
+MI0006654	hsa-mir-720 		MI0006654 	Schopman et al. show that the sequence annotated as miR-720 is likely to be a fragment of a tRNA, and so is removed from the database (RNA Biol. 2010 7:573-576). 
+MI0008855	ptr-mir-720 		MI0008855 	Schopman et al. show that the sequence annotated as miR-720 is likely to be a fragment of a tRNA, and so is removed from the database (RNA Biol. 2010 7:573-576). 
+MI0015141	ppy-mir-720 		MI0015141 	Schopman et al. show that the sequence annotated as miR-720 is likely to be a fragment of a tRNA, and so is removed from the database (RNA Biol. 2010 7:573-576). 
+MI0020554	cgr-mir-720 		MI0020554 	Schopman et al. show that the sequence annotated as miR-720 is likely to be a fragment of a tRNA, and so is removed from the database (RNA Biol. 2010 7:573-576). 
+MI0021124	bta-mir-720 		MI0021124 	Schopman et al. show that the sequence annotated as miR-720 is likely to be a fragment of a tRNA, and so is removed from the database (RNA Biol. 2010 7:573-576). 
+MI0006437	hsa-mir-1280 		MI0006437 	Schopman et al. show that the sequence annotated as miR-1280 is likely to be a fragment of a tRNA, and so is removed from the database (RNA Biol. 2010 7:573-576). 
+MI0008479	ptr-mir-1280 		MI0008479 	Schopman et al. show that the sequence annotated as miR-1280 is likely to be a fragment of a tRNA, and so is removed from the database (RNA Biol. 2010 7:573-576). 
+MI0015235	ppy-mir-1280 		MI0015235 	Schopman et al. show that the sequence annotated as miR-1280 is likely to be a fragment of a tRNA, and so is removed from the database (RNA Biol. 2010 7:573-576). 
+MI0001440	osa-MIR420 		MI0001440 	The pattern of reads that map to the MIR420 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005238	osa-MIR813 		MI0005238 	The pattern of reads that map to the MIR813 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0010724	osa-MIR2124h 		MI0010724 	The pattern of reads that map to the MIR2124 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0010722	osa-MIR2124i 		MI0010722 	The pattern of reads that map to the MIR2124 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0010721	osa-MIR2124g 		MI0010721 	The pattern of reads that map to the MIR2124 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0010720	osa-MIR2124f 		MI0010720 	The pattern of reads that map to the MIR2124 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0010719	osa-MIR2124e 		MI0010719 	The pattern of reads that map to the MIR2124 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0010718	osa-MIR2124d 		MI0010718 	The pattern of reads that map to the MIR2124 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0010717	osa-MIR2124c 		MI0010717 	The pattern of reads that map to the MIR2124 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0010716	osa-MIR2124b 		MI0010716 	The pattern of reads that map to the MIR2124 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0010715	osa-MIR2124a 		MI0010715 	The pattern of reads that map to the MIR2124 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0001709	osa-MIR445a 		MI0001709 	The pattern of reads that map to the MIR445 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0001710	osa-MIR445b 		MI0001710 	The pattern of reads that map to the MIR445 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0001711	osa-MIR445c 		MI0001711 	The pattern of reads that map to the MIR445 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0001712	osa-MIR445d 		MI0001712 	The pattern of reads that map to the MIR445 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0001713	osa-MIR445e 		MI0001713 	The pattern of reads that map to the MIR445 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0001714	osa-MIR445f 		MI0001714 	The pattern of reads that map to the MIR445 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0001715	osa-MIR445g 		MI0001715 	The pattern of reads that map to the MIR445 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0001716	osa-MIR445h 		MI0001716 	The pattern of reads that map to the MIR445 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0001717	osa-MIR445i 		MI0001717 	The pattern of reads that map to the MIR445 locus from deep sequencing experiments is not consistent with miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005210	osa-MIR806a 		MI0005210 	The pattern of reads that map to the MIR806 locus from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005211	osa-MIR806b 		MI0005211 	The pattern of reads that map to the MIR806 locus from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005212	osa-MIR806c 		MI0005212 	The pattern of reads that map to the MIR806 locus from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005213	osa-MIR806d 		MI0005213 	The pattern of reads that map to the MIR806 locus from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005214	osa-MIR806e 		MI0005214 	The pattern of reads that map to the MIR806 locus from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005215	osa-MIR806f 		MI0005215 	The pattern of reads that map to the MIR806 locus from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005216	osa-MIR806g 		MI0005216 	The pattern of reads that map to the MIR806 locus from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005217	osa-MIR806h 		MI0005217 	The pattern of reads that map to the MIR806 locus from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0010712	osa-MIR2123a 		MI0010712 	The pattern of reads that map to the MIR806/MIR2123 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0010713	osa-MIR2123b 		MI0010713 	The pattern of reads that map to the MIR806/MIR2123 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0010714	osa-MIR2123c 		MI0010714 	The pattern of reads that map to the MIR806/MIR2123 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0008246	osa-MIR1884a 		MI0008246 	The pattern of reads that map to the MIR806/MIR1884 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0008281	osa-MIR1884b 		MI0008281 	The pattern of reads that map to the MIR806/MIR1884 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005209	osa-MIR807a 		MI0005209 	The pattern of reads that map to the MIR807 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005218	osa-MIR807b 		MI0005218 	The pattern of reads that map to the MIR807 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005219	osa-MIR807c 		MI0005219 	The pattern of reads that map to the MIR807 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005220	osa-MIR808 		MI0005220 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005221	osa-MIR809a 		MI0005221 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005222	osa-MIR809b 		MI0005222 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005223	osa-MIR809c 		MI0005223 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005224	osa-MIR809d 		MI0005224 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005225	osa-MIR809e 		MI0005225 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005226	osa-MIR809f 		MI0005226 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005227	osa-MIR809g 		MI0005227 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005228	osa-MIR809h 		MI0005228 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005252	osa-MIR819a 		MI0005252 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005253	osa-MIR819b 		MI0005253 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005254	osa-MIR819c 		MI0005254 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005255	osa-MIR819d 		MI0005255 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005256	osa-MIR819e 		MI0005256 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005257	osa-MIR819f 		MI0005257 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005258	osa-MIR819g 		MI0005258 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005259	osa-MIR819h 		MI0005259 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005260	osa-MIR819i 		MI0005260 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005261	osa-MIR819j 		MI0005261 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005262	osa-MIR819k 		MI0005262 	The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0006188	tae-MIR1126 		MI0006188 	MIR1126 and MIR1132 are related to the MIR8080/809/819 family. The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0016744	hvu-MIR1126 		MI0016744 	MIR1126 and MIR1132 are related to the MIR8080/809/819 family. The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0006194	tae-MIR1132 		MI0006194 	MIR1126 and MIR1132 are related to the MIR8080/809/819 family. The pattern of reads that map to the MIR808/809/819 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005230	osa-MIR811a 		MI0005230 	The pattern of reads that map to the MIR811/MIR2862 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005231	osa-MIR811b 		MI0005231 	The pattern of reads that map to the MIR811/MIR2862 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0005232	osa-MIR811c 		MI0005232 	The pattern of reads that map to the MIR811/MIR2862 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0017250	osa-MIR811d 		MI0017250 	The pattern of reads that map to the MIR811/MIR2862 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0013024	osa-MIR2862 		MI0013024 	The pattern of reads that map to the MIR811/MIR2862 loci from deep sequencing experiments is more consistent with rasiRNA rather than miRNA processing. The miRNA annotation is therefore likely to be incorrect (Chen et al., RNA Biol. 8:538-547). 
+MI0014337	bmo-mir-3281 		MI0014337 	The pattern of reads from deep sequencing experiments that map to this locus does not support the annotation of mir-3281 as a microRNA. The entry is therefore removed from the database. 
+MI0014440	bmo-mir-3379 		MI0014440 	The pattern of reads from deep sequencing experiments that map to this locus does not support the annotation of mir-3379 as a microRNA. The entry is therefore removed from the database. 
+MI0021589	mmu-mir-6242 		MI0021589 	miR-6242 is a fragment of the precursor 45S rRNA, and so is removed from the database. 
+MI0010832	mmu-mir-2182 		MI0010832 	miR-2182 is a fragment of the precursor 45S rRNA, and so is removed from the database. 
+MI0019410	dme-mir-5613 		MI0019410 	The pattern of reads mapping to this locus from collated deep sequencing experiments is not consistent with microRNA processing by Drosha and Dicer. The sequence is therefore removed from miRBase. 
+MI0019411	dme-mir-5614 		MI0019411 	The pattern of reads mapping to this locus from collated deep sequencing experiments is not consistent with microRNA processing by Drosha and Dicer. The sequence is therefore removed from miRBase. 
+MI0018010	mmu-mir-5102 		MI0018010 	The sequence annotated as mir-5102 is 80% identical to an annotated 28S rRNA sequence (Refseq:NR_003279.1), and is therefore very unlikely to be a miRNA. The sequence is removed from the database. 
+MI0004496	mmu-mir-P1162 		MI0004496 	Delete Berezikov candidate 
+MI0003800	hsa-mir-P716 		MI0003800 	Berezikov RAKE candidate 
+MI0023505	hco-let-7 		MI0020169 	Likely not the true let-7 sequence (Winter AD, pers comm). Removed from the database in favour of the overlapping mir-5991 sequence. 
+MI0011537	bta-mir-2476 		MI0011537 	The genomic region flanking the predicted mir-2476 hairpin is annotated as a tRNA by both Rfam and tRNAscan-SE. The mature sequence also matches fragments of tRNAs from the SILVA database. The miRNA annotation is therefore removed from miRBase. 
+MI0017998	ssc-mir-2476a-1 		MI0017998 	The genomic region flanking the predicted mir-2476 hairpin is annotated as a tRNA by both Rfam and tRNAscan-SE. The mature sequence also matches fragments of tRNAs from the SILVA database. The miRNA annotation is therefore removed from miRBase. 
+MI0017999	ssc-mir-2476a-2 		MI0017999 	The genomic region flanking the predicted mir-2476 hairpin is annotated as a tRNA by both Rfam and tRNAscan-SE. The mature sequence also matches fragments of tRNAs from the SILVA database. The miRNA annotation is therefore removed from miRBase. 
+MI0018000	ssc-mir-2476a-3 		MI0018000 	The genomic region flanking the predicted mir-2476 hairpin is annotated as a tRNA by both Rfam and tRNAscan-SE. The mature sequence also matches fragments of tRNAs from the SILVA database. The miRNA annotation is therefore removed from miRBase. 
+MI0022165	ssc-mir-2476b-1 		MI0022165 	The genomic region flanking the predicted mir-2476 hairpin is annotated as a tRNA by both Rfam and tRNAscan-SE. The mature sequence also matches fragments of tRNAs from the SILVA database. The miRNA annotation is therefore removed from miRBase. 
+MI0022166	ssc-mir-2476b-2 		MI0022166 	The genomic region flanking the predicted mir-2476 hairpin is annotated as a tRNA by both Rfam and tRNAscan-SE. The mature sequence also matches fragments of tRNAs from the SILVA database. The miRNA annotation is therefore removed from miRBase. 
+MI0018020	mmu-mir-5111 		MI0018020 	The annotated mature miR-5111 sequence appears to be a fragment of tRNAs annotated in the SILVA database. The miRNA annotation is therefore removed from miRBase. 
+MI0019039	osa-MIR5520 		MI0019039 	The pattern of RNAseq reads mapped to this locus do not support the annotation of a microRNA, and the structure of the flanking regions is not a simple hairpin. The annotation is removed from miRBase. 
+MI0021722	gma-MIR6298 		MI0021722 	The mature sequence annotated as miR6298 appears to be a fragment of an Ala(TGC) tRNA, so is removed from the database. 
+MI0004550	mmu-mir-P864 		MI0004550 	Berezikov candidate 
+MI0013950	api-mir-971-2 		MI0013949 	Two previously annotated mir-971 entries map to the same locus in the AphidBase2 genome assembly, and so are merged. 
+MI0013978	api-mir-3034-2 		MI0013977 	Two previously annotated mir-3034 entries map to the same locus in the AphidBase2 genome assembly, and so are merged. 
+MI0013916	api-mir-210-2 		MI0013915 	Two previously annotated mir-210 entries map to the same locus in the AphidBase2 genome assembly, and so are merged. 
+MI0013952	api-mir-996-2 		MI0013951 	Two previously annotated mir-996 entries map to the same locus in the AphidBase2 genome assembly, and so are merged. 
+MI0013931	api-mir-307-2 		MI0013930 	Two previously annotated mir-307 entries map to the same locus in the AphidBase2 genome assembly, and so are merged. 
+MI0014014	api-mir-3015c-2 		MI0014013 	Two previously annotated mir-3015c entries map to the same locus in the AphidBase2 genome assembly, and so are merged. 
+MI0017890	ath-MIR5015b 		MI0017883 	Two previously annotated MIR5015 entries map to the same locus in the TAIR10 genome assembly, and so are merged. 
+MI0017960	bdi-MIR5062b 		MI0017959 	Two previously annotated MIR5062 entries map to the same locus in the v1.0 genome assembly, and so are merged. 
+MI0018217	bdi-MIR390b 		MI0018085 	Two previously annotated MIR390 entries map to the same locus in the v1.0 genome assembly, and so are merged. 
+MI0018237	bdi-MIR396f 		MI0018125 	Two previously annotated MIR396 (b and f) entries map to the same locus in the v1.0 genome assembly, and so are merged. 
+MI0018099	bdi-MIR397b 		MI0011565 	Two previously annotated MIR397 entries map to the same locus in the v1.0 genome assembly, and so are merged. 
+MI0018228	bdi-MIR398c 		MI0018116 	Two previously annotated MIR398 entries map to the same locus in the v1.0 genome assembly, and so are merged. 
+MI0018214	bdi-MIR164d 		MI0018094 	Two previously annotated MIR164 entries map to the same locus in the v1.0 genome assembly, and so are merged. 
+MI0018218	bdi-MIR395i 		MI0018088 	Two previously annotated MIR395 entries map to the same locus in the v1.0 genome assembly, and so are merged. 
+MI0017616	bfl-mir-4862b 		MI0017615 	Two previously annotated mir-4862 entries map to the same locus in the JGI2.0 genome assembly, and so are merged. 
+MI0017655	bfl-mir-4885b 		MI0017654 	Two previously annotated mir-4885 entries map to the same locus in the JGI2.0 genome assembly, and so are merged. 
+MI0017671	bfl-mir-4897b 		MI0017670 	Two previously annotated mir-4897 entries map to the same locus in the JGI2.0 genome assembly, and so are merged. 
+MI0021698	gma-MIR166v 		MI0021698 	The locus annotated as MIR166v is a low complexity sequence that maps many times to the genome, and the putative hairpin structure is not consistent with miRNA processing. The sequence is therefore removed from the database. 
+MI0022278	bta-mir-1839b 		MI0010473 	Two previously annotated mir-1839 entries map to the same locus in the UMD3.1 genome assembly, and so are merged. 
+MI0012210	bta-mir-219-2 		MI0009781 	Two previously annotated mir-219 entries map to the same locus in the UMD3.1 genome assembly, and so are merged. 
+MI0022312	bta-mir-2285m-6 		MI0022276 	Two previously annotated mir-2285m entries map to the same locus in the UMD3.1 genome assembly, and so are merged. 
+MI0022316	bta-mir-2285m-7 		MI0022309 	Two previously annotated mir-2285m entries map to the same locus in the UMD3.1 genome assembly, and so are merged. 
+MI0011422	bta-mir-2384-2 		MI0011421 	Two previously annotated mir-2384 entries map to the same locus in the UMD3.1 genome assembly, and so are merged. 
+MI0011489	bta-mir-2424-2 		MI0011474 	Two previously annotated mir-2424 entries map to the same locus in the UMD3.1 genome assembly, and so are merged. 
+MI0013078	bta-mir-2902-2 		MI0013077 	Two previously annotated mir-2909 entries map to the same locus in the UMD3.1 genome assembly, and so are merged. 
+MI0011499	bta-mir-2445 		MI0011499 	The previously annotated mir-2445 sequence does not adopt a strong miRNA-like hairpin structure, and the mature sequence does not match exactly in the UMD3.1 genome assembly. The entry is therefore removed. 
+MI0015552	cin-mir-4010-2 		MI0015551 	Two previously annotated mir-4010 entries map to the same locus in the JGI2 genome assembly, and so are merged. 
+MI0015503	cin-mir-4000a-3 		MI0015504 	Three previously annotated mir-4000a entries map to two loci in the JGI2 genome assembly, and so are merged. 
+MI0013616	cqu-mir-1890-2 		MI0013615 	Two previously annotated mir-1890 entries map to a single locus in the CpipJ1 genome assembly, and so are merged. 
+MI0013595	cqu-mir-92-2 		MI0013594 	Two previously annotated mir-92 entries map to a single locus in the CpipJ1 genome assembly, and so are merged. 
+MI0010097	cte-mir-79 		MI0010052 	The previously annotated mir-9 and mir-79 entries map to a single locus in the JGI1.0 genome assembly, and so are merged. 
+MI0012249	dpu-mir-79 		MI0012252 	The previously annotated mir-9 and mir-79 entries map to a single locus in the JGI1.0 genome assembly, and so are merged. 
+MI0003261	fru-mir-142b 		MI0003223 	Two previously annotated mir-142 entries map to a single locus in the FUGU5 genome assembly, and so are merged. 
+MI0003375	fru-mir-181b-2 		MI0003331 	Two previously annotated mir-181b entries map to a single locus in the FUGU5 genome assembly, and so are merged. 
+MI0015965	gga-mir-146c-2 		MI0007561 	Two previously annotated mir-146c entries map to a single locus in the GalGal4 genome assembly, and so are merged. 
+MI0003697	gga-mir-147-2 		MI0003696 	Two previously annotated mir-147 entries map to a single locus in the GalGal4 genome assembly, and so are merged. 
+MI0007294	gga-mir-1569-1 		MI0007295 	Two previously annotated mir-1569 entries map to a single locus in the GalGal4 genome assembly, and so are merged. 
+MI0007337	gga-mir-1609-2 		MI0007336 	Two previously annotated mir-1609 entries map to a single locus in the GalGal4 genome assembly, and so are merged. 
+MI0007342	gga-mir-1613-2 		MI0007341 	Two previously annotated mir-1613 entries map to a single locus in the GalGal4 genome assembly, and so are merged. 
+MI0007387	gga-mir-1654-2 		MI0007386 	Two previously annotated mir-1654 entries map to a single locus in the GalGal4 genome assembly, and so are merged. 
+MI0007465	gga-mir-1727-2 		MI0007464 	Two previously annotated mir-1727 entries map to a single locus in the GalGal4 genome assembly, and so are merged. 
+MI0005000	gga-mir-757-2 		MI0004999 	Two previously annotated mir-757 entries map to a single locus in the GalGal4 genome assembly, and so are merged. 
+MI0007485	gga-mir-1745-2 		MI0007484 	Two previously annotated mir-1745 entries map to a single locus in the GalGal4 genome assembly, and so are merged. 
+MI0015966	gga-mir-222-2 		MI0001177 	Two previously annotated mir-222 entries map to a single locus in the GalGal4 genome assembly, and so are merged. 
+MI0007495	gga-mir-1753-2 		MI0007494 	Two previously annotated mir-1753 entries map to a single locus in the GalGal4 genome assembly, and so are merged. 
+MI0015392	gga-mir-3538-2 		MI0015391 	Two previously annotated mir-3538 entries map to a single locus in the GalGal4 genome assembly, and so are merged. 
+MI0017872	hsa-mir-4482-2 		MI0016843 	Two previously annotated mir-4482 entries map to one locus in the GRCh37 genome assembly, so are merged. 
+MI0010841	dre-mir-2190-1 		MI0010841 	The mature miR-2190 sequence matches a fragment of LSU rRNA, and the pattern of reads derived from the locus is not consistent with microRNA processing (Wei et al. RNA 2012 18:915-929). 
+MI0019586	dre-mir-2190-2 		MI0019586 	The mature miR-2190 sequence matches a fragment of LSU rRNA, and the pattern of reads derived from the locus is not consistent with microRNA processing (Wei et al. RNA 2012 18:915-929). 
+MI0019587	dre-mir-2190-3 		MI0019587 	The mature miR-2190 sequence matches a fragment of LSU rRNA, and the pattern of reads derived from the locus is not consistent with microRNA processing (Wei et al. RNA 2012 18:915-929). 
+MI0019588	dre-mir-2190-4 		MI0019588 	The mature miR-2190 sequence matches a fragment of LSU rRNA, and the pattern of reads derived from the locus is not consistent with microRNA processing (Wei et al. RNA 2012 18:915-929). 
+MI0020960	mes-MIR160 		MI0020960 	This sequence is not present in the Cassava4 genome assembly.  Patanun et al. (2012) have predicted MIR166 family members based  on the updated genome assembly, so this sequence is removed. 
+MI0020961	mes-MIR166 		MI0020961 	This sequence is not present in the Cassava4 genome assembly. Patanun et al. (2012) have predicted MIR166 family members based on the updated genome assembly, so this sequence is removed. 
+MI0018013	mmu-mir-5105 		MI0018013 	The annotated miR-5105 sequence has been shown to derive from a fragment of LSU rRNA (Castellano and Stebbing, NAR 2013, PMID:23325850) and is removed from the database. 
+MI0019608	sha-mir-5105 		MI0019608 	The annotated miR-5105 sequence has been shown to derive from a fragment of LSU rRNA (Castellano and Stebbing, NAR 2013, PMID:23325850) and is removed from the database. 
+MI0018018	mmu-mir-5109 		MI0018018 	The annotated miR-5109 sequence has been shown to derive from a fragment of LSU rRNA (Castellano and Stebbing, NAR 2013, PMID:23325850) and is removed from the database. 
+MI0018005	mmu-mir-5097 		MI0018005 	The sequence annotated as miR-5097 derives from a fragment of a tRNA, and is neither processed by Dicer nor loaded into Ago2 (Castellano and Stebbing, NAR 2013, PMID:23325850). It is therefore likely a misannotation. 
+MI0009962	mmu-mir-1965 		MI0009962 	The sequences annotated as miR-1965, miR-1935, miR-1186 and miR-1196 have been shown to derive from DGCR8-independent processing of a long hairpin formed by a transcribed Alu/B1 SINE element (Castellano and Stebbing, NAR 2013, PMID:23325850). These sequences are therefore likely to be mis-annotations. 
+MI0009924	mmu-mir-1935 		MI0009924 	The sequences annotated as miR-1965, miR-1935, miR-1186 and miR-1196 have been shown to derive from DGCR8-independent processing of a long hairpin formed by a transcribed Alu/B1 SINE element (Castellano and Stebbing, NAR 2013, PMID:23325850). These sequences are therefore likely to be mis-annotations. 
+MI0006284	mmu-mir-1186a 		MI0006284 	The sequences annotated as miR-1965, miR-1935, miR-1186 and miR-1196 have been shown to derive from DGCR8-independent processing of a long hairpin formed by a transcribed Alu/B1 SINE element (Castellano and Stebbing, NAR 2013, PMID:23325850). These sequences are therefore likely to be mis-annotations. 
+MI0014705	mmu-mir-1186b 		MI0014705 	The sequences annotated as miR-1965, miR-1935, miR-1186 and miR-1196 have been shown to derive from DGCR8-independent processing of a long hairpin formed by a transcribed Alu/B1 SINE element (Castellano and Stebbing, NAR 2013, PMID:23325850). These sequences are therefore likely to be mis-annotations. 
+MI0006304	mmu-mir-1196 		MI0006304 	The sequences annotated as miR-1965, miR-1935, miR-1186 and miR-1196 have been shown to derive from DGCR8-independent processing of a long hairpin formed by a transcribed Alu/B1 SINE element (Castellano and Stebbing, NAR 2013, PMID:23325850). These sequences are therefore likely to be mis-annotations. 
+MI0018024	mmu-mir-5115 		MI0018024 	The annotated miR-5115 sequence has been shown to derive from a fragment of LSU rRNA (Castellano and Stebbing, NAR 2013, PMID:23325850) and is removed from the database. 
+MI0018026	mmu-mir-5117 		MI0018026 	The abundance of reads mapping to the miR-5117 sequence has been shown to be independent of Dicer and DGCR8, and the sequences are not found in Ago2 IP experiments (Castellano and Stebbing, NAR 2013, PMID:23325850). It is therefore likely a misannotation. 
+MI0014089	mmu-mir-3096a 		MI0014089 	The abundance of reads mapping to the miR-3096 sequence has been shown to be independent of Dicer and DGCR8, and the sequences are not found in Ago2 IP experiments (Castellano and Stebbing, NAR 2013, PMID:23325850). It is therefore likely a misannotation. 
+MI0016969	mmu-mir-3096b 		MI0016969 	The abundance of reads mapping to the miR-3096 sequence has been shown to be independent of Dicer and DGCR8, and the sequences are not found in Ago2 IP experiments (Castellano and Stebbing, NAR 2013, PMID:23325850). It is therefore likely a misannotation. 
+MI0007509	gga-mir-1766-2 		MI0007508 	The previously annotated mir-1766-1 and mir-1766-2 loci map to the same location in the Gallus-gallus-4 assembly, so are merged. 
+MI0005628	mtr-MIR166h 		MI0001740 	MIR166a and MIR166h map to the same locus in the Mt3.5.2 genome assembly, so the entries are merged. 
+MI0001742	mtr-MIR169b 		MI0001741 	The mtr-MIR169 entries in miRBase 19 map to only 11 loci in the MT3.5.2 genome assembly. The entries have therefore been rationalised and merged in miRBase 20, and some loci renamed. 
+MI0005624	mtr-MIR169i 		MI0005623 	The mtr-MIR169 entries in miRBase 19 map to only 11 loci in the MT3.5.2 genome assembly. The entries have therefore been rationalised and merged in miRBase 20, and some loci renamed. 
+MI0005630	mtr-MIR169m 		MI0005579 	The mtr-MIR169 entries in miRBase 19 map to only 11 loci in the MT3.5.2 genome assembly. The entries have therefore been rationalised and merged in miRBase 20, and some loci renamed. 
+MI0005631	mtr-MIR169l 		MI0005578 	The mtr-MIR169 entries in miRBase 19 map to only 11 loci in the MT3.5.2 genome assembly. The entries have therefore been rationalised and merged in miRBase 20, and some loci renamed. 
+MI0005632	mtr-MIR169k 		MI0005577 	The mtr-MIR169 entries in miRBase 19 map to only 11 loci in the MT3.5.2 genome assembly. The entries have therefore been rationalised and merged in miRBase 20, and some loci renamed. 
+MI0005636	mtr-MIR169n 		MI0005623 	The mtr-MIR169 entries in miRBase 19 map to only 11 loci in the MT3.5.2 genome assembly. The entries have therefore been rationalised and merged in miRBase 20, and some loci renamed. 
+MI0005637	mtr-MIR169o 		MI0005623 	The mtr-MIR169 entries in miRBase 19 map to only 11 loci in the MT3.5.2 genome assembly. The entries have therefore been rationalised and merged in miRBase 20, and some loci renamed. 
+MI0019683	mtr-MIR169r 		MI0005623 	The mtr-MIR169 entries in miRBase 19 map to only 11 loci in the MT3.5.2 genome assembly. The entries have therefore been rationalised and merged in miRBase 20, and some loci renamed. 
+MI0012051	mtr-MIR2088b 		MI0010545 	The two MIR2088 sequences in miRBase 19 map to the same locus in the Mt3.5.2 genome assembly so are merged in miRBase 20. 
+MI0011871	mtr-MIR2585e 		MI0011870 	The 2 MIR2585 sequences in miRBase 19 map to one locus in the MT3.5.2 genome assembly, so are merged. 
+MI0011835	mtr-MIR2111g 		MI0011841 	The MIR2111 loci in miRBase 19 overlap in the Mt3.5.2 genome assembly. The entries are rationalised and merged in miRBase 20, leading to several entries being renamed. 
+MI0011837	mtr-MIR2111i 		MI0011836 	The MIR2111 loci in miRBase 19 overlap in the Mt3.5.2 genome assembly. The entries are rationalised and merged in miRBase 20, leading to several entries being renamed. 
+MI0011904	mtr-MIR2111b 		MI0019095 	The MIR2111 loci in miRBase 19 overlap in the Mt3.5.2 genome assembly. The entries are rationalised and merged in miRBase 20, leading to several entries being renamed. 
+MI0011840	mtr-MIR2111l 		MI0011839 	The MIR2111 loci in miRBase 19 overlap in the Mt3.5.2 genome assembly. The entries are rationalised and merged in miRBase 20, leading to several entries being renamed. 
+MI0011906	mtr-MIR2111d 		MI0011843 	The MIR2111 loci in miRBase 19 overlap in the Mt3.5.2 genome assembly. The entries are rationalised and merged in miRBase 20, leading to several entries being renamed. 
+MI0011845	mtr-MIR2111q 		MI0011844 	The MIR2111 loci in miRBase 19 overlap in the Mt3.5.2 genome assembly. The entries are rationalised and merged in miRBase 20, leading to several entries being renamed. 
+MI0011903	mtr-MIR2111a 		MI0019095 	The MIR2111 loci in miRBase 19 overlap in the Mt3.5.2 genome assembly. The entries are rationalised and merged in miRBase 20, leading to several entries being renamed. 
+MI0011831	mtr-MIR2594b 		MI0011830 	Two MIR2594 sequences map to the same locus in the Mt3.5.2 genome assembly, so are merged in miRBase 20. 
+MI0011864	mtr-MIR2609c 		MI0011862 	Two MIR2609 loci in miRBase 19 map to one locus in the Mt3.5.2 genome assembly, so are merged in miRBase 20. 
+MI0011873	mtr-MIR2612b 		MI0011872 	Two MIR2612 loci in miRBase 19 map to one locus in the Mt3.5.2 genome assembly, so are merged in miRBase 20. 
+MI0011892	mtr-MIR2624b 		MI0011891 	Two MIR2624 loci in miRBase 19 map to one locus in the Mt3.5.2 genome assembly, so are merged in miRBase 20. 
+MI0011955	mtr-MIR2640b 		MI0011954 	Two MIR2640 loci in miRBase 19 map to one locus in the Mt3.5.2 genome assembly, so are merged in miRBase 20. 
+MI0011960	mtr-MIR2644b 		MI0011959 	Two MIR2644 loci in miRBase 19 map to one locus in the Mt3.5.2 genome assembly, so are merged in miRBase 20. 
+MI0012005	mtr-MIR2657b 		MI0012004 	Two MIR2657 loci in miRBase 19 map to one locus in the Mt3.5.2 genome assembly, so are merged in miRBase 20. 
+MI0012014	mtr-MIR2660b 		MI0012013 	Two MIR2660 loci in miRBase 19 map to one locus in the Mt3.5.2 genome assembly, so are merged in miRBase 20. 
+MI0005635	mtr-MIR171g 		MI0005619 	Two MIR171 sequences map to the same locus in the Mt3.5.2 genome assembly, so are merged in miRBase 20. 
+MI0011859	mtr-MIR2606c 		MI0011858 	Two MIR2606 sequences in miRBase 19 map to the same locus in the Mt3.5.2 genome assembly, so are merged in miRBase 20. 
+MI0012044	mtr-MIR2675b 		MI0012043 	Two MIR2675 sequences in miRBase 19 map to the same locus in the Mt3.5.2 genome assembly, so are merged in miRBase 20. 
+MI0005633	mtr-MIR395r 		MI0005079 	Some of the MIR395 sequences in miRBase 19 map to the same locus in the Mt3.5.2 genome assembly. The entries are rationalised and merged in miRBase 20. 
+MI0005078	mtr-MIR395k 		MI0005073 	Some of the MIR395 sequences in miRBase 19 map to the same locus in the Mt3.5.2 genome assembly. The entries are rationalised and merged in miRBase 20. 
+MI0005598	mtr-MIR395q 		MI0005071 	Some of the MIR395 sequences in miRBase 19 map to the same locus in the Mt3.5.2 genome assembly. The entries are rationalised and merged in miRBase 20. 
+MI0018483	mtr-MIR5219b 		MI0018283 	Two MIR5219 sequences in miRBase 19 map to the same locus in the Mt3.5.2 genome assembly. The entries are merged in miRBase 20. 
+MI0018287	mtr-MIR5223b 		MI0018286 	Two MIR5223 sequences in miRBase 19 map to the same locus in the Mt3.5.2 genome assembly. The entries are merged in miRBase 20. 
+MI0018263	mtr-MIR2592aa 		MI0018262 	Some MIR2592 sequences in miRBase 19 map to the same locus in the Mt3.5.2 genome assembly. The entries are rationalised, merged and renamed in miRBase 20. 
+MI0018269	mtr-MIR2592ag 		MI0018268 	Some MIR2592 sequences in miRBase 19 map to the same locus in the Mt3.5.2 genome assembly. The entries are rationalised, merged and renamed in miRBase 20. 
+MI0018273	mtr-MIR2592ak 		MI0018274 	Some MIR2592 sequences in miRBase 19 map to the same locus in the Mt3.5.2 genome assembly. The entries are rationalised, merged and renamed in miRBase 20. 
+MI0018311	mtr-MIR2592bh 		MI0018300 	Some MIR2592 sequences in miRBase 19 map to the same locus in the Mt3.5.2 genome assembly. The entries are rationalised, merged and renamed in miRBase 20. 
+MI0019290	hsa-mir-5686 		MI0019290 	The sequence annotated as mir-5686 is a low complexity repeat. There is no support for microRNA processing from available deep sequencing data. 
+MI0020982	mse-mir-981-2 		MI0021023 	Two annotated mir-981 loci map to the same locus in the Msex 1.0 genome assembly, so are merged. 
+MI0002211	ptc-MIR162c 		MI0002210 	Two MIR162 loci from miRBase 19 map to a single location in the JGI v2 genome assembly, so are merged in miRBase 20. 
+MI0002389	ptc-MIR479 		MI0007032 	The MIR171l and MIR479 loci from miRBase 19 map to a single location in the JGI v2 genome assembly, so are merged in miRBase 20. 
+MI0002395	ptc-MIR481d 		MI0002396 	Five MIR481 sequences in miRBase 19 map to only four loci in the JGI v2 genome assembly. The entries are therefore rationalised in miRBase 20. 
+MI0002197	ptc-MIR159c 		MI0002195 	Six MIR159 sequences in miRBase 19 map to only five loci in the JGI v2 genome assembly. The entries are therefore rationalised in miRBase 20. 
+MI0002391	ptc-MIR480b 		MI0002390 	Two MIR480 sequences in miRBase 19 map to only one locus in the JGI v2 genome assembly. The entries are therefore merged in miRBase 20. 
+MI0002382	ptc-MIR478n 		MI0002381 	Six identical MIR478 sequences in miRBase 19 map to only five loci in the JGI v2 genome assembly. The entries are therefore rationalised in miRBase 20. 
+MI0022046	ptc-MIR403d 		MI0005115 	Two identical MIR403 sequences in miRBase 19 map to only one locus in the JGI v2 genome assembly. The entries are therefore merged in miRBase 20. 
+MI0002342	ptc-MIR399e 		MI0002341 	Two identical MIR399 sequences in miRBase 19 map to only one locus in the JGI v2 genome assembly. The entries are therefore merged in miRBase 20. 
+MI0002340	ptc-MIR399c 		MI0002339 	Two identical MIR399 sequences in miRBase 19 map to only one locus in the JGI v2 genome assembly. The entries are therefore merged in miRBase 20. 
+MI0002312	ptc-MIR393d 		MI0002311 	Two identical MIR393 sequences in miRBase 19 map to only one locus in the JGI v2 genome assembly. The entries are therefore merged in miRBase 20. 
+MI0002367	ptc-MIR476c 		MI0002366 	Two identical MIR476 sequences in miRBase 19 map to only one locus in the JGI v2 genome assembly. The entries are therefore merged in miRBase 20. 
+MI0002286	ptc-MIR171j 		MI0005114 	Two identical MIR171 sequences in miRBase 19 map to only one locus in the JGI v2 genome assembly. The entries are therefore merged in miRBase 20. 
+MI0023704	mmu-mir-7209 		MI0009993 	The sequence named mir-7209 in Meunier et al. is a duplicate of mir-1982, so the entries are merged. 
+MI0003128	hsa-mir-511-2 		MI0003127 	Two mir-511 sequences in miRBase 19 map to only one locus in the patched GRCh37.p10 genome assembly. The entries are merged in miRBase 20. 
+MI0012634	peu-MIR2911 		MI0012634 	The sequence annotated as mature miR2911 is a fragment of rRNA, so is removed from miRBase 20. 
+MI0021418	nta-MIR2911 		MI0021418 	The sequence annotated as mature miR2911 is a fragment of rRNA, so is removed from miRBase 20. 
+MI0022263	han-MIR2911 		MI0022263 	The sequence annotated as mature miR2911 is a fragment of rRNA, so is removed from miRBase 20. 
+MI0008269	osa-MIR1423b 		MI0006963 	Two MIR1423 sequences in miRBase 19 map to a single locus in the MSU7 genome assembly. The entries are merged in miRBase 20. 
+MI0009715	osa-MIR1318 		MI0006972 	The sequences annotated as MIR1318 and MIR1432 in miRBase 19 map to a single locus in the MSU7 genome assembly. The entries are merged in miRBase 20. 
+MI0001106	osa-MIR166j 		MI0001144 	Two MIR166 sequences in miRBase 19 map to a single locus in the MSU7 genome assembly. The entries are merged in miRBase 20. 
+MI0009714	osa-MIR1317 		MI0008292 	The sequences annotated as MIR1317 and MIR1882e in miRBase 19 map to a single locus in the MSU7 genome assembly. The entries are merged in miRBase 20. 
+MI0001699	osa-MIR439i 		MI0001691 	Five MIR439 sequences in miRBase 19 map to four loci in the MSU7 genome assembly. The entries are rationalised in miRBase 20. 
+MI0007051	osa-MIR827c 		MI0010490 	osa-MIR827c (Lu et al. Plant J 2008) was a predicted locus with low sequence similarity to other MIR827 sequences, and which has not been seen in subsequent RNAseq experiments. The sequence is deleted from miRBase 20. 
+MI0010568	osa-MIR827b 		MI0010490 	Two MIR827 sequences in miRBase 19 map to one locus in the MSU7 genome assembly. The entries are merged in miRBase 20. 
+MI0001702	osa-MIR396d 		MI0001703 	Two MIR396 sequences in miRBase 19 map to one locus in the MSU7 genome assembly. The entries are merged in miRBase 20. 
+MI0015779	aly-MIR399j 		MI0014637 	Two MIR399 sequences in miRBase 19 map to one locus in the v1.0 genome assembly. The entries are merged in miRBase 20. 
+MI0021658	ppe-MIR171d 		MI0021623 	Two MIR171 loci in miRBase 19 map to the same locus in the Prupu1.0 genome assembly. The entries are merged in miRBase 20. 
+MI0008268	osa-MIR1867 		MI0008268 	The pattern of deep sequencing reads derived from the MIR1867 locus is not consistent with miRNA processing. The sequence is removed from miRBase 20. 
+MI0019725	gma-MIR1513d 		MI0019725 	The predicted structure of the region flanking the proposed mature miRNA sequence doesnot adopt a pre-miRNA-like hairpin. The sequence is removed from miRBase 20. 
+MI0005793	pta-MIR783 		MI0005113 	The pattern of deep sequencing reads mapping to the MIR783 locus is not consistent with miRNA processing. The entry is removed from miRBase 20. 
+MI0022101	pde-MIR783 		MI0005113 	The pattern of deep sequencing reads mapping to the MIR783 locus is not consistent with miRNA processing. The entry is removed from miRBase 20. 
+MI0005113	ath-MIR783 		MI0005113 	The pattern of deep sequencing reads mapping to the MIR783 locus is not consistent with miRNA processing. The entry is removed from miRBase 20. 
+MI0011431	bta-mir-2391 		MI0011431 	The putative mature sequence is low complexity (AAAAAA seed), and the hairpin prediction is weak. The entry is removed from miRBase 20. 
+MI0021590	mmu-mir-6243 		MI0021590 	The sequence annotated as miR-6243 is a fragment of LSU rRNA. The entry is removed from miRBase 20. 
+MI0016077	hsa-mir-3676 		MI0016077 	The sequence annotated as miR-3676 is a fragment of a tRNA, and the deep sequencing reads mapping to the predicted hairpin do not support miRNA processing. The entry is removed from miRBase 20. 
+MI0015918	ssc-mir-4333 		MI0015918 	The sequence annotated as mir-4333 overlaps the well-conserved snoRNA SNORA53. The entry is removed from miRBase 20. 
+MI0015930	ssc-mir-4336 		MI0015930 	The sequence annotated as mir-4336 overlaps the well-conserved snoRNA SNORA18. The entry is removed from miRBase 20. 
+MI0023528	sbi-MIR169r 		MI0001558 	Two MIR169 sequences map to the same locus in the Sorghum genome assembly. The entries are merged in miRBase 20. 
+MI0010197	spu-mir-79 		MI0010189 	The previously annotated mir-9 and mir-79 sequences derive from the same locus. The entries are merged in miRBase 20. 
+MI0013334	bma-mir-79 		MI0013326 	The previously annotated mir-9 and mir-79 sequences derive from the same locus. The entries are merged in miRBase 20. 
+MI0009707	pta-MIR1310 		MI0009707 	The mature miR1310 exactly matches a fragment of LSU rRNA. The corresponding entry is removed from miRBase 21. 
+MI0022111	pde-MIR1310 		MI0022111 	The mature miR1310 exactly matches a fragment of LSU rRNA. The corresponding entry is removed from miRBase 21. 
+MI0022262	han-MIR1310 		MI0022262 	The mature miR1310 exactly matches a fragment of LSU rRNA. The corresponding entry is removed from miRBase 21. 
+MI0022569	cln-MIR1310 		MI0022569 	The mature miR1310 exactly matches a fragment of LSU rRNA. The corresponding entry is removed from miRBase 21. 
+MI0005711	cre-MIR916 		MI0005711 	The region flanking the putative miR916 sequence is predicted to be a tRNA with high confidence by tRNAscan-SE. The sequence is therefore removed in miRBase 21. 
+MI0023461	bma-mir-5861-2 		MI0023460 	Two previous mir-5861 annotations collapse to a single locus in the v3 genome assembly. 
+MI0026295	bma-mir-268-2 		MI0026294 	Three previous mir-268 annotations collapse to a single locus in the v3 genome assembly. 
+MI0026296	bma-mir-268-3 		MI0026294 	Three previous mir-268 annotations collapse to a single locus in the v3 genome assembly. 
+MI0026302	bma-mir-36-3 		MI0026300 	Five previous mir-36 annotations collapse to two loci in the v3 genome assembly. 
+MI0026303	bma-mir-36-4 		MI0026300 	Five previous mir-36 annotations collapse to two loci in the v3 genome assembly. 
+MI0026304	bma-mir-36-5 		MI0026300 	Five previous mir-36 annotations collapse to two loci in the v3 genome assembly. 
+MI0023436	bma-mir-5840-2 		MI0023435 	Two previous mir-5840 annotations collapse to one locus in the v3 genome assembly. 
+MI0023463	bma-mir-5862-2 		MI0023462 	Two previous mir-5862 annotations collapse to one locus in the v3 genome assembly. 
+MI0023465	bma-mir-5863-2 		MI0023464 	Two previous mir-5863 annotations collapse to one locus in the v3 genome assembly. 
+MI0023445	bma-mir-5847-3 		MI0023443 	Three previous mir-5847 annotations collapse to two loci in the v3 genome assembly. 
+MI0023487	bma-mir-5877-2 		MI0023486 	Two previous mir-5877 annotations collapse to one locus in the v3 genome assembly. 
+MI0023495	bma-mir-5881c 		MI0023494 	Three previous mir-5881 annotations collapse to two loci in the v3 genome assembly. 
+MI0023498	bma-mir-5882a-3 		MI0023496 	Three previous mir-5882a annotations collapse to two loci in the v3 genome assembly. 
+MI0023501	bma-mir-5882b-3 		MI0023499 	Three previous mir-5882b annotations collapse to two loci in the v3 genome assembly. 
+MI0023504	bma-mir-5883-3 		MI0023502 	Three previous mir-5883 annotations collapse to two loci in the v3 genome assembly. 
+MI0023475	bma-mir-5872-2 		MI0023474 	Six previous mir-5872 annotations collapse to one locus in the v3 genome assembly. 
+MI0023476	bma-mir-5872-3 		MI0023474 	Six previous mir-5872 annotations collapse to one locus in the v3 genome assembly. 
+MI0023477	bma-mir-5872-4 		MI0023474 	Six previous mir-5872 annotations collapse to one locus in the v3 genome assembly. 
+MI0023478	bma-mir-5872-5 		MI0023474 	Six previous mir-5872 annotations collapse to one locus in the v3 genome assembly. 
+MI0023479	bma-mir-5872-6 		MI0023474 	Six previous mir-5872 annotations collapse to one locus in the v3 genome assembly. 
+MI0023481	bma-mir-5873-2 		MI0023480 	Three previous mir-5873 annotations collapse to one locus in the v3 genome assembly. 
+MI0023482	bma-mir-5873-3 		MI0023480 	Three previous mir-5873 annotations collapse to one locus in the v3 genome assembly. 
+MI0011551	bta-mir-2487 		MI0011551 	The annotated miR-2487 mature sequence is a fragment of LSU rRNA, so is removed from miRBase 21. 
+MI0015378	gga-mir-3527 		MI0015378 	The sequence annotated as mir-3527 maps to the chicken mitochondrial DNA sequence. It is removed in miRBase 21. 
+MI0007291	gga-mir-1566 		MI0007291 	The submitted mir-1566 sequence does not match to either the assembled chicken genome (galGal4.0), any unmapped contigs, or any chicken sequence in the Trace Archive (2014-04-07). The sequence is removed from miRBase 21. 
+MI0010156	sko-mir-79 		MI0010148 	mir-9 and mir-79 map to a single locus in the Skow_1.0 genome assembly, so are merged. 
+MI0017547	sko-mir-125b 		MI0010163 	mir-125a and mir-125b map to a single locus in the Skow_1.0 genome assembly, so are merged. 
+MI0004701	mmu-mir-716 		MI0004701 	miR-716 is a fragment of LSU rRNA. The mouse sequence was never made available in a public release, and is now removed from the database. 
+MI0019600	sha-mir-716a 		MI0019600 	miR-716 is a fragment of LSU rRNA, so is removed from miRBase 21. 
+MI0019618	sha-mir-716b 		MI0019618 	miR-716 is a fragment of LSU rRNA, so is removed from miRBase 21. 
+MI0000334	cel-mir-257 		MI0000334 	The annotation of cel-mir-257 as a microRNA was questioned by Jan et al (Nature 2011 469:97-101). The pattern of reads from deep sequencing datasets aggregated in miRBase and mapping to the locus is not consistent with microRNA processing. The sequence is removed from miRBase 21. 
+MI0000335	cel-mir-258-1 		MI0000335 	The annotation of cel-mir-258 as a microRNA was questioned by Jan et al (Nature 2011 469:97-101). The pattern of reads from deep sequencing datasets aggregated in miRBase and mapping to the locus is not consistent with microRNA processing. The sequence is removed from miRBase 21. 
+MI0010691	cel-mir-258-2 		MI0010691 	The annotation of cel-mir-258 as a microRNA was questioned by Jan et al (Nature 2011 469:97-101). The pattern of reads from deep sequencing datasets aggregated in miRBase and mapping to the locus is not consistent with microRNA processing. The sequence is removed from miRBase 21. 
+MI0000337	cel-mir-260 		MI0000337 	The annotation of cel-mir-260 as a microRNA was questioned by Jan et al (Nature 2011 469:97-101). The pattern of reads from deep sequencing datasets aggregated in miRBase and mapping to the locus is not consistent with microRNA processing. The sequence is removed from miRBase 21. 
+MI0000339	cel-mir-262 		MI0000339 	The annotation of cel-mir-262 as a microRNA was questioned by Jan et al (Nature 2011 469:97-101). The pattern of reads from deep sequencing datasets aggregated in miRBase and mapping to the locus is not consistent with microRNA processing. The sequence is removed from miRBase 21. 
+MI0000752	cel-mir-353 		MI0000752 	The annotation of cel-mir-353 as a microRNA was questioned by Jan et al (Nature 2011 469:97-101). The pattern of reads from deep sequencing datasets aggregated in miRBase and mapping to the locus is not consistent with microRNA processing. The sequence is removed from miRBase 21. 
+MI0001390	cbr-mir-353 		MI0001390 	The annotation of cel-mir-353 as a microRNA was questioned by Jan et al (Nature 2011 469:97-101). The pattern of reads from deep sequencing datasets aggregated in miRBase and mapping to the locus is not consistent with microRNA processing. The sequence is removed from miRBase 21. 
+MI0010964	cel-mir-2214 		MI0010964 	The annotation of cel-mir-2214 as a microRNA was questioned by Jan et al (Nature 2011 469:97-101). The pattern of reads from deep sequencing datasets aggregated in miRBase and mapping to the locus is not consistent with microRNA processing. The sequence is removed from miRBase 21. 
+MI0011009	cbr-mir-2214 		MI0011009 	The annotation of cel-mir-2214 as a microRNA was questioned by Jan et al (Nature 2011 469:97-101). The pattern of reads from deep sequencing datasets aggregated in miRBase and mapping to the locus is not consistent with microRNA processing. The sequence is removed from miRBase 21. 
+MI0022085	bmo-mir-6495 		MI0022085 	The sequence reported as miR-6495 is a fragment of LSU rRNA. The entry is removed from miRBase 21. 
+MI0022086	bmo-mir-6496 		MI0022086 	The sequence reported as miR-6496 is a fragment of LSU rRNA. The entry is removed from miRBase 21. 
+MI0022067	mja-mir-6490 		MI0022067 	The sequence reported as miR-6490 appears to derive from a fragment of LSU rRNA. The entry is removed from miRBase 21. 
+MI0009929	mmu-mir-1940 		MI0009929 	The sequence reported as miR-1940 appears to be a fragment of the snoRNA SCARNA4. The pattern of reads mapping to the locus is also not consistent with microRNA processing (Kozomara and Griffiths-Jones, NAR 2014 42:D68-D73). The entry is removed from miRBase 21. 
+MI0030669	chi-mir-1940 		MI0009929 	The sequence reported as miR-1940 appears to be a fragment of the snoRNA SCARNA4. The pattern of reads mapping to the mouse locus is also not consistent with microRNA processing (Kozomara and Griffiths-Jones, NAR 2014 42:D68-D73). The entry is removed from miRBase 21. 
+MI0011455	bta-mir-1940 		MI0009929 	The sequence reported as miR-1940 appears to be a fragment of the snoRNA SCARNA4. The pattern of reads mapping to the mouse locus is also not consistent with microRNA processing (Kozomara and Griffiths-Jones, NAR 2014 42:D68-D73). The entry is removed from miRBase 21. 
+MI0016070	hsa-mir-3669 		MI0016070 	The putative hairpin precursor mir-3669 is mostly comprised of an AU simple repeat. The hairpin structure prediction is therefore not useful. Such simple repeats should not be annotated as microRNAs without significant additional experimental evidence. In this case, there are insufficient reads mapping to the locus from aggregated deep sequencing experiments. The entry is therefore removed from miRBase 21. 
+MI0016074	hsa-mir-3673 		MI0016074 	The putative hairpin precursor mir-3673 is mostly comprised of an AU simple repeat. The hairpin structure prediction is therefore not useful. Such simple repeats should not be annotated as microRNAs without significant additional experimental evidence. In this case, there are insufficient reads mapping to the locus from aggregated deep sequencing experiments. The entry is therefore removed from miRBase 21. 
+MI0015976	hsa-mir-1270-2 		MI0006407 	The two previously annotated mir-1270 sequences map to a single locus in the GRCh38 genome assembly. The entries are merged in miRBase 21. 
+MI0026414	hsa-mir-7112-2 		MI0022963 	The two previously annotated mir-7112 sequences map to a single locus in the GRCh38 genome assembly. The entries are merged in miRBase 21. 
+MI0023562	hsa-mir-6077-2 		MI0020354 	The two previously annotated mir-6077 sequences map to a single locus in the GRCh38 genome assembly. The entries are merged in miRBase 21. 
+MI0014243	hsa-mir-3118-5 		MI0014131 	The six previously annotated mir-3118 sequences map to four loci in the GRCh38 genome assembly. The entries are rationalised in miRBase 21. 
+MI0015981	hsa-mir-3118-6 		MI0014131 	The six previously annotated mir-3118 sequences map to four loci in the GRCh38 genome assembly. The entries are rationalised in miRBase 21. 
+MI0015953	aga-mir-375-2 		MI0008310 	Two annotated mir-375 map to only one location in the AgamP3 genome assembly. The two sequences are merged in miRBase 21. 
+MI0015954	ame-mir-10-2 		MI0005727 	Two previously annotated mir-10 sequences map to a single locus in the AMEL4.5 genome assembly. The entries are merged in miRBase 21. 
+MI0016458	ata-MIR169 		MI0016458 	The MIR169 sequence computationally predicted from EST data (Dryanova et al, Genome 2008 51:433-443) does not match the ASM34733v1 genome assembly. The sequence is deleted from miRBase 21. 
+MI0016462	ata-MIR172 		MI0016462 	The MIR172 sequence computationally predicted from EST data (Dryanova et al, Genome 2008 51:433-443) does not match the ASM34733v1 genome assembly. The sequence is deleted from miRBase 21. 
+MI0010114	lgi-mir-79 		MI0010105 	The sequences annotated as mir-9 and mir-79 map to the same locus in the Helro1 genome assembly. The entries are merged in miRBase 21. 
+MI0009699	dya-mir-263b-2 		MI0009687 	Two mir-263b sequences map to a single locus in the caf1 genome assembly. The entries are merged in miRBase 21. 
+MI0009656	dya-mir-315-2 		MI0009685 	Two mir-315 sequences map to a single locus in the caf1 genome assembly. The entries are merged in miRBase 21. 
+MI0009695	dya-mir-316-2 		MI0009652 	Two mir-316 sequences map to a single locus in the caf1 genome assembly. The entries are merged in miRBase 21. 
+MI0009686	dya-mir-9a-2 		MI0009642 	Two mir-9a sequences map to a single locus in the caf1 genome assembly. The entries are merged in miRBase 21. 
+MI0008449	ptr-mir-1244-10 		MI0008447 	11 previously annotated mir-1244 sequence map to only 9 loci in the PanTro2.1.4 genome assembly. The entries are rationalised in miRBase 21. 
+MI0008450	ptr-mir-1244-11 		MI0008444 	11 previously annotated mir-1244 sequence map to only 9 loci in the PanTro2.1.4 genome assembly. The entries are rationalised in miRBase 21. 
+MI0008501	ptr-mir-1297-2 		MI0008500 	Two previously annotated mir-1297 sequences map to only one locus in the PanTro2.1.4 genome assembly. The entries are merged in miRBase 21. 
+MI0008532	ptr-mir-1324-2 		MI0008531 	Two previously annotated mir-1324 sequences map to only one locus in the PanTro2.1.4 genome assembly. The entries are merged in miRBase 21. 
+MI0008542	ptr-mir-141-2 		MI0008541 	Two previously annotated mir-141 sequences map to only one locus in the PanTro2.1.4 genome assembly. The entries are merged in miRBase 21. 
+MI0008758	ptr-mir-548i-6 		MI0008757 	Two previously annotated mir-548i sequences map to only one locus in the PanTro2.1.4 genome assembly. The entries are merged in miRBase 21. 
+MI0011794	dsi-mir-987-2 		MI0011735 	Two annotated mir-987 sequences map to a single locus in the CAF1 genome assembly. The entries are merged in miRBase 21. 
+MI0007973	vvi-MIR828b 		MI0007973 	Rock (Trends Plant Sci. 2013 18:601-610) suggests that the non-coding RNA Vvi-TAS4c has been mis-annotated as MIR828b. The MIR828b locus is therefore removed from miRBase 21. 
+MI0015997	hsa-mir-3607 		MI0015997 	The mir-3607 locus overlaps with an annotated snoRNA, SNORD138 (PMID:24174566). On inspection, the pattern of conservation of the locus in vertebrates suggests the snoRNA annotation is more likely. The pattern of deep sequencing reads mapping to the locus in human is also not supportive of the microRNA annotation. 
+MI0022368	gga-mir-3607 		MI0022368 	The mir-3607 locus overlaps with an annotated snoRNA, SNORD138 (PMID:24174566). On inspection, the pattern of conservation of the locus in vertebrates suggests the snoRNA annotation is more likely. The pattern of deep sequencing reads mapping to the locus in human is also not supportive of the microRNA annotation. 
+MI0033068	cgr-mir-3607 		MI0033068 	The mir-3607 locus overlaps with an annotated snoRNA, SNORD138 (PMID:24174566). On inspection, the pattern of conservation of the locus in vertebrates suggests the snoRNA annotation is more likely. The pattern of deep sequencing reads mapping to the locus in human is also not supportive of the microRNA annotation. 
+MI0019581	dre-mir-132-3 		MI0001991 	The sequences previously named mir-132-2 and mir-132-3 map to the same locus in the GRCz10 genome assembly. The entries are therefore merged. 
+MI0019582	dre-mir-137-3 		MI0002001 	The sequences previously named mir-137-2 and mir-137-3 map to the same locus in the GRCz10 genome assembly. The entries are therefore merged. 
+MI0002008	dre-mir-143-2 		MI0002007 	The sequences previously named mir-143-1 and mir-143-2 map to the same locus in the GRCz10 genome assembly. The entries are therefore merged. 
+MI0019583	dre-mir-187-2 		MI0001370 	The sequences previously named mir-187-1 and mir-187-2 map to the same locus in the GRCz10 genome assembly. The entries are therefore merged. 
+MI0019591	dre-mir-23a-4 		MI0001915 	The sequences previously named mir-23a-2 and mir-23a-4 map to the same locus in the GRCz10 genome assembly. The entries are therefore merged. 
+MI0019592	dre-mir-24-5 		MI0001919 	The sequences previously named mir-24-2 and mir-24-5 map to the same locus in the GRCz10 genome assembly. The entries are therefore merged. 
+MI0019589	dre-mir-27c-2 		MI0001930 	The sequences previously named mir-27c-1 and mir-27c-2 map to the same locus in the GRCz10 genome assembly. The entries are therefore merged. 
+MI0019590	dre-mir-725-2 		MI0004769 	The sequences previously named mir-725-1 and mir-725-2 map to the same locus in the GRCz10 genome assembly. The entries are therefore merged. 
+MI0016709	csi-MIR399e 		MI0016713 	Sequences previously named MIR399e and MIR399c map to the same locus in the Csi_valencia_1.0 genome assembly. The entries are merged. 
+MI0013316	csi-MIR166b 		MI0013316 	The sequences previously named csi-MIR166b and csi-MIR166d do not map to MIR166 hairpin-like sequences in the Csi_valencia_1.0 genome assembly. The entries are deleted. 
+MI0016695	csi-MIR166d 		MI0016695 	The sequences previously named csi-MIR166b and csi-MIR166d do not map to MIR166 hairpin-like sequences in the Csi_valencia_1.0 genome assembly. The entries are deleted. 
+MI0016720	csi-MIR477c 		MI0016718 	Sequences previously named MIR477a and MIR477c map to the same locus in the Csi_valencia_1.0 genome assembly. The entries are merged. 
+MI0016721	csi-MIR479 		MI0016698 	Sequences previously named MIR171b and MIR479c map to the same locus in the Csi_valencia_1.0 genome assembly. The entries are merged. 
+MI0016700	csi-MIR172b 		MI0013302 	Sequences previously named MIR172a and MIR172b map to the same locus in the Csi_valencia_1.0 genome assembly. The entries are merged. 
+MI0006409	hsa-mir-1273a 		MI0006409 	Many of the miRNA loci annotated as mir-1273 family members have patterns of mapped reads from RNAseq experiments that are not consistent with the gene being processed as a miRNA. The reads may be derived from SRP RNA, or derived Alu repeats. hsa-mir-1273a,b,d,e,f,g are removed the database. 
+MI0008474	ptr-mir-1273 		MI0008474 	Many of the miRNA loci annotated as mir-1273 family members have patterns of mapped reads from RNAseq experiments that are not consistent with the gene being processed as a miRNA. The reads may be derived from SRP RNA, or derived Alu repeats. hsa-mir-1273a,b,d,e,f,g are removed the database. 
+MI0014254	hsa-mir-1273d 		MI0014254 	Many of the miRNA loci annotated as mir-1273 family members have patterns of mapped reads from RNAseq experiments that are not consistent with the gene being processed as a miRNA. The reads may be derived from SRP RNA, or derived Alu repeats. hsa-mir-1273a,b,d,e,f,g are removed the database. 
+MI0015230	ppy-mir-1273a 		MI0015230 	Many of the miRNA loci annotated as mir-1273 family members have patterns of mapped reads from RNAseq experiments that are not consistent with the gene being processed as a miRNA. The reads may be derived from SRP RNA, or derived Alu repeats. hsa-mir-1273a,b,d,e,f,g are removed the database. 
+MI0016059	hsa-mir-1273e 		MI0016059 	Many of the miRNA loci annotated as mir-1273 family members have patterns of mapped reads from RNAseq experiments that are not consistent with the gene being processed as a miRNA. The reads may be derived from SRP RNA, or derived Alu repeats. hsa-mir-1273a,b,d,e,f,g are removed the database. 
+MI0018002	hsa-mir-1273f 		MI0018002 	Many of the miRNA loci annotated as mir-1273 family members have patterns of mapped reads from RNAseq experiments that are not consistent with the gene being processed as a miRNA. The reads may be derived from SRP RNA, or derived Alu repeats. hsa-mir-1273a,b,d,e,f,g are removed the database. 
+MI0018003	hsa-mir-1273g 		MI0018003 	Many of the miRNA loci annotated as mir-1273 family members have patterns of mapped reads from RNAseq experiments that are not consistent with the gene being processed as a miRNA. The reads may be derived from SRP RNA, or derived Alu repeats. hsa-mir-1273a,b,d,e,f,g are removed the database. 
+MI0020837	ggo-mir-1273c 		MI0020837 	Many of the miRNA loci annotated as mir-1273 family members have patterns of mapped reads from RNAseq experiments that are not consistent with the gene being processed as a miRNA. The reads may be derived from SRP RNA, or derived Alu repeats. hsa-mir-1273a,b,d,e,f,g are removed the database. 
+MI0020933	ppy-mir-1273e 		MI0020933 	Many of the miRNA loci annotated as mir-1273 family members have patterns of mapped reads from RNAseq experiments that are not consistent with the gene being processed as a miRNA. The reads may be derived from SRP RNA, or derived Alu repeats. hsa-mir-1273a,b,d,e,f,g are removed the database. 
+MI0016088	hsa-mir-3687-1 		MI0016088 	The pattern of reads from RNAseq experiments does not support the annotation of mir-3687 as a miRNA. The sequence is removed from the database in release 22. 
+MI0031515	hsa-mir-3687-2 		MI0031515 	The pattern of reads from RNAseq experiments does not support the annotation of mir-3687 as a miRNA. The sequence is removed from the database in release 22. 
+MI0016805	hsa-mir-4459 		MI0016805 	The pattern of reads from RNAseq experiments does not support the annotation of mir-4459 as a miRNA. The sequence is removed from the database in release 22. 
+MI0016807	hsa-mir-4461 		MI0016807 	The pattern of reads from RNAseq experiments does not support the annotation of mir-4461 as a miRNA. The sequence is removed from the database in release 22. 
+MI0016755	hsa-mir-4419a 		MI0016755 	The pattern of reads from RNAseq experiments does not support the annotation of mir-4419 as a miRNA. The sequence is removed from the database in release 22. 
+MI0016861	hsa-mir-4419b 		MI0016861 	The pattern of reads from RNAseq experiments does not support the annotation of mir-4419 as a miRNA. The sequence is removed from the database in release 22. 
+MI0020364	hsa-mir-6087 		MI0020364 	The pattern of reads from RNAseq experiments does not support the annotation of mir-6087 as a miRNA. The sequence is removed from the database in release 22. 
+MI0022558	hsa-mir-6723 		MI0022558 	The pattern of reads from RNAseq experiments does not support the annotation of mir-6723 as a miRNA. The sequence is removed from the database in release 22. 
+MI0016053	hsa-mir-3653 		MI0016053 	The pattern of reads from RNAseq experiments, and the base paired secondary structure of the putative pre-miRNA, do not support the annotation of mir-3653 as a miRNA. The sequence is removed from the database in release 22. 
+MI0016899	hsa-mir-4532 		MI0016899 	Reads that map to the annotated mir-4532 locus (many with one mismatch) map exactly to annotated 28S rRNA sequences. The miRNA annotation is therefore likely to be false, and the miRNA is therefore removed from the database. 
+MI0017439	hsa-mir-4792 		MI0017439 	Reads that map to the annotated mir-4792 locus (many with one mismatch) map exactly to annotated 28S rRNA sequences. The miRNA annotation is therefore likely to be false, and the miRNA is therefore removed from the database. 
+MI0016753	hsa-mir-4417 		MI0016753 	The pattern of reads that map to the annotated mir-4414 locus is not consistent with processing as a miRNA. Additionally, the reads may derive from annotated 28S rRNA sequences. The miRNA annotation is therefore likely to be false, and the miRNA is therefore removed from the database. 
+MI0016056	hsa-mir-3656 		MI0016056 	The pattern of reads that map to the annotated mir-3656 locus is not consistent with processing as a miRNA. Additionally, the reads may derive from annotated 28S rRNA sequences. The miRNA annotation is therefore likely to be false, and the miRNA is therefore removed from the database. 
+MI0009954	mmu-mir-1957a 		MI0009954 	The sequences annotated as mir-1957 family members are likely fragments of tRNA sequences. Furthermore, the patterns of reads mapping to these loci from deep sequencing experiments do not support their annotation as miRNAs. 
+MI0021929	mmu-mir-1957b 		MI0021929 	The sequences annotated as mir-1957 family members are likely fragments of tRNA sequences. Furthermore, the patterns of reads mapping to these loci from deep sequencing experiments do not support their annotation as miRNAs. 
+MI0023646	mml-mir-133d 		MI0002533 	mir-133a and mir-133d map to the same genomic locus in the Mmul_8.0.1 genome assembly, so the entries are merged. 
+MI0020902	mml-mir-217b 		MI0007674 	mir-217a and mir-217b map to the same genomic locus in the Mmul_8.0.1 genome assembly, so the entries are merged. 
+MI0007754	mml-mir-453 		MI0023688 	mir-323b and mir-453 map to the same genomic locus in the Mmul_8.0.1 genome assembly, so the entries are merged. 
+MI0018199	mml-mir-371-2 		MI0007715 	mir-371-1 and mir-371-2 map to the same genomic locus in the Mmul_8.0.1 genome assembly, so the entries are merged. 
+MI0024975	hsa-mir-7641-1 		MI0024975 	The sequences annotated as miR-7641 appear to be fragments of 5S rRNA, so are removed from the database. 
+MI0024976	hsa-mir-7641-2 		MI0024976 	The sequences annotated as miR-7641 appear to be fragments of 5S rRNA, so are removed from the database. 
+MI0025423	hhi-mir-7641 		MI0025423 	The sequences annotated as miR-7641 appear to be fragments of 5S rRNA, so are removed from the database. 
+MI0032226	cja-mir-9920 		MI0032226 	mir-9920 maps thousands of times to the C. jacchus genome, and is likely therefore not a bona fide miRNA. 
+MI0018001	hsa-mir-5095 		MI0018001 	The mature miR-5095 sequence maps thousands of times to the human genome, and is likely therefore not a bona fide miRNA. 
+MI0032296	cja-mir-5095 		MI0032296 	The mature miR-5095 sequence maps thousands of times to the C. jacchus genome, and is likely therefore not a bona fide miRNA. 
+MI0031902	cja-mir-376a-3 		MI0031900 	The 3 annotated mir-376a sequences map to only 2 loci in the Callithrix_jacchus-3.2 genome assembly. The entries are marged. 
+MI0003572	hsa-mir-566 		MI0003572 	The sequence annotated as miR-566 maps many times to the human genome, and the pattern of reads from deep sequencing datasets does not support the miRNA annotation. The sequence is therefore removed from the database. 
+MI0008781	ptr-mir-566 		MI0008781 	The sequence annotated as miR-566 maps many times to primate genomes, and the pattern of reads from deep sequencing datasets in human does not support the miRNA annotation. The sequence is therefore removed from the database. 
+MI0015057	ppy-mir-566 		MI0015057 	The sequence annotated as miR-566 maps many times to primate genomes, and the pattern of reads from deep sequencing datasets in human does not support the miRNA annotation. The sequence is therefore removed from the database. 
+MI0006388	hsa-mir-1254-1 		MI0006388 	The sequence annotated as miR-1254 maps many times to primate genomes, and the pattern of reads from deep sequencing datasets in human does not support the miRNA annotation. The sequence is therefore removed from the database. 
+MI0008459	ptr-mir-1254 		MI0008459 	The sequence annotated as miR-1254 maps many times to primate genomes, and the pattern of reads from deep sequencing datasets in human does not support the miRNA annotation. The sequence is therefore removed from the database. 
+MI0015212	ppy-mir-1254 		MI0015212 	The sequence annotated as miR-1254 maps many times to primate genomes, and the pattern of reads from deep sequencing datasets in human does not support the miRNA annotation. The sequence is therefore removed from the database. 
+MI0016747	hsa-mir-1254-2 		MI0016747 	The sequence annotated as miR-1254 maps many times to primate genomes, and the pattern of reads from deep sequencing datasets in human does not support the miRNA annotation. The sequence is therefore removed from the database. 
+MI0002721	ppy-mir-101-3 		MI0014811 	The 3 annotated mir-101 sequences map to just 2 loci in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0015257	ppy-mir-1302-2 		MI0015256 	The 5 annotated mir-1302 sequences map to just 4 loci in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0014859	ppy-mir-199a-2 		MI0002832 	The 2 annotated mir-199a sequences map to just 1 locus in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0015239	ppy-mir-1283b 		MI0015007 	mir-1283b and mir-518a-2 map to the same locus in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0014974	ppy-mir-501 		MI0014975 	mir-501 and mir-502 map to the same locus in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0014983	ppy-mir-509-2 		MI0014982 	The 3 annotated mir-509 sequences map to just 1 locus in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0014984	ppy-mir-509-3 		MI0014982 	The 3 annotated mir-509 sequences map to just 1 locus in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0014987	ppy-mir-511-2 		MI0014986 	The 2 annotated mir-511 sequences map to just 1 locus in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0014993	ppy-mir-513c 		MI0014990 	mir-513c and mir-513a-1 map to the same locus in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0014995	ppy-mir-514-2 		MI0014994 	The 3 annotated mir-514 sequences map to just 1 locus in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0014996	ppy-mir-514-3 		MI0014994 	The 3 annotated mir-514 sequences map to just 1 locus in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0015000	ppy-mir-516a-2 		MI0014999 	The 3 annotated mir-516a sequences map to just 2 locus in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0015008	ppy-mir-518b 		MI0015013 	Some annotated mir-518/519/526 family sequences collapse to the same loci in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0015007	ppy-mir-518a-2 		MI0015006 	Some annotated mir-518/519/526 family sequences collapse to the same loci in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0015139	ppy-mir-675b 		MI0015138 	The 2 annotated mir-675 sequences map to just 1 locus in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0015004	ppy-mir-517b 		MI0015003 	Some annotated mir-517 family sequences collapse to the same loci in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0015005	ppy-mir-517c 		MI0015003 	Some annotated mir-517 family sequences collapse to the same loci in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0015015	ppy-mir-519b 		MI0015013 	Some annotated mir-518/519/526 family sequences collapse to the same loci in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0015016	ppy-mir-519c 		MI0015013 	Some annotated mir-518/519/526 family sequences collapse to the same loci in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0015010	ppy-mir-518d 		MI0015009 	Some annotated mir-518/519/526 family sequences collapse to the same loci in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0015033	ppy-mir-526a-1 		MI0015011 	Some annotated mir-518/519/526 family sequences collapse to the same loci in the P_pygmaeus_2.0.2 genome assembly. The entries are rationalised and merged. 
+MI0028420	efu-mir-9189e 		MI0028420 	The sequences annotated mir-9189 map thousands of times to the bat genome, and are identified as a family of SINE repeats in PUBMED:18068947. 
+MI0028568	efu-mir-9189d 		MI0028568 	The sequences annotated mir-9189 map thousands of times to the bat genome, and are identified as a family of SINE repeats in PUBMED:18068947. 
+MI0028569	efu-mir-9189g 		MI0028569 	The sequences annotated mir-9189 map thousands of times to the bat genome, and are identified as a family of SINE repeats in PUBMED:18068947. 
+MI0028570	efu-mir-9189c 		MI0028570 	The sequences annotated mir-9189 map thousands of times to the bat genome, and are identified as a family of SINE repeats in PUBMED:18068947. 
+MI0028571	efu-mir-9189f 		MI0028571 	The sequences annotated mir-9189 map thousands of times to the bat genome, and are identified as a family of SINE repeats in PUBMED:18068947. 
+MI0028572	efu-mir-9189a 		MI0028572 	The sequences annotated mir-9189 map thousands of times to the bat genome, and are identified as a family of SINE repeats in PUBMED:18068947. 
+MI0028573	efu-mir-9189b 		MI0028573 	The sequences annotated mir-9189 map thousands of times to the bat genome, and are identified as a family of SINE repeats in PUBMED:18068947. 
+MI0028574	efu-mir-9189h 		MI0028574 	The sequences annotated mir-9189 map thousands of times to the bat genome, and are identified as a family of SINE repeats in PUBMED:18068947. 
+MI0029881	ami-mir-9614 		MI0029854 	ami-mir-9614 is a duplicate of ami-mir-1677c, and so is removed from the database. 
+MI0022064	hbr-MIR159b 		MI0022053 	MIR159a and MIR159b map to the same locus in the Hevbra1.0 genome assembly. The entries are therefore merged. 
+MI0029284	dvi-mir-9541 		MI0030968 	Two duplicate entries are merged in miRBase 22. 
+MI0018004	hsa-mir-5096 		MI0018004 	The pattern of smRNAseq reads mapping to the mir-5096 locus is not consistent with miRNA processing. The sequence is also similar to that of several coiled coil protein-coding genes. mir-5096 is therefore removed from miRBase 22. 

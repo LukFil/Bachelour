@@ -1,0 +1,119 @@
+##gff-version 3
+##date 2018-3-5
+#
+# Chromosomal coordinates of Nasonia vitripennis microRNAs
+# microRNAs:               miRBase v22
+# genome-build-id:         Nvit_2.1
+# genome-build-accession:  NCBI_Assembly:GCA_000002325.2
+#
+# Hairpin precursor sequences have type "miRNA_primary_transcript". 
+# Note, these sequences do not represent the full primary transcript, 
+# rather a predicted stem-loop portion that includes the precursor 
+# miRNA. Mature sequences have type "miRNA".
+#
+chr1	.	miRNA_primary_transcript	8079015	8079116	.	+	.	ID=MI0014723;Alias=MI0014723;Name=nvi-mir-71
+chr1	.	miRNA	8079040	8079058	.	+	.	ID=MIMAT0015662;Alias=MIMAT0015662;Name=nvi-miR-71;Derives_from=MI0014723
+chr1	.	miRNA_primary_transcript	8079186	8079287	.	+	.	ID=MI0014724;Alias=MI0014724;Name=nvi-mir-2c
+chr1	.	miRNA	8079248	8079270	.	+	.	ID=MIMAT0015663;Alias=MIMAT0015663;Name=nvi-miR-2c;Derives_from=MI0014724
+chr1	.	miRNA_primary_transcript	8079335	8079437	.	+	.	ID=MI0014725;Alias=MI0014725;Name=nvi-mir-13a
+chr1	.	miRNA	8079401	8079421	.	+	.	ID=MIMAT0015664;Alias=MIMAT0015664;Name=nvi-miR-13a;Derives_from=MI0014725
+chr1	.	miRNA_primary_transcript	8079595	8079686	.	+	.	ID=MI0014726;Alias=MI0014726;Name=nvi-mir-13b
+chr1	.	miRNA	8079646	8079668	.	+	.	ID=MIMAT0015665;Alias=MIMAT0015665;Name=nvi-miR-13b;Derives_from=MI0014726
+chr1	.	miRNA_primary_transcript	8079789	8079881	.	+	.	ID=MI0014727;Alias=MI0014727;Name=nvi-mir-2a
+chr1	.	miRNA	8079844	8079866	.	+	.	ID=MIMAT0015666;Alias=MIMAT0015666;Name=nvi-miR-2a;Derives_from=MI0014727
+chr1	.	miRNA_primary_transcript	8080812	8080896	.	+	.	ID=MI0014728;Alias=MI0014728;Name=nvi-mir-2b
+chr1	.	miRNA	8080862	8080884	.	+	.	ID=MIMAT0015667;Alias=MIMAT0015667;Name=nvi-miR-2b;Derives_from=MI0014728
+chr1	.	miRNA_primary_transcript	13994355	13994456	.	+	.	ID=MI0014751;Alias=MI0014751;Name=nvi-mir-219
+chr1	.	miRNA	13994374	13994396	.	+	.	ID=MIMAT0015690;Alias=MIMAT0015690;Name=nvi-miR-219;Derives_from=MI0014751
+chr1	.	miRNA_primary_transcript	24530682	24530784	.	+	.	ID=MI0014716;Alias=MI0014716;Name=nvi-mir-14
+chr1	.	miRNA	24530748	24530768	.	+	.	ID=MIMAT0015655;Alias=MIMAT0015655;Name=nvi-miR-14;Derives_from=MI0014716
+chr1	.	miRNA_primary_transcript	29761752	29761850	.	-	.	ID=MI0014717;Alias=MI0014717;Name=nvi-mir-29b
+chr1	.	miRNA	29761766	29761785	.	-	.	ID=MIMAT0015656;Alias=MIMAT0015656;Name=nvi-miR-29b;Derives_from=MI0014717
+chr1	.	miRNA_primary_transcript	33184298	33184398	.	-	.	ID=MI0014718;Alias=MI0014718;Name=nvi-mir-33
+chr1	.	miRNA	33184350	33184368	.	-	.	ID=MIMAT0015657;Alias=MIMAT0015657;Name=nvi-miR-33;Derives_from=MI0014718
+chr2	.	miRNA_primary_transcript	10344328	10344416	.	-	.	ID=MI0014752;Alias=MI0014752;Name=nvi-mir-133
+chr2	.	miRNA	10344339	10344360	.	-	.	ID=MIMAT0015691;Alias=MIMAT0015691;Name=nvi-miR-133;Derives_from=MI0014752
+chr2	.	miRNA_primary_transcript	10362116	10362196	.	-	.	ID=MI0014753;Alias=MI0014753;Name=nvi-mir-1
+chr2	.	miRNA	10362126	10362147	.	-	.	ID=MIMAT0015692;Alias=MIMAT0015692;Name=nvi-miR-1;Derives_from=MI0014753
+chr2	.	miRNA_primary_transcript	13060957	13061048	.	+	.	ID=MI0014754;Alias=MI0014754;Name=nvi-mir-282
+chr2	.	miRNA	13060971	13060998	.	+	.	ID=MIMAT0015693;Alias=MIMAT0015693;Name=nvi-miR-282;Derives_from=MI0014754
+chr2	.	miRNA_primary_transcript	13437685	13437782	.	-	.	ID=MI0014755;Alias=MI0014755;Name=nvi-mir-307
+chr2	.	miRNA	13437686	13437705	.	-	.	ID=MIMAT0015694;Alias=MIMAT0015694;Name=nvi-miR-307;Derives_from=MI0014755
+chr3	.	miRNA_primary_transcript	6810235	6810319	.	-	.	ID=MI0014756;Alias=MI0014756;Name=nvi-mir-210
+chr3	.	miRNA	6810249	6810269	.	-	.	ID=MIMAT0015695;Alias=MIMAT0015695;Name=nvi-miR-210;Derives_from=MI0014756
+chr3	.	miRNA_primary_transcript	7456787	7456873	.	+	.	ID=MI0014757;Alias=MI0014757;Name=nvi-bantam
+chr3	.	miRNA	7456836	7456858	.	+	.	ID=MIMAT0015696;Alias=MIMAT0015696;Name=nvi-bantam;Derives_from=MI0014757
+chr3	.	miRNA_primary_transcript	7543084	7543170	.	+	.	ID=MI0014758;Alias=MI0014758;Name=nvi-mir-9a
+chr3	.	miRNA	7543098	7543120	.	+	.	ID=MIMAT0015697;Alias=MIMAT0015697;Name=nvi-miR-9a;Derives_from=MI0014758
+chr3	.	miRNA_primary_transcript	11744183	11744264	.	-	.	ID=MI0014750;Alias=MI0014750;Name=nvi-mir-315
+chr3	.	miRNA	11744232	11744253	.	-	.	ID=MIMAT0015689;Alias=MIMAT0015689;Name=nvi-miR-315;Derives_from=MI0014750
+chr3	.	miRNA_primary_transcript	21276137	21276217	.	-	.	ID=MI0014764;Alias=MI0014764;Name=nvi-mir-263b
+chr3	.	miRNA	21276188	21276207	.	-	.	ID=MIMAT0015703;Alias=MIMAT0015703;Name=nvi-miR-263b;Derives_from=MI0014764
+chr4	.	miRNA_primary_transcript	1482167	1482260	.	+	.	ID=MI0014746;Alias=MI0014746;Name=nvi-mir-275
+chr4	.	miRNA	1482227	1482249	.	+	.	ID=MIMAT0015685;Alias=MIMAT0015685;Name=nvi-miR-275;Derives_from=MI0014746
+chr4	.	miRNA_primary_transcript	1482355	1482444	.	+	.	ID=MI0014747;Alias=MI0014747;Name=nvi-mir-305
+chr4	.	miRNA	1482370	1482392	.	+	.	ID=MIMAT0015686;Alias=MIMAT0015686;Name=nvi-miR-305;Derives_from=MI0014747
+chr4	.	miRNA_primary_transcript	2676608	2676691	.	-	.	ID=MI0014748;Alias=MI0014748;Name=nvi-mir-276
+chr4	.	miRNA	2676619	2676640	.	-	.	ID=MIMAT0015687;Alias=MIMAT0015687;Name=nvi-miR-276;Derives_from=MI0014748
+chr4	.	miRNA_primary_transcript	2984091	2984167	.	+	.	ID=MI0014749;Alias=MI0014749;Name=nvi-mir-124
+chr4	.	miRNA	2984141	2984163	.	+	.	ID=MIMAT0015688;Alias=MIMAT0015688;Name=nvi-miR-124;Derives_from=MI0014749
+chr4	.	miRNA_primary_transcript	6271855	6271923	.	+	.	ID=MI0014735;Alias=MI0014735;Name=nvi-mir-iab-8
+chr4	.	miRNA	6271860	6271882	.	+	.	ID=MIMAT0015674;Alias=MIMAT0015674;Name=nvi-miR-iab-8;Derives_from=MI0014735
+chr4	.	miRNA_primary_transcript	6271855	6271923	.	-	.	ID=MI0014736;Alias=MI0014736;Name=nvi-mir-iab-4
+chr4	.	miRNA	6271859	6271882	.	-	.	ID=MIMAT0015675;Alias=MIMAT0015675;Name=nvi-miR-iab-4;Derives_from=MI0014736
+chr4	.	miRNA_primary_transcript	6871398	6871497	.	+	.	ID=MI0014737;Alias=MI0014737;Name=nvi-mir-10
+chr4	.	miRNA	6871419	6871439	.	+	.	ID=MIMAT0015676;Alias=MIMAT0015676;Name=nvi-miR-10;Derives_from=MI0014737
+chr4	.	miRNA_primary_transcript	6913427	6913545	.	-	.	ID=MI0014765;Alias=MI0014765;Name=nvi-mir-993
+chr4	.	miRNA	6913439	6913461	.	-	.	ID=MIMAT0015704;Alias=MIMAT0015704;Name=nvi-miR-993;Derives_from=MI0014765
+chr4	.	miRNA_primary_transcript	7973903	7974001	.	-	.	ID=MI0014743;Alias=MI0014743;Name=nvi-mir-34
+chr4	.	miRNA	7973960	7973981	.	-	.	ID=MIMAT0015682;Alias=MIMAT0015682;Name=nvi-miR-34;Derives_from=MI0014743
+chr4	.	miRNA_primary_transcript	7978315	7978401	.	-	.	ID=MI0014744;Alias=MI0014744;Name=nvi-mir-277
+chr4	.	miRNA	7978326	7978348	.	-	.	ID=MIMAT0015683;Alias=MIMAT0015683;Name=nvi-miR-277;Derives_from=MI0014744
+chr4	.	miRNA_primary_transcript	7992226	7992315	.	-	.	ID=MI0014745;Alias=MI0014745;Name=nvi-mir-317
+chr4	.	miRNA	7992237	7992261	.	-	.	ID=MIMAT0015684;Alias=MIMAT0015684;Name=nvi-miR-317;Derives_from=MI0014745
+chr4	.	miRNA_primary_transcript	10788540	10788624	.	+	.	ID=MI0014741;Alias=MI0014741;Name=nvi-mir-2796
+chr4	.	miRNA	10788592	10788612	.	+	.	ID=MIMAT0015680;Alias=MIMAT0015680;Name=nvi-miR-2796;Derives_from=MI0014741
+chr4	.	miRNA_primary_transcript	11614872	11614971	.	+	.	ID=MI0014742;Alias=MI0014742;Name=nvi-mir-279
+chr4	.	miRNA	11614938	11614959	.	+	.	ID=MIMAT0015681;Alias=MIMAT0015681;Name=nvi-miR-279;Derives_from=MI0014742
+chr5	.	miRNA_primary_transcript	6453005	6453104	.	+	.	ID=MI0014733;Alias=MI0014733;Name=nvi-mir-929
+chr5	.	miRNA	6453021	6453041	.	+	.	ID=MIMAT0015672;Alias=MIMAT0015672;Name=nvi-miR-929;Derives_from=MI0014733
+chr5	.	miRNA_primary_transcript	6508843	6508943	.	+	.	ID=MI0014762;Alias=MI0014762;Name=nvi-mir-252
+chr5	.	miRNA	6508858	6508879	.	+	.	ID=MIMAT0015701;Alias=MIMAT0015701;Name=nvi-miR-252;Derives_from=MI0014762
+chr5	.	miRNA_primary_transcript	8097523	8097622	.	-	.	ID=MI0014763;Alias=MI0014763;Name=nvi-mir-932
+chr5	.	miRNA	8097586	8097607	.	-	.	ID=MIMAT0015702;Alias=MIMAT0015702;Name=nvi-miR-932;Derives_from=MI0014763
+chr5	.	miRNA_primary_transcript	8961683	8961778	.	-	.	ID=MI0014734;Alias=MI0014734;Name=nvi-mir-190
+chr5	.	miRNA	8961730	8961755	.	-	.	ID=MIMAT0015673;Alias=MIMAT0015673;Name=nvi-miR-190;Derives_from=MI0014734
+GL340819.1	.	miRNA_primary_transcript	29839	29938	.	+	.	ID=MI0014738;Alias=MI0014738;Name=nvi-mir-100
+GL340819.1	.	miRNA	29857	29878	.	+	.	ID=MIMAT0015677;Alias=MIMAT0015677;Name=nvi-miR-100;Derives_from=MI0014738
+GL340819.1	.	miRNA_primary_transcript	31069	31167	.	+	.	ID=MI0014739;Alias=MI0014739;Name=nvi-let-7
+GL340819.1	.	miRNA	31081	31101	.	+	.	ID=MIMAT0015678;Alias=MIMAT0015678;Name=nvi-let-7;Derives_from=MI0014739
+GL340819.1	.	miRNA_primary_transcript	32632	32741	.	+	.	ID=MI0014740;Alias=MI0014740;Name=nvi-mir-125
+GL340819.1	.	miRNA	32658	32679	.	+	.	ID=MIMAT0015679;Alias=MIMAT0015679;Name=nvi-miR-125;Derives_from=MI0014740
+GL340882.1	.	miRNA_primary_transcript	829662	829763	.	+	.	ID=MI0014730;Alias=MI0014730;Name=nvi-mir-283
+GL340882.1	.	miRNA	829682	829701	.	+	.	ID=MIMAT0015669;Alias=MIMAT0015669;Name=nvi-miR-283;Derives_from=MI0014730
+GL340882.1	.	miRNA_primary_transcript	830357	830448	.	+	.	ID=MI0014767;Alias=MI0014767;Name=nvi-mir-3477
+GL340882.1	.	miRNA	830416	830436	.	+	.	ID=MIMAT0015706;Alias=MIMAT0015706;Name=nvi-miR-3477;Derives_from=MI0014767
+GL340882.1	.	miRNA_primary_transcript	830969	831052	.	+	.	ID=MI0014731;Alias=MI0014731;Name=nvi-mir-12
+GL340882.1	.	miRNA	830981	831003	.	+	.	ID=MIMAT0015670;Alias=MIMAT0015670;Name=nvi-miR-12;Derives_from=MI0014731
+GL340989.1	.	miRNA_primary_transcript	173577	173668	.	-	.	ID=MI0014732;Alias=MI0014732;Name=nvi-mir-184
+GL340989.1	.	miRNA	173592	173613	.	-	.	ID=MIMAT0015671;Alias=MIMAT0015671;Name=nvi-miR-184;Derives_from=MI0014732
+GL341018.1	.	miRNA_primary_transcript	1808213	1808292	.	+	.	ID=MI0014768;Alias=MI0014768;Name=nvi-mir-3478
+GL341018.1	.	miRNA	1808222	1808245	.	+	.	ID=MIMAT0015707;Alias=MIMAT0015707;Name=nvi-miR-3478;Derives_from=MI0014768
+GL341019.1	.	miRNA_primary_transcript	2230534	2230633	.	-	.	ID=MI0014766;Alias=MI0014766;Name=nvi-mir-928
+GL341019.1	.	miRNA	2230602	2230622	.	-	.	ID=MIMAT0015705;Alias=MIMAT0015705;Name=nvi-miR-928;Derives_from=MI0014766
+GL341020.1	.	miRNA_primary_transcript	410729	410826	.	+	.	ID=MI0014729;Alias=MI0014729;Name=nvi-mir-92a
+GL341020.1	.	miRNA	410791	410811	.	+	.	ID=MIMAT0015668;Alias=MIMAT0015668;Name=nvi-miR-92a;Derives_from=MI0014729
+GL341022.2	.	miRNA_primary_transcript	2300960	2301045	.	-	.	ID=MI0014759;Alias=MI0014759;Name=nvi-mir-8
+GL341022.2	.	miRNA	2300971	2300993	.	-	.	ID=MIMAT0015698;Alias=MIMAT0015698;Name=nvi-miR-8;Derives_from=MI0014759
+GL341022.2	.	miRNA_primary_transcript	2527134	2527235	.	+	.	ID=MI0014760;Alias=MI0014760;Name=nvi-mir-375
+GL341022.2	.	miRNA	2527198	2527219	.	+	.	ID=MIMAT0015699;Alias=MIMAT0015699;Name=nvi-miR-375;Derives_from=MI0014760
+GL341044.1	.	miRNA_primary_transcript	692904	693006	.	-	.	ID=MI0014719;Alias=MI0014719;Name=nvi-mir-281
+GL341044.1	.	miRNA	692924	692946	.	-	.	ID=MIMAT0015658;Alias=MIMAT0015658;Name=nvi-miR-281;Derives_from=MI0014719
+GL341044.1	.	miRNA_primary_transcript	2108577	2108663	.	+	.	ID=MI0014720;Alias=MI0014720;Name=nvi-mir-7
+GL341044.1	.	miRNA	2108591	2108613	.	+	.	ID=MIMAT0015659;Alias=MIMAT0015659;Name=nvi-miR-7;Derives_from=MI0014720
+GL341044.1	.	miRNA_primary_transcript	2558533	2558632	.	+	.	ID=MI0014721;Alias=MI0014721;Name=nvi-mir-137
+GL341044.1	.	miRNA	2558592	2558613	.	+	.	ID=MIMAT0015660;Alias=MIMAT0015660;Name=nvi-miR-137;Derives_from=MI0014721
+GL341044.1	.	miRNA_primary_transcript	3181927	3182025	.	+	.	ID=MI0014722;Alias=MI0014722;Name=nvi-mir-31a
+GL341044.1	.	miRNA	3181954	3181975	.	+	.	ID=MIMAT0015661;Alias=MIMAT0015661;Name=nvi-miR-31a;Derives_from=MI0014722
+GL341054.1	.	miRNA_primary_transcript	57154	57255	.	-	.	ID=MI0014761;Alias=MI0014761;Name=nvi-mir-927
+GL341054.1	.	miRNA	57213	57235	.	-	.	ID=MIMAT0015700;Alias=MIMAT0015700;Name=nvi-miR-927;Derives_from=MI0014761

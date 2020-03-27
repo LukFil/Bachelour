@@ -1,0 +1,65 @@
+##gff-version 2
+##date 2008-08-30
+#
+# Chromosomal coordinates of Bombyx mori microRNAs
+# miRNA data:       miRBase Sequence (version 12.0)
+# Genome assembly:  SILKDB2.0
+#
+nscaf1681	.	miRNA	2313932	2314020	.	-	.	ACC="MI0009997"; ID="bmo-mir-285";
+nscaf1690	.	miRNA	7673850	7673925	.	-	.	ACC="MI0008340"; ID="bmo-mir-2b";
+nscaf1690	.	miRNA	7673973	7674052	.	-	.	ACC="MI0008339"; ID="bmo-mir-2a-2";
+nscaf1690	.	miRNA	7674108	7674187	.	-	.	ACC="MI0008342"; ID="bmo-mir-13b";
+nscaf1690	.	miRNA	7674236	7674314	.	-	.	ACC="MI0008341"; ID="bmo-mir-13a";
+nscaf1690	.	miRNA	7674381	7674470	.	-	.	ACC="MI0008338"; ID="bmo-mir-2a-1";
+nscaf1690	.	miRNA	7689346	7689464	.	-	.	ACC="MI0005378"; ID="bmo-mir-71";
+nscaf1898	.	miRNA	4464447	4464538	.	+	.	ACC="MI0008347"; ID="bmo-mir-210";
+nscaf2053	.	miRNA	449865	449954	.	+	.	ACC="MI0009996"; ID="bmo-mir-190";
+nscaf2204	.	miRNA	1643535	1643624	.	-	.	ACC="MI0009995"; ID="bmo-mir-137";
+nscaf2204	.	miRNA	2812832	2812916	.	+	.	ACC="MI0004970"; ID="bmo-mir-7";
+nscaf2575	.	miRNA	1011450	1011539	.	-	.	ACC="MI0008394"; ID="bmo-mir-1926";
+nscaf2575	.	miRNA	1011451	1011538	.	+	.	ACC="MI0010000"; ID="bmo-mir-927";
+nscaf2589	.	miRNA	2307337	2307431	.	-	.	ACC="MI0004978"; ID="bmo-mir-263a";
+nscaf2589	.	miRNA	2863554	2863638	.	-	.	ACC="MI0004976"; ID="bmo-mir-124";
+nscaf2589	.	miRNA	5600024	5600124	.	-	.	ACC="MI0008345"; ID="bmo-mir-133";
+nscaf2589	.	miRNA	5616175	5616259	.	-	.	ACC="MI0004969"; ID="bmo-mir-1";
+nscaf2623	.	miRNA	733970	734054	.	-	.	ACC="MI0004983"; ID="bmo-mir-282";
+nscaf2655	.	miRNA	11805	11889	.	+	.	ACC="MI0004982"; ID="bmo-mir-279";
+nscaf2800	.	miRNA	298533	298633	.	+	.	ACC="MI0008344"; ID="bmo-mir-87";
+nscaf2823	.	miRNA	3806245	3806342	.	-	.	ACC="MI0004975"; ID="bmo-mir-34";
+nscaf2823	.	miRNA	3814276	3814397	.	-	.	ACC="MI0004981"; ID="bmo-mir-277";
+nscaf2823	.	miRNA	3834385	3834476	.	-	.	ACC="MI0008349"; ID="bmo-mir-317";
+nscaf2828	.	miRNA	4741979	4742074	.	-	.	ACC="MI0004986"; ID="bmo-mir-307";
+nscaf2828	.	miRNA	5073897	5073983	.	+	.	ACC="MI0010006"; ID="bmo-mir-278";
+nscaf2839	.	miRNA	31354	31453	.	+	.	ACC="MI0008343"; ID="bmo-mir-79";
+nscaf2839	.	miRNA	31358	31447	.	-	.	ACC="MI0010004"; ID="bmo-mir-9b";
+nscaf2847	.	miRNA	7595334	7595422	.	+	.	ACC="MI0010003"; ID="bmo-mir-932";
+nscaf2853	.	miRNA	2508128	2508211	.	-	.	ACC="MI0004973"; ID="bmo-mir-10";
+nscaf2853	.	miRNA	3476510	3476597	.	+	.	ACC="MI0010005"; ID="bmo-mir-iab-4";
+nscaf2855	.	miRNA	79776	79877	.	+	.	ACC="MI0004971"; ID="bmo-mir-8";
+nscaf2859	.	miRNA	1566400	1566476	.	+	.	ACC="MI0009999"; ID="bmo-mir-925";
+nscaf2891	.	miRNA	688510	688599	.	-	.	ACC="MI0009994"; ID="bmo-mir-12";
+nscaf2891	.	miRNA	690173	690255	.	-	.	ACC="MI0004984"; ID="bmo-mir-283";
+nscaf2902	.	miRNA	8953579	8953668	.	+	.	ACC="MI0008395"; ID="bmo-mir-1924";
+nscaf2912	.	miRNA	693914	694001	.	-	.	ACC="MI0009998"; ID="bmo-mir-92";
+nscaf2964	.	miRNA	1678295	1678371	.	+	.	ACC="MI0008348"; ID="bmo-mir-281";
+nscaf2964	.	miRNA	4754656	4754739	.	-	.	ACC="MI0008346"; ID="bmo-mir-184";
+nscaf2993	.	miRNA	1921658	1921743	.	+	.	ACC="MI0004979"; ID="bmo-mir-275";
+nscaf2993	.	miRNA	1921782	1921872	.	+	.	ACC="MI0004985"; ID="bmo-mir-305";
+nscaf3003	.	miRNA	395214	395295	.	+	.	ACC="MI0010001"; ID="bmo-mir-929";
+nscaf3003	.	miRNA	2459351	2459438	.	+	.	ACC="MI0010002"; ID="bmo-mir-930";
+nscaf3013	.	miRNA	172000	172085	.	+	.	ACC="MI0008396"; ID="bmo-mir-1925";
+nscaf3026	.	miRNA	3368285	3368388	.	-	.	ACC="MI0004968"; ID="bmo-let-7";
+nscaf3031	.	miRNA	2300724	2300813	.	+	.	ACC="MI0008350"; ID="bmo-bantam";
+nscaf3040	.	miRNA	1271367	1271446	.	-	.	ACC="MI0004974"; ID="bmo-mir-14";
+nscaf3053	.	miRNA	421848	421968	.	+	.	ACC="MI0005377"; ID="bmo-mir-31";
+scaffold10442	.	miRNA	525	614	.	-	.	ACC="MI0008390"; ID="bmo-mir-1920";
+scaffold1100	.	miRNA	8195	8284	.	+	.	ACC="MI0008390"; ID="bmo-mir-1920";
+scaffold1143	.	miRNA	762	851	.	+	.	ACC="MI0008390"; ID="bmo-mir-1920";
+scaffold1143	.	miRNA	2003	2092	.	+	.	ACC="MI0008390"; ID="bmo-mir-1920";
+scaffold1143	.	miRNA	3244	3317	.	+	.	ACC="MI0008392"; ID="bmo-mir-1922";
+scaffold17935	.	miRNA	100	188	.	-	.	ACC="MI0008393"; ID="bmo-mir-1923";
+scaffold25595	.	miRNA	15	103	.	-	.	ACC="MI0008393"; ID="bmo-mir-1923";
+scaffold35968	.	miRNA	148	236	.	-	.	ACC="MI0008393"; ID="bmo-mir-1923";
+scaffold42192	.	miRNA	40	129	.	-	.	ACC="MI0008390"; ID="bmo-mir-1920";
+scaffold6403	.	miRNA	317	406	.	-	.	ACC="MI0008390"; ID="bmo-mir-1920";
+scaffold9995	.	miRNA	447	536	.	-	.	ACC="MI0008390"; ID="bmo-mir-1920";
