@@ -70,8 +70,10 @@ vignettes/*.pdf
 
 array*
 Literature*
-miRBase.*
+miRBase*
 Data*
+Data/*
 stats*
+stats/*
 resMap*
 QC*
