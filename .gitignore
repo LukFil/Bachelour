@@ -67,6 +67,7 @@ vignettes/*.pdf
 *.pdf
 *.odt
 *.docx
+*.txt
 
 array*
 Literature*
