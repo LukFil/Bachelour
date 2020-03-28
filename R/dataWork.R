@@ -1,5 +1,7 @@
   # R Script for Lukas Filipcik's thesis
-  # Data Prep Actual
+
+  # Produces datafiles in .RData format ready for statistical analysis and further processing
+
   rm(list = ls())
 
     library(gcrma)
@@ -20,8 +22,11 @@
     # duplication of data
   
     prunDescri <- subset(datDescript, FactorValue..INDIVIDUAL. != 'not specified')
-    print(length(prunDescri$Array.Data.File))
-    print(length(unique(prunDescri$Array.Data.File)))
+    if (length(prunDescri$Array.Data.File) == length(unique(prunDescri$Array.Data.File))) {
+      
+    } else {
+      warning('at least one datafile has been omitted from the original spread!')
+    } 
     # If the two numbers produced are equal, it means that no datafile was omitted from loading
   
   
@@ -53,9 +58,7 @@
     }
   
     # Data is loaded
-    # FUCK YOU YOU ABSOLUTE BASTARD
-    # Until I figure out how exactly to work with dynamical variable names, I guess I'll have to use a lot of eval()
-  
+    
     setwd("/home/lukekrishna/Bachelour/R")
     providedData <- as.data.frame(cbind(Slide_1_Suicide_Case$Gene.ID, Slide_1_Suicide_Case$Name))
     colnames(providedData) <- c("Reporter", "Name")
@@ -64,11 +67,6 @@
     trueDict <- createDict("true", providedDataStatus = TRUE, providedData = providedData)
   
     # QUALITY TEST: VIRTUAL IMAGES TO BE IMPLEMENTED
-  
-  
-    #
-  
-  
   
   
     # Step 1: Remove the last 2 lines of each dataset, and keep only the useful collumns
@@ -96,7 +94,6 @@
       )
   
       expString <- parse(text = paste(expHold, collapse = ''), keep.source = FALSE)
-      # print(expString)
       eval(expString)
     }
   
@@ -113,16 +110,8 @@
       expString <- parse(text = paste(expHold, collapse = ''), keep.source = FALSE)
       eval(expString)
     }
-  
-    # # Plot Hy5 vs Hy3 Signal
-    # listDatVarsHy5 <- listDatVars[hy3VsHy5]
-    # listDatVarsHy3 <- listDatVars[-hy3VsHy5]
-    #
-    # > plot(x = log10(Slide_1_Suicide_Hy3$Signal.Mean), y = log10(Slide_1_Suicide_Hy5$Signal.Mean))
-    # > plot(x = log2(Slide_1_Suicide_Hy3$Signal.Mean), y = log2(Slide_1_Suicide_Hy5$Signal.Mean))
-  
+    
     # REMOVE ALL ENTRIES WITH newName being EMPTY
-  
     for (n in 1:length(listDatVars)){
       expString <- character()
       expHold   <- character()
@@ -136,19 +125,11 @@
       )
   
       expString <- parse(text = paste(expHold, collapse = ''), keep.source = FALSE)
-      # print(expString)
       eval(expString)
     }
   
-    # CHECK WHETHER THE MAPPING IS CORRECT
-    # Two random pairings checked - and given the equal numer of rows and stuff, it is reasonable to believe that it applies more widely
-    unique(Slide_1_Suicide_Case$Gene.ID == Slide_8_Suicide_Refe$Gene.ID)
-    unique(Slide_1_Suicide_Case$Gene.ID == Slide_1_Suicide_Refe$Gene.ID)
-  
     # SAVE STEP INBETWEEN
     save.image(paste(c("~/Bachelour/R/data-Before.RData"), collapse = ''))
-  
-  
   
     # KEEP ONLY THE VERSION WITH THE HIGHEST EXPRESSION FOR EACH miRNA
     # This is beacause that likely means it's best hybridised
@@ -166,7 +147,6 @@
       )
   
       expString <- parse(text = paste(expHold, collapse = ''), keep.source = FALSE)
-      # print(expString)
       eval(expString)
     }
   
@@ -183,7 +163,6 @@
       )
   
       expString <- parse(text = paste(expHold, collapse = ''), keep.source = FALSE)
-      # print(expString)
       eval(expString)
     }
   

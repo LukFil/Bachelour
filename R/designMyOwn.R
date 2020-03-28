@@ -1,12 +1,15 @@
+# Similiar to createDesignFile it is a recreation of functions that weren't' willing to play nice with 
+# this dataformat. Created a custom, non-generalisable function specifically for this dataset. Return 
+# a binary array representing the groupings of groups within the datasets
+
 designMyOwn <- function(desc){
-  
-  
   getSize   <- length(desc[ , 1])
   intercept <- ones(getSize, 1)
   caseSuic  <- integer()
   caseCtrl  <- integer()
   refeSuic  <- integer()
   refeCtrl  <- integer()
+  
   for (n in 1:getSize){
     caseSuic[n] <- 0
     caseCtrl[n] <- 0

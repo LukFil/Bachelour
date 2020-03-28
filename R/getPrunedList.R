@@ -1,4 +1,6 @@
-# TEST
+# Function developed for a retrieval and pruning of data files produced by statistics functions
+# 
+
 getPrunedList <- function (choice = 1,
                            dirPat = NULL,
                            pVal   = 0.05,

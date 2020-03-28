@@ -1,4 +1,5 @@
 # CALL mirDIP
+# An example how a mirDIP might be called, recieved, and interpreted into a dataframe
 
 source('~/Bachelour/R/mirDIP_functions.R')
 
@@ -25,4 +26,4 @@ if (responseCode != 200) {
 }
 
 
-result <- confusedStringIntoTibble(list_map[["results"]])
+result <- confusedStringIntoDF(list_map[["results"]])

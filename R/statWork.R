@@ -1,4 +1,5 @@
-# Let the statistics begin
+# A function that produces statistcs analysis on the results from prepData.R
+
 statWork <- function(datPath = '/home/lukekrishna/Bachelour/R',
                      datFile = 'data-dW-res-suiVCtrl-substr-2020-03-22.RData',
                      outPath = '/home/lukekrishna/Bachelour/R/stats', 

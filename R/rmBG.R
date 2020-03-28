@@ -1,3 +1,5 @@
+# A function for substraction of background (scaled) from the signal in the dataset
+
 rmBG <- function(data){
   dataOut   <- data
   

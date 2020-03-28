@@ -1,3 +1,6 @@
+# A script that takes in the extraction data from dataWork.R, and performes QC on various subsets of the data
+# saving the output into files 
+
 # GENERAL - BOTH REFE and CASE
 #############################################################################################################
 # CREATE A SINGLE DATAFRAME

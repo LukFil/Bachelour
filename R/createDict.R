@@ -1,5 +1,4 @@
-# R Script for Lukas Filipcik's thesis
-  
+# A function used to return a mapping annotation dictionary
 
 createDict <- function(dictChoice = "true", providedDataStatus = FALSE, providedData = NULL){
 
@@ -11,27 +10,13 @@ createDict <- function(dictChoice = "true", providedDataStatus = FALSE, provided
       # $Reporter  = an array of reporters (or IDs) of the appropriate miRNA
       # $Name      = an array of Names of the apropriate miRNA
 
-#
-# What to do now:
-# Create annotation dictonary
-# ANNOTATE for 22.1
-# CHECK for differences between old and new annotations
-#
-# BIOCONDUCTOR is required
+require("miRBaseConverter")
+require("pracma")
 require("miRBaseConverter")
 require("pracma")
 
-# if (!requireNamespace("BiocManager", quietly = TRUE))
-#   install.packages("BiocManager")
-# BiocManager::install(version = "3.10")
-# BiocManager::install("miRBaseConverter")
-# 
-# # Needed for mathematical operations (such as STRCMP)
-# install.packages("pracma")
-
-library("miRBaseConverter")
-library("pracma")
-
+source('~/Bachelour/R/getBlockLayout.R')
+  
 setwd("/home/lukekrishna/Bachelour/R/Data")
 
 if (!providedDataStatus){
@@ -44,14 +29,9 @@ if (!providedDataStatus){
   datAnnotOld <- providedData
 }
 
-# To BE USED: 
-#   getMiRNAHistory
-#   miRNAVersionConvert
-
 setwd("/home/lukekrishna/Bachelour/R")
-# Make a list of changes
-# Question to be answered: is there a difference if the transfer is done directly to the target version, as compared to 
-# going through each individual intremediate version?
+
+
 newAnnotDct    <- miRNAVersionConvert(datAnnotOld$Name, targetVersion = "v22", 
                                       exact = TRUE, verbose = TRUE)
 
@@ -93,24 +73,8 @@ if (providedDataStatus){
                                     "Column"       = getMyBlocks$Column)
 }
 
-Block <- integer()
-for (n in 1:length(datAnnotOld$Block.Row)) {
-  # Block[n] <- as.integer(paste(c(datAnnotOld$Block.Column[n],datAnnotOld$Block.Row[n]), collapse = ''))
-  if (datAnnotOld$Block.Column[n] == 1){
-    Block[n] <- as.integer(datAnnotOld$Block.Row[n])
-  }
-  else if(datAnnotOld$Block.Column[n] == 2){
-    Block[n] <- as.integer(datAnnotOld$Block.Row[n]) + 8
-  }
-  else if(datAnnotOld$Block.Column[n] == 3){
-    Block[n] <- as.integer(datAnnotOld$Block.Row[n]) + 16
-  }
-  else if(datAnnotOld$Block.Column[n] == 4){
-    Block[n] <- as.integer(datAnnotOld$Block.Row[n]) + 24
-  }
-  
-}
-datAnnotOld <- cbind(datAnnotOld, Block)
+
+datAnnotOld <- cbind(datAnnotOld, getBlockLayout(datAnnotOld))
 
 
 # The final annotation dictonary
@@ -125,31 +89,6 @@ trueDict <- data.frame("Reporter"  = datAnnotOld$Reporter, "miRBase12" = as.char
 # Only unique by Reporters
 uniqDict <- subset(trueDict, !duplicated(trueDict$Reporter))
 
-
-  # Dictonary further refined - cleansed of non-miRNA entries
-# Remove empty entries
-#   Specifically those, that are empty in miRBase12 (since miRBase22 was gathered based on the 12, there will be no
-#   entries that are present in 22 but not in 12)
-
-# refiDict <- subset(trueDict, , select = c(Reporter, miRBase12, miRBase22, isChanged)
-rowsToRemoveInd <- which(trueDict$miRBase12 %in% "")
-rowsToRemove    <- unique(trueDict$Reporter[rowsToRemoveInd])
-
-# THIS MIGHT BE FUCKED YET! NOT CERTAIN
-# rowsToRemove <- 13138
-n = 0
-refiDict <- trueDict
-
-for (n in 1:length(rowsToRemove)) {
-  refiDict <- subset(refiDict, Reporter != rowsToRemove[n], select = c(Reporter, miRBase12, miRBase22, isChanged))
-}
-
-
-# checkMiRNAVersion(trueDict$miRBase22)
-# checkMiRNAVersion(refiDict$miRBase22)
-# Interesting note retrieved by miRBase Converter: it seems to have a higher confidence (only slightly, albeit), that our dataset is
-# is annotated in miRBase v11, as opposed to the v12. That either means that there was little difference between the versions, or that
-# it was rather strange annotation process in the first place. However, I don't believe that is important
 if(dictChoice == "true"){
   return(trueDict)
 }

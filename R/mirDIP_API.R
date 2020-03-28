@@ -1,6 +1,13 @@
-
-
-
+# mirDIP API functions provided by the authors, can be accessed at http://ophid.utoronto.ca/mirDIP/
+# 
+# contains three search functions
+#   unidirectionalSearchOnGenes
+#   unidirectionalSearchOnMicroRnas
+#   bidirectionalSearch
+# and a helper - unpacking function 
+#   makeMap
+#
+# how these can be used can be seen in mirDIP_call
 
 # please install package httr
 library(httr)

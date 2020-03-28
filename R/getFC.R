@@ -1,3 +1,6 @@
+# A set of functions once developed and likely never used afterwards. 
+# Ynlikely used still in the main code
+
 getFC <- function(dataCond, dataCtrl){
   # Required characteristics of input
   

@@ -1,3 +1,5 @@
+# Subset the list provided based on the p Value provided
+
 subMyListAccToPval <- function(list = NULL, pVal = 0.05, adj = FALSE){
   # SUBSET 
   outList <- subset(list, subset = miRNA == '')

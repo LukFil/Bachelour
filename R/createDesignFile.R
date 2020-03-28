@@ -1,12 +1,13 @@
+# Return a variable with a matrix matching the groupings in the data provided
+# Very much not generalised, it's very dependent on the proper and particular structure in this use case
+
 createDesignFile <- function(data){
-  
-  
-  
   nameFile <- character()
   caseVRef <- character()
   suiVCtrl <- character()
   holdName <- character()
   groupVal <- character()
+  
   for (n in 1:length(data[1, ])){
     holdName    <- colnames(data)[n]
     nameFile[n] <- holdName

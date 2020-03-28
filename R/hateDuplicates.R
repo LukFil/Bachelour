@@ -1,7 +1,8 @@
-# Bunch of functions to manipulate my dataset
-# goddamn manipulators
+# Functions developed to remove duplicates from the dataset. V5 and V$ are working, on a different formatting of datasets
 
-# Remove duplicates from the format before putting the signal values together
+# Remove duplicates from the format before putting the signal values together, 
+# Considers the background value and discards values that have values that far on the lower edge of the normal distribution
+# which later allows to consider background area as a trustworthy value
 hateDuplicatesV5 <- function(data, lessThan = 340){
   # Internal assistant functions
   hasBeenAdressed <- function(){
@@ -34,12 +35,7 @@ hateDuplicatesV5 <- function(data, lessThan = 340){
   # BODY of the function itself
   listOfmiRB<- unique(data$Name)
   BGless    <- whereBGALess(data, lessThan)
-  # 
-  # for (n in length(BGless):1){
-  #   if (BGless[n] == 0){
-  #     data <- data[-c(n), ]
-  #   }
-  # }
+  
   
   listOfmiR <- unique(data$Name)
   outDF     <- data[0, ]

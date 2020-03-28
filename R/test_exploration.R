@@ -1,14 +1,12 @@
-# LET'S TRY AND ADAPT
-# WRITING UP AN UNFIsItED SCRIPT
 
 rm(list=ls())
 
 require(limma)
 require(ExiMiR)
-library(bioDist)
-library(gplots)
-library(gcrma)
-library(affy)
+require(bioDist)
+require(gplots)
+require(gcrma)
+require(affy)
 
 source('~/Bachelour/R/reannotate.R')
 source('~/Bachelour/R/createDict.R')
@@ -16,6 +14,7 @@ source('~/Bachelour/R/newMakeGalEnv.R')
 source('~/Bachelour/R/newReadExi.R')
 source('~/Bachelour/R/newCreateAB.R')
 source('~/Bachelour/R/functions_ArrayAnalysis_v2.R')
+source('~/Bachelour/R/getBlockLayout.R')
 
 setwd("/home/lukekrishna/Bachelour/R/Data")
 
@@ -26,33 +25,11 @@ datDescript <- read.delim("E-GEOD-34120.sdrf.txt", as.is = TRUE)
 
 prunDescri <- subset(datDescript, FactorValue..INDIVIDUAL. != 'not specified')
 
-
-# To BE USED: 
-#   getMiRNAHistory
-#   miRNAVersionConvert
-
 setwd("/home/lukekrishna/Bachelour/R")
 
 # LIMMA getLayout requires a single BLOCK collumn - so we're going to create it
 # Furthermore it needs to be ordered, without gaps, and integer
-Block <- integer()
-for (n in 1:length(datAnnotOld$Block.Row)) {
-  # Block[n] <- as.integer(paste(c(datAnnotOld$Block.Column[n],datAnnotOld$Block.Row[n]), collapse = ''))
-  if (datAnnotOld$Block.Column[n] == 1){
-    Block[n] <- as.integer(datAnnotOld$Block.Row[n])
-  }
-  else if(datAnnotOld$Block.Column[n] == 2){
-    Block[n] <- as.integer(datAnnotOld$Block.Row[n]) + 8
-  }
-  else if(datAnnotOld$Block.Column[n] == 3){
-    Block[n] <- as.integer(datAnnotOld$Block.Row[n]) + 16
-  }
-  else if(datAnnotOld$Block.Column[n] == 4){
-    Block[n] <- as.integer(datAnnotOld$Block.Row[n]) + 24
-  }
-  
-}
-datAnnotOld <- cbind(datAnnotOld, Block)
+datAnnotOld <- cbind(datAnnotOld, getBlockLayout(datAnnotOld))
 
 
 # datAnnotOld needs grooming
@@ -69,11 +46,7 @@ datAnnotOld$Name    <- datAnnotOld$newName
 datAnnotOld$newName <- NULL
 names(datAnnotOld)[names(datAnnotOld) == "Gene.ID"] <- "ID"
 
-newMakeGalEnv(datAnnotOld,
-              # filename = ,
-              # galname  = ,
-              # gal.path = "/home/lukekrishna/Bachelour/R/Data"
-              )
+newMakeGalEnv(datAnnotOld)
 
 # CREATING AFFYBATCH
 setwd("/home/lukekrishna/Bachelour/R/Data/E-GEOD-34120.raw.1")
@@ -116,9 +89,6 @@ for (n in 1:length(oldNamesCol)){
     }
   }
 }
-# somehow it would be cool if we could replace the names with newnamescol
-# `colnames<-`(newNamesCol)
-# 
 
 desc <- as.data.frame(cbind(oldNamesCol, newNamesCol, condStatCol, labelUseCol))
 

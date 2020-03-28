@@ -1,3 +1,29 @@
+# THIS SET OF FUNCTIONS IS STILL UNDER DEVELOPMENT - optimisation for performance and fuctionality is highly required 
+
+# A collection of functions intended to allow the user to query mirTarBase for miRNA - target links
+# 
+#   complexMirTarBaseComparision
+#     a generalised wrapper function that should be able to execute the whole analysis with only given the input list, 
+#     and a path where the user wants the results to be printed at
+#       potentially not fully functional
+#
+#   getMirTarBase
+#     a simple function that is intended to simply load the mirTarBase into a variable and then return it
+#
+#   lookAndMapMirTarBase
+#     a function expected ting to take a dataframe containing $miRNA collumn, and miRTarBase, which will then pair and return a 
+#     large paired dataframe
+#
+#   whichNotFound
+#     a function expecting to take in a list of miRNA from annotated dataframe, and the original dataset, and  to return a list of miRNA's which
+#     have not found any targets in mirTarBase
+#
+#   lookupMirTarBase
+#     a function which is able to look up targets of individual miRNA's and return their targets from mirTarBase
+#
+#   mapMirTarBase
+#     a wrapper for lookupMirTarBase which allows for take-in of whole lists instead of individual miRNAs only 
+
 # retrieve from miRTarBase
 complexMirTarBaseComparision <- function(list, path = NULL){
   mTBase <- getMirTarBase()
@@ -9,8 +35,8 @@ complexMirTarBaseComparision <- function(list, path = NULL){
   lookAndMapMirTarBase(list, mTBase) %>% write.table(file = "miRTarBase.txt", append = TRUE)
 }
 
-getMirTarBase <- function(){
-  setwd('/home/lukekrishna/Bachelour/R')
+getMirTarBase <- function(dir = '/home/lukekrishna/Bachelour/R'){
+  setwd(dir)
   
   names            <- read.table('miRTarBase_MTI.txt', nrows = 1)
   mTBase           <- read.table('miRTarBase_MTI.txt', skip  = 1)
@@ -62,8 +88,6 @@ lookupMirTarBase <- function(miRNA, mTBase){
 }
 
 mapMirTarBase <- function(list){
-  source('~/Bachelour/R/mirTarBase_functions.R')
-  
   mTBase  <- getMirTarBase()
   outList <- list()
   

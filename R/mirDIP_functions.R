@@ -1,6 +1,16 @@
+  # A collection of custom functions intended to make using mirDIP easier 
+  #   formatForMirDIP 
+  #     allows for the user to supply a vector of miRNAs and have them transformed into a pattern mirDIP requires to work
+  #   confusedStringIntoDF
+  #     allows user to decypher the response retrieved from mirDIP, and breaks it down into a dataframe, that is much easier
+  #     to work with
+
+
   source('~/Bachelour/R/addFactorLevel.R')
   source('~/Bachelour/R/mirDIP_API.R')
   
+  
+
   formatForMirDIP <- function(array){
     outArray <- character()
     for (n in 1:length(array)) {
@@ -10,7 +20,7 @@
     return(outArray)
   }
 
-  confusedStringIntoTibble <- function(character){
+  confusedStringIntoDF <- function(character){
     require(tidyverse, quietly = TRUE)
     
     tbByRows <- map(character, function(x){
