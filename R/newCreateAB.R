@@ -1,5 +1,7 @@
 # File: createAB.R
 # ADAPTED from ExiMir Package
+# HEAVILY DEPRECIATED
+
 
 #########################################################################################
 

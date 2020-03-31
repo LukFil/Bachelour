@@ -24,7 +24,52 @@
 #   mapMirTarBase
 #     a wrapper for lookupMirTarBase which allows for take-in of whole lists instead of individual miRNAs only 
 
-# retrieve from miRTarBase
+
+miRTarBase_call <- function (dataDF){
+  source('~/Bachelour/R/addFactorLevel.R')
+  mTBase <- getMirTarBase()
+  
+  outDF <- data.frame(matrix(NA, 
+                             nrow = length(mTBase[, 1]),
+                             ncol = length(dataDF) + length(mTBase)))
+  count <- 0
+  
+  for (n in 1:length(mTBase[, 1])) {
+    
+    for (m in 1:length(dataDF[, 1])) {
+      
+      if (mTBase$miRNA[m] == dataDF$miRNA[n]){
+        count <- count + 1
+        
+        for (i in 1:length(outDF)) {
+          
+          if (i <= length(dataDF)) {
+            outDF[i, count] <- addFactorLevel(outDF[i, ], newLevel = dataDF[i, m])
+            outDF[i, count] <- dataDF[i, m]
+          } else {
+            outDF[i, count] <- addFactorLevel(outDF[i, ], newLevel = mTBase[i-length(dataDF), m])
+            outDF[i, count] <- mTBase[i-length(dataDF), m]
+          }
+        }
+      }
+    }
+  }
+  
+  
+  return(outDF)
+}
+
+
+
+
+
+
+
+
+
+
+
+
 complexMirTarBaseComparision <- function(list, path = NULL){
   mTBase <- getMirTarBase()
   
@@ -35,11 +80,12 @@ complexMirTarBaseComparision <- function(list, path = NULL){
   lookAndMapMirTarBase(list, mTBase) %>% write.table(file = "miRTarBase.txt", append = TRUE)
 }
 
-getMirTarBase <- function(dir = '/home/lukekrishna/Bachelour/R'){
+getMirTarBase <- function(dir = '/home/lukekrishna/Bachelour/data/miRTarBase',
+                          fil = 'miRTarBase_MTI.txt'){
   setwd(dir)
   
-  names            <- read.table('miRTarBase_MTI.txt', nrows = 1)
-  mTBase           <- read.table('miRTarBase_MTI.txt', skip  = 1)
+  names            <- read.table(fil, nrows = 1)
+  mTBase           <- read.table(fil, skip  = 1)
   colnames(mTBase) <- as.character(unlist(names, use.names = FALSE))
   
   return(mTBase)

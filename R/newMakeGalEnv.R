@@ -1,5 +1,6 @@
 ## NEW make.gal.env
 #  Adapted from ExiMIR
+#  HEAVILY DEPRECIATED
 
 
 newMakeGalEnv <- function (df, filename = "filename" ,galname = "galname", gal.path = ""){

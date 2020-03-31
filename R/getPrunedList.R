@@ -11,12 +11,12 @@ getPrunedList <- function (choice = 1,
   
   dir    <- character()
   
-  if (choice == 1){ dir <- '/home/lukekrishna/Bachelour/R/stats/stats-both'           }
-  if (choice == 2){ dir <- '/home/lukekrishna/Bachelour/R/stats/stats-caseVRef'       }
-  if (choice == 3){ dir <- '/home/lukekrishna/Bachelour/R/stats/stats-suiVCtrl'       }
-  if (choice == 4){ dir <- '/home/lukekrishna/Bachelour/R/stats/stats-case-minAvgRefe'}
-  if (choice == 5){ dir <- '/home/lukekrishna/Bachelour/R/stats/stats-case-minRefe'   }
-  if (choice == 6){ dir <- '/home/lukekrishna/Bachelour/R/stats/stats-suiVCtrl-substr'}
+  if (choice == 1){ dir <- '/home/lukekrishna/Bachelour/results/stats/stats-both'           }
+  if (choice == 2){ dir <- '/home/lukekrishna/Bachelour/results/stats/stats-caseVRef'       }
+  if (choice == 3){ dir <- '/home/lukekrishna/Bachelour/results/stats/stats-suiVCtrl'       }
+  if (choice == 4){ dir <- '/home/lukekrishna/Bachelour/results/stats/stats-case-minAvgRefe'}
+  if (choice == 5){ dir <- '/home/lukekrishna/Bachelour/results/stats/stats-case-minRefe'   }
+  if (choice == 6){ dir <- '/home/lukekrishna/Bachelour/results/stats/stats-suiVCtrl-substr'}
   
   if (!is.null(dirPat) & is.character(dirPat)){ dir <- dirPat }
   

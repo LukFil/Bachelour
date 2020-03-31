@@ -17,10 +17,10 @@ require("pracma")
 
 source('~/Bachelour/R/getBlockLayout.R')
   
-setwd("/home/lukekrishna/Bachelour/R/Data")
+setwd("/home/lukekrishna/Bachelour/data/oriData")
 
 if (!providedDataStatus){
-  datAnnotOld <- read.delim("A-MEXP-1469.txt",       as.is = TRUE, skip = 18 )
+  datAnnotOld <- read.delim("A-MEXP-1469.adf.txt",       as.is = TRUE, skip = 18 )
   names(datAnnotOld)[names(datAnnotOld) == "Reporter.Database.Entry.mirbase."] <- "Name"
   names(datAnnotOld)[names(datAnnotOld) == "Reporter.Name"] <- "Reporter"
 } else if (is.null(providedData)){
@@ -62,9 +62,9 @@ for (n in 1:length(listMissing)) {
 
 # I need my blocks
 if (providedDataStatus){
-  setwd("/home/lukekrishna/Bachelour/R/Data")
+  setwd("/home/lukekrishna/Bachelour/data/oriData")
   
-    getMyBlocks <- read.delim("A-MEXP-1469.txt",       as.is = TRUE, skip = 18 )
+    getMyBlocks <- read.delim("A-MEXP-1469.adf.txt",       as.is = TRUE, skip = 18 )
     
   setwd("/home/lukekrishna/Bachelour/R")
   datAnnotOld <- cbind(datAnnotOld, "Block.Row"    = getMyBlocks$Block.Row, 
@@ -74,7 +74,7 @@ if (providedDataStatus){
 }
 
 
-datAnnotOld <- cbind(datAnnotOld, getBlockLayout(datAnnotOld))
+datAnnotOld <- cbind(datAnnotOld, Block = getBlockLayout(datAnnotOld))
 
 
 # The final annotation dictonary

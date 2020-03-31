@@ -2,12 +2,15 @@
 
 rm(list = ls())
 
+require(tidyverse)
+
 source('~/Bachelour/R/mirTarBase_functions.R')
 source('~/Bachelour/R/getPrunedList.R')
 
+list <- getPrunedList(4)
 
-miRNA <- c("hsa-miR-603", "hsa-let-7a-3p", "hsa-miR-625-5p")
-df  <- data.frame(matrix(NA, ncol = 3, nrow = 3))
-df  <- cbind(df, miRNA)
+hold <- list[[1]][1:10, ]
 
-getMirTarBase() %>% lookAndMapMirTarBase(miRNAdf = df) %>% result
+
+result <- lookAndMapMirTarBase(miRNAdf = hold, mTBase = getMirTarBase())
+# getMirTarBase() %>% lookAndMapMirTarBase(miRNAdf = hold) %>% result

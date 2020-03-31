@@ -1,5 +1,6 @@
 # newReadExi
 # ADAPTED from ExiMiR package
+# HEAVILY DEPRECIATED
 
 newReadExi <- function(
                         txtfile.path= getwd(),

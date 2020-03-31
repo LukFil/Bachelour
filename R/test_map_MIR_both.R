@@ -7,7 +7,7 @@ source('~/Bachelour/R/getPrunedList.R')
 
 library(tidyverse)
 
-setwd('/home/lukekrishna/Bachelour/R/resMap')
+setwd('/home/lukekrishna/Bachelour/result/resMap')
 
 for (n in 1:6){
   list    <- getPrunedList(choice = n)

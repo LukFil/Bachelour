@@ -1,8 +1,8 @@
 # A function that produces statistcs analysis on the results from prepData.R
 
-statWork <- function(datPath = '/home/lukekrishna/Bachelour/R',
-                     datFile = 'data-dW-res-suiVCtrl-substr-2020-03-22.RData',
-                     outPath = '/home/lukekrishna/Bachelour/R/stats', 
+statWork <- function(datPath = '/home/lukekrishna/Bachelour/results',
+                     datFile = 'data-dW-res-both-2020-03-30.RData',
+                     outPath = '/home/lukekrishna/Bachelour/results/stats', 
                      coef    = 2){
   
   library(limma)

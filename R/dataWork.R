@@ -16,7 +16,7 @@
   
   
     #
-    setwd("/home/lukekrishna/Bachelour/R/Data")
+    setwd("/home/lukekrishna/Bachelour/data/oriData")
     datDescript <- read.delim("E-GEOD-34120.sdrf.txt", as.is = TRUE)
     # Apparently the description file contains a lot of duplicates, therefore it needs to be pruned to avoid
     # duplication of data
@@ -30,7 +30,7 @@
     # If the two numbers produced are equal, it means that no datafile was omitted from loading
   
   
-    setwd("/home/lukekrishna/Bachelour/R/Data/E-GEOD-34120.raw.1")
+    setwd("/home/lukekrishna/Bachelour/data/oriData/raw")
   
     # Load Gene Expression
     # Remvoe spaces from values to be used as variable names
@@ -129,7 +129,7 @@
     }
   
     # SAVE STEP INBETWEEN
-    save.image(paste(c("~/Bachelour/R/data-Before.RData"), collapse = ''))
+    save.image(paste(c("~/Bachelour/results/data-Before.RData"), collapse = ''))
   
     # KEEP ONLY THE VERSION WITH THE HIGHEST EXPRESSION FOR EACH miRNA
     # This is beacause that likely means it's best hybridised
@@ -166,4 +166,4 @@
       eval(expString)
     }
   
-    save.image(c("~/Bachelour/R/data-rdyForExtraction.RData"))
+    save.image(c("~/Bachelour/results/data-rdyForExtraction.RData"))

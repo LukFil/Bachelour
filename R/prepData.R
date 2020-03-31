@@ -4,7 +4,7 @@
 # GENERAL - BOTH REFE and CASE
 #############################################################################################################
 # CREATE A SINGLE DATAFRAME
-load("~/Bachelour/R/data-rdyForExtraction.RData")
+load("~/Bachelour/results/data-rdyForExtraction.RData")
 
 data <- cbind(Slide_1_Suicide_Case$Signal.Mean, Slide_1_Suicide_Refe$Signal.Mean,
               Slide_2_Control_Case$Signal.Mean, Slide_2_Control_Refe$Signal.Mean,
@@ -28,7 +28,7 @@ factors <- c("groupVal","caseVRef", "suiVCtrl")
 desFile$groupVal <- factor(desFile$groupVal, levels=c("CaseSuicide", "RefeSuicide", "CaseControl", "RefeControl"))
 desFile$caseVRef <- factor(desFile$caseVRef,levels=c("Case","Refe"))
 desFile$suiVCtrl <- factor(desFile$suiVCtrl,levels=c("Suicide","Control"))
-setwd('/home/lukekrishna/Bachelour/R/QC')
+setwd('/home/lukekrishna/Bachelour/results/QC')
 # factor <- c(as.factor("oneFactor"))
 createQCPlots(data, factors = factors, Table = desFile)
 # The size of the bars in the boxplot is significantly affected by whether or not the substraction of background has been performed
@@ -37,7 +37,7 @@ createQCPlots(data, factors = factors, Table = desFile)
 
 data.norm.log <- normalizeBetweenArrays(data,   method = "quantile")
 data.norm.ori <- normalizeBetweenArrays(data.b, method = "quantile")
-setwd('/home/lukekrishna/Bachelour/R/QC-norm')
+setwd('/home/lukekrishna/Bachelour/results/QC-norm')
 createQCPlots(data.norm.log, factors = factors, Table = desFile)
 maFun(data.norm.log, perGroup = FALSE, postfix = "NormalisedLog")
 
@@ -52,7 +52,7 @@ maFun(data.norm.log, perGroup = FALSE, postfix = "NormalisedLog")
 
 rm(list = setdiff(ls(), c("data", "data.b", "data.norm.log", "data.norm.ori")))
 
-save.image(paste(c("~/Bachelour/R/data-dW-res-both-", as.character(Sys.Date()),".RData"), collapse = ''))
+save.image(paste(c("~/Bachelour/results/data-dW-res-both-", as.character(Sys.Date()),".RData"), collapse = ''))
 
 rm(list = ls())
 #############################################################################################################
@@ -60,7 +60,7 @@ rm(list = ls())
 # CASE - CONTROL
 #############################################################################################################
 # CREATE A SINGLE DATAFRAME
-load("~/Bachelour/R/data-rdyForExtraction.RData")
+load("~/Bachelour/results/data-rdyForExtraction.RData")
 
 data <- cbind(Slide_1_Suicide_Case$Signal.Mean - Slide_2_Control_Case$Signal.Mean,
               Slide_6_Suicide_Case$Signal.Mean - Slide_3_Control_Case$Signal.Mean,
@@ -79,7 +79,7 @@ desFile <- createDesignFile(data.b)
 factors <- c("suiVCtrl")
 
 desFile$suiVCtrl <- factor(desFile$suiVCtrl,levels=c("Suicide"))
-setwd('/home/lukekrishna/Bachelour/R/QC-substr-suiVCtrl')
+setwd('/home/lukekrishna/Bachelour/results/QC-substr-suiVCtrl')
 # factor <- c(as.factor("oneFactor"))
 createQCPlots(data, factors = factors, Table = desFile)
 # The size of the bars in the boxplot is significantly affected by whether or not the substraction of background has been performed
@@ -88,7 +88,7 @@ createQCPlots(data, factors = factors, Table = desFile)
 
 data.norm.log <- normalizeBetweenArrays(data,   method = "quantile")
 data.norm.ori <- normalizeBetweenArrays(data.b, method = "quantile")
-setwd('/home/lukekrishna/Bachelour/R/QC-substr-norm-suiVCtrl')
+setwd('/home/lukekrishna/Bachelour/results/QC-substr-norm-suiVCtrl')
 createQCPlots(data.norm.log, factors = factors, Table = desFile)
 maFun(data.norm.log, perGroup = FALSE, postfix = "NormalisedLog")
 
@@ -103,7 +103,7 @@ maFun(data.norm.log, perGroup = FALSE, postfix = "NormalisedLog")
 
 rm(list = setdiff(ls(), c("data", "data.b", "data.norm.log", "data.norm.ori")))
 
-save.image(paste(c("~/Bachelour/R/data-dW-res-suiVCtrl-substr-", as.character(Sys.Date()),".RData"), collapse = ''))
+save.image(paste(c("~/Bachelour/results/data-dW-res-suiVCtrl-substr-", as.character(Sys.Date()),".RData"), collapse = ''))
 
 rm(list = ls())
 #############################################################################################################
@@ -112,7 +112,7 @@ rm(list = ls())
 #############################################################################################################
 
 # CREATE A SINGLE DATAFRAME
-load("~/Bachelour/R/data-rdyForExtraction.RData")
+load("~/Bachelour/results/data-rdyForExtraction.RData")
 
 data <- cbind(Slide_1_Suicide_Case$Signal.Mean,
               Slide_2_Control_Case$Signal.Mean,
@@ -142,7 +142,7 @@ desFile <- createDesignFile(data.b)
 factors <- c("suiVCtrl")
 
 desFile$suiVCtrl <- factor(desFile$suiVCtrl,levels=c("Suicide","Control"))
-setwd('/home/lukekrishna/Bachelour/R/QC-suiVCtrl')
+setwd('/home/lukekrishna/Bachelour/results/QC-suiVCtrl')
 # factor <- c(as.factor("oneFactor"))
 createQCPlots(data, factors = factors, Table = desFile)
 # The size of the bars in the boxplot is significantly affected by whether or not the substraction of background has been performed
@@ -151,7 +151,7 @@ createQCPlots(data, factors = factors, Table = desFile)
 
 data.norm.log <- normalizeBetweenArrays(data,   method = "quantile")
 data.norm.ori <- normalizeBetweenArrays(data.b, method = "quantile")
-setwd('/home/lukekrishna/Bachelour/R/QC-norm-suiVCtrl')
+setwd('/home/lukekrishna/Bachelour/results/QC-norm-suiVCtrl')
 createQCPlots(data.norm.log, factors = factors, Table = desFile)
 maFun(data.norm.log, perGroup = FALSE, postfix = "NormalisedLog")
 
@@ -166,7 +166,7 @@ maFun(data.norm.log, perGroup = FALSE, postfix = "NormalisedLog")
 
 rm(list = setdiff(ls(), c("data", "data.b", "data.norm.log", "data.norm.ori")))
 
-save.image(paste(c("~/Bachelour/R/data-dW-res-suiVCtrl-", as.character(Sys.Date()),".RData"), collapse = ''))
+save.image(paste(c("~/Bachelour/results/data-dW-res-suiVCtrl-", as.character(Sys.Date()),".RData"), collapse = ''))
 
 rm(list = ls())
 #############################################################################################################
@@ -177,7 +177,7 @@ rm(list = ls())
 #############################################################################################################
 
 # CREATE A SINGLE DATAFRAME
-load("~/Bachelour/R/data-rdyForExtraction.RData")
+load("~/Bachelour/results/data-rdyForExtraction.RData")
 
 data <- cbind(Slide_1_Suicide_Case$Signal.Mean - Slide_1_Suicide_Refe$Signal.Mean,
               Slide_2_Control_Case$Signal.Mean - Slide_2_Control_Refe$Signal.Mean,
@@ -199,7 +199,7 @@ desFile <- createDesignFile(data.b)
 factors <- c("suiVCtrl")
 
 desFile$suiVCtrl <- factor(desFile$suiVCtrl,levels=c("Suicide","Control"))
-setwd('/home/lukekrishna/Bachelour/R/QC-case-minRefe')
+setwd('/home/lukekrishna/Bachelour/results/QC-case-minRefe')
 # factor <- c(as.factor("oneFactor"))
 createQCPlots(data, factors = factors, Table = desFile)
 # The size of the bars in the boxplot is significantly affected by whether or not the substraction of background has been performed
@@ -208,7 +208,7 @@ createQCPlots(data, factors = factors, Table = desFile)
 
 data.norm.log <- normalizeBetweenArrays(data,   method = "quantile")
 data.norm.ori <- normalizeBetweenArrays(data.b, method = "quantile")
-setwd('/home/lukekrishna/Bachelour/R/QC-norm-case-minRefe')
+setwd('/home/lukekrishna/Bachelour/results/QC-norm-case-minRefe')
 createQCPlots(data.norm.log, factors = factors, Table = desFile)
 maFun(data.norm.log, perGroup = FALSE, postfix = "NormalisedLog")
 
@@ -223,7 +223,7 @@ maFun(data.norm.log, perGroup = FALSE, postfix = "NormalisedLog")
 
 rm(list = setdiff(ls(), c("data", "data.b", "data.norm.log", "data.norm.ori")))
 
-save.image(paste(c("~/Bachelour/R/data-dW-res-suiVCtrl-caseMinRefe", as.character(Sys.Date()),".RData"), collapse = ''))
+save.image(paste(c("~/Bachelour/results/data-dW-res-suiVCtrl-caseMinRefe", as.character(Sys.Date()),".RData"), collapse = ''))
 
 rm(list = ls())
 #############################################################################################################
@@ -233,7 +233,7 @@ rm(list = ls())
 ##############################################################################################################
 
 # CREATE A SINGLE DATAFRAME
-load("~/Bachelour/R/data-rdyForExtraction.RData")
+load("~/Bachelour/results/data-rdyForExtraction.RData")
 source('~/Bachelour/R/myAvg.R')
 
 
@@ -267,7 +267,7 @@ desFile <- createDesignFile(data.b)
 factors <- c("suiVCtrl")
 
 desFile$suiVCtrl <- factor(desFile$suiVCtrl,levels=c("Suicide","Control"))
-setwd('/home/lukekrishna/Bachelour/R/QC-case-AVGminRefe')
+setwd('/home/lukekrishna/Bachelour/results/QC-case-AVGminRefe')
 # factor <- c(as.factor("oneFactor"))
 createQCPlots(data, factors = factors, Table = desFile)
 # The size of the bars in the boxplot is significantly affected by whether or not the substraction of background has been performed
@@ -276,7 +276,7 @@ createQCPlots(data, factors = factors, Table = desFile)
 
 data.norm.log <- normalizeBetweenArrays(data,   method = "quantile")
 data.norm.ori <- normalizeBetweenArrays(data.b, method = "quantile")
-setwd('/home/lukekrishna/Bachelour/R/QC-norm-case-AVGminRefe')
+setwd('/home/lukekrishna/Bachelour/results/QC-norm-case-AVGminRefe')
 createQCPlots(data.norm.log, factors = factors, Table = desFile)
 maFun(data.norm.log, perGroup = FALSE, postfix = "NormalisedLog")
 
@@ -291,7 +291,7 @@ maFun(data.norm.log, perGroup = FALSE, postfix = "NormalisedLog")
 
 rm(list = setdiff(ls(), c("data", "data.b", "data.norm.log", "data.norm.ori")))
 
-save.image(paste(c("~/Bachelour/R/data-dW-res-suiVCtrl-avgSubstract", as.character(Sys.Date()),".RData"), collapse = ''))
+save.image(paste(c("~/Bachelour/results/data-dW-res-suiVCtrl-avgSubstract", as.character(Sys.Date()),".RData"), collapse = ''))
 
 rm(list = ls())
 ##############################################################################################################
@@ -302,7 +302,7 @@ rm(list = ls())
 ##############################################################################################################
 
 # CREATE A SINGLE DATAFRAME
-load("~/Bachelour/R/data-rdyForExtraction.RData")
+load("~/Bachelour/results/data-rdyForExtraction.RData")
 
 data <- cbind(Slide_1_Suicide_Refe$Signal.Mean,
               Slide_2_Control_Refe$Signal.Mean,
@@ -324,7 +324,7 @@ desFile <- createDesignFile(data.b)
 factors <- c("caseVRef")
 
 desFile$caseVRef <- factor(desFile$caseVRef,levels=c("Case","Refe"))
-setwd('/home/lukekrishna/Bachelour/R/QC-caseVRef')
+setwd('/home/lukekrishna/Bachelour/results/QC-caseVRef')
 # factor <- c(as.factor("oneFactor"))
 createQCPlots(data, factors = factors, Table = desFile)
 # The size of the bars in the boxplot is significantly affected by whether or not the substraction of background has been performed
@@ -333,7 +333,7 @@ createQCPlots(data, factors = factors, Table = desFile)
 
 data.norm.log <- normalizeBetweenArrays(data,   method = "quantile")
 data.norm.ori <- normalizeBetweenArrays(data.b, method = "quantile")
-setwd('/home/lukekrishna/Bachelour/R/QC-norm-caseVRef')
+setwd('/home/lukekrishna/Bachelour/results/QC-norm-caseVRef')
 createQCPlots(data.norm.log, factors = factors, Table = desFile)
 maFun(data.norm.log, perGroup = FALSE, postfix = "NormalisedLog")
 
@@ -348,7 +348,7 @@ maFun(data.norm.log, perGroup = FALSE, postfix = "NormalisedLog")
 
 rm(list = setdiff(ls(), c("data", "data.b", "data.norm.log", "data.norm.ori")))
 
-save.image(paste(c("~/Bachelour/R/data-dW-res-caseVRef-", as.character(Sys.Date()),".RData"), collapse = ''))
+save.image(paste(c("~/Bachelour/results/data-dW-res-caseVRef-", as.character(Sys.Date()),".RData"), collapse = ''))
 
 rm(list = ls())
 

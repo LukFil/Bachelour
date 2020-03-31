@@ -16,7 +16,7 @@ source('~/Bachelour/R/newCreateAB.R')
 source('~/Bachelour/R/functions_ArrayAnalysis_v2.R')
 source('~/Bachelour/R/getBlockLayout.R')
 
-setwd("/home/lukekrishna/Bachelour/R/Data")
+setwd("/home/lukekrishna/Bachelour/data/oriData")
 
 datAnnotOld <- read.delim("A-MEXP-1469.txt",       as.is = TRUE, skip = 18 )
 datDescript <- read.delim("E-GEOD-34120.sdrf.txt", as.is = TRUE)
@@ -25,7 +25,7 @@ datDescript <- read.delim("E-GEOD-34120.sdrf.txt", as.is = TRUE)
 
 prunDescri <- subset(datDescript, FactorValue..INDIVIDUAL. != 'not specified')
 
-setwd("/home/lukekrishna/Bachelour/R")
+setwd("/home/lukekrishna/Bachelour/result")
 
 # LIMMA getLayout requires a single BLOCK collumn - so we're going to create it
 # Furthermore it needs to be ordered, without gaps, and integer
