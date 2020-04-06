@@ -3,7 +3,7 @@
   #     allows for the user to supply a vector of miRNAs and have them transformed into a pattern mirDIP requires to work
   #   confusedStringIntoDF
   #     allows user to decypher the response retrieved from mirDIP, and breaks it down into a dataframe, that is much easier
-  #     to work with
+  #     to work with  
 
 
   source('~/Bachelour/R/addFactorLevel.R')

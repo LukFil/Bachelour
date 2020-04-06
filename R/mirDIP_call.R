@@ -1,15 +1,25 @@
 # CALL mirDIP
 
-mirDIP_call <- function (listChoice = 1, saveDir = NULL, saveFil = NULL){
+mirDIP_call <- function (list = NULL, saveDir = NULL, saveFil = NULL){
   source('~/Bachelour/R/mirDIP_functions.R')
-  source('~/Bachelour/R/getPrunedList.R')
+  # source('~/Bachelour/R/getPrunedList.R')
   
-  list <- getPrunedList(listChoice)
+  if (is.null(list)) {
+    stop("you didn't give me data to work on you dum dum")
+  }
+  
+  # list <- getPrunedList(listChoice)
+  # setwd('/home/lukekrishna/Bachelour/results/stats')
+  # list  <- read.table('resultStatsFix.txt', skip = 1)
+  # names <- read.table('resultStatsFix.txt', nrows = 1)
+  # colnames(list) <- unlist(names)
+  # 
   # MicroRNAs
   # - Comma delimited.
   # - Follow the notation as shown.
   # microRNAs = "hsa-miR-603, hsa-let-7a-3p, hsa-miR-625-5p, hsa-miR-7852-3p, hsa-miR-17-5p"
-  microRNAs <- formatForMirDIP(list[[1]]$miRNA)
+  # microRNAs <- formatForMirDIP(list[[1]]$miRNA)
+  microRNAs <- formatForMirDIP(list$miRNA)
   
   # Minimum Score
   # - Use one of those:'Very High', 'High', 'Medium', 'Low' .
