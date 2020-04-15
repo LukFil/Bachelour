@@ -1,0 +1,34 @@
+LOAD CSV WITH HEADERS FROM 'file:///mirDIP-dat-neo4j.csv' AS row
+MERGE (d:Target {Gene_Symbol: row.Gene_Symbol})
+SET  d.Uniprot = row.Uniprot
+RETURN d
+
+LOAD CSV WITH HEADERS FROM 'file:///mirDIP-dat-neo4j.csv' AS row
+MERGE (m:miRNA {miRNA: row.miRNA})
+SET m.P_Value = row.P_Value, m.FC = row.FC, m.log2FC = row.log2FC
+RETURN m
+
+LOAD CSV WITH HEADERS FROM 'file:///mirDIP-dat-neo4j.csv' AS row
+MATCH (p:Target {Gene_Symbol: row.Gene_Symbol})
+MATCH (m:miRNA {miRNA: row.miRNA})
+MERGE (m) -[rel: mirDIP {Tool: "mirDIP"}]->(p)
+SET rel.Integrated_Score = row.Integrated_Score, rel.Number_of_Sources = row.Number_of_Sources, rel.Score_Class = row.Score_Class, rel.Sources = row.X_Sources
+RETURN count(rel)
+
+
+LOAD CSV WITH HEADERS FROM 'file:///mirTAR-dat-neo4j.csv' AS row
+MERGE (d:Target {Gene_Symbol: row.Target_Gene})
+SET d.Entrez_ID = row.Target_Gene_Entrez_ID
+RETURN d
+
+LOAD CSV WITH HEADERS FROM 'file:///mirTAR-dat-neo4j.csv' AS row
+MERGE (m:miRNA {miRNA: row.miRNA})
+SET m.P_Value = row.P_Value, m.FC = row.FC, m.log2FC = row.log2FC
+RETURN m
+
+LOAD CSV WITH HEADERS FROM 'file:///mirTAR-dat-neo4j.csv' AS row
+MATCH (p:Target {Gene_Symbol: row.Target_Gene})
+MATCH (m:miRNA {miRNA: row.miRNA})
+MERGE (m) -[rel: mirTAR {Tool: "mirTAR"}]->(p)
+SET rel.Support_Type = row.Support_Type, rel.Experiments = row.Experiments, rel.References_PMID = row.References_PMID
+RETURN count(rel)

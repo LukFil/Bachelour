@@ -82,3 +82,10 @@ data*
 data/*
 results*
 results/*
+
+*/node_modules
+*/node_modules*
+*/node_modules/*
+
+# protect password and username
+variables.js
