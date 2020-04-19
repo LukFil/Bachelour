@@ -59,14 +59,75 @@ async function setFunAnnot (){
     // // var newTar = [tar1, tar2]
     // // console.log(newTar)
 
-    const annotat = await string_db_fun.repackFunAnnot(targets, id_caller = "l.filipcik@student.maastrichtuniversity.nl")
+    const annotat = await string_db_fun.repackFunAnnot(
+        targets, 
+        id_caller = "l.filipcik@student.maastrichtuniversity.nl"
+    )
     
-    for (var i = 0; i < annotat.length; i++){
-        console.log("Did I get Here")
-        await util.sleep(1000)
-        console.log("I waited too")
-        neo4j_fun.setTarget(connect.uri, connect.username, connect.password, annotat[i])
+    var finRun = [];
+
+    var chunkSize = 350;
+    var run = true;
+    var cnt = 0;
+
+    while (run == true){
+        var subAnnotat = annotat.slice(cnt*chunkSize, (cnt+1) * chunkSize);
+
+        try{
+            subAnnotat.forEach((obj) => {
+                neo4j_fun.setTarget(connect.uri, connect.username, connect.password, obj)
+            }); 
+        }
+        catch(error) {
+            finRun.push(subRel);
+            console.log(error);
+        }
+
+        await util.sleep(10000);
+        console.log("Passing Functional annotation to Neo4J chunk " + cnt);
+
+        cnt += 1;
+        if (cnt * chunkSize >= annotat.length){
+            run = false
+        }
     }
+
+    if (finRun.length != 0){
+        chunkSize = 50;
+        run = true;
+        cnt = 0;
+
+        while (run == true){
+            var subAnnotat = finRun.slice(cnt*chunkSize, (cnt+1) * chunkSize);
+    
+            try{
+                subAnnotat.forEach((obj) => {
+                    neo4j_fun.setTarget(connect.uri, connect.username, connect.password, obj)
+                }); 
+            }
+            catch(error) {
+                console.log(error);
+                console.log("Even on second finer resolution it was impossible to pass all values");
+            }
+    
+            await util.sleep(10000);
+            console.log("Passing Functional annotation to Neo4J in finer chunks, chunk " + cnt);
+    
+            cnt += 1;
+            if (cnt * chunkSize >= annotat.length){
+                run = false
+            }
+        }
+    }
+
+
+
+    // for (var i = 0; i < annotat.length; i++){
+    //     console.log("Did I get Here")
+    //     await util.sleep(1000)
+    //     console.log("I waited too")
+    //     neo4j_fun.setTarget(connect.uri, connect.username, connect.password, annotat[i])
+    // }
     // annotat.forEach(async (obj) => {
     //     await util.sleep(10000)
     //     console.log("I waited too")
@@ -85,16 +146,24 @@ async function setRel(){
     )
 
     // console.log(rel)
-    const chunkSize = 350;
+    var finRun = [];
+
+    var chunkSize = 350;
     var run = true;
     var cnt = 0;
 
     while (run == true) {
         var subRel = rel.slice(cnt*chunkSize, (cnt+1) *chunkSize)
 
-        subRel.forEach((obj) => {
-            neo4j_fun.setRelationship(connect.uri, connect.username, connect.password, obj)
-        })
+        try {
+            subRel.forEach((obj) => {
+                neo4j_fun.setRelationship(connect.uri, connect.username, connect.password, obj)
+            })
+        }
+        catch(error) {
+            finRun.push(subRel);
+            console.log(error);
+        }
 
         await util.sleep(10000);
         console.log("Passing relationships to Neo4J chunk " + cnt)
@@ -104,11 +173,40 @@ async function setRel(){
             run = false;
         }
     }
+
+    if (finRun.length != 0){
+        chunkSize = 50;
+        run = true;
+        cnt = 0;
+
+        while (run == true) {
+            var subRel = finRun.slice(cnt*chunkSize, (cnt+1) *chunkSize)
+    
+            try {
+                subRel.forEach((obj) => {
+                    neo4j_fun.setRelationship(connect.uri, connect.username, connect.password, obj)
+                })
+            }
+            catch(error) {
+                console.log(error);
+                console.log("Even on second finer resolution it was impossible to pass all values");
+            }
+    
+            await util.sleep(10000);
+            console.log("Passing relationships to Neo4J in finer chunks, chunk " + cnt)
+    
+            cnt += 1; 
+            if (cnt * chunkSize >= rel.length){
+                run = false;
+            }
+        }
+    }
 }
 
 async function main(){
-    // setFunAnnot()
-    setRel();
+    
+    await setRel();
+    await setFunAnnot();
 }
 
 main()
