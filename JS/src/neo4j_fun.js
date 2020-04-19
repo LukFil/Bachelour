@@ -47,8 +47,15 @@ async function getTarget(uri, username, password){
     
     // console.log(resArr);
     
+    const trueResArr = [];
+    resArr.forEach(ele => {
+      trueResArr.push(ele.gene_sym)
+    })
+
+    // console.log(trueResArr);
+
     await driver.close();
-    return resArr;
+    return trueResArr;
 }
 
 // TEST GETTER 02
@@ -84,10 +91,9 @@ async function setTarget(uri, username, password, objTarget) {
   const session = driver.session()
   var   status = 'No change'
 
-  // HERE BELONGS A WAY HOW TO FIGURE OUT HOW TO PASS THE TARGETS AS AN 
-  // ARRAY OF OBJECTS AND HOW TO PREPARE THEM TO BE PUT INTO THE QUERY
-  const { gene_sym, properties: props } = objTarget
+  const { gene_sym, properties: props } = objTarget;
 
+  // console.log(props)
   const result = await session
     .run(
       'MERGE (tar:Target {Gene_Symbol: $Gene_Symbol}) \
@@ -100,17 +106,57 @@ async function setTarget(uri, username, password, objTarget) {
       }
     )
     .then(
-      status = 'Succesfully completed'
+      console.log(status = 'Succesfully completed')
     )
     .catch(error => {
-      status = 'Error ocurred'
+      console.log(status = 'Error ocurred')
       throw error;
     });
-
+    // console.log(status)
+    // console.log(result)
+  // })
   await driver.close();
-  console.log(status)
+  
   // return status
 }
+
+// EXPERIMENTAL SETTER
+
+async function setTargetExp(uri, username, password, objTargetArr) {
+  const driver = neo4j.driver(uri, neo4j.auth.basic(username, password))
+  const session = driver.session()
+  var   status = 'No change'
+
+  const { gene_sym, properties: props } = objTargetArr;
+
+  // console.log(props)
+  const result = await session
+    .run(
+      'MERGE (tar:Target {Gene_Symbol: $Gene_Symbol}) \
+      SET  tar += $prop \
+      RETURN tar',
+      // MULTIPLE PROPERTIES WORKING
+      {
+        Gene_Symbol: gene_sym, 
+        prop: props
+      }
+    )
+    .then(
+      console.log(status = 'Succesfully completed')
+    )
+    .catch(error => {
+      console.log(status = 'Error ocurred')
+      throw error;
+    });
+    // console.log(status)
+    // console.log(result)
+  
+  await driver.close();
+  
+  // return status
+}
+
+
 
 // SETTER a relationship
 async function setRelationship (uri, username, password, objRelati) {
@@ -118,7 +164,7 @@ async function setRelationship (uri, username, password, objRelati) {
   const session = driver.session()
   var   status = 'No change'
 
-  const { origin, nameRel, properties, target } = objRelati
+  const { origin, nameRel, properties, target, oriProp, tarProp } = objRelati
 
   const result = await session
     .run(
@@ -127,12 +173,16 @@ async function setRelationship (uri, username, password, objRelati) {
       MERGE (t:Target {Gene_Symbol: $target})  \
       MERGE (o) -[rel: ${nameRel}]-> (t) \
       SET rel += $prop  \
+      SET o += $oriProp \
+      SET t += $tarProp \
       RETURN count(rel)`,
 
       {
         Gene_Symbol: origin,
         rel_name: nameRel,
-        prop: properties, 
+        oriProp: oriProp,
+        prop: properties,
+        tarProp: tarProp, 
         target: target
       }
     )
@@ -146,7 +196,7 @@ async function setRelationship (uri, username, password, objRelati) {
 
 
   await driver.close();
-  console.log(status)
+  // console.log(status)
   // return status
 }
 

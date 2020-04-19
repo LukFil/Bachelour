@@ -6,13 +6,13 @@
 // use IDENTITY parameter 
 // understands both GET and POST requests, but use POST in all possible occurances
 
-const fetch = require("node-fetch");
-const util = require('./util')
 
-// protein = "ROBO1";
-// protArr = ['ROBO1', 'ARL8B', 'AGO4']
-// id_caller = "lfp_um_bach_dev"
-// species = "9606" //HUMAN
+// const fetch = require("node-fetch");
+
+protein = "ROBO1";
+protArr = ['ROBO1', 'ARL8B', 'AGO4']
+id_caller = "lfp_um_bach_dev"
+species = "9606" //HUMAN
 
 async function mapIdentifiers (protein, id_caller, species = "9606"){
     const response = await fetch(`https://string-db.org/api/json/get_string_ids?identifiers=${protein}&species=${species}&caller_identity=${id_caller}`, {
@@ -65,7 +65,7 @@ async function queryForFunctAnnotation(protein, id_caller, species = "9606", pub
         method: 'POST'
     });
     const myJson = await response.json()
-    // console.log(myJson)
+    console.log(myJson)
 
     outArr = []
     myJson.forEach(response => {
@@ -103,9 +103,6 @@ async function repackFunAnnot(protArr, id_caller, species = "9606", pubmed = "0"
             var protein = batchIntoSingleQuery(subProtArr)
             var funAnno = await queryForFunctAnnotation(protein, id_caller, species, pubmed)
 
-            await util.sleep(1000);
-            console.log("repackFunAnnot call number " + cnt)
-
             funAnno.forEach(prot => {
                 if (!hldNam.includes(prot.gene_sym)){
                     outArr.push(
@@ -121,6 +118,10 @@ async function repackFunAnnot(protArr, id_caller, species = "9606", pubmed = "0"
                     outArr[loc].properties.str_des.push(prot.properties.str_des.toString());
                 }
             });
+
+            await setTimeout(() => {
+                console.log(`Query run ${cnt} times.`)
+            }, 1000)
 
             cnt += 1;
             if (cnt* chunkSize >= protArr.length){
@@ -152,89 +153,60 @@ async function repackFunAnnot(protArr, id_caller, species = "9606", pubmed = "0"
     return(outArr)
 }
 
-// repackFunAnnot(protArr, id_caller, species)
+repackFunAnnot(protArr, id_caller, species)
 
-async function outStringDB(protArr, id_caller, species = "9606", req_score, chunkSize = 700){
-    var outArr  = []
+async function outStringDB(protArr, id_caller, species = "9606", req_score){
+    protein = batchIntoSingleQuery(protArr)
+    resStrD = await queryForInteractionPartners(protein, id_caller, species, req_score)
 
-    if (protArr.length > chunkSize){
-        var run = true;
-        var cnt = 0;
-
-        while (run == true){
-            var subProtArr = protArr.slice(cnt * chunkSize, (cnt+1) * chunkSize)
-
-            var protein = await batchIntoSingleQuery(subProtArr)
-            var resStrD = await queryForInteractionPartners(protein, id_caller, species, req_score)
-
-            await util.sleep(1000);
-            console.log("outStringDB call number "+ cnt)
-        
-            resStrD.forEach( (response) => {
-                outArr.push({
-                    origin: response.preferredName_A,
-                    oriProp: {
-                        stringDB_id: response.stringId_A,
-                    },
-                    nameRel: "STRING_DB",
-                    properties: {
-                        ascore: response.ascore,
-                        dscore: response.dscore,
-                        escore: response.escore,
-                        fscore: response.fscore,
-                        nscore: response.nscore,
-                        pscore: response.pscore,
-                        tscore: response.tscore,
-                        score: response.score
-                    },
-                    target: response.preferredName_B,
-                    tarProp: {
-                        stringDB_id: response.stringId_B
-                    }
-                })
-            })
-
-            cnt += 1;
-            if (cnt * chunkSize >= protArr.length){
-                run = false
+    outArr  = []
+    resStrD.forEach( (response) => {
+        outArr.push({
+            origin: response.preferredName_A,
+            oriProp: {
+                stringDB_id: response.stringId_A,
+            },
+            nameRel: "STRING_DB",
+            properties: {
+                ascore: response.ascore,
+                dscore: response.dscore,
+                escore: response.escore,
+                fscore: response.fscore,
+                nscore: response.nscore,
+                pscore: response.pscore,
+                tscore: response.tscore,
+                score: response.score
+            },
+            target: response.preferredName_B,
+            tarProp: {
+                stringDB_id: response.stringId_B
             }
-
-        }
-
-    } else {
-        protein = batchIntoSingleQuery(protArr)
-        resStrD = await queryForInteractionPartners(protein, id_caller, species, req_score)
-
-        
-        resStrD.forEach( (response) => {
-            outArr.push({
-                origin: response.preferredName_A,
-                oriProp: {
-                    stringDB_id: response.stringId_A,
-                },
-                nameRel: "STRING_DB",
-                properties: {
-                    ascore: response.ascore,
-                    dscore: response.dscore,
-                    escore: response.escore,
-                    fscore: response.fscore,
-                    nscore: response.nscore,
-                    pscore: response.pscore,
-                    tscore: response.tscore,
-                    score: response.score
-                },
-                target: response.preferredName_B,
-                tarProp: {
-                    stringDB_id: response.stringId_B
-                }
-            })
         })
-    }    
+    })
     console.log(outArr)
     return outArr
 }
 
 // outStringDB(protArr, id_caller, species)
 
-exports.outStringDB = outStringDB;
-exports.repackFunAnnot = repackFunAnnot;
+// exports.outStringDB = outStringDB;
+// // exports.repackFunAnnot = repackFunAnnot;
+// function sleep(ms) {
+//     return new Promise(resolve => setTimeout(resolve, ms));
+// }
+
+
+// async function test(){
+//     console.log(3)
+//     var test = setTimeout(()=> {
+//         console.log("stopped")
+//         return stupValue = 1
+//     }, 1000)
+//     console.log("testThisShit")
+//     await sleep(2000)
+//     console.log("Did I wait?")
+//     console.log(test)
+//     console.log(stupValue)
+// }
+
+// test()
