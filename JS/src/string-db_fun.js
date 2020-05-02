@@ -48,8 +48,8 @@ function batchIntoSingleQuery (protArr){
 
 // queryForNetworkInteractions(batchIntoSingleQuery(protArr), id_caller, species)
 
-
-async function queryForInteractionPartners(protein, id_caller, species = "9606", req_score = "400"){
+// 900 as a req score means that at least twice it was found experimentally 
+async function queryForInteractionPartners(protein, id_caller, species = "9606", req_score = "900"){
     const response = await fetch(`https://string-db.org/api/json/interaction_partners?identifiers=${protein}&species=${species}&caller_identity=${id_caller}&required_score=${req_score}`, {
         method: 'POST'
     });
@@ -230,11 +230,16 @@ async function outStringDB(protArr, id_caller, species = "9606", req_score, chun
             })
         })
     }    
-    console.log(outArr)
+    // console.log(outArr)
     return outArr
 }
 
-// outStringDB(protArr, id_caller, species)
+// // outStringDB(protArr, id_caller, species)
 
-exports.outStringDB = outStringDB;
-exports.repackFunAnnot = repackFunAnnot;
+// exports.outStringDB = outStringDB;
+// exports.repackFunAnnot = repackFunAnnot;
+
+module.exports = {
+    outStringDB,
+    repackFunAnnot
+}

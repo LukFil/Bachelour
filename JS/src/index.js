@@ -4,6 +4,9 @@ const connect  = require('./variables')
 const neo4j_fun = require('./neo4j_fun')
 const string_db_fun = require('./string-db_fun')
 const util = require('./util')
+const fs = require('fs');
+const queryFrames = require('./queryFrames')
+
 
 // const http = require('http');
 
@@ -83,7 +86,7 @@ async function setFunAnnot (){
             console.log(error);
         }
 
-        await util.sleep(10000);
+        await util.sleep(6000);
         console.log("Passing Functional annotation to Neo4J chunk " + cnt);
 
         cnt += 1;
@@ -110,7 +113,7 @@ async function setFunAnnot (){
                 console.log("Even on second finer resolution it was impossible to pass all values");
             }
     
-            await util.sleep(10000);
+            await util.sleep(6000);
             console.log("Passing Functional annotation to Neo4J in finer chunks, chunk " + cnt);
     
             cnt += 1;
@@ -165,7 +168,7 @@ async function setRel(){
             console.log(error);
         }
 
-        await util.sleep(10000);
+        await util.sleep(6000);
         console.log("Passing relationships to Neo4J chunk " + cnt)
 
         cnt += 1; 
@@ -192,7 +195,7 @@ async function setRel(){
                 console.log("Even on second finer resolution it was impossible to pass all values");
             }
     
-            await util.sleep(10000);
+            await util.sleep(6000);
             console.log("Passing relationships to Neo4J in finer chunks, chunk " + cnt)
     
             cnt += 1; 
@@ -203,10 +206,74 @@ async function setRel(){
     }
 }
 
-async function main(){
+async function testOut () {
+    const targets = await neo4j_fun.getTarget(connect.uri, connect.username, connect.password)
+    var testTar = targets.slice(0, 5)
+    // console.log(testTar)
+    // // var testTar2 = targets.slice(960, 1500)
+
+    // var [tar1, tar2] = targets
+    // console.log(tar1)
+
+    // // var newTar = [tar1, tar2]
+    // // console.log(newTar)
+
+    const annotat = await string_db_fun.repackFunAnnot(
+        testTar, 
+        id_caller = "l.filipcik@student.maastrichtuniversity.nl"
+    )
+
+    // console.log(annotat[1])
     
-    await setRel();
-    await setFunAnnot();
+    const save = JSON.stringify(annotat);
+    fs.writeFileSync('data-for-neo4j.json', save)
+
+    // neo4j_fun.setTargetV2(connect.uri, connect.username, connect.password, annotat)
+}
+
+function goTermAsARelationship ( data ) {
+    // DATA expected to be an array of objects with each object having following structure
+    // {
+    //     gene_sym: 'STRING',
+    //     properties: {
+    //         GO_term: [ARRAY of STRINGS]
+    //     }
+    // }
+
+    // TECHNICALLY WORKS BUT REQUIRES AS MANY SESSIONS AS THERE ARE PROTEINS
+
+    data.forEach( gene => {
+        // console.log(gene.gene_sym)
+
+        reformGene = {
+            target: gene.gene_sym,
+            origin: gene.properties.GO_term
+        }
+
+        arrOfQueries = []
+        reformGene.origin.forEach( origin => {
+            arrOfQueries.push({
+                target: reformGene.target,
+                origin: origin
+            })
+        })
+
+
+        neo4j.versatileWriteQueryCnt(connect, {
+            text: queryFrames.setPropertyRel,
+            parameters: {
+                paramsArray: arrOfQueries
+            }
+        })
+    })
+}
+
+
+
+async function main(){
+    await testOut ();
+    // await setRel();
+    // await setFunAnnot();
 }
 
 main()

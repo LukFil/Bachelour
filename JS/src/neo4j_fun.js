@@ -106,10 +106,48 @@ async function setTarget(uri, username, password, objTarget) {
       }
     )
     .then(
-      console.log(status = 'Succesfully completed')
+      // console.log(status = 'Succesfully completed')
     )
     .catch(error => {
-      console.log(status = 'Error ocurred')
+      // console.log(status = 'Error ocurred')
+      throw error;
+    });
+    // console.log(status)
+    // console.log(result)
+  // })
+  await driver.close();
+  
+  // return status
+}
+
+// SETTER a NODE v2
+async function setTargetV2(uri, username, password, objTarget) {
+  const driver = neo4j.driver(uri, neo4j.auth.basic(username, password))
+  const session = driver.session()
+
+  const { gene_sym, properties: { GO_term, str_cat, str_des } } = objTarget;
+
+
+  // LET's TRY HARDCODING IT WHILE WE FIGURE OUT HOW TO MAKE IT MORE DYNAMIC
+  const result = await session
+    .run(
+      '\
+      MERGE (tar:Target {Gene_Symbol: $Gene_Symbol}) \
+      FOREACH (i IN $GO_term | \
+        MERGE (go: GOTerm { value: $GO_term }) ) \
+      RETURN tar',
+      {
+        Gene_Symbol: gene_sym, 
+        GO_term: GO_term,
+        str_cat: str_cat,
+        str_des: str_des
+      }
+    )
+    .then(
+      // console.log(status = 'Succesfully completed')
+    )
+    .catch(error => {
+      // console.log(status = 'Error ocurred')
       throw error;
     });
     // console.log(status)
@@ -200,8 +238,72 @@ async function setRelationship (uri, username, password, objRelati) {
   // return status
 }
 
-// exports.testDriver1 = testDriver1;
-exports.getTarget       = getTarget;
-exports.getTargetTest   = getTargetTest;
-exports.setTarget       = setTarget;
-exports.setRelationship = setRelationship;
+// GET a
+
+
+// Create a QUERY object
+function createQueryObject (frame, params) {
+  return {
+    text: frame,
+    parameters: params
+  }
+}
+
+
+// Open a session 
+async function openSession (connect) {
+  const driver = neo4j.driver(connect.uri, neo4j.auth.basic(connect.username, connect.password));
+  const session = driver.session();
+  return session;
+}
+
+// Close a session
+
+async function closeSession (session) {
+  await session.close()
+}
+
+// A versatile query call
+async function versatileWriteQuery (session, query) {
+  
+
+  try {
+    const result = await session.writeTransaction(tx => {
+      tx.run(query)
+    })
+  } finally {
+  }
+}
+
+async function versatileWriteQueryCnt (connect, query) {
+  const driver = neo4j.driver(connect.uri, neo4j.auth.basic(connect.username, connect.password));
+  const session = driver.session();
+
+  try {
+    const result = await session.writeTransaction(tx => {
+      tx.run(query)
+    })
+  } finally {
+
+  }
+
+  await driver.close()
+}
+
+// // exports.testDriver1 = testDriver1;
+// exports.getTarget       = getTarget;
+// exports.getTargetTest   = getTargetTest;
+// exports.setTarget       = setTarget;
+// exports.setRelationship = setRelationship;
+
+module.exports = {
+  getTarget,
+  setTarget,
+  setTargetV2,
+  setRelationship,
+  createQueryObject, 
+  versatileWriteQuery,
+  versatileWriteQueryCnt,
+  openSession,
+  closeSession
+}
