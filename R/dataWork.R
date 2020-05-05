@@ -16,7 +16,7 @@
   
   
     #
-    setwd("/home/lukekrishna/Bachelour/data/oriData")
+    setwd("~/Bachelour/data/oriData")
     datDescript <- read.delim("E-GEOD-34120.sdrf.txt", as.is = TRUE)
     # Apparently the description file contains a lot of duplicates, therefore it needs to be pruned to avoid
     # duplication of data
@@ -30,7 +30,7 @@
     # If the two numbers produced are equal, it means that no datafile was omitted from loading
   
   
-    setwd("/home/lukekrishna/Bachelour/data/oriData/raw")
+    setwd("~/Bachelour/data/oriData/raw")
   
     # Load Gene Expression
     # Remvoe spaces from values to be used as variable names
@@ -59,7 +59,7 @@
   
     # Data is loaded
     
-    setwd("/home/lukekrishna/Bachelour/R")
+    setwd("~/Bachelour/R")
     providedData <- as.data.frame(cbind(Slide_1_Suicide_Case$Gene.ID, Slide_1_Suicide_Case$Name))
     colnames(providedData) <- c("Reporter", "Name")
     providedData <- subset(providedData, subset = Reporter != "")

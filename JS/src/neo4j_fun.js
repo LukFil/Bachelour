@@ -1,4 +1,5 @@
 const neo4j = require('neo4j-driver')
+const util = require('./util')
 
 async function testDriver1(uri, username, password){
     const driver = neo4j.driver(uri, neo4j.auth.basic(username, password))
@@ -238,8 +239,6 @@ async function setRelationship (uri, username, password, objRelati) {
   // return status
 }
 
-// GET a
-
 
 // Create a QUERY object
 function createQueryObject (frame, params) {
@@ -250,44 +249,108 @@ function createQueryObject (frame, params) {
 }
 
 
-// Open a session 
-async function openSession (connect) {
-  const driver = neo4j.driver(connect.uri, neo4j.auth.basic(connect.username, connect.password));
-  const session = driver.session();
-  return session;
-}
+// // Open a session 
+// async function openSession (connect) {
+//   const driver = neo4j.driver(connect.uri, neo4j.auth.basic(connect.username, connect.password));
+//   const session = driver.session();
+//   return session;
+// }
 
-// Close a session
+// // Close a session
 
-async function closeSession (session) {
-  await session.close()
-}
+// async function closeSession (session) {
+//   await session.close()
+// }
 
 // A versatile query call
-async function versatileWriteQuery (session, query) {
+// async function versatileWriteQuery (session, query) {
   
 
-  try {
-    const result = await session.writeTransaction(tx => {
-      tx.run(query)
-    })
-  } finally {
-  }
-}
+//   try {
+//     const result = await session.writeTransaction(tx => {
+//       tx.run(query)
+//     })
+//   } finally {
+//   }
+// }
 
-async function versatileWriteQueryCnt (connect, query) {
-  const driver = neo4j.driver(connect.uri, neo4j.auth.basic(connect.username, connect.password));
+
+
+async function versatileWriteQueryCnct ( connect, query = {} ) {
+  if (query == {}) return 
+  const driver = neo4j.driver(
+    connect.uri, 
+    neo4j.auth.basic(connect.username, connect.password));
   const session = driver.session();
 
   try {
     const result = await session.writeTransaction(tx => {
       tx.run(query)
     })
-  } finally {
+  } catch (error) {
+    // console.log(error)
+    let waitFor = 5000;
+    let countTry = 0;
+    let success = false;
+    
+    if (error.code.includes('TransientError')) {
+      while ( countTry < 20 && success == false) {
+        await util.sleep(waitFor)
+        success = true;
 
+        try {
+          const result = await session.writeTransaction(tx => {
+            tx.run(query)
+          })
+        } catch (error) {
+          success = false;
+          console.log(error)
+          console.log('Error in neo4J_fun versatileWriteQueryCnct')
+        }
+
+        waitFor += 20000;
+        countTry += 1;
+      }
+    }
+    
+    if (countTry >= 20 && success == false) { 
+      console.log(`Error in neo4J_fun versatileWriteQueryCnct`) 
+    }
   }
 
   await driver.close()
+}
+
+async function versatileReadQueryCnct ( connect, query = {} ) {
+  if (query == {}) return
+  const driver = neo4j.driver( 
+    connect.uri, 
+    neo4j.auth.basic( connect.username, connect.password ));
+  const session = driver.session();
+
+  resArr = [];
+  try {
+    const result = await session.readTransaction(tx => {
+      tx.run(query).then( result => {
+        resArr =result.records;
+      })
+    })
+    
+  } catch (error) {
+    // console.log(error)
+    await util.sleep(5000)
+    try {
+      const result = await session.writeTransaction(tx => {
+        tx.run(query)
+      })
+    } catch (error) {
+      console.log(error)
+      console.log('Error in neo4J_fun versatileReadQueryCnct')
+    }
+  }
+  
+  await driver.close()
+  return resArr;
 }
 
 // // exports.testDriver1 = testDriver1;
@@ -302,8 +365,9 @@ module.exports = {
   setTargetV2,
   setRelationship,
   createQueryObject, 
-  versatileWriteQuery,
-  versatileWriteQueryCnt,
-  openSession,
-  closeSession
+  // versatileWriteQuery,
+  versatileWriteQueryCnct,
+  versatileReadQueryCnct,
+  // openSession,
+  // closeSession
 }

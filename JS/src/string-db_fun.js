@@ -71,7 +71,7 @@ async function queryForFunctAnnotation(protein, id_caller, species = "9606", pub
     myJson.forEach(response => {
         for (i = 0; i < response.number_of_genes; i++){
             outArr.push({
-                gene_sym: response.preferredNames[i],
+                Gene_Symbol: response.preferredNames[i],
                 properties: {
                     GO_term: [response.term],
                     str_cat: [response.category],
@@ -107,15 +107,15 @@ async function repackFunAnnot(protArr, id_caller, species = "9606", pubmed = "0"
             console.log("repackFunAnnot call number " + cnt)
 
             funAnno.forEach(prot => {
-                if (!hldNam.includes(prot.gene_sym)){
+                if (!hldNam.includes(prot.Gene_Symbol)){
                     outArr.push(
                         prot
                     )
                     hldNam.push(
-                        prot.gene_sym
+                        prot.Gene_Symbol
                     )
                 } else {
-                    var loc = hldNam.indexOf(prot.gene_sym)
+                    var loc = hldNam.indexOf(prot.Gene_Symbol)
                     outArr[loc].properties.GO_term.push(prot.properties.GO_term.toString());
                     outArr[loc].properties.str_cat.push(prot.properties.str_cat.toString());
                     outArr[loc].properties.str_des.push(prot.properties.str_des.toString());
@@ -132,15 +132,15 @@ async function repackFunAnnot(protArr, id_caller, species = "9606", pubmed = "0"
         const funAnno = await queryForFunctAnnotation(protein, id_caller, species, pubmed)
 
         funAnno.forEach(prot => {
-            if (!hldNam.includes(prot.gene_sym)){
+            if (!hldNam.includes(prot.Gene_Symbol)){
                 outArr.push(
                     prot
                 )
                 hldNam.push(
-                    prot.gene_sym
+                    prot.Gene_Symbol
                 )
             } else {
-                var loc = hldNam.indexOf(prot.gene_sym)
+                var loc = hldNam.indexOf(prot.Gene_Symbol)
                 outArr[loc].properties.GO_term.push(prot.properties.GO_term.toString());
                 outArr[loc].properties.str_cat.push(prot.properties.str_cat.toString());
                 outArr[loc].properties.str_des.push(prot.properties.str_des.toString());
@@ -172,12 +172,12 @@ async function outStringDB(protArr, id_caller, species = "9606", req_score, chun
         
             resStrD.forEach( (response) => {
                 outArr.push({
-                    origin: response.preferredName_A,
-                    oriProp: {
+                    originGene_Symbol: response.preferredName_A,
+                    originProperties: {
                         stringDB_id: response.stringId_A,
                     },
                     nameRel: "STRING_DB",
-                    properties: {
+                    relationshipProperties: {
                         ascore: response.ascore,
                         dscore: response.dscore,
                         escore: response.escore,
@@ -187,8 +187,8 @@ async function outStringDB(protArr, id_caller, species = "9606", req_score, chun
                         tscore: response.tscore,
                         score: response.score
                     },
-                    target: response.preferredName_B,
-                    tarProp: {
+                    targetGene_Symbol: response.preferredName_B,
+                    targetProperties: {
                         stringDB_id: response.stringId_B
                     }
                 })
@@ -208,12 +208,12 @@ async function outStringDB(protArr, id_caller, species = "9606", req_score, chun
         
         resStrD.forEach( (response) => {
             outArr.push({
-                origin: response.preferredName_A,
-                oriProp: {
+                originGene_Symbol: response.preferredName_A,
+                originProperties: {
                     stringDB_id: response.stringId_A,
                 },
                 nameRel: "STRING_DB",
-                properties: {
+                relationshipProperties: {
                     ascore: response.ascore,
                     dscore: response.dscore,
                     escore: response.escore,
@@ -223,8 +223,8 @@ async function outStringDB(protArr, id_caller, species = "9606", req_score, chun
                     tscore: response.tscore,
                     score: response.score
                 },
-                target: response.preferredName_B,
-                tarProp: {
+                targetGene_Symbol: response.preferredName_B,
+                targetProperties: {
                     stringDB_id: response.stringId_B
                 }
             })

@@ -1,3 +1,5 @@
+# script strictly used for testing and development, is not part of the final workflow
+
 # MAP miRNA wth MirTarBase and mirDIP
 
 rm(list = ls())

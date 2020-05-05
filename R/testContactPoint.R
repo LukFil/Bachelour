@@ -1,3 +1,6 @@
+# This script was strictly used in development and exploration of the dataset and thus is not necessary for functionality of the results
+
+
 # How is the annotation proces supposed to be executed
 
 isMember = character()

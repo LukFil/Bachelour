@@ -1,3 +1,5 @@
+# Testing and explorative script, not part of the final workflow
+
 
 rm(list=ls())
 

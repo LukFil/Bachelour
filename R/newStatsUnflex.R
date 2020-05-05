@@ -9,9 +9,9 @@ source('~/Bachelour/R/createDesignFile.R')
 source('~/Bachelour/R/designMyOwn.R')
 source('~/Bachelour/R/functions_ArrayAnalysis_v2.R')
 
-datPath = '/home/lukekrishna/Bachelour/results'
+datPath = '~/Bachelour/results'
 datFile = 'data-dW-res-both-2020-03-30.RData'
-outPath = '/home/lukekrishna/Bachelour/results/stats' 
+outPath = '~/Bachelour/results/stats' 
 coef    = 2
 
 # Load the pre=prepped data

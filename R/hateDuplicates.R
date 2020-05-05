@@ -1,4 +1,4 @@
-# Functions developed to remove duplicates from the dataset. V5 and V$ are working, on a different formatting of datasets
+# Functions developed to remove duplicates from the dataset. V5 and V4 are working, on a different formatting of datasets
 
 # Remove duplicates from the format before putting the signal values together, 
 # Considers the background value and discards values that have values that far on the lower edge of the normal distribution

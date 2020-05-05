@@ -145,7 +145,7 @@ async function setRel(){
         targets, 
         id_caller = "l.filipcik@student.maastrichtuniversity.nl", 
         species = "9606", 
-        req_score = "400"
+        req_score = "900"
     )
 
     // console.log(rel)
@@ -207,9 +207,9 @@ async function setRel(){
 }
 
 async function testOut () {
-    const targets = await neo4j_fun.getTarget(connect.uri, connect.username, connect.password)
-    var testTar = targets.slice(0, 5)
-    // console.log(testTar)
+    // const targets = await neo4j_fun.getTarget(connect.uri, connect.username, connect.password)
+    // var testTar = targets.slice(0, 5)
+    // // console.log(testTar)
     // // var testTar2 = targets.slice(960, 1500)
 
     // var [tar1, tar2] = targets
@@ -218,36 +218,62 @@ async function testOut () {
     // // var newTar = [tar1, tar2]
     // // console.log(newTar)
 
-    const annotat = await string_db_fun.repackFunAnnot(
-        testTar, 
-        id_caller = "l.filipcik@student.maastrichtuniversity.nl"
-    )
+    // const annotat = await string_db_fun.repackFunAnnot(
+    //     testTar, 
+    //     id_caller = "l.filipcik@student.maastrichtuniversity.nl"
+    // )
 
-    // console.log(annotat[1])
+    // // console.log(annotat[1])
+
+    const targets = await neo4j_fun.getTarget(connect.uri, connect.username, connect.password)
+
+    const rel = await string_db_fun.outStringDB(
+        targets, 
+        id_caller = "l.filipcik@student.maastrichtuniversity.nl", 
+        species = "9606", 
+        req_score = "900"
+    )
     
-    const save = JSON.stringify(annotat);
-    fs.writeFileSync('data-for-neo4j.json', save)
+    const slicRel = rel.slice(0, 20);
+
+    const save = JSON.stringify(slicRel);
+    fs.writeFileSync('reldata-for-neo4j.json', save)
 
     // neo4j_fun.setTargetV2(connect.uri, connect.username, connect.password, annotat)
 }
 
-function goTermAsARelationship ( data ) {
+function propertyAsRelationship ( data, { connect, keyOfOrigins, queryFrame } ) {
     // DATA expected to be an array of objects with each object having following structure
     // {
-    //     gene_sym: 'STRING',
+    //     Gene_Symbol: 'STRING',
     //     properties: {
-    //         GO_term: [ARRAY of STRINGS]
+    //         keyOfOrigins: [ARRAY of STRINGS]
     //     }
     // }
+    
+    // REST OF ARGUMENTS ARE EXPECTED TO BE WITHIN A SINGLE OBJECT IN THE 
+    // FOLLOWING PATTERN
+    // CONNECT expected to be an object containing following keys
+    // {
+    //     uri: 'STRING',
+    //     username: 'STRING',
+    //     password: 'STRING'
+    // }
+    // 
+    // 
+    // KEYOFORIGINS expected to be a STRING value corresponding to key used to find
+    // origins of the relationship
+    // 
+    // QUERYFRAME is expected to be a STRING containing NO ENTER SYMBOLS (escape them by /)
+    // containig a framework for the query to be used
 
-    // TECHNICALLY WORKS BUT REQUIRES AS MANY SESSIONS AS THERE ARE PROTEINS
-
+    arrOfQueriesConcat = []
     data.forEach( gene => {
-        // console.log(gene.gene_sym)
+        // console.log(gene.Gene_Symbol)
 
         reformGene = {
-            target: gene.gene_sym,
-            origin: gene.properties.GO_term
+            target: gene.Gene_Symbol,
+            origin: gene.properties[keyOfOrigins]
         }
 
         arrOfQueries = []
@@ -259,19 +285,187 @@ function goTermAsARelationship ( data ) {
         })
 
 
-        neo4j.versatileWriteQueryCnt(connect, {
-            text: queryFrames.setPropertyRel,
-            parameters: {
-                paramsArray: arrOfQueries
-            }
-        })
+        arrOfQueries.forEach( query => {
+            arrOfQueriesConcat.push(query)
+        })        
+    })
+
+
+    neo4j_fun.versatileWriteQueryCnct(connect, {
+        text: queryFrame,
+        parameters: {
+            paramsArray: arrOfQueriesConcat
+        }
     })
 }
 
+async function getProteinArray( connect, property = 'Gene_Symbol' ) {
+    arrProtein = [];
+
+    const result = await neo4j_fun.versatileReadQueryCnct( connect, {
+        text: queryFrames.getAllProteins
+    })
+
+    result.forEach( record => {
+        arrProtein.push(record._fields[0].properties[property])
+    })
+    
+    return arrProtein;
+}
+
+async function setProteinAndProperties( connect, data ) {
+    // DATA to be formatted as following
+    // {
+    //     Gene_Symbol: 'STRING',
+    //     properties: {
+    //         keyOfOrigins: [ARRAY of STRINGS]
+    //     }
+    // }
+
+    try {
+        const result = await neo4j_fun.versatileWriteQueryCnct( connect, {
+            text: queryFrames.setProteinGene_Symbol,
+            parameters: {
+                paramsArray: data
+            }
+        })
+    } catch (error) {
+        console.log(error)
+    }
+
+    
+}
+
+async function setRelationship ( connect, data, relationshipName ){
+    // DATA argument requires an array of objects of following structure
+    // {
+    //     originGene_Symbol: STRING,
+    //     originProperties: { VARIABLE },
+    //     relationshipProperties: {
+    //       [VARIABLE]
+    //     },
+    //     targetGene_Symbol: STRING,
+    //     targetProperties: { VARIABLE }
+    //   }
+    
+    const queryFrame = queryFrames.setRelationshipBetweenProteins.replace("Placeholder", relationshipName)
+
+    try {
+        const result = await neo4j_fun.versatileWriteQueryCnct( connect, {
+            text: queryFrame,
+            parameters: {
+                paramsArray: data
+            }
+        })
+    } catch (error) {
+        console.log(error)
+    }
+
+    
+}
+
+// FLOW: setRelationships => Annotate
+
+async function createNetwork() {
+
+    const targets = await getProteinArray ( connect, 'Gene_Symbol')
+
+    const relationships = await string_db_fun.outStringDB(
+        targets,
+        id_caller = "l.filipcik@student.maastrichtuniversity.nl",
+        species = "9606",
+        req_score = "900"
+    )
+    
+    // const save = JSON.stringify(relationships);
+    // fs.writeFileSync('reldata-2for-neo4j.json', save)
+
+    var chunkSize = 350;
+    var run = true;
+
+    setRelationship( connect, relationships, "STRING_DB")
+}
+
+async function annotateNetwork (){
+    const targets = await getProteinArray ( connect, 'Gene_Symbol')
+    const annotat = await string_db_fun.repackFunAnnot (
+        targets,
+        id_caller = "l.filipcik@student.maastrichtuniversity.nl"
+    )
+
+    keyArr = ["GO_term", "str_cat", "str_des"]
+    qFrArr = [
+        queryFrames.setPropertyRelGOtermToProtein,
+        queryFrames.setPropertyRelStringCategoryToProtein,
+        queryFrames.setPropertyRelStringDescriptionToProtein
+    ]
+
+    let run = true;
+    let cnt = 0;
+    let chunkSize = 2500;
+
+    while (run == true) {
+        let subAnnotation = annotat.slice(cnt*chunkSize, (cnt+1)*chunkSize)
+
+        await util.paralelisationOfFunctions(
+            numOfRequests = 10,
+            numofQueriesPerRequest = 10,
+            dataArray = subAnnotation,
+            funExecuted = propertyAsRelationship,
+            funExecutedArgs = {
+               connect: connect,
+               keyOfOrigins: keyArr[0],
+               queryFrame: qFrArr[0]
+            },
+            sleepPeriod = 60000
+        )
+        
+        cnt += 1;
+
+        if ( cnt * chunkSize >= annotat.length ){
+            run = false
+        }
+
+        console.log(`Network Construction: up to ${cnt*chunkSize} elements completed`)
+    }
+
+    // for (i = 0; i < keyArr.length; i++) {
+        
+    //     // while (run == true) {
+    //     //     let subAnnotat = annotat.slice(cnt*)
+    //     // }
+
+
+    //     await util.paralelisationOfFunctions(
+    //         numOfRequests = 25,
+    //         numofQueriesPerRequest = 5,
+    //         dataArray = annotat,
+    //         funExecuted = propertyAsRelationship,
+    //         funExecutedArgs = {
+    //            connect: connect,
+    //            keyOfOrigins: keyArr[i],
+    //            queryFrame: qFrArr[i]
+    //         },
+    //         sleepPeriod = 60000
+    //     )
+    // }
+    
+}
 
 
 async function main(){
-    await testOut ();
+    // createNetwork()
+
+    annotateNetwork()
+
+    // util.paralelisationOfFunctions(
+    //     20,
+    //     20,
+    //     new Array ( 1000 ),
+    //     1000
+    // )
+
+    // await testOut ();
     // await setRel();
     // await setFunAnnot();
 }
