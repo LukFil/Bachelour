@@ -7,6 +7,10 @@ NAME_OF_RELATIONSHIP = 'Placeholder'
 // MERGE (o) -[rel: propertyOf]-> (t)\
 // RETURN count(rel)`
 
+// CREATE CONTRAINT [goTerm_constratint] ON (o:GO_term) \
+// ASSERT o.value IS UNIQUE \
+// CREATE CONSTRAINT [protein_constraint] ON (t:Protein) \
+// ASSERT t.Gene_Symbol IS UNIQUE \
 const setPropertyRelGOtermToProtein = `\
 UNWIND $paramsArray AS parameters \
 MERGE (o: GO_term {value: parameters.origin})\
@@ -14,6 +18,10 @@ MERGE (t: Protein {Gene_Symbol: parameters.target})\
 MERGE (o) -[rel: propertyOf]-> (t)\
 RETURN count(rel)`
 
+// CREATE CONTRAINT [strDB_category_constratint] ON (o:STRdb_category) \
+// ASSERT o.value IS UNIQUE \
+// CREATE CONSTRAINT [protein_constraint] ON (t:Protein) \
+// ASSERT t.Gene_Symbol IS UNIQUE \
 const setPropertyRelStringCategoryToProtein = `\
 UNWIND $paramsArray AS parameters \
 MERGE (o: STRdb_category {value: parameters.origin}) \
@@ -21,6 +29,10 @@ MERGE (t: Protein {Gene_Symbol: parameters.target}) \
 MERGE (o) -[rel: propertyOf]-> (t) \
 RETURN count(rel)`
 
+// CREATE CONTRAINT [strDB_description_constratint] ON (o:STRdb_description) \
+// ASSERT o.value IS UNIQUE \
+// CREATE CONSTRAINT [protein_constraint] ON (t:Protein) \
+// ASSERT t.Gene_Symbol IS UNIQUE \
 const setPropertyRelStringDescriptionToProtein = `\
 UNWIND $paramsArray AS parameters \
 MERGE (o: STRdb_description {value: parameters.origin}) \

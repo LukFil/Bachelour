@@ -1,3 +1,18 @@
+CREATE CONSTRAINT ON (p:Protein)
+ASSERT p.Gene_Symbol IS UNIQUE
+
+CREATE CONSTRAINT ON (m:miRNA)
+ASSERT m.miRNA IS UNIQUE
+
+CREATE CONSTRAINT ON (g:GO_term)
+ASSERT g.value IS UNIQUE
+
+CREATE CONSTRAINT ON (c:STRdb_category)
+ASSERT c.value IS UNIQUE
+
+CREATE CONSTRAINT ON (d:STRdb_description)
+ASSERT d.value IS UNIQUE
+
 LOAD CSV WITH HEADERS FROM 'file:///mirDIP-dat-neo4j.csv' AS row
 MERGE (d:Protein {Gene_Symbol: row.Gene_Symbol})
 SET  d.Uniprot = row.Uniprot
@@ -32,3 +47,11 @@ MATCH (m:miRNA {miRNA: row.miRNA})
 MERGE (m) -[rel: mirTAR {Tool: "mirTAR"}]->(p)
 SET rel.Support_Type = row.Support_Type, rel.Experiments = row.Experiments, rel.References_PMID = row.References_PMID
 RETURN count(rel)
+
+
+# ALL NEURONAL DEATH GO TERM PROTEINS
+MATCH (g:GO_term)
+WHERE g.value = "GO:1901215" OR g.value = "GO:0043524" OR g.value = "GO:0043523" OR g.value = "GO:1901214"
+MATCH (g)-[]->(p:Protein)
+MATCH (m:miRNA)-[r]->(p)
+RETURN p, m, r

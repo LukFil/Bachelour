@@ -12,8 +12,12 @@ async function getTargets (){
     console.log(response);
 }
 
+function test (arg) {
+    console.log(arg == undefined)
+}
+// console.log(getTargets.name)
 
-
+test()
 
 // EXPORTS
 

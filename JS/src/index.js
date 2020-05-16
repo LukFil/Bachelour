@@ -1,66 +1,26 @@
-// import {uri, username, password} from './variables.js';
 
-const connect  = require('./variables')
+// LOGIN info for the NEO4J Database
+// Must exports as an object in the following shape
+// {
+//     uri: String,
+//     username: String,
+//     password: String
+// }
+const connect  = require('./variables')   // LOGIN INFO FOR THE DATABASE
+
+
 const neo4j_fun = require('./neo4j_fun')
 const string_db_fun = require('./string-db_fun')
 const util = require('./util')
 const fs = require('fs');
 const queryFrames = require('./queryFrames')
 
-
-// const http = require('http');
-
-// const hostname = '127.0.0.1';
-// const port = 3000;
-
-// const server = http.createServer((req, res) => {
-//   res.statusCode = 200;
-//   res.setHeader('Content-Type', 'text/plain');
-//   res.end('Hello, World!\n');
-// });
-
-// server.listen(port, hostname, () => {
-//   console.log(`Server running at http://${hostname}:${port}/`);
-// });
-
-// testObj = [{
-//     gene_sym: 'mojGen',
-//     properties: {
-//         sila: ['mocny', 'skvely', "a-tak-dalej"],
-//         vlasy: 'all-cool'
-//     }    
-// }]
-
-// testRel = {
-//     origin: 'Alice',
-//     nameRel: 'hello',
-//     properties: {
-//         sila: 'velka',
-//         kedy: 'vnoci',
-//         prec: 'kam'
-//     },
-//     target: 'Francis'
-// }
-
-
-// neo4j_fun.testDriver1(connect.uri, connect.username, connect.password)
-// neo4j_fun.getTarget(connect.uri, connect.username, connect.password)
-// neo4j_fun.getTargetTest(connect.uri, connect.username, connect.password)
-// neo4j_fun.setTarget(connect.uri, connect.username, connect.password, testObj)
-// neo4j_fun.setRelationship(connect.uri, connect.username, connect.password, testRel)
-
+// Old implementation of getting and setting functional annotation as a list of properties
+// Highly unoptimised in terms of communcation because it is using old and sub-optimal implementation of Neo4J API
+// It is recommended not to use this function
 async function setFunAnnot (){
     
     const targets = await neo4j_fun.getTarget(connect.uri, connect.username, connect.password)
-    // var testTar = targets.slice(0, 5)
-    // console.log(testTar)
-    // // var testTar2 = targets.slice(960, 1500)
-
-    // var [tar1, tar2] = targets
-    // console.log(tar1)
-
-    // // var newTar = [tar1, tar2]
-    // // console.log(newTar)
 
     const annotat = await string_db_fun.repackFunAnnot(
         targets, 
@@ -122,22 +82,9 @@ async function setFunAnnot (){
             }
         }
     }
-
-
-
-    // for (var i = 0; i < annotat.length; i++){
-    //     console.log("Did I get Here")
-    //     await util.sleep(1000)
-    //     console.log("I waited too")
-    //     neo4j_fun.setTarget(connect.uri, connect.username, connect.password, annotat[i])
-    // }
-    // annotat.forEach(async (obj) => {
-    //     await util.sleep(10000)
-    //     console.log("I waited too")
-    //     neo4j_fun.setTarget(connect.uri, connect.username, connect.password, obj)
-    // })
 }
 
+// 
 async function setRel(){
     const targets = await neo4j_fun.getTarget(connect.uri, connect.username, connect.password)
 
@@ -148,7 +95,6 @@ async function setRel(){
         req_score = "900"
     )
 
-    // console.log(rel)
     var finRun = [];
 
     var chunkSize = 350;
@@ -206,27 +152,9 @@ async function setRel(){
     }
 }
 
+// Function that was used in development
 async function testOut () {
-    // const targets = await neo4j_fun.getTarget(connect.uri, connect.username, connect.password)
-    // var testTar = targets.slice(0, 5)
-    // // console.log(testTar)
-    // // var testTar2 = targets.slice(960, 1500)
-
-    // var [tar1, tar2] = targets
-    // console.log(tar1)
-
-    // // var newTar = [tar1, tar2]
-    // // console.log(newTar)
-
-    // const annotat = await string_db_fun.repackFunAnnot(
-    //     testTar, 
-    //     id_caller = "l.filipcik@student.maastrichtuniversity.nl"
-    // )
-
-    // // console.log(annotat[1])
-
     const targets = await neo4j_fun.getTarget(connect.uri, connect.username, connect.password)
-
     const rel = await string_db_fun.outStringDB(
         targets, 
         id_caller = "l.filipcik@student.maastrichtuniversity.nl", 
@@ -238,8 +166,6 @@ async function testOut () {
 
     const save = JSON.stringify(slicRel);
     fs.writeFileSync('reldata-for-neo4j.json', save)
-
-    // neo4j_fun.setTargetV2(connect.uri, connect.username, connect.password, annotat)
 }
 
 function propertyAsRelationship ( data, { connect, keyOfOrigins, queryFrame } ) {
@@ -299,6 +225,7 @@ function propertyAsRelationship ( data, { connect, keyOfOrigins, queryFrame } ) 
     })
 }
 
+
 async function getProteinArray( connect, property = 'Gene_Symbol' ) {
     arrProtein = [];
 
@@ -336,19 +263,41 @@ async function setProteinAndProperties( connect, data ) {
     
 }
 
-async function setRelationship ( connect, data, relationshipName ){
-    // DATA argument requires an array of objects of following structure
-    // {
-    //     originGene_Symbol: STRING,
-    //     originProperties: { VARIABLE },
-    //     relationshipProperties: {
-    //       [VARIABLE]
-    //     },
-    //     targetGene_Symbol: STRING,
-    //     targetProperties: { VARIABLE }
-    //   }
-    
-    const queryFrame = queryFrames.setRelationshipBetweenProteins.replace("Placeholder", relationshipName)
+// Function intended to send a single write request containing one or more
+// queries, leading to construction of one or multiple edges in the Neo4J database
+// 
+// Arguments accepted by the function
+//       connect: JSON
+//          REQUIRED!
+//          needs to contain authentication information for Neo4j database.
+//          specifically 
+//              uri: String
+//              username: String
+//              password: String
+//       data: Array of JSONs,
+//          REQUIRED!
+//          the body of the query, with each JSON representing a single query
+//          JSONS contained must have following structure
+//            {
+//                originGene_Symbol: STRING,
+//                originProperties: { VARIABLE },
+//                relationshipProperties: {
+//                [VARIABLE]
+//                },
+//                targetGene_Symbol: STRING,
+//                targetProperties: { VARIABLE }
+//            }
+//       queryFrame: String
+//          Contains a CYPHER framework for constructing the query 'style'
+//       relationshipName: String
+//          Contains a name that will be used as the label of the edge
+async function setRelationship ( 
+    connect, 
+    data, 
+    queryFrame = queryFrames.setRelationshipBetweenProteins,
+    relationshipName 
+){
+    queryFrame = queryFrame.replace("Placeholder", relationshipName)
 
     try {
         const result = await neo4j_fun.versatileWriteQueryCnct( connect, {
@@ -360,111 +309,202 @@ async function setRelationship ( connect, data, relationshipName ){
     } catch (error) {
         console.log(error)
     }
-
-    
 }
 
-// FLOW: setRelationships => Annotate
 
-async function createNetwork() {
-
-    const targets = await getProteinArray ( connect, 'Gene_Symbol')
+// Function intended to expand the network by inclusion of the first interaction
+// partners of the targets provided, from string db
+// 
+// Arguments accepted by the function
+//       targets: Array of Strings
+//          REQUIRED!
+//          needs to contain gene identifiers STRING-DB recognises, such as
+//          gene symbols
+//       connect: JSON
+//          REQUIRED!
+//          needs to contain authentication information for Neo4j database.
+//          specifically 
+//              uri: String
+//              username: String
+//              password: String
+//       id_caller: String
+//          REQUIRED!
+//          your identifier to StringDB, ideally an email
+//       species: String OR Integer
+//          identifier of species for which the queries are to be executed
+//          default represents human
+//       req_score: String OR Integer
+//          a STRING DB indicator of stringency of evidence on which to include the 
+//          relationship in the database
+//          
+//       Note: No paralelisation implemented, but can be easily included by following
+//             pattern in annotateNetworkFromStringDB  
+// 
+//       RETURN: void
+async function createNetwork(
+    targets, 
+    connect,
+    id_caller = "your_id",
+    species = "9606", 
+    req_score = "900"
+) {
+    if (targets == undefined) {
+        console.log('targets must be defined')
+        return
+    }
+    if (connect == undefined) {
+        console.log('connect must be defined')
+        return
+    }
 
     const relationships = await string_db_fun.outStringDB(
         targets,
-        id_caller = "l.filipcik@student.maastrichtuniversity.nl",
-        species = "9606",
-        req_score = "900"
+        id_caller,
+        species,
+        req_score
     )
-    
-    // const save = JSON.stringify(relationships);
-    // fs.writeFileSync('reldata-2for-neo4j.json', save)
-
-    var chunkSize = 350;
-    var run = true;
 
     setRelationship( connect, relationships, "STRING_DB")
 }
 
-async function annotateNetwork (){
-    const targets = await getProteinArray ( connect, 'Gene_Symbol')
-    const annotat = await string_db_fun.repackFunAnnot (
-        targets,
-        id_caller = "l.filipcik@student.maastrichtuniversity.nl"
-    )
-
-    keyArr = ["GO_term", "str_cat", "str_des"]
+// Function intended for annotation of a protein network in Neo4j database
+// with functional annotation retrieved from string DB. The annotation is
+// by default executed in a form of creation of nodes of the unique properties,
+// with edges of type [propertyOf] to proteins annotated
+// 
+// Arguments accepted by the function
+//       targets: Array of Strings
+//          REQUIRED!
+//          needs to contain gene identifiers STRING-DB recognises, such as
+//          gene symbols
+//       connect: JSON
+//          REQUIRED!
+//          needs to contain authentication information for Neo4j database.
+//          specifically 
+//              uri: String
+//              username: String
+//              password: String
+//       id_caller: String
+//          REQUIRED!
+//          your identifier to StringDB, ideally an email
+//       keyArr: Array of Strings
+//          an array containing which functional annotation from String DB
+//          to include in the annotation
+//          valid inputs are (any combination of)
+//              "GO_term" - Gene Ontology Term
+//              "str_cat" - StringDB Category
+//              "str_des" - StringDB Description
+//       qFrArr: Array of Strings
+//          an array containing instructions (a query frame) of how to submit
+//          the annotation to the Neo4j database
+//          IMPORTANT to coordinate with keyArr, and to supply appropriate
+//          query frames in the same order as in keyArr
+//      chunkSize: Integer
+//          determines what fraction of the complete 'targets' array to be 
+//          submitted at a time - a greater number is not likely to lead to
+//          overloading the server if resources are limited, however it is
+//          intended to be a gauge of the progress and, in case of error-induced,
+//          breaking to identify the fraction of the input the error ocurred at
+//          CAN be greater than the length of targets
+//      numOfRequests: Integer
+//          determines how many requests are made at the same time to the 
+//          Neo4j database, 
+//          High value might result in errors if the resources are limited or
+//          in errors caused by Neo4j deadlocks
+//      numOfQueriesPerRequest: Integer
+//          determines how many Queries are batched into a single request
+//          very high values might result in performance hits, or excess of memory
+//          in very big networks when resources are low
+//          together with numOfRequests create a balance of batching and paralelisation
+//          for optimal performance
+//      sleepPeriod: Integer
+//          determines the delay between each batch of requests. Higher value
+//          leads to slower execution, higher value requests greater computational power
+//          at the database side
+//          units: ms
+//          
+//      RETURN: void
+//      Result: a network of proteins is annotated in Neo4j database with functional
+//              annotation from StringDB
+async function annotateNetworkFromStringDB (
+    targets,
+    connect,
+    id_caller = 'your_ID',
+    keyArr = ["GO_term", "str_cat", "str_des"],
     qFrArr = [
         queryFrames.setPropertyRelGOtermToProtein,
         queryFrames.setPropertyRelStringCategoryToProtein,
         queryFrames.setPropertyRelStringDescriptionToProtein
-    ]
-
-    let run = true;
-    let cnt = 0;
-    let chunkSize = 2500;
-
-    while (run == true) {
-        let subAnnotation = annotat.slice(cnt*chunkSize, (cnt+1)*chunkSize)
-
-        await util.paralelisationOfFunctions(
-            numOfRequests = 10,
-            numofQueriesPerRequest = 10,
-            dataArray = subAnnotation,
-            funExecuted = propertyAsRelationship,
-            funExecutedArgs = {
-               connect: connect,
-               keyOfOrigins: keyArr[0],
-               queryFrame: qFrArr[0]
-            },
-            sleepPeriod = 60000
-        )
-        
-        cnt += 1;
-
-        if ( cnt * chunkSize >= annotat.length ){
-            run = false
-        }
-
-        console.log(`Network Construction: up to ${cnt*chunkSize} elements completed`)
+    ],
+    chunkSize = 3000,
+    numOfRequests = 10,
+    numofQueriesPerRequest = 100,
+    sleepPeriod = 2 * 60 * 1000
+){    
+    if (targets == undefined) {
+        console.log('targets must be defined')
+        return
+    }
+    if (connect == undefined) {
+        console.log('connect must be defined')
+        return
     }
 
-    // for (i = 0; i < keyArr.length; i++) {
-        
-    //     // while (run == true) {
-    //     //     let subAnnotat = annotat.slice(cnt*)
-    //     // }
+    const annotat = await string_db_fun.repackFunAnnot (
+        targets,
+        id_caller,
+    )
 
+    for (i = 0; i < keyArr.length; i++) {
+        let run = true;
+        let cnt = 0;
 
-    //     await util.paralelisationOfFunctions(
-    //         numOfRequests = 25,
-    //         numofQueriesPerRequest = 5,
-    //         dataArray = annotat,
-    //         funExecuted = propertyAsRelationship,
-    //         funExecutedArgs = {
-    //            connect: connect,
-    //            keyOfOrigins: keyArr[i],
-    //            queryFrame: qFrArr[i]
-    //         },
-    //         sleepPeriod = 60000
-    //     )
-    // }
+        console.log(annotat.length)
+
+        while (run == true) {
+            let subAnnotation = annotat.slice(cnt*chunkSize, (cnt+1)*chunkSize)
+
+            await util.paralelisationOfFunctions(
+                numOfRequests,
+                numofQueriesPerRequest ,
+                dataArray = subAnnotation,
+                funExecuted = propertyAsRelationship,
+                funExecutedArgs = {
+                connect: connect,
+                keyOfOrigins: keyArr[i],
+                queryFrame: qFrArr[i]
+                },
+                sleepPeriod
+            )
+            
+            cnt += 1;
+
+            if ( cnt * chunkSize >= annotat.length ) { run = false }
+
+            console.log(`Network Construction: up to ${cnt*chunkSize} elements completed`)
+        }
+
+    console.log(`DONE WITH ${keyArr[i]}`)
+    }
     
+    console.log('DONE COMPLETE')
 }
 
 
 async function main(){
     // createNetwork()
 
-    annotateNetwork()
 
-    // util.paralelisationOfFunctions(
-    //     20,
-    //     20,
-    //     new Array ( 1000 ),
-    //     1000
-    // )
+    // EXAMPLE CALLs
+    // Example annotate NetworkFromString
+    const targets = await getProteinArray(connect, 'Gene_Symbol')
+    annotateNetworkFromStringDB(targets, connect, "test")
 
+
+
+    // const protein = await getProteinArray( connect, 'Gene_Symbol')
+    // const save = JSON.stringify(protein)
+    // fs.writeFileSync('listOfProteins.json', protein)
     // await testOut ();
     // await setRel();
     // await setFunAnnot();

@@ -310,11 +310,13 @@ async function versatileWriteQueryCnct ( connect, query = {} ) {
 
         waitFor += 20000;
         countTry += 1;
+
+        if (countTry >= 20 && success == false) { 
+          console.log(`Error in neo4J_fun versatileWriteQueryCnct`) 
+        }
       }
-    }
-    
-    if (countTry >= 20 && success == false) { 
-      console.log(`Error in neo4J_fun versatileWriteQueryCnct`) 
+    } else {
+      console.log(error)
     }
   }
 
