@@ -14,6 +14,7 @@ const string_db_fun = require('./string-db_fun')
 const util = require('./util')
 const fs = require('fs');
 const queryFrames = require('./queryFrames')
+const disGeNET_fun = require('./disGeNET_fun')
 
 // Old implementation of getting and setting functional annotation as a list of properties
 // Highly unoptimised in terms of communcation because it is using old and sub-optimal implementation of Neo4J API
@@ -497,10 +498,15 @@ async function main(){
 
     // EXAMPLE CALLs
     // Example annotate NetworkFromString
-    const targets = await getProteinArray(connect, 'Gene_Symbol')
-    annotateNetworkFromStringDB(targets, connect, "test")
 
+    if (false) {
+        const targets = await getProteinArray(connect, 'Gene_Symbol')
+        annotateNetworkFromStringDB(targets, connect, "test")
+    
+    }
 
+    // WORKS AS DESIRED, Yaay
+    setProteinAndProperties( connect, await disGeNET_fun.packageDisGeNET(disGeNET_fun.LIST_OF_SUICIDE_CUI))
 
     // const protein = await getProteinArray( connect, 'Gene_Symbol')
     // const save = JSON.stringify(protein)
