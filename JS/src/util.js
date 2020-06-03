@@ -2,6 +2,20 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+// Function (VOID) used to manage writing of greater number of queries more efficiently,
+// in paralelel
+// 
+// Best used for write queries, but technically this function is generalised enough that it 
+// accepts any functions that need to be executed in paralell
+//      Arguments
+//          numOfRequests: an Integer value indicating how many requests to be sent at the same time
+//          numOfQueriesPerReq: an Integer value indicating how many Queries are to be executed per request
+//          dataArray: an Array of Queries, needs to be legible by 'funExecuted', as it is a source of the 
+//              first argument to the function, and is subsetted based on numOfRequests and numOfQueriesPerReq
+//          funExecuted: a Function that is executed, needs to be able to read an object as the second parameter
+//          funExecutedArgs: an Object containing all other arguments that are to be fed to funExecuted
+//          sleepPeriod: an Integer value in ms to determine how much time to give to the reciever to recover
+
 async function paralelisationOfFunctions( 
         numOfRequests,
         numOfQueriesPerReq,
@@ -81,6 +95,7 @@ async function paralelisationOfFunctions(
     }
 
 }
+
 
 
 module.exports = {

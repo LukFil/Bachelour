@@ -60,6 +60,23 @@ SET o   += parameters.originProperties \
 SET t   += parameters.targetProperties \
 RETURN count(rel)`
 
+const getNetworkImplicatedInSuicide = `\
+MATCH (m:miRNA) -[r]-> (p:Protein {implicatedInSuicide: "YES"})\
+RETURN m, r, p`
+
+const getCompleteNeuronDeathNetwork = `MATCH (m:miRNA) -[r]->(p:Protein) \
+MATCH (g:GO_term) -[pr:propertyOf]-> (p) \
+WHERE g.value = "GO:1901214" OR g.value = "GO:1901215" OR g.value = "GO:0045665" \
+OR g.value = "GO:0043523" OR g.value = "GO:0043524" OR g.value = "GO:0070997" \
+OR g.value = "GO:1903203" OR g.value = "GO:1901216" OR g.value = "GO:0043525" \
+RETURN m, r, p`
+
+const getCompleteNeuronDeathNetworkImplicatedInSuicide = `MATCH (m:miRNA) -[r]->(p:Protein {implicatedInSuicide: "YES"}) \
+MATCH (g:GO_term) -[pr:propertyOf]-> (p) \
+WHERE g.value = "GO:1901214" OR g.value = "GO:1901215" OR g.value = "GO:0045665" \
+OR g.value = "GO:0043523" OR g.value = "GO:0043524" OR g.value = "GO:0070997" \
+OR g.value = "GO:1903203" OR g.value = "GO:1901216" OR g.value = "GO:0043525" \
+RETURN m, r, p`
 
 module.exports = {
     setPropertyRelGOtermToProtein,
@@ -67,5 +84,8 @@ module.exports = {
     setPropertyRelStringDescriptionToProtein,
     getAllProteins,
     setProteinGene_Symbol,
-    setRelationshipBetweenProteins
+    setRelationshipBetweenProteins,
+    getNetworkImplicatedInSuicide,
+    getCompleteNeuronDeathNetwork,
+    getCompleteNeuronDeathNetworkImplicatedInSuicide
 }

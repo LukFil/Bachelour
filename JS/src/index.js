@@ -16,149 +16,14 @@ const fs = require('fs');
 const queryFrames = require('./queryFrames')
 const disGeNET_fun = require('./disGeNET_fun')
 
-// Old implementation of getting and setting functional annotation as a list of properties
-// Highly unoptimised in terms of communcation because it is using old and sub-optimal implementation of Neo4J API
-// It is recommended not to use this function
-async function setFunAnnot (){
-    
-    const targets = await neo4j_fun.getTarget(connect.uri, connect.username, connect.password)
-
-    const annotat = await string_db_fun.repackFunAnnot(
-        targets, 
-        id_caller = "l.filipcik@student.maastrichtuniversity.nl"
-    )
-    
-    var finRun = [];
-
-    var chunkSize = 350;
-    var run = true;
-    var cnt = 0;
-
-    while (run == true){
-        var subAnnotat = annotat.slice(cnt*chunkSize, (cnt+1) * chunkSize);
-
-        try{
-            subAnnotat.forEach((obj) => {
-                neo4j_fun.setTarget(connect.uri, connect.username, connect.password, obj)
-            }); 
-        }
-        catch(error) {
-            finRun.push(subRel);
-            console.log(error);
-        }
-
-        await util.sleep(6000);
-        console.log("Passing Functional annotation to Neo4J chunk " + cnt);
-
-        cnt += 1;
-        if (cnt * chunkSize >= annotat.length){
-            run = false
-        }
-    }
-
-    if (finRun.length != 0){
-        chunkSize = 50;
-        run = true;
-        cnt = 0;
-
-        while (run == true){
-            var subAnnotat = finRun.slice(cnt*chunkSize, (cnt+1) * chunkSize);
-    
-            try{
-                subAnnotat.forEach((obj) => {
-                    neo4j_fun.setTarget(connect.uri, connect.username, connect.password, obj)
-                }); 
-            }
-            catch(error) {
-                console.log(error);
-                console.log("Even on second finer resolution it was impossible to pass all values");
-            }
-    
-            await util.sleep(6000);
-            console.log("Passing Functional annotation to Neo4J in finer chunks, chunk " + cnt);
-    
-            cnt += 1;
-            if (cnt * chunkSize >= annotat.length){
-                run = false
-            }
-        }
-    }
-}
-
-// 
-async function setRel(){
-    const targets = await neo4j_fun.getTarget(connect.uri, connect.username, connect.password)
-
-    const rel = await string_db_fun.outStringDB(
-        targets, 
-        id_caller = "l.filipcik@student.maastrichtuniversity.nl", 
-        species = "9606", 
-        req_score = "900"
-    )
-
-    var finRun = [];
-
-    var chunkSize = 350;
-    var run = true;
-    var cnt = 0;
-
-    while (run == true) {
-        var subRel = rel.slice(cnt*chunkSize, (cnt+1) *chunkSize)
-
-        try {
-            subRel.forEach((obj) => {
-                neo4j_fun.setRelationship(connect.uri, connect.username, connect.password, obj)
-            })
-        }
-        catch(error) {
-            finRun.push(subRel);
-            console.log(error);
-        }
-
-        await util.sleep(6000);
-        console.log("Passing relationships to Neo4J chunk " + cnt)
-
-        cnt += 1; 
-        if (cnt * chunkSize >= rel.length){
-            run = false;
-        }
-    }
-
-    if (finRun.length != 0){
-        chunkSize = 50;
-        run = true;
-        cnt = 0;
-
-        while (run == true) {
-            var subRel = finRun.slice(cnt*chunkSize, (cnt+1) *chunkSize)
-    
-            try {
-                subRel.forEach((obj) => {
-                    neo4j_fun.setRelationship(connect.uri, connect.username, connect.password, obj)
-                })
-            }
-            catch(error) {
-                console.log(error);
-                console.log("Even on second finer resolution it was impossible to pass all values");
-            }
-    
-            await util.sleep(6000);
-            console.log("Passing relationships to Neo4J in finer chunks, chunk " + cnt)
-    
-            cnt += 1; 
-            if (cnt * chunkSize >= rel.length){
-                run = false;
-            }
-        }
-    }
-}
-
 // Function that was used in development
-async function testOut () {
+// Can be used for further development, or to be used as a template for when 
+// parts of datastreams are wanted to be locally saved 
+async function testWriteToFile () {
     const targets = await neo4j_fun.getTarget(connect.uri, connect.username, connect.password)
     const rel = await string_db_fun.outStringDB(
         targets, 
-        id_caller = "l.filipcik@student.maastrichtuniversity.nl", 
+        id_caller = "your_email", 
         species = "9606", 
         req_score = "900"
     )
@@ -491,11 +356,177 @@ async function annotateNetworkFromStringDB (
     console.log('DONE COMPLETE')
 }
 
+// A function intended to retrieve a set subset of the network as defined by a queryFrame,
+// and returns a Cytoscape elements JSON. Optionally it can also save the JSON
+
+// Arguments accepted by the function
+//       connect: JSON
+//          REQUIRED!
+//          needs to contain authentication information for Neo4j database.
+//          specifically 
+//              uri: String
+//              username: String
+//              password: String
+//       save: JSON
+//          OPTIONAL
+//          if save is provided, the function will attempt to save the elements JSON into a 
+//          .json file
+//          structure of save is expected to be as follows
+//                 save: {
+//                     path: String, NOT ending with / (that is included by the code)
+//                           OPTIONAL even within save: if not provided, the file will be
+//                              saved within the folder where the node.js server was called
+//                     name: String
+//                 }
+//       queryFrame
+//          OPTIONAL
+//          determines which subset of th network is to be taken
+//          by default it returns a subset described by these requirements
+//              "miRNA controlling proteins with property 'isImplicatedInSuicide' == "YES",
+//                  and the relationships between them, returning miRNA, proteins, and 
+//                  relationships"
+//          cannot contain /n symbol
+//          needs to contain a CYPHER-valid Query
+
+//       RETURNS an output in the following pattern 
+//           {
+//               "elements": [
+//               {
+//                   "data": {
+//                   "edge": 4130,                      // Neo4j identifier of the relationship
+//                   "source": "hsa-miR-148b-3p",       // Neo4j property stored as 'miRNA'
+//                   "target": "HTR2C"                  // Neo4j property stored as 'Gene_Symbol'
+//                   }
+//               }
+//               ]
+//           }
+//           output can be easily adapted into a truly blind network (only neo4j IDs) (will increase the generilasibility of the function) 
+//           by a switching out a commented out section as marked in the code
+async function getNetworkInCytoscapeJSONFormat (
+    connect,
+    save,
+    networkName = 'Default_Name',
+    queryFrame = queryFrames.getNetworkImplicatedInSuicide
+    ){
+    let arrNodes = []
+    let arrEdges = []
+    let usedIds  = []
+    let miRNAIds = []
+    const result = await neo4j_fun.versatileReadQueryCnct( connect, {
+        text: queryFrame
+    })
+    // console.log(result[1]._fields)
+    result.forEach( record => {
+        arrNodes.push({
+            data: {
+                id: `${record._fields[0].identity.low}`,
+                SUID: record._fields[0].identity.low,
+                shared_name: record._fields[0].properties.miRNA,
+                name: record._fields[0].properties.miRNA,
+                P_Value: record._fields[0].properties.P_Value,
+                log2FC: record._fields[0].properties.log2FC,
+                class: `miRNA`,
+                selected: false
+                // ALTERNATIVE IMPLEMENTATION
+                // this will cause only the Neo4j IDs to be retained and thus when the network
+                // is constructed, it will be truly 'blind'
+                // source: record._fields[0].identity,
+                // target: record._fields[2].identity
+            },
+            // HERE ADDITIONAL PROPERTIES CAN BE INCLUDED ACCORDING TO THE CYTOSCAPE KEY
+            selected: false
+        })
+        arrNodes.push({
+            data: {
+                id: `${record._fields[2].identity.low}`,
+                SUID: record._fields[2].identity.low,
+                name: record._fields[2].properties.Gene_Symbol,
+                shared_name: record._fields[2].properties.Gene_Symbol,
+                isImplicatedInSuicide: record._fields[2].properties.isImplicatedInSuicide,
+                class: `Protein`,
+                selected: false
+            },
+            selected: false
+        })
+        arrEdges.push({
+            data: {
+                id: `${record._fields[1].identity.low}`,
+                SUID: record._fields[1].identity.low,
+                source: `${record._fields[1].start.low}`,
+                target: `${record._fields[1].end.low}`,
+                name: `${record._fields[0].properties.miRNA} (${record._fields[1].type}) ${record._fields[2].properties.Gene_Symbol}`,
+                shared_name: `${record._fields[0].properties.miRNA} (${record._fields[1].type}) ${record._fields[2].properties.Gene_Symbol}`,
+                interaction: `${record._fields[1].type}`,
+                shared_interaction: `${record._fields[1].type}`,
+                selected: false
+            },
+            selected: false
+        })
+        record.forEach(element => {
+            usedIds.push(element.identity.low)
+        })
+        miRNAIds.push(record._fields[0].identity.low)
+    })
+
+    // console.log(miRNAIds)
+    
+    // let uniqueIds = [...new Set(miRNAIds)]
+    // let uniqueCount = { }
+
+    // uniqueIds.forEach( elementKey => {
+    //     eval(`uniqueCount.${String(elementKey)} = 0`)
+    //     miRNAIds.forEach( elementLock => {
+    //         if (elementKey == elementLock) {
+    //             eval(`uniqueCount.${String(elementKey)} = uniqueCount.${String(elementKey)} + 1`)
+    //         }
+    //     })
+    // })
+
+    // console.log(uniqueCount)
+
+    const networkID = Math.max(usedIds) + 1
+
+    const outCytoscapeJson = { 
+        format_version: "1.0",
+        generated_by: "Luke's Bachelour 0.1",
+        target_cytoscapejs_version: "~2.1",
+        data: {
+            shared_name: networkName,
+            name: networkName,
+            SUID: networkID,
+            __Annotations: [ ],
+            selected: true
+        },
+        elements: {
+            nodes: arrNodes,
+            edges: arrEdges,
+        } 
+    }
+
+    if (save != undefined){
+        if (save.path == undefined) {
+            fs.writeFileSync(`${save.name}.json`, JSON.stringify(outCytoscapeJson, null, 2))
+        } else {
+            // THIS PART THROWS AN ERROR: fix it eventually
+            fs.writeFileSync(`${save.path}/${save.name}.json`, JSON.stringify(outCytoscapeJson, null, 2))
+        }
+    }
+
+    return outCytoscapeJson
+}
 
 async function main(){
     // createNetwork()
 
-
+    // await getNetworkInCytoscapeJSONFormat(connect)
+    if (true){
+        console.log(await getNetworkInCytoscapeJSONFormat(
+            connect, 
+            {name: 'networkSuicideCompleteNeuronDeathImplicatedInSuicide'}, 
+            'miRNA-Protein-Network-Suicide', 
+            queryFrames.getCompleteNeuronDeathNetworkImplicatedInSuicide
+        ))
+    }
     // EXAMPLE CALLs
     // Example annotate NetworkFromString
 
@@ -505,9 +536,11 @@ async function main(){
     
     }
 
-    // WORKS AS DESIRED, Yaay
-    setProteinAndProperties( connect, await disGeNET_fun.packageDisGeNET(disGeNET_fun.LIST_OF_SUICIDE_CUI))
-
+    if (false) {
+        // WORKS AS DESIRED, Yaay
+        setProteinAndProperties( connect, await disGeNET_fun.packageDisGeNET(disGeNET_fun.LIST_OF_SUICIDE_CUI))
+    }
+    
     // const protein = await getProteinArray( connect, 'Gene_Symbol')
     // const save = JSON.stringify(protein)
     // fs.writeFileSync('listOfProteins.json', protein)
