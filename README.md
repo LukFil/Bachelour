@@ -1,4 +1,4 @@
-# This is a repository containing all of the code and documnentation used to perform the workflow for Bachelour thesis of Lukas Peter Filipcik
+# This is a repository containing all of the code and documentation used to perform the workflow for Bachelour thesis of Lukas Peter Filipcik
 
 To perform the workflow a certain number of setup actions need to be performed
 
